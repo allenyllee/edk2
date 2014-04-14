@@ -173,6 +173,9 @@ Returns:
   CHAR16                *MemorySizeStr;
   CHAR16                *FirmwareVolumesStr;
   UINTN                 *StackPointer;
+  UINT32                ProcessAffinityMask;
+  UINT32                SystemAffinityMask;
+  INT32                 LowBit;
 
   //
   // Enable the privilege so that RTC driver can successfully run SetTime()
@@ -188,6 +191,21 @@ Returns:
   FirmwareVolumesStr = (CHAR16 *) PcdGetPtr (PcdWinNtFirmwareVolume);
 
   SecPrint ("\nEDK II SEC Main NT Emulation Environment from www.TianoCore.org\n");
+  if (PcdGetBool (PcdWinNtMultiCoreCrashWaEnable)) {
+    //
+    // Determine the first thread available to this process.
+    //
+    if (GetProcessAffinityMask (GetCurrentProcess (), &ProcessAffinityMask, &SystemAffinityMask)) {
+      LowBit = LowBitSet32 (ProcessAffinityMask);
+      if (LowBit != -1) {
+        //
+        // Force process affinity to a single processor to fix some odd crashes.
+        //
+        SetProcessAffinityMask (GetCurrentProcess (), (BIT0 << LowBit));
+      }
+    }
+  }
+
 
   //
   // Make some Windows calls to Set the process to the highest priority in the

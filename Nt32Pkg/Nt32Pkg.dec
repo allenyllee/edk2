@@ -78,7 +78,8 @@
   gEfiNt32PkgTokenSpaceGuid.PcdWinNtFlashNvStorageFtwSpareBase|0x0|UINT32|0x00001015
   gEfiNt32PkgTokenSpaceGuid.PcdWinNtFlashNvStorageFtwWorkingBase|0x0|UINT32|0x00001016
   gEfiNt32PkgTokenSpaceGuid.PcdWinNtFdBaseAddress|0x0|UINT32|0x00001017
-
+  gEfiNt32PkgTokenSpaceGuid.PcdWinNtMultiCoreCrashWaEnable|FALSE|BOOLEAN|0x00001018
+  
 [PcdsFixedAtBuild, PcdsPatchableInModule]
   gEfiNt32PkgTokenSpaceGuid.PcdWinNtBootMode|1|UINT32|0x00001006
   gEfiNt32PkgTokenSpaceGuid.PcdWinNtFirmwareVolume|L"..\\Fv\\Fv_Recovery.fd"|VOID*|0x00001009
