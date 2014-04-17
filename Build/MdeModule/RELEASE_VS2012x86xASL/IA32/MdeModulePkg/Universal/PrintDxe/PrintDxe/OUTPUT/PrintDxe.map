@@ -1,0 +1,82 @@
+ PrintDxe
+
+ Timestamp is 527c415c (Fri Nov 08 09:41:48 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000084H .data                   CODE
+ 0001:00000088 00000284H .rdata                  CODE
+ 0001:0000030c 00000dc5H .text                   CODE
+ 0001:000010d4 00000014H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiPrint2ProtocolGuid    00000200     PrintDxe:AutoGen.obj
+ 0001:00000010       _mStatusString             00000210     BasePrintLib:PrintLibInternal.obj
+ 0001:00000088       __gUefiDriverRevision      00000288     PrintDxe:AutoGen.obj
+ 0001:0000008c       _mPrint2Protocol           0000028c     PrintDxe:Print.obj
+ 0001:000000b4       ??_C@_07PBILKAFL@Success?$AA@ 000002b4     BasePrintLib:PrintLibInternal.obj
+ 0001:000000bc       ??_C@_0BG@CFJMNNJK@Warning?5Unknown?5Glyph?$AA@ 000002bc     BasePrintLib:PrintLibInternal.obj
+ 0001:000000d4       ??_C@_0BH@GKKCJEPJ@Warning?5Delete?5Failure?$AA@ 000002d4     BasePrintLib:PrintLibInternal.obj
+ 0001:000000ec       ??_C@_0BG@ECIJMOED@Warning?5Write?5Failure?$AA@ 000002ec     BasePrintLib:PrintLibInternal.obj
+ 0001:00000104       ??_C@_0BJ@ODIPDGHB@Warning?5Buffer?5Too?5Small?$AA@ 00000304     BasePrintLib:PrintLibInternal.obj
+ 0001:00000120       ??_C@_0L@PLPBEPPC@Load?5Error?$AA@ 00000320     BasePrintLib:PrintLibInternal.obj
+ 0001:0000012c       ??_C@_0BC@HOFHKGJN@Invalid?5Parameter?$AA@ 0000032c     BasePrintLib:PrintLibInternal.obj
+ 0001:00000140       ??_C@_0M@BEECMOIL@Unsupported?$AA@ 00000340     BasePrintLib:PrintLibInternal.obj
+ 0001:0000014c       ??_C@_0BA@FLNMPMCF@Bad?5Buffer?5Size?$AA@ 0000034c     BasePrintLib:PrintLibInternal.obj
+ 0001:0000015c       ??_C@_0BB@EGELJFOB@Buffer?5Too?5Small?$AA@ 0000035c     BasePrintLib:PrintLibInternal.obj
+ 0001:00000170       ??_C@_09NKFGCIPN@Not?5Ready?$AA@ 00000370     BasePrintLib:PrintLibInternal.obj
+ 0001:0000017c       ??_C@_0N@HHEABDHO@Device?5Error?$AA@ 0000037c     BasePrintLib:PrintLibInternal.obj
+ 0001:0000018c       ??_C@_0BA@LNEDDFNB@Write?5Protected?$AA@ 0000038c     BasePrintLib:PrintLibInternal.obj
+ 0001:0000019c       ??_C@_0BB@GOILNEAA@Out?5of?5Resources?$AA@ 0000039c     BasePrintLib:PrintLibInternal.obj
+ 0001:000001b0       ??_C@_0P@EIOJGIF@Volume?5Corrupt?$AA@ 000003b0     BasePrintLib:PrintLibInternal.obj
+ 0001:000001c0       ??_C@_0M@HDLEPOFA@Volume?5Full?$AA@ 000003c0     BasePrintLib:PrintLibInternal.obj
+ 0001:000001cc       ??_C@_08KEGAJDNN@No?5Media?$AA@ 000003cc     BasePrintLib:PrintLibInternal.obj
+ 0001:000001d8       ??_C@_0O@JNCJKCCD@Media?5changed?$AA@ 000003d8     BasePrintLib:PrintLibInternal.obj
+ 0001:000001e8       ??_C@_09CFCBFJND@Not?5Found?$AA@ 000003e8     BasePrintLib:PrintLibInternal.obj
+ 0001:000001f4       ??_C@_0O@NFHOBIDO@Access?5Denied?$AA@ 000003f4     BasePrintLib:PrintLibInternal.obj
+ 0001:00000204       ??_C@_0M@ENKCBFEP@No?5Response?$AA@ 00000404     BasePrintLib:PrintLibInternal.obj
+ 0001:00000210       ??_C@_0L@IFPBNFC@No?5mapping?$AA@ 00000410     BasePrintLib:PrintLibInternal.obj
+ 0001:0000021c       ??_C@_08PAFJCNGP@Time?5out?$AA@ 0000041c     BasePrintLib:PrintLibInternal.obj
+ 0001:00000228       ??_C@_0M@DCJFAFHJ@Not?5started?$AA@ 00000428     BasePrintLib:PrintLibInternal.obj
+ 0001:00000234       ??_C@_0BA@IGIBFFPH@Already?5started?$AA@ 00000434     BasePrintLib:PrintLibInternal.obj
+ 0001:00000244       ??_C@_07LCKDCBKK@Aborted?$AA@ 00000444     BasePrintLib:PrintLibInternal.obj
+ 0001:0000024c       ??_C@_0L@LKIFCMNO@ICMP?5Error?$AA@ 0000044c     BasePrintLib:PrintLibInternal.obj
+ 0001:00000258       ??_C@_0L@DJKNJKHM@TFTP?5Error?$AA@ 00000458     BasePrintLib:PrintLibInternal.obj
+ 0001:00000264       ??_C@_0P@NCJHBCLM@Protocol?5Error?$AA@ 00000464     BasePrintLib:PrintLibInternal.obj
+ 0001:00000274       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO?$AA@ 00000474     BasePrintLib:PrintLibInternal.obj
+ 0001:00000284       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO?$AA@ 00000484     BasePrintLib:PrintLibInternal.obj
+ 0001:00000290       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02x@ 00000490     BasePrintLib:PrintLibInternal.obj
+ 0001:000002c4       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO?$AA@ 000004c4     BasePrintLib:PrintLibInternal.obj
+ 0001:000002d0       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d?$AA@ 000004d0     BasePrintLib:PrintLibInternal.obj
+ 0001:000002ec       ??_C@_04JIMNDDED@?$CF08X?$AA@ 000004ec     BasePrintLib:PrintLibInternal.obj
+ 0001:000002f4       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 000004f4     BasePrintLib:PrintLibInternal.obj
+ 0001:000002f8       ??_C@_01LIIJDEN@?$AN?$AA@  000004f8     BasePrintLib:PrintLibInternal.obj
+ 0001:000002fc       _mHexStr                   000004fc     BasePrintLib:PrintLibInternal.obj
+ 0001:0000030c       __ModuleEntryPoint         0000050c f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000341       _UnicodeBSPrint            00000541 f   BasePrintLib:PrintLib.obj
+ 0001:00000367       _UnicodeSPrint             00000567 f   BasePrintLib:PrintLib.obj
+ 0001:0000038a       _UnicodeBSPrintAsciiFormat 0000058a f   BasePrintLib:PrintLib.obj
+ 0001:000003ad       _UnicodeSPrintAsciiFormat  000005ad f   BasePrintLib:PrintLib.obj
+ 0001:000003cd       _UnicodeValueToString      000005cd f   BasePrintLib:PrintLib.obj
+ 0001:000003f0       _AsciiBSPrint              000005f0 f   BasePrintLib:PrintLib.obj
+ 0001:00000411       _AsciiSPrint               00000611 f   BasePrintLib:PrintLib.obj
+ 0001:0000042f       _AsciiBSPrintUnicodeFormat 0000062f f   BasePrintLib:PrintLib.obj
+ 0001:00000453       _AsciiSPrintUnicodeFormat  00000653 f   BasePrintLib:PrintLib.obj
+ 0001:00000474       _AsciiValueToString        00000674 f   BasePrintLib:PrintLib.obj
+ 0001:00000497       _BasePrintLibFillBuffer    00000697 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000004cb       _BasePrintLibValueToString 000006cb f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000513       _BasePrintLibConvertValueToString 00000713 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000678       _BasePrintLibSPrintMarker  00000878 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000010b2       _BasePrintLibSPrint        000012b2 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000010d4       _mPrintThunkHandle         000012d4     PrintDxe:Print.obj
+ 0001:000010d8       _gST                       000012d8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000010dc       _gBS                       000012dc     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000010e0       _gImageHandle              000012e0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000010e4       _gNullVaList               000012e4     <common>
+
+ entry point at        0001:0000030c
+
+ Static symbols
+

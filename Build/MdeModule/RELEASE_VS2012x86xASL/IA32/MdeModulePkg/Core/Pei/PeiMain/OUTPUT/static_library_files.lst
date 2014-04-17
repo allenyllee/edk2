@@ -1,0 +1,16 @@
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BasePcdLibNull\BasePcdLibNull\OUTPUT\BasePcdLibNull.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\PeiMemoryAllocationLib\PeiMemoryAllocationLib\OUTPUT\PeiMemoryAllocationLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseDebugLibNull\BaseDebugLibNull\OUTPUT\BaseDebugLibNull.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseLib\BaseLib\OUTPUT\BaseLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\PeiServicesLib\PeiServicesLib\OUTPUT\PeiServicesLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseMemoryLib\BaseMemoryLib\OUTPUT\BaseMemoryLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\PeiServicesTablePointerLib\PeiServicesTablePointerLib\OUTPUT\PeiServicesTablePointerLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BasePeCoffExtraActionLibNull\BasePeCoffExtraActionLibNull\OUTPUT\PeCoffExtraActionLibNull.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BasePeCoffGetEntryPointLib\BasePeCoffGetEntryPointLib\OUTPUT\BasePeCoffGetEntryPointLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseReportStatusCodeLibNull\BaseReportStatusCodeLibNull\OUTPUT\BaseReportStatusCodeLibNull.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BasePerformanceLibNull\BasePerformanceLibNull\OUTPUT\BasePerformanceLibNull.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\PeiHobLib\PeiHobLib\OUTPUT\PeiHobLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\PeiCoreEntryPoint\PeiCoreEntryPoint\OUTPUT\PeiCoreEntryPoint.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseCacheMaintenanceLib\BaseCacheMaintenanceLib\OUTPUT\BaseCacheMaintenanceLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BasePeCoffLib\BasePeCoffLib\OUTPUT\BasePeCoffLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiCore.lib

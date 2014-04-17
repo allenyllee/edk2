@@ -1,0 +1,154 @@
+ PeiCore
+
+ Timestamp is 527c415a (Fri Nov 08 09:41:46 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000023cH .data                   CODE
+ 0001:00000240 0000000cH .rdata                  CODE
+ 0001:0000024c 00003c7dH .text                   CODE
+ 0001:00003ecc 00000010H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiPeiSecurity2PpiGuid   00000220     PeiCore:AutoGen.obj
+ 0001:00000010       _gEfiFirmwareFileSystem3Guid 00000230     PeiCore:AutoGen.obj
+ 0001:00000020       _gEfiPeiFirmwareVolumeInfoPpiGuid 00000240     PeiCore:AutoGen.obj
+ 0001:00000030       _gEfiPeiDecompressPpiGuid  00000250     PeiCore:AutoGen.obj
+ 0001:00000040       _gEfiPeiLoadFilePpiGuid    00000260     PeiCore:AutoGen.obj
+ 0001:00000050       _gEfiTemporaryRamSupportPpiGuid 00000270     PeiCore:AutoGen.obj
+ 0001:00000060       _gEfiPeiResetPpiGuid       00000280     PeiCore:AutoGen.obj
+ 0001:00000070       _gEfiPeiStatusCodePpiGuid  00000290     PeiCore:AutoGen.obj
+ 0001:00000080       _gPeiAprioriFileNameGuid   000002a0     PeiCore:AutoGen.obj
+ 0001:00000090       _gEfiDxeIplPpiGuid         000002b0     PeiCore:AutoGen.obj
+ 0001:000000a0       _gEfiHobMemoryAllocStackGuid 000002c0     PeiCore:AutoGen.obj
+ 0001:000000b0       _gEfiPeiMemoryDiscoveredPpiGuid 000002d0     PeiCore:AutoGen.obj
+ 0001:000000c0       _gEfiFirmwareFileSystem2Guid 000002e0     PeiCore:AutoGen.obj
+ 0001:000000d0       _gPs                       000002f0     PeiCore:PeiMain.obj
+ 0001:00000148       _mMemoryDiscoveredPpi      00000368     PeiCore:PeiMain.obj
+ 0001:00000154       _mPeiFfs3FwVol             00000374     PeiCore:FwVol.obj
+ 0001:00000174       _mFvAttributes             00000394     PeiCore:FwVol.obj
+ 0001:0000017c       _mPeiFfs3FvPpiList         0000039c     PeiCore:FwVol.obj
+ 0001:00000188       _mPeiFfs2FvPpiList         000003a8     PeiCore:FwVol.obj
+ 0001:00000194       _mPeiFfs2FwVol             000003b4     PeiCore:FwVol.obj
+ 0001:000001b4       _mNotifyOnFvInfoList       000003d4     PeiCore:FwVol.obj
+ 0001:000001c0       _mPeiLoadImagePpi          000003e0     PeiCore:Image.obj
+ 0001:000001c4       _gPpiLoadFilePpiList       000003e4     PeiCore:Image.obj
+ 0001:000001d0       _gPeiDefaultCpuIoPpi       000003f0     PeiCore:CpuIo.obj
+ 0001:00000220       _gPeiDefaultPciCfg2Ppi     00000440     PeiCore:PciCfg2.obj
+ 0001:00000230       _mNotifyList               00000450     PeiCore:Security.obj
+ 0001:00000240       _mPpiListTemplate          00000460     PeiServicesLib:PeiServicesLib.obj
+ 0001:0000024c       __ModuleEntryPoint         0000046c f   PeiCoreEntryPoint:PeiCoreEntryPoint.obj
+ 0001:00000277       _ShadowPeiCore             00000497 f   PeiCore:PeiMain.obj
+ 0001:000002bb       _PeiCore                   000004db f   PeiCore:PeiMain.obj
+ 0001:0000054c       _PeiResetSystem            0000076c f   PeiCore:Reset.obj
+ 0001:00000581       _InitializeMemoryServices  000007a1 f   PeiCore:MemoryServices.obj
+ 0001:00000602       _PeiInstallPeiMemory       00000822 f   PeiCore:MemoryServices.obj
+ 0001:00000654       _PeiAllocatePages          00000874 f   PeiCore:MemoryServices.obj
+ 0001:0000072c       _PeiAllocatePool           0000094c f   PeiCore:MemoryServices.obj
+ 0001:00000768       _PeiReportStatusCode       00000988 f   PeiCore:StatusCode.obj
+ 0001:000007ae       _FileHandleToVolume        000009ce f   PeiCore:FwVol.obj
+ 0001:0000081c       _FindFileEx                00000a3c f   PeiCore:FwVol.obj
+ 0001:00000a82       _PeiInitializeFv           00000ca2 f   PeiCore:FwVol.obj
+ 0001:00000b36       _FirmwareVolmeInfoPpiNotifyCallback 00000d56 f   PeiCore:FwVol.obj
+ 0001:00000c76       _VerifyGuidedSectionGuid   00000e96 f   PeiCore:FwVol.obj
+ 0001:00000cf9       _ProcessSection            00000f19 f   PeiCore:FwVol.obj
+ 0001:00000eef       _PeiFfsFindSectionData     0000110f f   PeiCore:FwVol.obj
+ 0001:00000f1d       _PeiFfsFindNextFile        0000113d f   PeiCore:FwVol.obj
+ 0001:00000f4b       _PeiFfsFindNextVolume      0000116b f   PeiCore:FwVol.obj
+ 0001:00000f89       _PeiFfsFindFileByName      000011a9 f   PeiCore:FwVol.obj
+ 0001:00000fd0       _PeiFfsGetFileInfo         000011f0 f   PeiCore:FwVol.obj
+ 0001:00001008       _PeiFfsGetVolumeInfo       00001228 f   PeiCore:FwVol.obj
+ 0001:00001040       _ProcessFvFile             00001260 f   PeiCore:FwVol.obj
+ 0001:000011d3       _PeiFfsFvPpiProcessVolume  000013f3 f   PeiCore:FwVol.obj
+ 0001:000011ea       _PeiFfsFvPpiFindFileByType 0000140a f   PeiCore:FwVol.obj
+ 0001:00001202       _PeiFfsFvPpiFindFileByName 00001422 f   PeiCore:FwVol.obj
+ 0001:000012cd       _PeiFfsFvPpiGetFileInfo    000014ed f   PeiCore:FwVol.obj
+ 0001:000013a3       _PeiFfsFvPpiGetVolumeInfo  000015c3 f   PeiCore:FwVol.obj
+ 0001:0000142d       _PeiFfsFvPpiFindSectionByType 0000164d f   PeiCore:FwVol.obj
+ 0001:0000147f       _FvHandleToCoreHandle      0000169f f   PeiCore:FwVol.obj
+ 0001:000014be       _PeiReinitializeFv         000016de f   PeiCore:FwVol.obj
+ 0001:00001563       _AddUnknownFormatFvInfo    00001783 f   PeiCore:FwVol.obj
+ 0001:000015c8       _FindUnknownFormatFvInfo   000017e8 f   PeiCore:FwVol.obj
+ 0001:00001663       _ThirdPartyFvPpiNotifyCallback 00001883 f   PeiCore:FwVol.obj
+ 0001:000017a6       _ConvertPpiPointers        000019c6 f   PeiCore:Ppi.obj
+ 0001:0000193d       _PeiInstallPpi             00001b5d f   PeiCore:Ppi.obj
+ 0001:000019b2       _PeiReInstallPpi           00001bd2 f   PeiCore:Ppi.obj
+ 0001:00001a16       _PeiLocatePpi              00001c36 f   PeiCore:Ppi.obj
+ 0001:00001aa4       _PeiNotifyPpi              00001cc4 f   PeiCore:Ppi.obj
+ 0001:00001b81       _ProcessNotifyList         00001da1 f   PeiCore:Ppi.obj
+ 0001:00001bdc       _DispatchNotify            00001dfc f   PeiCore:Ppi.obj
+ 0001:00001c88       _PeiGetHobList             00001ea8 f   PeiCore:Hob.obj
+ 0001:00001c9b       _PeiCreateHob              00001ebb f   PeiCore:Hob.obj
+ 0001:00001d40       _PeiGetBootMode            00001f60 f   PeiCore:BootMode.obj
+ 0001:00001d60       _PeiSetBootMode            00001f80 f   PeiCore:BootMode.obj
+ 0001:00001d74       _PeiImageRead              00001f94 f   PeiCore:Image.obj
+ 0001:00001d97       _PeiImageReadForShadow     00001fb7 f   PeiCore:Image.obj
+ 0001:00001dc1       _LoadAndRelocatePeCoffImage 00001fe1 f   PeiCore:Image.obj
+ 0001:00001f74       _PeiLoadImageLoadImage     00002194 f   PeiCore:Image.obj
+ 0001:0000205e       _PeiLoadImageLoadImageWrapper 0000227e f   PeiCore:Image.obj
+ 0001:0000207a       _RelocationIsStrip         0000229a f   PeiCore:Image.obj
+ 0001:000020b8       _PeiLoadImage              000022d8 f   PeiCore:Image.obj
+ 0001:00002150       _PeiDefaultPciCfg2Modify   00002370 f   PeiCore:PciCfg2.obj
+ 0001:00002150       _PeiDefaultIoWrite         00002370 f   PeiCore:CpuIo.obj
+ 0001:00002150       _PeiDefaultIoRead          00002370 f   PeiCore:CpuIo.obj
+ 0001:00002150       _PeiDefaultPciCfg2Write    00002370 f   PeiCore:PciCfg2.obj
+ 0001:00002150       _PeiDefaultPciCfg2Read     00002370 f   PeiCore:PciCfg2.obj
+ 0001:00002150       _PeiDefaultMemRead         00002370 f   PeiCore:CpuIo.obj
+ 0001:00002150       _PeiDefaultMemWrite        00002370 f   PeiCore:CpuIo.obj
+ 0001:00002156       _PeiDefaultMemRead8        00002376 f   PeiCore:CpuIo.obj
+ 0001:00002156       _PeiDefaultIoRead8         00002376 f   PeiCore:CpuIo.obj
+ 0001:00002159       _PeiDefaultIoRead16        00002379 f   PeiCore:CpuIo.obj
+ 0001:00002159       _PeiDefaultMemRead16       00002379 f   PeiCore:CpuIo.obj
+ 0001:00002159       _PeiDefaultIoRead32        00002379 f   PeiCore:CpuIo.obj
+ 0001:00002159       _PeiDefaultMemRead32       00002379 f   PeiCore:CpuIo.obj
+ 0001:0000215c       _PeiDefaultIoRead64        0000237c f   PeiCore:CpuIo.obj
+ 0001:0000215c       _PeiDefaultMemRead64       0000237c f   PeiCore:CpuIo.obj
+ 0001:00002161       _PeiDefaultIoWrite8        00002381 f   PeiCore:CpuIo.obj
+ 0001:00002161       _PeiDefaultMemWrite8       00002381 f   PeiCore:CpuIo.obj
+ 0001:00002161       _PeiDefaultMemWrite32      00002381 f   PeiCore:CpuIo.obj
+ 0001:00002161       _PeiDefaultIoWrite16       00002381 f   PeiCore:CpuIo.obj
+ 0001:00002161       _PeiDefaultMemWrite64      00002381 f   PeiCore:CpuIo.obj
+ 0001:00002161       _PeiDefaultMemWrite16      00002381 f   PeiCore:CpuIo.obj
+ 0001:00002161       _PeiDefaultIoWrite32       00002381 f   PeiCore:CpuIo.obj
+ 0001:00002161       _PeiDefaultIoWrite64       00002381 f   PeiCore:CpuIo.obj
+ 0001:00002162       _DiscoverPeimsAndOrderWithApriori 00002382 f   PeiCore:Dispatcher.obj
+ 0001:0000243c       _PeiDispatcher             0000265c f   PeiCore:Dispatcher.obj
+ 0001:00002979       _PeiRegisterForShadow      00002b99 f   PeiCore:Dispatcher.obj
+ 0001:000029be       _SecurityPpiNotifyCallback 00002bde f   PeiCore:Security.obj
+ 0001:000029d8       _IsPpiInstalled            00002bf8 f   PeiCore:Dependency.obj
+ 0001:00002a0d       _PeimDispatchReadiness     00002c2d f   PeiCore:Dependency.obj
+ 0001:00002b36       _InternalAllocatePages     00002d56 f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00002b68       _InternalAllocateAlignedPages 00002d88 f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00002ba4       _AllocatePool              00002dc4 f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00002bcb       _AllocateZeroPool          00002deb f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00002be6       _CalculateCheckSum8        00002e06 f   BaseLib:CheckSum.obj
+ 0001:00002c05       _RShiftU64                 00002e25 f   BaseLib:RShiftU64.obj
+ 0001:00002c2a       _PeiServicesInstallPpi     00002e4a f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00002c39       _PeiServicesInstallFvInfoPpi 00002e59 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00002d3f       _CopyMem                   00002f5f f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00002d84       _ZeroMem                   00002fa4 f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00002d94       _SetMem                    00002fb4 f   BaseMemoryLib:SetMemWrapper.obj
+ 0001:00002daf       _CopyGuid                  00002fcf f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00002dc8       _CompareGuid               00002fe8 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00002dec       _PeCoffLoaderGetMachineType 0000300c f   BasePeCoffGetEntryPointLib:PeCoffGetEntryPoint.obj
+ 0001:00002e1f       _GetHobList                0000303f f   PeiHobLib:HobLib.obj
+ 0001:00002e39       _GetNextHob                00003059 f   PeiHobLib:HobLib.obj
+ 0001:00002e5c       _InternalPeiCreateHob      0000307c f   PeiHobLib:HobLib.obj
+ 0001:00002e86       _BuildMemoryAllocationHob  000030a6 f   PeiHobLib:HobLib.obj
+ 0001:00002ed5       _PeCoffLoaderGetPeHeaderMagicValue 000030f5 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00002efa       _PeCoffLoaderGetPeHeader   0000311a f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00003396       _PeCoffLoaderGetImageInfo  000035b6 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:000036ee       _PeCoffLoaderImageAddress  0000390e f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000371e       _PeCoffLoaderRelocateImage 0000393e f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000398f       _PeCoffLoaderLoadImage     00003baf f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00003ecc       __gPcd_BinaryPatch_PcdLoadFixAddressPeiCodePageNumber 000040ec     PeiCore:AutoGen.obj
+ 0001:00003ed0       __gPcd_BinaryPatch_PcdLoadFixAddressRuntimeCodePageNumber 000040f0     PeiCore:AutoGen.obj
+ 0001:00003ed4       __gPcd_BinaryPatch_PcdLoadFixAddressBootTimeCodePageNumber 000040f4     PeiCore:AutoGen.obj
+ 0001:00003ed8       _gPeiServices              000040f8     <common>
+
+ entry point at        0001:0000024c
+
+ Static symbols
+

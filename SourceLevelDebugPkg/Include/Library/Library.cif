@@ -1,0 +1,8 @@
+<component>
+	name = "Library"
+	category = ModulePart
+	LocalRoot = "SourceLevelDebugPkg\Include\Library\"
+	RefName = "SourceLevelDebug.Include.Library"
+[files]
+"DebugCommunicationLib.h"	
+<endComponent>

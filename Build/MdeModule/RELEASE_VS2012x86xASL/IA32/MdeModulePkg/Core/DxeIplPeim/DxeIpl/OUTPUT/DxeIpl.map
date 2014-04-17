@@ -1,0 +1,78 @@
+ DxeIpl
+
+ Timestamp is 527c4159 (Fri Nov 08 09:41:45 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000feH .data                   CODE
+ 0001:00000100 00000062H .rdata                  CODE
+ 0001:00000170 00001505H .text                   CODE
+ 0001:00001678 00000004H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiPeiDecompressPpiGuid  00000200     DxeIpl:AutoGen.obj
+ 0001:00000010       _gEfiHobMemoryAllocModuleGuid 00000210     DxeIpl:AutoGen.obj
+ 0001:00000020       _gEfiPeiLoadFilePpiGuid    00000220     DxeIpl:AutoGen.obj
+ 0001:00000030       _gEfiEndOfPeiSignalPpiGuid 00000230     DxeIpl:AutoGen.obj
+ 0001:00000040       _gEfiPeiReadOnlyVariable2PpiGuid 00000240     DxeIpl:AutoGen.obj
+ 0001:00000050       _gEfiPeiS3Resume2PpiGuid   00000250     DxeIpl:AutoGen.obj
+ 0001:00000060       _gEfiCallerIdGuid          00000260     DxeIpl:AutoGen.obj
+ 0001:00000070       _gEfiDxeIplPpiGuid         00000270     DxeIpl:AutoGen.obj
+ 0001:00000080       _gEfiMemoryTypeInformationGuid 00000280     DxeIpl:AutoGen.obj
+ 0001:00000090       _gEfiHobMemoryAllocStackGuid 00000290     DxeIpl:AutoGen.obj
+ 0001:000000a0       _gEfiPeiRecoveryModulePpiGuid 000002a0     DxeIpl:AutoGen.obj
+ 0001:000000b0       _gGdtEntries               000002b0     DxeIpl:DxeLoadFunc.obj
+ 0001:000000f8       _gLidtDescriptor           000002f8     DxeIpl:DxeLoadFunc.obj
+ 0001:00000100       ??_C@_1CM@OLBNONPD@?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AAT?$AAy?$AAp?$AAe?$AAI?$AAn?$AAf?$AAo?$AAr?$AAm?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 00000300     DxeIpl:DxeLoad.obj
+ 0001:0000012c       _mPpiList                  0000032c     DxeIpl:DxeLoad.obj
+ 0001:00000144       _gEndOfPeiSignalPpi        00000344     DxeIpl:DxeLoad.obj
+ 0001:00000150       _mDxeIplPpi                00000350     DxeIpl:DxeLoad.obj
+ 0001:00000154       _mCustomGuidedSectionExtractionPpi 00000354     DxeIpl:DxeLoad.obj
+ 0001:00000158       _mDecompressPpi            00000358     DxeIpl:DxeLoad.obj
+ 0001:0000015c       _gGdt                      0000035c     DxeIpl:DxeLoadFunc.obj
+ 0001:00000170       __ModuleEntryPoint         00000370 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:00000182       _PeimInitializeDxeIpl      00000382 f   DxeIpl:DxeLoad.obj
+ 0001:0000021f       _DxeLoadCore               0000041f f   DxeIpl:DxeLoad.obj
+ 0001:00000425       _CustomGuidedSectionExtract 00000625 f   DxeIpl:DxeLoad.obj
+ 0001:0000052f       _Decompress                0000072f f   DxeIpl:DxeLoad.obj
+ 0001:00000622       _UpdateStackHob            00000822 f   DxeIpl:DxeLoad.obj
+ 0001:00000682       _HandOffToDxeCore          00000882 f   DxeIpl:DxeLoadFunc.obj
+ 0001:00000839       _CreateIdentityMappingPageTables 00000a39 f   DxeIpl:VirtualMemory.obj
+ 0001:00000a46       _LShiftU64                 00000c46 f   BaseLib:LShiftU64.obj
+ 0001:00000a73       _CopyMem                   00000c73 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00000aab       _CopyGuid                  00000cab f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00000ac4       _CompareGuid               00000cc4 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00000ae8       _InternalAllocatePages     00000ce8 f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000b1a       _AllocatePool              00000d1a f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000b41       _GetHobList                00000d41 f   PeiHobLib:HobLib.obj
+ 0001:00000b5b       _GetNextHob                00000d5b f   PeiHobLib:HobLib.obj
+ 0001:00000b7e       _InternalPeiCreateHob      00000d7e f   PeiHobLib:HobLib.obj
+ 0001:00000ba8       _BuildModuleHob            00000da8 f   PeiHobLib:HobLib.obj
+ 0001:00000c29       _BuildGuidHob              00000e29 f   PeiHobLib:HobLib.obj
+ 0001:00000c50       _BuildGuidDataHob          00000e50 f   PeiHobLib:HobLib.obj
+ 0001:00000c79       _BuildMemoryAllocationHob  00000e79 f   PeiHobLib:HobLib.obj
+ 0001:00000cc4       _PeiGetExtractGuidedSectionHandlerInfo 00000ec4 f   PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0001:00000d5f       _ExtractGuidedSectionDecode 00000f5f f   PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0001:00000dd3       _FillBuf                   00000fd3 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00000e3e       _GetBits                   0000103e f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00000e56       _MakeTable                 00001056 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000110a       _DecodeP                   0000130a f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000117c       _ReadPTLen                 0000137c f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:000012b9       _ReadCLen                  000014b9 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00001427       _DecodeC                   00001627 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:000014dc       _Decode                    000016dc f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000155f       _UefiDecompress            0000175f f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000160a       _AsmGetVectorTemplatInfo   0000180a f   DxeIpl:IdtVectorAsm.obj
+ 0001:0000161a       _AsmVectorFixup            0000181a f   DxeIpl:IdtVectorAsm.obj
+ 0001:00001626       _CommonInterruptEntry      00001826 f   DxeIpl:IdtVectorAsm.obj
+ 0001:00001630       _InternalX86EnablePaging64 00001830 f   BaseLib:EnablePaging64.obj
+ 0001:00001678       _gPeiServices              00001878     <common>
+
+ entry point at        0001:00000170
+
+ Static symbols
+
+ 0001:00001600       $$000000                   00001800     DxeIpl:IdtVectorAsm.obj
+ 0001:00001630       $$000000                   00001830     BaseLib:EnablePaging64.obj

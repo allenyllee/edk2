@@ -1,0 +1,38 @@
+ CdExpressPei
+
+ Timestamp is 527c415d (Fri Nov 08 09:41:49 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000030H .data                   CODE
+ 0001:00000030 00000012H .rdata                  CODE
+ 0001:00000042 000004acH .text                   CODE
+ 0001:000004f0 00000008H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gRecoveryOnDataCdGuid     00000200     CdExpressPei:AutoGen.obj
+ 0001:00000010       _gEfiPeiDeviceRecoveryModulePpiGuid 00000210     CdExpressPei:AutoGen.obj
+ 0001:00000020       _gEfiPeiVirtualBlockIoPpiGuid 00000220     CdExpressPei:AutoGen.obj
+ 0001:00000030       ??_C@_05HIJPMCJE@CD001?$AA@ 00000230     CdExpressPei:PeiCdExpress.obj
+ 0001:00000038       ??_C@_09MJPCBPEC@FVMAIN?4FV?$AA@ 00000238     CdExpressPei:PeiCdExpress.obj
+ 0001:00000042       __ModuleEntryPoint         00000242 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:00000061       _CdExpressPeimEntry        00000261 f   CdExpressPei:PeiCdExpress.obj
+ 0001:00000108       _BlockIoNotifyEntry        00000308 f   CdExpressPei:PeiCdExpress.obj
+ 0001:00000116       _UpdateBlocksAndVolumes    00000316 f   CdExpressPei:PeiCdExpress.obj
+ 0001:000001f3       _FindRecoveryCapsules      000003f3 f   CdExpressPei:PeiCdExpress.obj
+ 0001:000002dd       _RetrieveCapsuleFileFromRoot 000004dd f   CdExpressPei:PeiCdExpress.obj
+ 0001:0000037f       _GetNumberRecoveryCapsules 0000057f f   CdExpressPei:PeiCdExpress.obj
+ 0001:000003a3       _GetRecoveryCapsuleInfo    000005a3 f   CdExpressPei:PeiCdExpress.obj
+ 0001:000003ed       _LoadRecoveryCapsule       000005ed f   CdExpressPei:PeiCdExpress.obj
+ 0001:0000044c       _StringCmp                 0000064c f   CdExpressPei:PeiCdExpress.obj
+ 0001:0000048e       _InternalAllocatePages     0000068e f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000004b7       _CopyMem                   000006b7 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:000004f0       _mPrivateData              000006f0     CdExpressPei:PeiCdExpress.obj
+ 0001:000004f4       _gPeiServices              000006f4     <common>
+
+ entry point at        0001:00000042
+
+ Static symbols
+

@@ -1,0 +1,131 @@
+ PiSmmCore
+
+ Timestamp is 527c4174 (Fri Nov 08 09:42:12 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000001fcH .data                   CODE
+ 0001:00000200 00000008H .rdata                  CODE
+ 0001:00000208 00002ea8H .text                   CODE
+ 0001:000030c0 0000009cH .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiLoadedImageProtocolGuid 00000220     PiSmmCore:AutoGen.obj
+ 0001:00000010       _gEfiDxeSmmReadyToLockProtocolGuid 00000230     PiSmmCore:AutoGen.obj
+ 0001:00000020       _gEfiSmmEndOfDxeProtocolGuid 00000240     PiSmmCore:AutoGen.obj
+ 0001:00000030       _gEfiDevicePathProtocolGuid 00000250     PiSmmCore:AutoGen.obj
+ 0001:00000040       _gEfiSmmReadyToLockProtocolGuid 00000260     PiSmmCore:AutoGen.obj
+ 0001:00000050       _gEfiEventDxeDispatchGuid  00000270     PiSmmCore:AutoGen.obj
+ 0001:00000060       _gEfiFirmwareVolume2ProtocolGuid 00000280     PiSmmCore:AutoGen.obj
+ 0001:00000070       _gEfiSmmAccess2ProtocolGuid 00000290     PiSmmCore:AutoGen.obj
+ 0001:00000080       _gEfiSecurityArchProtocolGuid 000002a0     PiSmmCore:AutoGen.obj
+ 0001:00000090       _gAprioriGuid              000002b0     PiSmmCore:AutoGen.obj
+ 0001:000000a0       _gEfiEventLegacyBootGuid   000002c0     PiSmmCore:AutoGen.obj
+ 0001:000000b0       _gEfiEndOfDxeEventGroupGuid 000002d0     PiSmmCore:AutoGen.obj
+ 0001:000000c0       _gEfiSecurity2ArchProtocolGuid 000002e0     PiSmmCore:AutoGen.obj
+ 0001:000000d0       _gEfiSmmCpuIo2ProtocolGuid 000002f0     PiSmmCore:AutoGen.obj
+ 0001:000000e0       _gSmmCoreSmst              00000300     PiSmmCore:PiSmmCore.obj
+ 0001:00000168       _mSmmCoreSmiHandlers       00000388     PiSmmCore:PiSmmCore.obj
+ 0001:000001b8       _mSmmFileTypes             000003d8     PiSmmCore:Dispatcher.obj
+ 0001:000001bc       _mDiscoveredList           000003dc     PiSmmCore:Dispatcher.obj
+ 0001:000001c4       _mFvHandleList             000003e4     PiSmmCore:Dispatcher.obj
+ 0001:000001cc       _mScheduledQueue           000003ec     PiSmmCore:Dispatcher.obj
+ 0001:000001d4       _mSmiEntryList             000003f4     PiSmmCore:Smi.obj
+ 0001:000001dc       _mRootSmiHandlerList       000003fc     PiSmmCore:Smi.obj
+ 0001:000001e4       _gHandleList               00000404     PiSmmCore:Handle.obj
+ 0001:000001ec       _mProtocolDatabase         0000040c     PiSmmCore:Handle.obj
+ 0001:000001f4       _mSmmMemoryMap             00000414     PiSmmCore:Page.obj
+ 0001:00000200       __gUefiDriverRevision      00000420     PiSmmCore:AutoGen.obj
+ 0001:00000204       _mUefiDevicePathLibEndDevicePath 00000424     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00000208       __ModuleEntryPoint         00000428 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000231       _SmmEfiNotAvailableYetArg5 00000451 f   PiSmmCore:PiSmmCore.obj
+ 0001:00000237       _SmmLegacyBootHandler      00000457 f   PiSmmCore:PiSmmCore.obj
+ 0001:00000241       _SmmReadyToLockHandler     00000461 f   PiSmmCore:PiSmmCore.obj
+ 0001:000002ad       _SmmEndOfDxeHandler        000004cd f   PiSmmCore:PiSmmCore.obj
+ 0001:000002cd       _SmmEntryPoint             000004ed f   PiSmmCore:PiSmmCore.obj
+ 0001:00000350       _SmmMain                   00000570 f   PiSmmCore:PiSmmCore.obj
+ 0001:00000408       _SmmGetNextLocateAllHandles 00000628 f   PiSmmCore:Locate.obj
+ 0001:0000042c       _SmmGetNextLocateByRegisterNotify 0000064c f   PiSmmCore:Locate.obj
+ 0001:00000460       _SmmGetNextLocateByProtocol 00000680 f   PiSmmCore:Locate.obj
+ 0001:000004b2       _SmmLocateProtocol         000006d2 f   PiSmmCore:Locate.obj
+ 0001:0000054b       _SmmLocateHandle           0000076b f   PiSmmCore:Locate.obj
+ 0001:00000661       _SmmInstallConfigurationTable 00000881 f   PiSmmCore:InstallConfigurationTable.obj
+ 0001:0000077b       _SmmLoadImage              0000099b f   PiSmmCore:Dispatcher.obj
+ 0001:00000b4b       _SmmGetDepexSectionAndPreProccess 00000d6b f   PiSmmCore:Dispatcher.obj
+ 0001:00000bcb       _SmmDispatcher             00000deb f   PiSmmCore:Dispatcher.obj
+ 0001:00000d14       _SmmInsertOnScheduledQueueWhileProcessingBeforeAndAfter 00000f34 f   PiSmmCore:Dispatcher.obj
+ 0001:00000db3       _SmmAddToDriverList        00000fd3 f   PiSmmCore:Dispatcher.obj
+ 0001:00000e93       _SmmDriverDispatchHandler  000010b3 f   PiSmmCore:Dispatcher.obj
+ 0001:000010af       _SmmCoreFindSmiEntry       000012cf f   PiSmmCore:Smi.obj
+ 0001:00001155       _SmiManage                 00001375 f   PiSmmCore:Smi.obj
+ 0001:000011eb       _SmiHandlerRegister        0000140b f   PiSmmCore:Smi.obj
+ 0001:0000125d       _SmiHandlerUnRegister      0000147d f   PiSmmCore:Smi.obj
+ 0001:000012b4       _InternalAllocPoolByIndex  000014d4 f   PiSmmCore:Pool.obj
+ 0001:00001365       _SmmAllocatePool           00001585 f   PiSmmCore:Pool.obj
+ 0001:0000140e       _SmmFreePool               0000162e f   PiSmmCore:Pool.obj
+ 0001:0000147a       _SmmValidateHandle         0000169a f   PiSmmCore:Handle.obj
+ 0001:00001495       _SmmFindProtocolEntry      000016b5 f   PiSmmCore:Handle.obj
+ 0001:00001543       _SmmFindProtocolInterface  00001763 f   PiSmmCore:Handle.obj
+ 0001:0000157f       _SmmInstallProtocolInterface 0000179f f   PiSmmCore:Handle.obj
+ 0001:00001599       _SmmInstallProtocolInterfaceNotify 000017b9 f   PiSmmCore:Handle.obj
+ 0001:00001711       _SmmUninstallProtocolInterface 00001931 f   PiSmmCore:Handle.obj
+ 0001:000017a7       _SmmHandleProtocol         000019c7 f   PiSmmCore:Handle.obj
+ 0001:00001820       _InternalAllocPagesOnOneNode 00001a40 f   PiSmmCore:Page.obj
+ 0001:00001879       _InternalAllocAddress      00001a99 f   PiSmmCore:Page.obj
+ 0001:000018cc       _SmmAllocatePages          00001aec f   PiSmmCore:Page.obj
+ 0001:0000197e       _InternalMergeNodes        00001b9e f   PiSmmCore:Page.obj
+ 0001:000019aa       _SmmFreePages              00001bca f   PiSmmCore:Page.obj
+ 0001:00001a60       _SmmRemoveInterfaceFromProtocol 00001c80 f   PiSmmCore:Notify.obj
+ 0001:00001aa8       _SmmRegisterProtocolNotify 00001cc8 f   PiSmmCore:Notify.obj
+ 0001:00001b65       _GrowDepexStack            00001d85 f   PiSmmCore:Dependency.obj
+ 0001:00001bdf       _PushBool                  00001dff f   PiSmmCore:Dependency.obj
+ 0001:00001c09       _PopBool                   00001e29 f   PiSmmCore:Dependency.obj
+ 0001:00001c29       _SmmIsSchedulable          00001e49 f   PiSmmCore:Dependency.obj
+ 0001:00001dd2       _CopyMem                   00001ff2 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00001e06       _CompareGuid               00002026 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00001e2a       _GetSmramRanges            0000204a f   PiSmmCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001e7f       _BufferInSmram             0000209f f   PiSmmCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001edc       _InternalAllocatePages     000020fc f   PiSmmCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001f01       _InternalAllocatePool      00002121 f   PiSmmCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001f22       _InternalAllocateZeroPool  00002142 f   PiSmmCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001f3d       _InternalAllocateCopyPool  0000215d f   PiSmmCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001f62       _FreePool                  00002182 f   PiSmmCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001f81       _IsDevicePathValid         000021a1 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001fa9       _IsDevicePathEnd           000021c9 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001fba       _GetDevicePathSize         000021da f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001fe9       _DuplicateDevicePath       00002209 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00002002       _AppendDevicePath          00002222 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00002096       _PeCoffLoaderGetPeHeaderMagicValue 000022b6 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:000020bb       _PeCoffLoaderGetPeHeader   000022db f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00002557       _PeCoffLoaderGetImageInfo  00002777 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:000028af       _PeCoffLoaderImageAddress  00002acf f   BasePeCoffLib:BasePeCoff.obj
+ 0001:000028df       _PeCoffLoaderRelocateImage 00002aff f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00002b50       _PeCoffLoaderLoadImage     00002d70 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000308b       _PeCoffLoaderImageReadFromMemory 000032ab f   BasePeCoffLib:BasePeCoff.obj
+ 0001:000030c0       __gPcd_BinaryPatch_PcdLoadFixAddressSmmCodePageNumber 000032e0     PiSmmCore:AutoGen.obj
+ 0001:000030c4       _mInLegacyBoot             000032e4     PiSmmCore:PiSmmCore.obj
+ 0001:000030c5       _gRequestDispatch          000032e5     PiSmmCore:Dispatcher.obj
+ 0001:000030c6       _gDispatcherRunning        000032e6     PiSmmCore:Dispatcher.obj
+ 0001:000030c8       _mEfiLocateHandleRequest   000032e8     PiSmmCore:Locate.obj
+ 0001:000030cc       _mSmmSystemTableAllocateSize 000032ec     PiSmmCore:InstallConfigurationTable.obj
+ 0001:000030d0       _mSecurity                 000032f0     PiSmmCore:Dispatcher.obj
+ 0001:000030d4       _mSecurity2                000032f4     PiSmmCore:Dispatcher.obj
+ 0001:000030d8       _mDepexEvaluationStackPointer 000032f8     PiSmmCore:Dependency.obj
+ 0001:000030dc       _mDepexEvaluationStackEnd  000032fc     PiSmmCore:Dependency.obj
+ 0001:000030e0       _mDepexEvaluationStack     00003300     PiSmmCore:Dependency.obj
+ 0001:000030e4       _gST                       00003304     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000030e8       _gBS                       00003308     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000030ec       _gImageHandle              0000330c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000030f0       _mSmramRanges              00003310     PiSmmCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000030f4       _mSmramRangeCount          00003314     PiSmmCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000030f8       _gRT                       00003318     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00003100       _mSmmPoolLists             00003320     <common>
+ 0001:00003140       _mFvDevicePath             00003360     <common>
+ 0001:00003158       _gSmmCorePrivate           00003378     <common>
+
+ entry point at        0001:00000208
+
+ Static symbols
+

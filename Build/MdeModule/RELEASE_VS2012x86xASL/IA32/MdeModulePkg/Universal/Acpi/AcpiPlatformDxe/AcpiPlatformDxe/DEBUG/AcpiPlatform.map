@@ -1,0 +1,30 @@
+ AcpiPlatform
+
+ Timestamp is 527c416c (Fri Nov 08 09:42:04 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000020H .data                   CODE
+ 0001:00000020 00000014H .rdata                  CODE
+ 0001:00000034 00000188H .text                   CODE
+ 0001:000001bc 00000010H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiFirmwareVolume2ProtocolGuid 00000220     AcpiPlatform:AutoGen.obj
+ 0001:00000010       _gEfiAcpiTableProtocolGuid 00000230     AcpiPlatform:AutoGen.obj
+ 0001:00000020       __gUefiDriverRevision      00000240     AcpiPlatform:AutoGen.obj
+ 0001:00000024       __gPcd_FixedAtBuild_PcdAcpiTableStorageFile 00000244     AcpiPlatform:AutoGen.obj
+ 0001:00000034       __ModuleEntryPoint         00000254 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:0000005c       _LocateFvInstanceWithTables 0000027c f   AcpiPlatform:AcpiPlatform.obj
+ 0001:000000f5       _AcpiPlatformEntryPoint    00000315 f   AcpiPlatform:AcpiPlatform.obj
+ 0001:000001bc       _gST                       000003dc     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000001c0       _gBS                       000003e0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000001c4       _gImageHandle              000003e4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000001c8       _gRT                       000003e8     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+
+ entry point at        0001:00000034
+
+ Static symbols
+

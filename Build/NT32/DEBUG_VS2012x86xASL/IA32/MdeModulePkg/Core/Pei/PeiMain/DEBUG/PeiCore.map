@@ -1,0 +1,341 @@
+ PeiCore
+
+ Timestamp is 52778ad8 (Mon Nov 04 19:54:00 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000058efH .text                   CODE
+ 0002:00000000 0000194dH .rdata                  DATA
+ 0002:00001950 0000008cH .rdata$debug            DATA
+ 0003:00000000 0000027cH .data                   DATA
+ 0003:0000027c 00000014H .bss                    DATA
+ 0004:00000000 0000004fH .edata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       __ModuleEntryPoint         00001000 f   PeiCoreEntryPoint:PeiCoreEntryPoint.obj
+ 0001:0000003e       _ShadowPeiCore             0000103e f   PeiCore:PeiMain.obj
+ 0001:000000de       _PeiCore                   000010de f   PeiCore:PeiMain.obj
+ 0001:00000455       _PeiResetSystem            00001455 f   PeiCore:Reset.obj
+ 0001:000004a5       _InitializeMemoryServices  000014a5 f   PeiCore:MemoryServices.obj
+ 0001:00000526       _PeiInstallPeiMemory       00001526 f   PeiCore:MemoryServices.obj
+ 0001:000005e3       _PeiAllocatePages          000015e3 f   PeiCore:MemoryServices.obj
+ 0001:00000703       _PeiAllocatePool           00001703 f   PeiCore:MemoryServices.obj
+ 0001:0000076e       _PeiReportStatusCode       0000176e f   PeiCore:StatusCode.obj
+ 0001:000007b4       _FileHandleToVolume        000017b4 f   PeiCore:FwVol.obj
+ 0001:00000852       _FindFileEx                00001852 f   PeiCore:FwVol.obj
+ 0001:00000bc7       _PeiInitializeFv           00001bc7 f   PeiCore:FwVol.obj
+ 0001:00000ceb       _FirmwareVolmeInfoPpiNotifyCallback 00001ceb f   PeiCore:FwVol.obj
+ 0001:00000f04       _VerifyGuidedSectionGuid   00001f04 f   PeiCore:FwVol.obj
+ 0001:00000f81       _ProcessSection            00001f81 f   PeiCore:FwVol.obj
+ 0001:000011f4       _PeiFfsFindSectionData     000021f4 f   PeiCore:FwVol.obj
+ 0001:00001222       _PeiFfsFindNextFile        00002222 f   PeiCore:FwVol.obj
+ 0001:00001250       _PeiFfsFindNextVolume      00002250 f   PeiCore:FwVol.obj
+ 0001:000012aa       _PeiFfsFindFileByName      000022aa f   PeiCore:FwVol.obj
+ 0001:000012f1       _PeiFfsGetFileInfo         000022f1 f   PeiCore:FwVol.obj
+ 0001:00001329       _PeiFfsGetVolumeInfo       00002329 f   PeiCore:FwVol.obj
+ 0001:00001361       _ProcessFvFile             00002361 f   PeiCore:FwVol.obj
+ 0001:0000155f       _PeiFfsFvPpiProcessVolume  0000255f f   PeiCore:FwVol.obj
+ 0001:00001592       _PeiFfsFvPpiFindFileByType 00002592 f   PeiCore:FwVol.obj
+ 0001:000015aa       _PeiFfsFvPpiFindFileByName 000025aa f   PeiCore:FwVol.obj
+ 0001:000016b6       _PeiFfsFvPpiGetFileInfo    000026b6 f   PeiCore:FwVol.obj
+ 0001:00001807       _PeiFfsFvPpiGetVolumeInfo  00002807 f   PeiCore:FwVol.obj
+ 0001:0000188f       _PeiFfsFvPpiFindSectionByType 0000288f f   PeiCore:FwVol.obj
+ 0001:0000193c       _FvHandleToCoreHandle      0000293c f   PeiCore:FwVol.obj
+ 0001:000019a7       _FindNextCoreFvHandle      000029a7 f   PeiCore:FwVol.obj
+ 0001:000019ea       _PeiReinitializeFv         000029ea f   PeiCore:FwVol.obj
+ 0001:00001b3f       _AddUnknownFormatFvInfo    00002b3f f   PeiCore:FwVol.obj
+ 0001:00001ba4       _FindUnknownFormatFvInfo   00002ba4 f   PeiCore:FwVol.obj
+ 0001:00001c49       _ThirdPartyFvPpiNotifyCallback 00002c49 f   PeiCore:FwVol.obj
+ 0001:00001e4f       _ConvertPpiPointers        00002e4f f   PeiCore:Ppi.obj
+ 0001:00001fe6       _PeiInstallPpi             00002fe6 f   PeiCore:Ppi.obj
+ 0001:000020b6       _PeiReInstallPpi           000030b6 f   PeiCore:Ppi.obj
+ 0001:00002178       _PeiLocatePpi              00003178 f   PeiCore:Ppi.obj
+ 0001:00002223       _PeiNotifyPpi              00003223 f   PeiCore:Ppi.obj
+ 0001:0000236f       _ProcessNotifyList         0000336f f   PeiCore:Ppi.obj
+ 0001:000023ca       _DispatchNotify            000033ca f   PeiCore:Ppi.obj
+ 0001:0000248c       _PeiGetHobList             0000348c f   PeiCore:Hob.obj
+ 0001:000024cf       _PeiCreateHob              000034cf f   PeiCore:Hob.obj
+ 0001:000025b4       _PeiGetBootMode            000035b4 f   PeiCore:BootMode.obj
+ 0001:000025fa       _PeiSetBootMode            000035fa f   PeiCore:BootMode.obj
+ 0001:00002631       _PeiImageRead              00003631 f   PeiCore:Image.obj
+ 0001:00002654       _PeiImageReadForShadow     00003654 f   PeiCore:Image.obj
+ 0001:0000267e       _GetImageReadFunction      0000367e f   PeiCore:Image.obj
+ 0001:00002728       _LoadAndRelocatePeCoffImage 00003728 f   PeiCore:Image.obj
+ 0001:00002989       _PeiLoadImageLoadImage     00003989 f   PeiCore:Image.obj
+ 0001:00002b2f       _PeiLoadImageLoadImageWrapper 00003b2f f   PeiCore:Image.obj
+ 0001:00002b50       _RelocationIsStrip         00003b50 f   PeiCore:Image.obj
+ 0001:00002bab       _PeiLoadImage              00003bab f   PeiCore:Image.obj
+ 0001:00002c91       _PeiDefaultIoRead          00003c91 f   PeiCore:CpuIo.obj
+ 0001:00002c91       _PeiDefaultIoWrite         00003c91 f   PeiCore:CpuIo.obj
+ 0001:00002c91       _PeiDefaultPciCfg2Modify   00003c91 f   PeiCore:PciCfg2.obj
+ 0001:00002c91       _PeiDefaultPciCfg2Read     00003c91 f   PeiCore:PciCfg2.obj
+ 0001:00002c91       _PeiDefaultMemRead         00003c91 f   PeiCore:CpuIo.obj
+ 0001:00002c91       _PeiDefaultMemWrite        00003c91 f   PeiCore:CpuIo.obj
+ 0001:00002c91       _PeiDefaultPciCfg2Write    00003c91 f   PeiCore:PciCfg2.obj
+ 0001:00002c97       _PeiDefaultIoRead8         00003c97 f   PeiCore:CpuIo.obj
+ 0001:00002c97       _PeiDefaultMemRead8        00003c97 f   PeiCore:CpuIo.obj
+ 0001:00002c9a       _PeiDefaultMemRead32       00003c9a f   PeiCore:CpuIo.obj
+ 0001:00002c9a       _PeiDefaultIoRead32        00003c9a f   PeiCore:CpuIo.obj
+ 0001:00002c9a       _PeiDefaultMemRead16       00003c9a f   PeiCore:CpuIo.obj
+ 0001:00002c9a       _PeiDefaultIoRead16        00003c9a f   PeiCore:CpuIo.obj
+ 0001:00002c9d       _PeiDefaultMemRead64       00003c9d f   PeiCore:CpuIo.obj
+ 0001:00002c9d       _PeiDefaultIoRead64        00003c9d f   PeiCore:CpuIo.obj
+ 0001:00002ca2       _PeiDefaultMemWrite64      00003ca2 f   PeiCore:CpuIo.obj
+ 0001:00002ca2       _PeiDefaultIoWrite64       00003ca2 f   PeiCore:CpuIo.obj
+ 0001:00002ca2       _PeiDefaultIoWrite32       00003ca2 f   PeiCore:CpuIo.obj
+ 0001:00002ca2       _PeiDefaultIoWrite16       00003ca2 f   PeiCore:CpuIo.obj
+ 0001:00002ca2       _PeiDefaultIoWrite8        00003ca2 f   PeiCore:CpuIo.obj
+ 0001:00002ca2       _PeiDefaultMemWrite8       00003ca2 f   PeiCore:CpuIo.obj
+ 0001:00002ca2       _PeiDefaultMemWrite32      00003ca2 f   PeiCore:CpuIo.obj
+ 0001:00002ca2       _PeiDefaultMemWrite16      00003ca2 f   PeiCore:CpuIo.obj
+ 0001:00002ca3       _DiscoverPeimsAndOrderWithApriori 00003ca3 f   PeiCore:Dispatcher.obj
+ 0001:00002f85       _PeiDispatcher             00003f85 f   PeiCore:Dispatcher.obj
+ 0001:0000367d       _DepexSatisfied            0000467d f   PeiCore:Dispatcher.obj
+ 0001:0000370e       _PeiRegisterForShadow      0000470e f   PeiCore:Dispatcher.obj
+ 0001:00003781       _SecurityPpiNotifyCallback 00004781 f   PeiCore:Security.obj
+ 0001:000037be       _IsPpiInstalled            000047be f   PeiCore:Dependency.obj
+ 0001:000037f3       _PeimDispatchReadiness     000047f3 f   PeiCore:Dependency.obj
+ 0001:000039ee       _InternalAllocatePages     000049ee f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00003a22       _InternalAllocateAlignedPages 00004a22 f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00003aad       _AllocatePool              00004aad f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00003ad6       _AllocateCopyPool          00004ad6 f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00003b2c       _DebugPrint                00004b2c f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00003c96       _DebugAssert               00004c96 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00003d37       _CalculateSum8             00004d37 f   BaseLib:CheckSum.obj
+ 0001:00003d83       _ReadUnaligned64           00004d83 f   BaseLib:Unaligned.obj
+ 0001:00003da6       _WriteUnaligned64          00004da6 f   BaseLib:Unaligned.obj
+ 0001:00003dd1       _AsciiStrCpy               00004dd1 f   BaseLib:String.obj
+ 0001:00003e4b       _AsciiStrLen               00004e4b f   BaseLib:String.obj
+ 0001:00003e96       _RShiftU64                 00004e96 f   BaseLib:RShiftU64.obj
+ 0001:00003ebb       _PeiServicesInstallPpi     00004ebb f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00003ece       _PeiServicesLocatePpi      00004ece f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00003ef1       _PeiServicesInstallFvInfoPpi 00004ef1 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00003ffd       _InternalReportStatusCode  00004ffd f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00004049       _ReportStatusCodeWithExtendedData 00005049 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00004081       _ReportStatusCodeEx        00005081 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00004140       _CopyMem                   00005140 f   BaseMemoryLibOptPei:CopyMemWrapper.obj
+ 0001:000041af       _ZeroMem                   000051af f   BaseMemoryLibOptPei:ZeroMemWrapper.obj
+ 0001:000041f8       _SetMem                    000051f8 f   BaseMemoryLibOptPei:SetMemWrapper.obj
+ 0001:0000423a       _CopyGuid                  0000523a f   BaseMemoryLibOptPei:MemLibGuid.obj
+ 0001:0000426a       _CompareGuid               0000526a f   BaseMemoryLibOptPei:MemLibGuid.obj
+ 0001:000042c9       _ScanGuid                  000052c9 f   BaseMemoryLibOptPei:MemLibGuid.obj
+ 0001:00004358       _SetPeiServicesTablePointer 00005358 f   PeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0001:0000437a       _GetPeiServicesTablePointer 0000537a f   PeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0001:0000439c       _PeCoffLoaderGetMachineType 0000539c f   EdkNt32PeiPeCoffGetEntryPointLib:PeCoffGetEntryPoint.obj
+ 0001:000043ea       _PeCoffLoaderGetPdbPointer 000053ea f   EdkNt32PeiPeCoffGetEntryPointLib:PeCoffGetEntryPoint.obj
+ 0001:00004509       _GetHobList                00005509 f   PeiHobLib:HobLib.obj
+ 0001:00004567       _GetNextHob                00005567 f   PeiHobLib:HobLib.obj
+ 0001:000045a8       _InternalPeiCreateHob      000055a8 f   PeiHobLib:HobLib.obj
+ 0001:000045f7       _BuildMemoryAllocationHob  000055f7 f   PeiHobLib:HobLib.obj
+ 0001:00004678       _PeCoffLoaderGetPeHeaderMagicValue 00005678 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000469d       _PeCoffLoaderGetPeHeader   0000569d f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00004b39       _PeCoffLoaderGetImageInfo  00005b39 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00004e91       _PeCoffLoaderImageAddress  00005e91 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00004ec1       _PeCoffLoaderRelocateImage 00005ec1 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00005152       _PeCoffLoaderLoadImage     00006152 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:000056a5       _Nt32PeCoffGetWinNtThunkStucture 000066a5 f   PeiNt32PeCoffExtraActionLib:PeiNt32PeCoffExtraActionLib.obj
+ 0001:000056fb       _AsciiToUnicode            000066fb f   PeiNt32PeCoffExtraActionLib:PeiNt32PeCoffExtraActionLib.obj
+ 0001:0000575b       _PeCoffLoaderRelocateImageExtraAction 0000675b f   PeiNt32PeCoffExtraActionLib:PeiNt32PeCoffExtraActionLib.obj
+ 0001:00005834       _InternalMemCopyMem        00006834 f   BaseMemoryLibOptPei:CopyMem.obj
+ 0001:0000586c       _InternalMemZeroMem        0000686c f   BaseMemoryLibOptPei:ZeroMem.obj
+ 0001:0000588c       _InternalMemSetMem         0000688c f   BaseMemoryLibOptPei:SetMem.obj
+ 0001:000058b8       _InternalMemSetMem32       000068b8 f   BaseMemoryLibOptPei:SetMem32.obj
+ 0001:000058d0       _InternalMemSetMem64       000068d0 f   BaseMemoryLibOptPei:SetMem64.obj
+ 0002:00000038       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ?$AA@ 00007038     PeiCoreEntryPoint:PeiCoreEntryPoint.obj
+ 0002:00000050       ??_C@_0EE@CEJJAACM@d?3?2myworkspace?2MdePkg?2Library?2Pe@ 00007050     PeiCoreEntryPoint:PeiCoreEntryPoint.obj
+ 0002:00000094       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ?6@ 00007094     PeiCore:AutoGen.obj
+ 0002:000000b8       ??_C@_0BE@DCHLEIGN@?$CBEFI_ERROR?5?$CIStatus?$CJ?$AA@ 000070b8     PeiCore:AutoGen.obj
+ 0002:000000cc       ??_C@_0DH@LBJCDNFM@d?3?2myworkspace?2MdeModulePkg?2Core@ 000070cc     PeiCore:PeiMain.obj
+ 0002:00000104       ??_C@_0DE@HLBCMAPJ@PrivateData?4PeiMemoryInstalled?5?$DN@ 00007104     PeiCore:PeiMain.obj
+ 0002:00000138       ??_C@_0P@FJMNFMDD@DXE?5IPL?5Entry?6?$AA@ 00007138     PeiCore:PeiMain.obj
+ 0002:00000148       ??_C@_0DL@DKKLMADB@PeiInstallPeiMemory?5MemoryBegin?5@ 00007148     PeiCore:MemoryServices.obj
+ 0002:00000184       ??_C@_0BF@NDBIKIKC@CR?5has?5Bad?5Signature?$AA@ 00007184     PeiCore:MemoryServices.obj
+ 0002:0000019c       ??_C@_0DN@OBDBAPAA@d?3?2myworkspace?2MdeModulePkg?2Core@ 0000719c     PeiCore:MemoryServices.obj
+ 0002:000001dc       ??_C@_0DG@MKIACPBB@ERROR?3?5PeiInstallPeiMemory?5is?5ca@ 000071dc     PeiCore:MemoryServices.obj
+ 0002:00000214       ??_C@_0CA@HPPFFIKG@PrivateData?9?$DOPeiMemoryInstalled?$AA@ 00007214     PeiCore:MemoryServices.obj
+ 0002:00000234       ??_C@_0DE@IMAEFOGO@AllocatePages?5failed?3?5No?50x?$CFlx?5P@ 00007234     PeiCore:MemoryServices.obj
+ 0002:00000268       ??_C@_0EB@MBBMPFHG@There?5is?5only?5left?50x?$CFlx?5pages?5m@ 00007268     PeiCore:MemoryServices.obj
+ 0002:000002ac       ??_C@_0BC@EMCGNMIK@DataAlignment?5?$DM?58?$AA@ 000072ac     PeiCore:FwVol.obj
+ 0002:000002c0       ??_C@_0DD@CKODMDJE@d?3?2myworkspace?2MdeModulePkg?2Core@ 000072c0     PeiCore:FwVol.obj
+ 0002:000002f4       ??_C@_0DN@IDPCIJMN@It?5is?5a?5FFS3?5formatted?5file?3?5?$CFg?5@ 000072f4     PeiCore:FwVol.obj
+ 0002:00000334       ??_C@_0BI@IMFKICNO@FileLength?5?$DO?50x00FFFFFF?$AA@ 00007334     PeiCore:FwVol.obj
+ 0002:0000034c       ??_C@_0BJ@JCCJEBFM@FileOffset?5?$DM?$DN?50xFFFFFFFF?$AA@ 0000734c     PeiCore:FwVol.obj
+ 0002:00000368       ??_C@_0DN@IHGHEFGN@Found?5a?5FFS3?5formatted?5file?3?5?$CFg?5@ 00007368     PeiCore:FwVol.obj
+ 0002:000003a8       ??_C@_0EF@OHMGDCKJ@The?5?$CFdth?5FV?5start?5address?5is?50x?$CF@ 000073a8     PeiCore:FwVol.obj
+ 0002:000003f0       ??_C@_0EG@KHEGFJJG@The?5number?5of?5Fv?5Images?5?$CI?$CFd?$CJ?5exc@ 000073f0     PeiCore:FwVol.obj
+ 0002:00000438       ??_C@_0DN@GHHPHPOC@PcdPeiCoreMaxFvSupported?5value?5n@ 00007438     PeiCore:FwVol.obj
+ 0002:00000478       ??_C@_0DE@PLDCDF@Fail?5to?5process?5new?5found?5FV?0?5FV@ 00007478     PeiCore:FwVol.obj
+ 0002:000004ac       ??_C@_0CH@EIAHOACA@The?5Fv?5?$CFp?5has?5already?5been?5proce@ 000074ac     PeiCore:FwVol.obj
+ 0002:000004d4       ??_C@_0DC@MHMJOHNH@Found?5firmware?5volume?5Image?5File@ 000074d4     PeiCore:FwVol.obj
+ 0002:00000508       ??_C@_0FC@OLAGDPKF@Fail?5to?5process?5FV?5?$CFp?5because?5no@ 00007508     PeiCore:FwVol.obj
+ 0002:00000560       ??_C@_0EO@LAPNMKO@?$CI?$CI?$CIEFI_COMMON_SECTION_HEADER2?5?$CK?$CJ@ 00007560     PeiCore:FwVol.obj
+ 0002:000005b0       ??_C@_0DM@CFMKDFLG@Found?5a?5FFS3?5formatted?5section?5i@ 000075b0     PeiCore:FwVol.obj
+ 0002:000005ec       ??_C@_0BD@IHCAFEKF@SectionLength?5?$CB?$DN?50?$AA@ 000075ec     PeiCore:FwVol.obj
+ 0002:00000600       ??_C@_0CC@PJLOKPBM@FV?5file?5?$CFp?5has?5been?5dispatched?$CB?$AN@ 00007600     PeiCore:FwVol.obj
+ 0002:00000624       ??_C@_0BJ@LCEMGDOM@FvHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00007624     PeiCore:FwVol.obj
+ 0002:00000640       ??_C@_0EL@EKJHDHAN@?$CI?$CI?$CIEFI_FFS_FILE_HEADER2?5?$CK?$CJ?5?$CIUINT@ 00007640     PeiCore:FwVol.obj
+ 0002:00000690       ??_C@_0EO@NOFOGFDN@?$CI?$CI?$CIEFI_FFS_FILE_HEADER2?5?$CK?$CJ?5?$CIUINT@ 00007690     PeiCore:FwVol.obj
+ 0002:000006e0       ??_C@_0BH@DBPJLOBG@Private?9?$DOFvCount?5?$DM?$DN?56U?$AA@ 000076e0     PeiCore:FwVol.obj
+ 0002:000006f8       ??_C@_0DD@LMHIKFPD@Fail?5to?5process?5the?5FV?50x?$CFp?0?5FV?5@ 000076f8     PeiCore:FwVol.obj
+ 0002:0000072c       ??_C@_0CP@IHCCCNLG@d?3?2myworkspace?2MdeModulePkg?2Core@ 0000772c     PeiCore:Ppi.obj
+ 0002:0000075c       ??_C@_0BM@LODPOKAH@ERROR?5?9?$DO?5InstallPpi?3?5?$CFg?5?$CFp?6?$AA@ 0000775c     PeiCore:Ppi.obj
+ 0002:00000778       ??_C@_0BB@KODDNOEH@Install?5PPI?3?5?$CFg?6?$AA@ 00007778     PeiCore:Ppi.obj
+ 0002:0000078c       ??_C@_0BD@LKLIKMAL@Reinstall?5PPI?3?5?$CFg?6?$AA@ 0000778c     PeiCore:Ppi.obj
+ 0002:000007a0       ??_C@_0BE@FBHLFKOE@Index?5?$DM?5?$CIINTN?$CJ?$CI64U?$CJ?$AA@ 000077a0     PeiCore:Ppi.obj
+ 0002:000007b4       ??_C@_0BP@IENJKIID@ERROR?5?9?$DO?5InstallNotify?3?5?$CFg?5?$CFp?6?$AA@ 000077b4     PeiCore:Ppi.obj
+ 0002:000007d4       ??_C@_0BJ@IJAOFOAI@Register?5PPI?5Notify?3?5?$CFg?6?$AA@ 000077d4     PeiCore:Ppi.obj
+ 0002:000007f0       ??_C@_0DD@GMANHDKM@Notify?3?5PPI?5Guid?3?5?$CFg?0?5Peim?5notif@ 000077f0     PeiCore:Ppi.obj
+ 0002:00000824       ??_C@_0CP@EHHMHKPI@d?3?2myworkspace?2MdeModulePkg?2Core@ 00007824     PeiCore:Hob.obj
+ 0002:00000854       ??_C@_0CE@BKBDKADE@PeiCreateHob?5fail?3?5Length?5?9?50x?$CF0@ 00007854     PeiCore:Hob.obj
+ 0002:00000878       ??_C@_0BN@MAOGDIDL@?5?5FreeMemoryTop?5?5?5?5?9?50x?$CF08x?6?$AA@ 00007878     PeiCore:Hob.obj
+ 0002:00000898       ??_C@_0BN@PAGJMFCL@?5?5FreeMemoryBottom?5?9?50x?$CF08x?6?$AA@ 00007898     PeiCore:Hob.obj
+ 0002:000008b8       ??_C@_0DJ@LBFELKK@d?3?2myworkspace?2MdeModulePkg?2Core@ 000078b8     PeiCore:BootMode.obj
+ 0002:000008f4       ??_C@_0DD@JKMBEAOI@d?3?2myworkspace?2MdeModulePkg?2Core@ 000078f4     PeiCore:Image.obj
+ 0002:00000928       ??_C@_0BN@ODILAKCA@MemoryBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00007928     PeiCore:Image.obj
+ 0002:00000948       ??_C@_0EH@GGOFBBBP@The?5image?5at?50x?$CF08x?5without?5relo@ 00007948     PeiCore:Image.obj
+ 0002:00000990       ??_C@_0BP@POFCJJJM@ImageContext?4ImageAddress?5?$CB?$DN?50?$AA@ 00007990     PeiCore:Image.obj
+ 0002:000009b0       ??_C@_0CK@GDHNGHDP@Loading?5PEIM?5at?50x?$CF11p?5EntryPoin@ 000079b0     PeiCore:Image.obj
+ 0002:000009dc       ??_C@_06LGNCBLGN@?$CFa?4efi?$AA@ 000079dc     PeiCore:Image.obj
+ 0002:000009e4       ??_C@_01EEMJAFIK@?6?$AA@   000079e4     PeiCore:Image.obj
+ 0002:000009e8       ??_C@_0BJ@OAAKNPEN@Pe32Data?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000079e8     PeiCore:Image.obj
+ 0002:00000a04       ??_C@_08EIGJLDNJ@?$CBIsStrip?$AA@ 00007a04     PeiCore:Image.obj
+ 0002:00000a10       ??_C@_0JH@LLPOBNFN@?$CI?$CI?$CIPeCoffLoaderGetMachineType?5?$CI?$CI@ 00007a10     PeiCore:Image.obj
+ 0002:00000aa8       ??_C@_0BA@JGIDNPHP@PeimCount?5?$DM?532U?$AA@ 00007aa8     PeiCore:Dispatcher.obj
+ 0002:00000ab8       ??_C@_0DN@HKDKGBCA@d?3?2myworkspace?2MdeModulePkg?2Core@ 00007ab8     PeiCore:Dispatcher.obj
+ 0002:00000af8       ??_C@_0BN@MKKIIFBG@CoreFvHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00007af8     PeiCore:Dispatcher.obj
+ 0002:00000b18       ??_C@_0CL@MBDNPDMF@Temp?5Stack?5?3?5BaseAddress?$DN0x?$CFp?5Le@ 00007b18     PeiCore:Dispatcher.obj
+ 0002:00000b44       ??_C@_0CL@KMNONBIO@Temp?5Heap?5?5?3?5BaseAddress?$DN0x?$CFp?5Le@ 00007b44     PeiCore:Dispatcher.obj
+ 0002:00000b70       ??_C@_0CG@ELPMBCHK@Total?5temporary?5memory?3?5?5?5?5?$CFd?5by@ 00007b70     PeiCore:Dispatcher.obj
+ 0002:00000b98       ??_C@_0CP@DFKHBPBB@?5?5temporary?5memory?5stack?5ever?5us@ 00007b98     PeiCore:Dispatcher.obj
+ 0002:00000bc8       ??_C@_0CP@PFPIOAGJ@?5?5temporary?5memory?5heap?5used?3?5?5?5@ 00007bc8     PeiCore:Dispatcher.obj
+ 0002:00000bf8       ??_C@_0CG@KJNBAOPN@Old?5Stack?5size?5?$CFd?0?5New?5stack?5siz@ 00007bf8     PeiCore:Dispatcher.obj
+ 0002:00000c20       ??_C@_0CH@DCKNHGIG@NewStackSize?5?$DO?$DN?5SecCoreData?9?$DOSta@ 00007c20     PeiCore:Dispatcher.obj
+ 0002:00000c48       ??_C@_0CK@CKCNEMDM@Heap?5Offset?5?$DN?50x?$CFlX?5Stack?5Offset@ 00007c48     PeiCore:Dispatcher.obj
+ 0002:00000c74       ??_C@_0CL@LPKMAINO@Stack?5Hob?3?5BaseAddress?$DN0x?$CFlX?5Len@ 00007c74     PeiCore:Dispatcher.obj
+ 0002:00000ca0       ??_C@_0BP@HEDEDGFI@PeimEntryPoint?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00007ca0     PeiCore:Dispatcher.obj
+ 0002:00000cc0       ??_C@_0CF@LCJDEDEC@Evaluate?5PEI?5DEPEX?5for?5FFS?$CIUnkno@ 00007cc0     PeiCore:Dispatcher.obj
+ 0002:00000ce8       ??_C@_0CA@GFDAIGDJ@Evaluate?5PEI?5DEPEX?5for?5FFS?$CI?$CFg?$CJ?6?$AA@ 00007ce8     PeiCore:Dispatcher.obj
+ 0002:00000d08       ??_C@_0BL@HMFJNHJC@?5?5RESULT?5?$DN?5TRUE?5?$CIApriori?$CJ?6?$AA@ 00007d08     PeiCore:Dispatcher.obj
+ 0002:00000d24       ??_C@_0BM@FDAIEMEL@?5?5RESULT?5?$DN?5TRUE?5?$CINo?5DEPEX?$CJ?6?$AA@ 00007d24     PeiCore:Dispatcher.obj
+ 0002:00000d40       ??_C@_0DJ@NNGAJGNJ@d?3?2myworkspace?2MdeModulePkg?2Core@ 00007d40     PeiCore:Security.obj
+ 0002:00000d7c       ??_C@_0CE@GMBCDKBD@?5?5RESULT?5?$DN?5FALSE?5?$CIUnderflow?5Erro@ 00007d7c     PeiCore:Dependency.obj
+ 0002:00000da0       ??_C@_04HCDDPBNL@TRUE?$AA@ 00007da0     PeiCore:Dependency.obj
+ 0002:00000da8       ??_C@_05MAJJAKPI@FALSE?$AA@ 00007da8     PeiCore:Dependency.obj
+ 0002:00000db0       ??_C@_0BG@NAPOJJF@?5?5PUSH?5GUID?$CI?$CFg?$CJ?5?$DN?5?$CFa?6?$AA@ 00007db0     PeiCore:Dependency.obj
+ 0002:00000dc8       ??_C@_06DJKGIPEK@?5?5AND?6?$AA@ 00007dc8     PeiCore:Dependency.obj
+ 0002:00000dd0       ??_C@_05NOPACOFB@?5?5OR?6?$AA@ 00007dd0     PeiCore:Dependency.obj
+ 0002:00000dd8       ??_C@_06MMCGCJIK@?5?5END?6?$AA@ 00007dd8     PeiCore:Dependency.obj
+ 0002:00000de0       ??_C@_0P@GJLOBHPI@?5?5RESULT?5?$DN?5?$CFa?6?$AA@ 00007de0     PeiCore:Dependency.obj
+ 0002:00000df0       ??_C@_06BPGMNMIO@?5?5NOT?6?$AA@ 00007df0     PeiCore:Dependency.obj
+ 0002:00000df8       ??_C@_07JLHPFCH@?5?5TRUE?6?$AA@ 00007df8     PeiCore:Dependency.obj
+ 0002:00000e00       ??_C@_08EJKLCAIL@?5?5FALSE?6?$AA@ 00007e00     PeiCore:Dependency.obj
+ 0002:00000e0c       ??_C@_0CD@GFDKPFOK@?5?5RESULT?5?$DN?5FALSE?5?$CIInvalid?5opcode@ 00007e0c     PeiCore:Dependency.obj
+ 0002:00000e30       ??_C@_0EL@OGJBHJGM@d?3?2myworkspace?2MdePkg?2Library?2Pe@ 00007e30     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000e7c       ??_C@_0CD@GECBLADO@?$CIAlignment?5?$CG?5?$CIAlignment?5?9?51?$CJ?$CJ?5?$DN?$DN@ 00007e7c     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000ea0       ??_C@_0FA@EJJMDGOG@Pages?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI?$CI?$CIAlignm@ 00007ea0     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000ef0       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00007ef0     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000f08       ??_C@_0DE@FCAJAHCJ@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5@ 00007f08     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000f3c       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00007f3c     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000f58       ??_C@_0FJ@PPEMNEPO@d?3?2myworkspace?2IntelFrameworkMod@ 00007f58     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000fb4       ??_C@_0CI@HIINONDG@?$CICHAR8?5?$CK?$CJBaseListMarker?5?$DM?$DN?5Forma@ 00007fb4     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000fdc       ??_C@_0DB@NLOAEGJN@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00007fdc     BaseLib:CheckSum.obj
+ 0002:00001010       ??_C@_0CO@MIFOIBMA@Length?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI?$CIUINTN?$CJ@ 00008010     BaseLib:CheckSum.obj
+ 0002:00001040       ??_C@_0DC@NGPEEDEA@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00008040     BaseLib:Unaligned.obj
+ 0002:00001074       ??_C@_0BM@NLNKOJGD@Destination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00008074     BaseLib:String.obj
+ 0002:00001090       ??_C@_0CP@EAMGNBHJ@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00008090     BaseLib:String.obj
+ 0002:000010c0       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000080c0     BaseLib:String.obj
+ 0002:000010d8       ??_C@_0DF@CDKFFDDI@?$CIUINTN?$CJ?$CIDestination?5?9?5Source?$CJ?5?$DO?5@ 000080d8     BaseLib:String.obj
+ 0002:00001110       ??_C@_0DF@CCGJKFCO@?$CIUINTN?$CJ?$CISource?5?9?5Destination?$CJ?5?$DO?5@ 00008110     BaseLib:String.obj
+ 0002:00001148       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 00008148     BaseLib:String.obj
+ 0002:00001180       ??_C@_0BK@MLHDALND@FvInfoPpi?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00008180     PeiServicesLib:PeiServicesLib.obj
+ 0002:0000119c       ??_C@_0DO@IKEFGBNO@d?3?2myworkspace?2MdePkg?2Library?2Pe@ 0000819c     PeiServicesLib:PeiServicesLib.obj
+ 0002:000011dc       ??_C@_0CC@DILIAANA@ParentFvNameValue?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 000081dc     PeiServicesLib:PeiServicesLib.obj
+ 0002:00001200       ??_C@_0CE@NDJPOELB@ParentFileNameValue?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ@ 00008200     PeiServicesLib:PeiServicesLib.obj
+ 0002:00001224       ??_C@_0CE@HCINAAAA@FvInfoPpiDescriptor?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ@ 00008224     PeiServicesLib:PeiServicesLib.obj
+ 0002:00001248       _mPpiListTemplate          00008248     PeiServicesLib:PeiServicesLib.obj
+ 0002:00001258       ??_C@_0FB@EDMKDAL@d?3?2myworkspace?2MdeModulePkg?2Libr@ 00008258     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000012ac       ??_C@_0BN@HMHGLLOO@ExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000082ac     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000012cc       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000082cc     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:0000130c       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000830c     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:0000134c       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5too@ 0000834c     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00001384       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 00008384     BaseMemoryLibOptPei:CopyMemWrapper.obj
+ 0002:000013c0       ??_C@_0ED@IOGOHALM@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000083c0     BaseMemoryLibOptPei:CopyMemWrapper.obj
+ 0002:00001404       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 00008404     BaseMemoryLibOptPei:CopyMemWrapper.obj
+ 0002:00001438       ??_C@_0CI@MNELLLEK@?$CB?$CIBuffer?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Leng@ 00008438     BaseMemoryLibOptPei:ZeroMemWrapper.obj
+ 0002:00001460       ??_C@_0ED@DKMMBBHL@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00008460     BaseMemoryLibOptPei:ZeroMemWrapper.obj
+ 0002:000014a4       ??_C@_0CL@OBMFBPED@Length?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIUINTN?$CJB@ 000084a4     BaseMemoryLibOptPei:ZeroMemWrapper.obj
+ 0002:000014d0       ??_C@_0CN@BPIPMCPJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 000084d0     BaseMemoryLibOptPei:SetMemWrapper.obj
+ 0002:00001500       ??_C@_0EC@DOALJHPB@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00008500     BaseMemoryLibOptPei:SetMemWrapper.obj
+ 0002:00001544       ??_C@_0DC@LJGHDAJN@?$CI?$CIUINTN?$CJBuffer?5?$CG?5?$CIsizeof?5?$CIGuid?9?$DO@ 00008544     BaseMemoryLibOptPei:MemLibGuid.obj
+ 0002:00001578       ??_C@_0DP@KGHPEOKP@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00008578     BaseMemoryLibOptPei:MemLibGuid.obj
+ 0002:000015b8       ??_C@_0CI@FMMOALAD@?$CILength?5?$CG?5?$CIsizeof?5?$CI?$CKGuidPtr?$CJ?5?9?51@ 000085b8     BaseMemoryLibOptPei:MemLibGuid.obj
+ 0002:000015e0       ??_C@_0CI@MDPGFIOC@PeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIvoi@ 000085e0     PeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:00001608       ??_C@_0FD@DABBMLPI@d?3?2myworkspace?2MdePkg?2Library?2Pe@ 00008608     PeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:0000165c       ??_C@_0BN@OJIBNMOJ@gPeiServices?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000865c     PeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:00001680       ??_C@_0FD@BGKJIAEK@d?3?2myworkspace?2Nt32Pkg?2Library?2N@ 00008680     EdkNt32PeiPeCoffGetEntryPointLib:PeCoffGetEntryPoint.obj
+ 0002:000016d4       ??_C@_0DB@HFECHJN@d?3?2myworkspace?2MdePkg?2Library?2Pe@ 000086d4     PeiHobLib:HobLib.obj
+ 0002:00001708       ??_C@_0BI@NCGMODPG@HobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00008708     PeiHobLib:HobLib.obj
+ 0002:00001720       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00008720     PeiHobLib:HobLib.obj
+ 0002:0000173c       ??_C@_0BE@PICCCCHF@Hob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000873c     PeiHobLib:HobLib.obj
+ 0002:00001750       ??_C@_0EO@IHLJIHKG@?$CI?$CIBaseAddress?5?$CG?5?$CI0x00001000?5?9?51?$CJ@ 00008750     PeiHobLib:HobLib.obj
+ 0002:000017a0       ??_C@_0CO@NPOLMKEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 000087a0     BaseCacheMaintenanceLib:X86Cache.obj
+ 0002:000017d0       ??_C@_0EB@EIODAEAC@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000087d0     BaseCacheMaintenanceLib:X86Cache.obj
+ 0002:00001814       ??_C@_0BN@MJEPDGEJ@ImageContext?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00008814     BasePeCoffLib:BasePeCoff.obj
+ 0002:00001834       ??_C@_0DJ@ILLIDBKL@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00008834     BasePeCoffLib:BasePeCoff.obj
+ 0002:00001870       ??_C@_0FJ@JHNKMLPO@d?3?2myworkspace?2Nt32Pkg?2Library?2P@ 00008870     PeiNt32PeCoffExtraActionLib:PeiNt32PeCoffExtraActionLib.obj
+ 0002:000018cc       ??_C@_0BB@BLEKMDPG@InitializeDriver?$AA@ 000088cc     PeiNt32PeCoffExtraActionLib:PeiNt32PeCoffExtraActionLib.obj
+ 0002:000018e0       ??_C@_0EG@ECJGIGKF@LoadLibraryEx?5?$CI?$CFs?0?6?5?5?5?5?5?5?5?5?5?5?5?5?5@ 000088e0     PeiNt32PeCoffExtraActionLib:PeiNt32PeCoffExtraActionLib.obj
+ 0002:00001928       ??_C@_0CF@FKBIEPG@WARNING?3?5No?5source?5level?5debug?5?$CF@ 00008928     PeiNt32PeCoffExtraActionLib:PeiNt32PeCoffExtraActionLib.obj
+ 0003:00000000       _gEfiPeiSecurity2PpiGuid   00009000     PeiCore:AutoGen.obj
+ 0003:00000010       _gEfiFirmwareFileSystem3Guid 00009010     PeiCore:AutoGen.obj
+ 0003:00000020       _gEfiPeiFirmwareVolumeInfoPpiGuid 00009020     PeiCore:AutoGen.obj
+ 0003:00000030       _gEfiPeiDecompressPpiGuid  00009030     PeiCore:AutoGen.obj
+ 0003:00000040       _gEfiPeiLoadFilePpiGuid    00009040     PeiCore:AutoGen.obj
+ 0003:00000050       _gEfiTemporaryRamSupportPpiGuid 00009050     PeiCore:AutoGen.obj
+ 0003:00000060       _gEfiPeiResetPpiGuid       00009060     PeiCore:AutoGen.obj
+ 0003:00000070       _gEfiCallerIdGuid          00009070     PeiCore:AutoGen.obj
+ 0003:00000080       _gEfiPeiStatusCodePpiGuid  00009080     PeiCore:AutoGen.obj
+ 0003:00000090       _gPeiNtThunkPpiGuid        00009090     PeiCore:AutoGen.obj
+ 0003:000000a0       _gPeiAprioriFileNameGuid   000090a0     PeiCore:AutoGen.obj
+ 0003:000000b0       _gEfiStatusCodeDataTypeDebugGuid 000090b0     PeiCore:AutoGen.obj
+ 0003:000000c0       _gEfiDxeIplPpiGuid         000090c0     PeiCore:AutoGen.obj
+ 0003:000000d0       _gEfiHobMemoryAllocStackGuid 000090d0     PeiCore:AutoGen.obj
+ 0003:000000e0       _gEfiStatusCodeSpecificDataGuid 000090e0     PeiCore:AutoGen.obj
+ 0003:000000f0       _gEfiPeiMemoryDiscoveredPpiGuid 000090f0     PeiCore:AutoGen.obj
+ 0003:00000100       _gEfiFirmwareFileSystem2Guid 00009100     PeiCore:AutoGen.obj
+ 0003:00000110       _gPs                       00009110     PeiCore:PeiMain.obj
+ 0003:00000188       _mMemoryDiscoveredPpi      00009188     PeiCore:PeiMain.obj
+ 0003:00000194       _mPeiFfs3FwVol             00009194     PeiCore:FwVol.obj
+ 0003:000001b4       _mFvAttributes             000091b4     PeiCore:FwVol.obj
+ 0003:000001bc       _mPeiFfs3FvPpiList         000091bc     PeiCore:FwVol.obj
+ 0003:000001c8       _mPeiFfs2FvPpiList         000091c8     PeiCore:FwVol.obj
+ 0003:000001d4       _mPeiFfs2FwVol             000091d4     PeiCore:FwVol.obj
+ 0003:000001f4       _mNotifyOnFvInfoList       000091f4     PeiCore:FwVol.obj
+ 0003:00000200       _mPeiLoadImagePpi          00009200     PeiCore:Image.obj
+ 0003:00000204       _gPpiLoadFilePpiList       00009204     PeiCore:Image.obj
+ 0003:00000210       _gPeiDefaultCpuIoPpi       00009210     PeiCore:CpuIo.obj
+ 0003:00000260       _gPeiDefaultPciCfg2Ppi     00009260     PeiCore:PciCfg2.obj
+ 0003:00000270       _mNotifyList               00009270     PeiCore:Security.obj
+ 0003:0000027c       __gPcd_BinaryPatch_PcdLoadFixAddressPeiCodePageNumber 0000927c     PeiCore:AutoGen.obj
+ 0003:00000280       __gPcd_BinaryPatch_PcdLoadFixAddressRuntimeCodePageNumber 00009280     PeiCore:AutoGen.obj
+ 0003:00000284       __gPcd_BinaryPatch_PcdLoadFixAddressBootTimeCodePageNumber 00009284     PeiCore:AutoGen.obj
+ 0003:00000288       _mWinNt                    00009288     PeiNt32PeCoffExtraActionLib:PeiNt32PeCoffExtraActionLib.obj
+ 0003:0000028c       _gPeiServices              0000928c     <common>
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0001:00005834       $$000000                   00006834     BaseMemoryLibOptPei:CopyMem.obj
+ 0001:0000586c       $$000000                   0000686c     BaseMemoryLibOptPei:ZeroMem.obj
+ 0001:0000588c       $$000000                   0000688c     BaseMemoryLibOptPei:SetMem.obj
+ 0001:000058b8       $$000000                   000068b8     BaseMemoryLibOptPei:SetMem32.obj
+ 0001:000058d0       $$000000                   000068d0     BaseMemoryLibOptPei:SetMem64.obj
+ 0004:00000000       .edata                     0000a000     PeiCore.exp
+ 0004:00000028       rgpv                       0000a028     PeiCore.exp
+ 0004:0000002c       rgszName                   0000a02c     PeiCore.exp
+ 0004:00000030       rgwOrd                     0000a030     PeiCore.exp
+ 0004:00000032       szName                     0000a032     PeiCore.exp
+ 0004:0000003e       $N00001                    0000a03e     PeiCore.exp

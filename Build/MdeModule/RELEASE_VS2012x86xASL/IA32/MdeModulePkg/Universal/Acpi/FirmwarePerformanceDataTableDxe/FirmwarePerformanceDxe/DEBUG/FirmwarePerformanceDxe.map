@@ -1,0 +1,70 @@
+ FirmwarePerformanceDxe
+
+ Timestamp is 527c4172 (Fri Nov 08 09:42:10 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000170H .data                   CODE
+ 0001:00000170 0000002cH .rdata                  CODE
+ 0001:0000019c 000009e6H .text                   CODE
+ 0001:00000b84 00000040H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiEventReadyToBootGuid  00000200     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:00000010       _gEfiFirmwarePerformanceGuid 00000210     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:00000020       _gEfiHobListGuid           00000220     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:00000030       _gEfiSmmCommunicationProtocolGuid 00000230     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:00000040       _gEfiEventExitBootServicesGuid 00000240     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:00000050       _gEfiRscHandlerProtocolGuid 00000250     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:00000060       _gEfiSmmLockBoxCommunicationGuid 00000260     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:00000070       _gEfiVariableArchProtocolGuid 00000270     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:00000080       _gEfiEventLegacyBootGuid   00000280     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:00000090       _gEfiLockBoxProtocolGuid   00000290     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:000000a0       _gFirmwarePerformanceS3PointerGuid 000002a0     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:000000b0       _gEfiAcpiTableProtocolGuid 000002b0     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:000000c0       _mFirmwarePerformanceTableTemplate 000002c0     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000104       _mBootPerformanceTableTemplate 00000304     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:0000013c       _mS3PerformanceTableTemplate 0000033c     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000170       __gUefiDriverRevision      00000370     FirmwarePerformanceDxe:AutoGen.obj
+ 0001:00000174       ??_C@_1CI@JMOHFHFH@?$AAF?$AAi?$AAr?$AAm?$AAw?$AAa?$AAr?$AAe?$AAP?$AAe?$AAr?$AAf?$AAo?$AAr?$AAm?$AAa?$AAn?$AAc?$AAe?$AA?$AA@ 00000374     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:0000019c       __ModuleEntryPoint         0000039c f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:000001ae       _ProcessLibraryConstructorList 000003ae f   FirmwarePerformanceDxe:AutoGen.obj
+ 0001:00000213       _FpdtAllocateReservedMemoryBelow4G 00000413 f   FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000267       _FpdtAllocateS3PerformanceTableMemory 00000467 f   FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:0000038f       _InstallFirmwarePerformanceDataTable 0000058f f   FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:000006cc       _FpdtReadyToBootEventNotify 000008cc f   FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:000006da       _FpdtLegacyBootEventNotify 000008da f   FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:000006fe       _FpdtExitBootServicesEventNotify 000008fe f   FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000710       _FpdtStatusCodeListenerDxe 00000910 f   FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000890       _FirmwarePerformanceDxeEntryPoint 00000a90 f   FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:0000099c       _CompareGuid               00000b9c f   BaseMemoryLib:MemLibGuid.obj
+ 0001:000009c0       _CopyMem                   00000bc0 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:000009f4       _InternalAllocatePool      00000bf4 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000a18       _InternalAllocateZeroPool  00000c18 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000a33       _InternalReallocatePool    00000c33 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000a7b       _EfiCreateProtocolNotifyEvent 00000c7b f   UefiLib:UefiLib.obj
+ 0001:00000abf       _GetNextHob                00000cbf f   DxeHobLib:HobLib.obj
+ 0001:00000ae0       _SaveLockBox               00000ce0 f   SmmLockBoxDxeLib:SmmLockBoxDxeLib.obj
+ 0001:00000b84       _mBootRecordBuffer         00000d84     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000b88       _mAcpiBootPerformanceTable 00000d88     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000b8c       _mRscHandlerProtocol       00000d8c     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000b90       _mFirmwarePerformanceTableTemplateKey 00000d90     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000b94       _mBootRecordSize           00000d94     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000b98       _mLockBoxReady             00000d98     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000b9c       _mBootRecordMaxSize        00000d9c     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000ba0       _mAcpiS3PerformanceTable   00000da0     FirmwarePerformanceDxe:FirmwarePerformanceDxe.obj
+ 0001:00000ba4       _gST                       00000da4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000ba8       _gBS                       00000da8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000bac       _gImageHandle              00000dac     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000bb0       _gRT                       00000db0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00000bb4       _mHobList                  00000db4     DxeHobLib:HobLib.obj
+ 0001:00000bb8       _mExitBootServicesEvent    00000db8     <common>
+ 0001:00000bbc       _mLegacyBootEvent          00000dbc     <common>
+ 0001:00000bc0       _mReadyToBootEvent         00000dc0     <common>
+
+ entry point at        0001:0000019c
+
+ Static symbols
+

@@ -1,0 +1,14 @@
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseDebugPrintErrorLevelLib\BaseDebugPrintErrorLevelLib\OUTPUT\BaseDebugPrintErrorLevelLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BasePrintLib\BasePrintLib\OUTPUT\BasePrintLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BasePcdLibNull\BasePcdLibNull\OUTPUT\BasePcdLibNull.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseLib\BaseLib\OUTPUT\BaseLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\UefiDebugLibConOut\UefiDebugLibConOut\OUTPUT\UefiDebugLibConOut.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseMemoryLib\BaseMemoryLib\OUTPUT\BaseMemoryLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\UefiBootServicesTableLib\UefiBootServicesTableLib\OUTPUT\UefiBootServicesTableLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\UefiMemoryAllocationLib\UefiMemoryAllocationLib\OUTPUT\UefiMemoryAllocationLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\UefiRuntimeServicesTableLib\UefiRuntimeServicesTableLib\OUTPUT\UefiRuntimeServicesTableLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib\OUTPUT\UefiDevicePathLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\UefiLib\UefiLib\OUTPUT\UefiLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\UefiDriverEntryPoint\UefiDriverEntryPoint\OUTPUT\UefiDriverEntryPoint.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseReportStatusCodeLibNull\BaseReportStatusCodeLibNull\OUTPUT\BaseReportStatusCodeLibNull.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdeModulePkg\Bus\Usb\UsbBusDxe\UsbBusDxe\OUTPUT\UsbBusDxe.lib

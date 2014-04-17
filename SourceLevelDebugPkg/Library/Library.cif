@@ -1,0 +1,11 @@
+<component>
+	name = "Library"
+	category = ModulePart
+	LocalRoot = "SourceLevelDebugPkg\Library\"
+	RefName = "SourceLevelDebugPkg.Library"
+[parts]
+"SourceLevelDebugPkg.Library.DebugAgent"
+"SourceLevelDebugPkg.Library.DebugCommunicationLibSerialPort"
+"SourceLevelDebugPkg.Library.DebugCommunicationLibUsb"
+"SourceLevelDebugPkg.Library.PeCoffExtraActionLibDebug"
+<endComponent>

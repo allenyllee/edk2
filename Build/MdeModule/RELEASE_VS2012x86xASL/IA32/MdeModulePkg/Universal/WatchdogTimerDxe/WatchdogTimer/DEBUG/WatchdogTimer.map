@@ -1,0 +1,36 @@
+ WatchdogTimer
+
+ Timestamp is 527c416b (Fri Nov 08 09:42:03 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000001cH .data                   CODE
+ 0001:00000020 00000004H .rdata                  CODE
+ 0001:00000024 00000113H .text                   CODE
+ 0001:00000138 00000024H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiWatchdogTimerArchProtocolGuid 00000220     WatchdogTimer:AutoGen.obj
+ 0001:00000010       _mWatchdogTimer            00000230     WatchdogTimer:WatchdogTimer.obj
+ 0001:00000020       __gUefiDriverRevision      00000240     WatchdogTimer:AutoGen.obj
+ 0001:00000024       __ModuleEntryPoint         00000244 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:0000004c       _ProcessModuleEntryPointList 0000026c f   WatchdogTimer:AutoGen.obj
+ 0001:00000089       _WatchdogTimerDriverExpires 000002a9 f   WatchdogTimer:WatchdogTimer.obj
+ 0001:000000b8       _WatchdogTimerDriverRegisterHandler 000002d8 f   WatchdogTimer:WatchdogTimer.obj
+ 0001:000000e5       _WatchdogTimerDriverSetTimerPeriod 00000305 f   WatchdogTimer:WatchdogTimer.obj
+ 0001:00000117       _WatchdogTimerDriverGetTimerPeriod 00000337 f   WatchdogTimer:WatchdogTimer.obj
+ 0001:00000138       _mWatchdogTimerPeriod      00000358     WatchdogTimer:WatchdogTimer.obj
+ 0001:00000140       _mWatchdogTimerNotifyFunction 00000360     WatchdogTimer:WatchdogTimer.obj
+ 0001:00000144       _mWatchdogTimerHandle      00000364     WatchdogTimer:WatchdogTimer.obj
+ 0001:00000148       _gST                       00000368     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:0000014c       _gBS                       0000036c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000150       _gImageHandle              00000370     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000154       _gRT                       00000374     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00000158       _mWatchdogTimerEvent       00000378     <common>
+
+ entry point at        0001:00000024
+
+ Static symbols
+

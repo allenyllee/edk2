@@ -1,0 +1,94 @@
+ AcpiTableDxe
+
+ Timestamp is 527c416c (Fri Nov 08 09:42:04 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000014c0H .data                   CODE
+ 0001:000014c0 0000000bH .rdata                  CODE
+ 0001:000014cb 00001f57H .text                   CODE
+ 0001:00003424 00000018H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiDxeSmmReadyToLockProtocolGuid 00000220     AcpiTableDxe:AutoGen.obj
+ 0001:00000010       _gEfiAcpiSdtProtocolGuid   00000230     AcpiTableDxe:AutoGen.obj
+ 0001:00000020       _gEfiAcpiTableGuid         00000240     AcpiTableDxe:AutoGen.obj
+ 0001:00000030       _gEfiAcpi10TableGuid       00000250     AcpiTableDxe:AutoGen.obj
+ 0001:00000040       _gEfiAcpiTableProtocolGuid 00000260     AcpiTableDxe:AutoGen.obj
+ 0001:00000050       _mEfiAcpiMaxNumTables      00000270     AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:00000054       _mAcpiSdtProtocolTemplate  00000274     AcpiTableDxe:AcpiSdt.obj
+ 0001:00000080       _mAmlByteEncoding          000002a0     AcpiTableDxe:Aml.obj
+ 0001:0000149c       _mAmlTypeToAcpiType        000016bc     AcpiTableDxe:Aml.obj
+ 0001:000014c0       __gUefiDriverRevision      000016e0     AcpiTableDxe:AutoGen.obj
+ 0001:000014c4       ??_C@_06LAPOKDF@INTEL?5?$AA@ 000016e4     AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:000014cb       __ModuleEntryPoint         000016eb f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:000014f3       _ProcessModuleEntryPointList 00001713 f   AcpiTableDxe:AutoGen.obj
+ 0001:0000154c       _SetAcpiTable              0000176c f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:000015c4       _PublishTables             000017e4 f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:0000164e       _InstallAcpiTable          0000186e f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:00001705       _UninstallAcpiTable        00001925 f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:00001740       _ReallocateAcpiTableBuffer 00001960 f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:0000189f       _AddTableToList            00001abf f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:00001cdc       _FindTableByHandle         00001efc f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:00001d00       _RemoveTableFromRsdt       00001f20 f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:00001dfe       _DeleteTable               0000201e f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:00001f92       _RemoveTableFromList       000021b2 f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:00001fd7       _AcpiPlatformChecksum      000021f7 f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:00001ff6       _ChecksumCommonTables      00002216 f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:00002071       _AcpiTableAcpiTableConstructor 00002291 f   AcpiTableDxe:AcpiTableProtocol.obj
+ 0001:0000235a       _FindTableByBuffer         0000257a f   AcpiTableDxe:AcpiSdt.obj
+ 0001:0000238d       _GetAcpiTable2             000025ad f   AcpiTableDxe:AcpiSdt.obj
+ 0001:000023d7       _SdtUnregisterNotify       000025f7 f   AcpiTableDxe:AcpiSdt.obj
+ 0001:00002419       _RegisterNotify            00002639 f   AcpiTableDxe:AcpiSdt.obj
+ 0001:00002468       _SdtOpenSdtTable           00002688 f   AcpiTableDxe:AcpiSdt.obj
+ 0001:000024c4       _OpenSdt                   000026e4 f   AcpiTableDxe:AcpiSdt.obj
+ 0001:000024db       _SdtOpenEx                 000026fb f   AcpiTableDxe:AcpiSdt.obj
+ 0001:00002545       _Open                      00002765 f   AcpiTableDxe:AcpiSdt.obj
+ 0001:00002578       _Close                     00002798 f   AcpiTableDxe:AcpiSdt.obj
+ 0001:000025c6       _GetOption                 000027e6 f   AcpiTableDxe:AcpiSdt.obj
+ 0001:00002615       _SetOption                 00002835 f   AcpiTableDxe:AcpiSdt.obj
+ 0001:0000268c       _GetChild                  000028ac f   AcpiTableDxe:AcpiSdt.obj
+ 0001:00002735       _SdtFindPathFromRoot       00002955 f   AcpiTableDxe:AcpiSdt.obj
+ 0001:000027e4       _FindPath                  00002a04 f   AcpiTableDxe:AcpiSdt.obj
+ 0001:0000287d       _ExitPmAuthNotification    00002a9d f   AcpiTableDxe:AcpiSdt.obj
+ 0001:000028ca       _SdtAcpiTableAcpiSdtConstructor 00002aea f   AcpiTableDxe:AcpiSdt.obj
+ 0001:00002924       _AmlSearchByOpByte         00002b44 f   AcpiTableDxe:Aml.obj
+ 0001:00002961       _AmlGetPkgLength           00002b81 f   AcpiTableDxe:Aml.obj
+ 0001:000029bc       _AmlParseOptionTerm        00002bdc f   AcpiTableDxe:AmlOption.obj
+ 0001:00002abb       _AmlParseOptionCommon      00002cdb f   AcpiTableDxe:AmlOption.obj
+ 0001:00002c11       _AmlGetObjectSize          00002e31 f   AcpiTableDxe:AmlOption.obj
+ 0001:00002c38       _AmlGetObjectName          00002e58 f   AcpiTableDxe:AmlOption.obj
+ 0001:00002c86       _AmlGetOffsetAfterLastOption 00002ea6 f   AcpiTableDxe:AmlOption.obj
+ 0001:00002cd9       _AmlParseOptionHandleCommon 00002ef9 f   AcpiTableDxe:AmlOption.obj
+ 0001:00002cf8       _AmlIsLeadName             00002f18 f   AcpiTableDxe:AmlString.obj
+ 0001:00002d0d       _AmlGetNameStringSize      00002f2d f   AcpiTableDxe:AmlString.obj
+ 0001:00002db0       _AmlGetAslNameSegLength    00002fd0 f   AcpiTableDxe:AmlString.obj
+ 0001:00002e20       _AmlNameFromAslName        00003040 f   AcpiTableDxe:AmlString.obj
+ 0001:00002f4d       _AmlCreateNode             0000316d f   AcpiTableDxe:AmlNamespace.obj
+ 0001:00002f9b       _AmlFindNodeInTheTree      000031bb f   AcpiTableDxe:AmlNamespace.obj
+ 0001:00003077       _AmlConstructNodeListForChild 00003297 f   AcpiTableDxe:AmlNamespace.obj
+ 0001:000030fd       _AmlConstructNodeList      0000331d f   AcpiTableDxe:AmlNamespace.obj
+ 0001:00003183       _AmlDestructNodeList       000033a3 f   AcpiTableDxe:AmlNamespace.obj
+ 0001:000031bc       _AmlFindPath               000033dc f   AcpiTableDxe:AmlNamespace.obj
+ 0001:00003244       _AmlGetChildFromObjectBuffer 00003464 f   AcpiTableDxe:AmlChild.obj
+ 0001:00003297       _AmlGetChildFromOptionList 000034b7 f   AcpiTableDxe:AmlChild.obj
+ 0001:00003310       _AmlGetChildFromObjectChildList 00003530 f   AcpiTableDxe:AmlChild.obj
+ 0001:00003368       _AsciiStrLen               00003588 f   BaseLib:String.obj
+ 0001:00003376       _CopyMem                   00003596 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:000033aa       _ZeroMem                   000035ca f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:000033ba       _InternalAllocatePool      000035da f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000033de       _InternalAllocateZeroPool  000035fe f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000033fd       _InternalAllocateCopyPool  0000361d f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00003424       _mPrivateData              00003644     AcpiTableDxe:AcpiTable.obj
+ 0001:00003428       _mHandle                   00003648     AcpiTableDxe:AcpiTable.obj
+ 0001:0000342c       _gST                       0000364c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00003430       _gBS                       00003650     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00003434       _gImageHandle              00003654     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00003438       _gRT                       00003658     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+
+ entry point at        0001:000014cb
+
+ Static symbols
+

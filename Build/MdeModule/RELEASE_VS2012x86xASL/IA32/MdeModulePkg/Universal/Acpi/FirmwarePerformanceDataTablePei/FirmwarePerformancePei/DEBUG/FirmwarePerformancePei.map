@@ -1,0 +1,29 @@
+ FirmwarePerformancePei
+
+ Timestamp is 527c4172 (Fri Nov 08 09:42:10 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000030H .data                   CODE
+ 0001:00000030 00000000H .rdata                  CODE
+ 0001:00000030 00000219H .text                   CODE
+ 0001:0000024c 00000004H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiFirmwarePerformanceGuid 00000220     FirmwarePerformancePei:AutoGen.obj
+ 0001:00000010       _gPeiSecPerformancePpiGuid 00000230     FirmwarePerformancePei:AutoGen.obj
+ 0001:00000020       _gEfiPeiRscHandlerPpiGuid  00000240     FirmwarePerformancePei:AutoGen.obj
+ 0001:00000030       __ModuleEntryPoint         00000250 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:0000003f       _FpdtStatusCodeListenerPei 0000025f f   FirmwarePerformancePei:FirmwarePerformancePei.obj
+ 0001:0000012f       _FirmwarePerformancePeiEntryPoint 0000034f f   FirmwarePerformancePei:FirmwarePerformancePei.obj
+ 0001:000001cb       _InternalPeiCreateHob      000003eb f   PeiHobLib:HobLib.obj
+ 0001:000001f3       _CopyGuid                  00000413 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00000215       _CopyMem                   00000435 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:0000024c       _gPeiServices              0000046c     <common>
+
+ entry point at        0001:00000030
+
+ Static symbols
+

@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_RAW -o d:\myworkspace\Build\NT32\DEBUG_VS2012x86xASL\FV\Ffs\26841BDE-920A-4e7a-9FBE-637F477143A6Ip4ConfigDxe\Ip4ConfigDxeOffset.raw d:\myworkspace\Build\NT32\DEBUG_VS2012x86xASL\FV\Ffs\26841BDE-920A-4e7a-9FBE-637F477143A6Ip4ConfigDxe\Ip4ConfigDxe.offset

@@ -1,0 +1,31 @@
+ IncompatiblePciDeviceSupport
+
+ Timestamp is 527c414c (Fri Nov 08 09:41:32 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000278H .data                   CODE
+ 0001:00000278 00000004H .rdata                  CODE
+ 0001:0000027c 0000025cH .text                   CODE
+ 0001:000004d8 00000010H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiIncompatiblePciDeviceSupportProtocolGuid 00000200     IncompatiblePciDeviceSupport:AutoGen.obj
+ 0001:00000010       _mIncompatiblePciDeviceSupport 00000210     IncompatiblePciDeviceSupport:IncompatiblePciDeviceSupport.obj
+ 0001:00000018       _mIncompatiblePciDeviceList 00000218     IncompatiblePciDeviceSupport:IncompatiblePciDeviceSupport.obj
+ 0001:00000278       __gUefiDriverRevision      00000478     IncompatiblePciDeviceSupport:AutoGen.obj
+ 0001:0000027c       __ModuleEntryPoint         0000047c f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:000002ae       _PCheckDevice              000004ae f   IncompatiblePciDeviceSupport:IncompatiblePciDeviceSupport.obj
+ 0001:00000499       _InternalAllocatePool      00000699 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000004bd       _InternalAllocateZeroPool  000006bd f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000004d8       _mIncompatiblePciDeviceSupportHandle 000006d8     IncompatiblePciDeviceSupport:IncompatiblePciDeviceSupport.obj
+ 0001:000004dc       _gST                       000006dc     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000004e0       _gBS                       000006e0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000004e4       _gImageHandle              000006e4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+
+ entry point at        0001:0000027c
+
+ Static symbols
+

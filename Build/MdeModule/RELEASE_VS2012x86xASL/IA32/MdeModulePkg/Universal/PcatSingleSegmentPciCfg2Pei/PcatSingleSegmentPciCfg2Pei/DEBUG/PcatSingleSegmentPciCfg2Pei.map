@@ -1,0 +1,37 @@
+ PcatSingleSegmentPciCfg2Pei
+
+ Timestamp is 527c4170 (Fri Nov 08 09:42:08 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000002cH .data                   CODE
+ 0001:00000030 00000000H .rdata                  CODE
+ 0001:00000030 00000645H .text                   CODE
+ 0001:00000678 00000004H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiPciCfg2PpiGuid        00000200     PcatSingleSegmentPciCfg2Pei:AutoGen.obj
+ 0001:00000010       _gPciCfg2Ppi               00000210     PcatSingleSegmentPciCfg2Pei:PciCfg2.obj
+ 0001:00000020       _gPciCfg2PpiList           00000220     PcatSingleSegmentPciCfg2Pei:PciCfg2.obj
+ 0001:00000030       __ModuleEntryPoint         00000230 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:00000051       _PciCfgAddressConvert      00000251 f   PcatSingleSegmentPciCfg2Pei:PciCfg2.obj
+ 0001:000000a9       _PciCfg2Read               000002a9 f   PcatSingleSegmentPciCfg2Pei:PciCfg2.obj
+ 0001:0000016d       _PciCfg2Write              0000036d f   PcatSingleSegmentPciCfg2Pei:PciCfg2.obj
+ 0001:0000021c       _PciCfg2Modify             0000041c f   PcatSingleSegmentPciCfg2Pei:PciCfg2.obj
+ 0001:0000033f       _PciAndThenOr8             0000053f f   BasePciLibCf8:PciLib.obj
+ 0001:000003a5       _PciAndThenOr16            000005a5 f   BasePciLibCf8:PciLib.obj
+ 0001:00000415       _PciAndThenOr32            00000615 f   BasePciLibCf8:PciLib.obj
+ 0001:00000472       _PciCf8Read8               00000672 f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:000004ca       _PciCf8Write8              000006ca f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:00000524       _PciCf8Read16              00000724 f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:0000057d       _PciCf8Write16             0000077d f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:000005db       _PciCf8Read32              000007db f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:00000626       _PciCf8Write32             00000826 f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:00000678       _gPeiServices              00000878     <common>
+
+ entry point at        0001:00000030
+
+ Static symbols
+

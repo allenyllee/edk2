@@ -1,0 +1,191 @@
+ WinNtSerialIoDxe
+
+ Timestamp is 52778b01 (Mon Nov 04 19:54:41 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000028c3H .text                   CODE
+ 0002:00000000 00000b1eH .rdata                  DATA
+ 0002:00000b20 000000a0H .rdata$debug            DATA
+ 0003:00000000 000001e0H .data                   DATA
+ 0003:000001e0 00000024H .bss                    DATA
+ 0004:00000000 00000058H .edata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       __ModuleEntryPoint         00001000 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:0000002d       _ProcessLibraryConstructorList 0000102d f   WinNtSerialIoDxe:AutoGen.obj
+ 0001:0000013d       _ProcessLibraryDestructorList 0000113d f   WinNtSerialIoDxe:AutoGen.obj
+ 0001:00000182       _IsUartFlowControlNode     00001182 f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:000001b2       _ContainsFlowControl       000011b2 f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:000001de       _InitializeWinNtSerialIo   000011de f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:00000285       _WinNtSerialIoDriverBindingSupported 00001285 f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:000004df       _WinNtSerialIoDriverBindingStart 000014df f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:0000097a       _WinNtSerialIoDriverBindingStop 0000197a f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:00000b22       _WinNtSerialIoReset        00001b22 f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:00000ba0       _WinNtSerialIoSetAttributes 00001ba0 f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:00000f94       _WinNtSerialIoSetControl   00001f94 f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:00001162       _WinNtSerialIoGetControl   00002162 f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:000012f0       _WinNtSerialIoWrite        000022f0 f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:0000149f       _WinNtSerialIoRead         0000249f f   WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0001:0000160c       _WinNtSerialIoComponentNameGetDriverName 0000260c f   WinNtSerialIoDxe:ComponentName.obj
+ 0001:00001636       _WinNtSerialIoComponentNameGetControllerName 00002636 f   WinNtSerialIoDxe:ComponentName.obj
+ 0001:0000171d       _DebugPrint                0000271d f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00001888       _DebugAssert               00002888 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00001936       _StrLen                    00002936 f   BaseLib:String.obj
+ 0001:0000199e       _StrSize                   0000299e f   BaseLib:String.obj
+ 0001:000019ad       _AsciiStrCpy               000029ad f   BaseLib:String.obj
+ 0001:00001a27       _AsciiStrLen               00002a27 f   BaseLib:String.obj
+ 0001:00001a72       _AsciiStrnCmp              00002a72 f   BaseLib:String.obj
+ 0001:00001afc       _CopyMem                   00002afc f   BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0001:00001b5d       _ZeroMem                   00002b5d f   BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0001:00001ba2       _CompareGuid               00002ba2 f   BaseMemoryLibOptDxe:MemLibGuid.obj
+ 0001:00001c01       _IsDevicePathValid         00002c01 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001c50       _DevicePathType            00002c50 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001c6e       _DevicePathSubType         00002c6e f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001c8f       _DevicePathNodeLength      00002c8f f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001ce7       _NextDevicePathNode        00002ce7 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001d0e       _IsDevicePathEndType       00002d0e f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001d38       _IsDevicePathEnd           00002d38 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001d72       _SetDevicePathNodeLength   00002d72 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001dae       _SetDevicePathEndNode      00002dae f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001ddb       _GetDevicePathSize         00002ddb f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001e16       _DuplicateDevicePath       00002e16 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001e2f       _AppendDevicePath          00002e2f f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001ec1       _AppendDevicePathNode      00002ec1 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001f2f       _InternalAllocatePool      00002f2f f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001f53       _InternalAllocateCopyPool  00002f53 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001fb0       _FreePool                  00002fb0 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001fe9       _CompareIso639LanguageCode 00002fe9 f   UefiLib:UefiLib.obj
+ 0001:00002005       _EfiTestChildHandle        00003005 f   UefiLib:UefiLib.obj
+ 0001:0000206b       _LookupUnicodeString2      0000306b f   UefiLib:UefiLib.obj
+ 0001:0000215c       _AddUnicodeString2         0000315c f   UefiLib:UefiLib.obj
+ 0001:00002305       _FreeUnicodeStringTable    00003305 f   UefiLib:UefiLib.obj
+ 0001:0000233f       _HobLibConstructor         0000333f f   DxeHobLib:HobLib.obj
+ 0001:000023dd       _GetHobList                000033dd f   DxeHobLib:HobLib.obj
+ 0001:000023ff       _GetNextHob                000033ff f   DxeHobLib:HobLib.obj
+ 0001:0000243c       _GetDebugPrintErrorLevel   0000343c f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:00002532       _GetDebugMask              00003532 f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:0000254a       _SetDebugMask              0000354a f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:00002556       _InternalGetReportStatusCode 00003556 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00002597       _InternalReportStatusCode  00003597 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:000025de       _ReportStatusCodeEx        000035de f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00002752       _ReadUnaligned24           00003752 f   BaseLib:Unaligned.obj
+ 0001:00002775       _ReadUnaligned64           00003775 f   BaseLib:Unaligned.obj
+ 0001:00002798       _WriteUnaligned64          00003798 f   BaseLib:Unaligned.obj
+ 0001:000027d0       _InternalMemCopyMem        000037d0 f   BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:00002840       _InternalMemZeroMem        00003840 f   BaseMemoryLibOptDxe:ZeroMem.obj
+ 0001:00002860       _InternalMemSetMem         00003860 f   BaseMemoryLibOptDxe:SetMem.obj
+ 0001:0000288c       _InternalMemSetMem32       0000388c f   BaseMemoryLibOptDxe:SetMem32.obj
+ 0001:000028a4       _InternalMemSetMem64       000038a4 f   BaseMemoryLibOptDxe:SetMem64.obj
+ 0002:00000038       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ?6@ 00004038     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:0000005c       ??_C@_0BE@DCHLEIGN@?$CBEFI_ERROR?5?$CIStatus?$CJ?$AA@ 0000405c     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000070       __gUefiDriverRevision      00004070     WinNtSerialIoDxe:AutoGen.obj
+ 0002:00000078       ??_C@_0GN@PJNPKMGM@d?3?2myworkspace?2Build?2NT32?2DEBUG_@ 00004078     WinNtSerialIoDxe:AutoGen.obj
+ 0002:000000e8       ??_C@_0DI@CLJNJKJE@d?3?2myworkspace?2Nt32Pkg?2WinNtSeri@ 000040e8     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:00000120       ??_C@_03LKLGDMJI@eng?$AA@  00004120     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:00000124       ??_C@_02LFNMGJAP@en?$AA@   00004124     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:00000128       ??_C@_0BF@NDBIKIKC@CR?5has?5Bad?5Signature?$AA@ 00004128     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:00000140       ??_C@_0CM@BBLADEPG@Private?9?$DOHandle?5?$DN?$DN?5ChildHandleBu@ 00004140     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:0000016c       ??_C@_0CG@HFKEFAJL@SerialSetAttributes?3?5GetCommStat@ 0000416c     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:00000194       ??_C@_0CG@BBPNOOCJ@SerialSetAttributes?3?5SetCommStat@ 00004194     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:000001bc       ??_C@_0CJ@KDOKPLCF@SerialSetAttributes?3?5SetCommTime@ 000041bc     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:000001e8       ??_C@_0CD@FIICLGFO@SerialSetControl?3?5GetCommState?5?$CF@ 000041e8     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:0000020c       ??_C@_0CD@DMNLAIOM@SerialSetControl?3?5SetCommState?5?$CF@ 0000420c     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:00000230       ??_C@_0CD@IJCEFJIK@SerialGetControl?3?5GetCommState?5?$CF@ 00004230     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:00000254       ??_C@_0CF@DELNHGME@SerialGetControl?3?5ClearCommError@ 00004254     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:0000027c       ??_C@_0BL@CEEGPEPO@SerialWrite?3?5FileWrite?5?$CFd?6?$AA@ 0000427c     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0002:00000298       ??_C@_06DALJLGPG@eng?$DLen?$AA@ 00004298     WinNtSerialIoDxe:ComponentName.obj
+ 0002:000002a0       ??_C@_1DE@NKCFJKNH@?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?5?$AAS?$AAe?$AAr?$AAi?$AAa?$AAl?$AA?5?$AAI?$AA?1?$AAO?$AA?5?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AA?$AA@ 000042a0     WinNtSerialIoDxe:ComponentName.obj
+ 0002:000002d4       ??_C@_0DI@FHCGBBEG@d?3?2myworkspace?2Nt32Pkg?2WinNtSeri@ 000042d4     WinNtSerialIoDxe:ComponentName.obj
+ 0002:0000030c       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000430c     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000328       ??_C@_0FJ@PPEMNEPO@d?3?2myworkspace?2IntelFrameworkMod@ 00004328     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000384       ??_C@_0CI@HIINONDG@?$CICHAR8?5?$CK?$CJBaseListMarker?5?$DM?$DN?5Forma@ 00004384     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000003ac       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000043ac     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000003c4       ??_C@_0BM@NLNKOJGD@Destination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000043c4     BaseLib:String.obj
+ 0002:000003e0       ??_C@_0CP@EAMGNBHJ@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000043e0     BaseLib:String.obj
+ 0002:00000410       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00004410     BaseLib:String.obj
+ 0002:00000428       ??_C@_0CD@BDCLIGHD@?$CI?$CIUINTN?$CJ?5String?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 00004428     BaseLib:String.obj
+ 0002:0000044c       ??_C@_0DK@EOJCOAME@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 0000444c     BaseLib:String.obj
+ 0002:00000488       ??_C@_0DF@CDKFFDDI@?$CIUINTN?$CJ?$CIDestination?5?9?5Source?$CJ?5?$DO?5@ 00004488     BaseLib:String.obj
+ 0002:000004c0       ??_C@_0DF@CCGJKFCO@?$CIUINTN?$CJ?$CISource?5?9?5Destination?$CJ?5?$DO?5@ 000044c0     BaseLib:String.obj
+ 0002:000004f8       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pcd@ 000044f8     BaseLib:String.obj
+ 0002:00000534       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 00004534     BaseLib:String.obj
+ 0002:0000056c       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ?$AA@ 0000456c     BaseLib:String.obj
+ 0002:00000588       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ?$AA@ 00004588     BaseLib:String.obj
+ 0002:000005a4       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 000045a4     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:000005e0       ??_C@_0ED@GBCNNLAE@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000045e0     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:00000624       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 00004624     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:00000658       ??_C@_0CI@MNELLLEK@?$CB?$CIBuffer?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Leng@ 00004658     BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0002:00000680       ??_C@_0ED@NFIPLKMD@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00004680     BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0002:000006c4       ??_C@_0CL@OBMFBPED@Length?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIUINTN?$CJB@ 000046c4     BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0002:000006f0       ??_C@_0BL@JFODOCGB@DevicePath?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000046f0     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0002:00000710       ??_C@_0EE@FMLOGMHH@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00004710     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0002:00000754       ??_C@_0BF@CBLMFKOC@Node?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00004754     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0002:0000076c       ??_C@_0CM@OCJNHBHB@Length?5?$DO?$DN?5sizeof?5?$CIEFI_DEVICE_PAT@ 0000476c     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0002:00000798       _mUefiDevicePathLibEndDevicePath 00004798     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0002:000007a0       ??_C@_0EM@MDJMIFIM@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 000047a0     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000007ec       ??_C@_0DE@FCAJAHCJ@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5@ 000047ec     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000820       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00004820     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000840       ??_C@_0FC@CHGHPDAC@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00004840     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000894       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00004894     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000008a8       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000048a8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000008bc       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000048bc     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000008d0       ??_C@_0FI@JAAEOOHA@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 000048d0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000928       ??_C@_0DI@EAKGNDEJ@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00004928     UefiLib:UefiDriverModel.obj
+ 0002:00000960       ??_C@_0DB@LFGOOKNH@d?3?2myworkspace?2MdePkg?2Library?2Dx@ 00004960     DxeHobLib:HobLib.obj
+ 0002:00000994       ??_C@_0BJ@OBFMLLDO@mHobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00004994     DxeHobLib:HobLib.obj
+ 0002:000009b0       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000049b0     DxeHobLib:HobLib.obj
+ 0002:000009cc       ??_C@_1BC@DPOIABCP@?$AAE?$AAF?$AAI?$AAD?$AAe?$AAb?$AAu?$AAg?$AA?$AA@ 000049cc     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0002:000009e0       ??_C@_0FB@ILKBFLFI@d?3?2myworkspace?2MdeModulePkg?2Libr@ 000049e0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000a34       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00004a34     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000a74       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00004a74     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000ab4       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5too@ 00004ab4     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000aec       ??_C@_0DC@NGPEEDEA@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00004aec     BaseLib:Unaligned.obj
+ 0003:00000000       _gEfiSerialIoProtocolGuid  00005000     WinNtSerialIoDxe:AutoGen.obj
+ 0003:00000010       _gEfiDebugMaskProtocolGuid 00005010     WinNtSerialIoDxe:AutoGen.obj
+ 0003:00000020       _gEfiComponentName2ProtocolGuid 00005020     WinNtSerialIoDxe:AutoGen.obj
+ 0003:00000030       _gEfiHobListGuid           00005030     WinNtSerialIoDxe:AutoGen.obj
+ 0003:00000040       _gEfiDevicePathProtocolGuid 00005040     WinNtSerialIoDxe:AutoGen.obj
+ 0003:00000050       _gEfiUartDevicePathGuid    00005050     WinNtSerialIoDxe:AutoGen.obj
+ 0003:00000060       _gEfiWinNtIoProtocolGuid   00005060     WinNtSerialIoDxe:AutoGen.obj
+ 0003:00000070       _gEfiGenericVariableGuid   00005070     WinNtSerialIoDxe:AutoGen.obj
+ 0003:00000080       _gEfiCallerIdGuid          00005080     WinNtSerialIoDxe:AutoGen.obj
+ 0003:00000090       _gEfiWinNtSerialPortGuid   00005090     WinNtSerialIoDxe:AutoGen.obj
+ 0003:000000a0       _gEfiStatusCodeDataTypeDebugGuid 000050a0     WinNtSerialIoDxe:AutoGen.obj
+ 0003:000000b0       _gEfiDriverBindingProtocolGuid 000050b0     WinNtSerialIoDxe:AutoGen.obj
+ 0003:000000c0       _gEfiStatusCodeSpecificDataGuid 000050c0     WinNtSerialIoDxe:AutoGen.obj
+ 0003:000000d0       _gEfiComponentNameProtocolGuid 000050d0     WinNtSerialIoDxe:AutoGen.obj
+ 0003:000000e0       _gEfiStatusCodeRuntimeProtocolGuid 000050e0     WinNtSerialIoDxe:AutoGen.obj
+ 0003:000000f0       _gWinNtSerialIoDriverBinding 000050f0     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0003:00000108       _mBaudRateCurrentSupport   00005108     WinNtSerialIoDxe:WinNtSerialIo.obj
+ 0003:000001a8       _mDebugMaskProtocol        000051a8     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:000001b8       _gWinNtSerialIoComponentName 000051b8     WinNtSerialIoDxe:ComponentName.obj
+ 0003:000001c4       _gWinNtSerialIoComponentName2 000051c4     WinNtSerialIoDxe:ComponentName.obj
+ 0003:000001d0       _mWinNtSerialIoDriverNameTable 000051d0     WinNtSerialIoDxe:ComponentName.obj
+ 0003:000001e0       _gST                       000051e0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000001e4       _gBS                       000051e4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000001e8       _gImageHandle              000051e8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000001ec       _gRT                       000051ec     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0003:000001f0       _mHobList                  000051f0     DxeHobLib:HobLib.obj
+ 0003:000001f4       _mDebugPrintErrorLevel     000051f4     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:000001f8       _mGlobalErrorLevelInitialized 000051f8     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:000001fc       _mSystemTable              000051fc     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:00000200       _mReportStatusCodeLibStatusCodeProtocol 00005200     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0001:000027d0       $$000000                   000037d0     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:00002840       $$000000                   00003840     BaseMemoryLibOptDxe:ZeroMem.obj
+ 0001:00002860       $$000000                   00003860     BaseMemoryLibOptDxe:SetMem.obj
+ 0001:0000288c       $$000000                   0000388c     BaseMemoryLibOptDxe:SetMem32.obj
+ 0001:000028a4       $$000000                   000038a4     BaseMemoryLibOptDxe:SetMem64.obj
+ 0004:00000000       .edata                     00006000     WinNtSerialIoDxe.exp
+ 0004:00000028       rgpv                       00006028     WinNtSerialIoDxe.exp
+ 0004:0000002c       rgszName                   0000602c     WinNtSerialIoDxe.exp
+ 0004:00000030       rgwOrd                     00006030     WinNtSerialIoDxe.exp
+ 0004:00000032       szName                     00006032     WinNtSerialIoDxe.exp
+ 0004:00000047       $N00001                    00006047     WinNtSerialIoDxe.exp

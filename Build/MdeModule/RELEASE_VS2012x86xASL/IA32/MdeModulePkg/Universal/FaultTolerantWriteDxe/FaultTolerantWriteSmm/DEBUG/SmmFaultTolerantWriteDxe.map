@@ -1,0 +1,144 @@
+ SmmFaultTolerantWriteDxe
+
+ Timestamp is 527c4171 (Fri Nov 08 09:42:09 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000094H .data                   CODE
+ 0001:00000098 000009fbH .rdata                  CODE
+ 0001:00000a93 0000130bH .text                   CODE
+ 0001:00001da0 00000068H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiSmmBase2ProtocolGuid  00000200     SmmFaultTolerantWriteDxe:AutoGen.obj
+ 0001:00000010       _gEfiSmmAccess2ProtocolGuid 00000210     SmmFaultTolerantWriteDxe:AutoGen.obj
+ 0001:00000020       _mStatusString             00000220     BasePrintLib:PrintLibInternal.obj
+ 0001:00000098       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ?6@ 00000298     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:000000bc       ??_C@_0BE@DCHLEIGN@?$CBEFI_ERROR?5?$CIStatus?$CJ?$AA@ 000002bc     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:000000d0       __gUefiDriverRevision      000002d0     SmmFaultTolerantWriteDxe:AutoGen.obj
+ 0001:000000d8       ??_C@_0IN@OLLALMC@d?3?2myworkspace?2Build?2MdeModule?2R@ 000002d8     SmmFaultTolerantWriteDxe:AutoGen.obj
+ 0001:00000168       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ?$AA@ 00000368     SmmFaultTolerantWriteDxe:AutoGen.obj
+ 0001:0000017c       ??_C@_0CO@IEPJJMDF@Status?5?$DN?$DN?5?$CI?$CIRETURN_STATUS?$CJ?$CI0x800@ 0000037c     SmmFaultTolerantWriteDxe:FaultTolerantWriteSmm.obj
+ 0001:000001ac       ??_C@_0CP@IHIPCMPI@Ftw?3?5Workspace?5or?5Spare?5block?5do@ 000003ac     SmmFaultTolerantWriteDxe:FtwMisc.obj
+ 0001:000001dc       ??_C@_0BL@CPGKAMND@JumpBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000003dc     BaseLib:SetJump.obj
+ 0001:000001f8       ??_C@_0DA@JEPJMHGC@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000003f8     BaseLib:SetJump.obj
+ 0001:00000228       ??_C@_0CD@HOMHJBIN@?$CI?$CIUINTN?$CJJumpBuffer?5?$CG?5?$CI4?5?9?51?$CJ?$CJ?5?$DN?$DN@ 00000428     BaseLib:SetJump.obj
+ 0001:0000024c       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000044c     UefiDebugLibConOut:DebugLib.obj
+ 0001:00000264       ??_C@_0DM@OJNICEHB@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00000464     UefiDebugLibConOut:DebugLib.obj
+ 0001:000002a0       ??_C@_0BD@OMEPNDED@ASSERT?5?$CFa?$CI?$CFd?$CJ?3?5?$CFa?6?$AA@ 000004a0     UefiDebugLibConOut:DebugLib.obj
+ 0001:000002b4       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000004b4     UefiDebugLibConOut:DebugLib.obj
+ 0001:000002cc       ??_C@_0CL@OBMFBPED@Length?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIUINTN?$CJB@ 000004cc     BaseMemoryLib:MemLibGuid.obj
+ 0001:000002f8       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000004f8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000318       ??_C@_0FC@CHGHPDAC@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00000518     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:0000036c       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000056c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000380       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00000580     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000398       ??_C@_0EI@CFPJADCE@d?3?2myworkspace?2MdePkg?2Library?2Sm@ 00000598     SmmServicesTableLib:SmmServicesTableLib.obj
+ 0001:000003e0       ??_C@_0CC@MDOFLANP@mInternalSmmBase2?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 000005e0     SmmServicesTableLib:SmmServicesTableLib.obj
+ 0001:00000404       ??_C@_0BG@FOOPBBEG@gSmst?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00000604     SmmServicesTableLib:SmmServicesTableLib.obj
+ 0001:00000420       ??_C@_0EL@JEFEBPAF@d?3?2myworkspace?2MdePkg?2Library?2Sm@ 00000620     SmmMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000046c       ??_C@_0BN@PLBIHFL@mSmramRanges?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000066c     SmmMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000048c       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000068c     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:000004a0       ??_C@_0FI@JAAEOOHA@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 000006a0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:000004f8       ??_C@_0DC@NGPEEDEA@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000006f8     BaseLib:Unaligned.obj
+ 0001:0000052c       ??_C@_0CP@EAMGNBHJ@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 0000072c     BaseLib:String.obj
+ 0001:0000055c       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000075c     BaseLib:String.obj
+ 0001:00000574       ??_C@_0CD@BDCLIGHD@?$CI?$CIUINTN?$CJ?5String?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 00000774     BaseLib:String.obj
+ 0001:00000598       ??_C@_0DK@EOJCOAME@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 00000798     BaseLib:String.obj
+ 0001:000005d4       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 000007d4     BaseLib:String.obj
+ 0001:0000060c       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50?$AA@ 0000080c     BaseLib:DivU64x32.obj
+ 0001:0000061c       ??_C@_0CI@BGLNHBLM@?$CI?$CI?$CIUINTN?$CJ?5?$CIStartOfBuffer?$CJ?$CJ?5?$CG?50x0@ 0000081c     BasePrintLib:PrintLib.obj
+ 0001:00000644       ??_C@_0DG@PDLDNIEO@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00000844     BasePrintLib:PrintLib.obj
+ 0001:0000067c       ??_C@_07PBILKAFL@Success?$AA@ 0000087c     BasePrintLib:PrintLibInternal.obj
+ 0001:00000684       ??_C@_0BG@CFJMNNJK@Warning?5Unknown?5Glyph?$AA@ 00000884     BasePrintLib:PrintLibInternal.obj
+ 0001:0000069c       ??_C@_0BH@GKKCJEPJ@Warning?5Delete?5Failure?$AA@ 0000089c     BasePrintLib:PrintLibInternal.obj
+ 0001:000006b4       ??_C@_0BG@ECIJMOED@Warning?5Write?5Failure?$AA@ 000008b4     BasePrintLib:PrintLibInternal.obj
+ 0001:000006cc       ??_C@_0BJ@ODIPDGHB@Warning?5Buffer?5Too?5Small?$AA@ 000008cc     BasePrintLib:PrintLibInternal.obj
+ 0001:000006e8       ??_C@_0L@PLPBEPPC@Load?5Error?$AA@ 000008e8     BasePrintLib:PrintLibInternal.obj
+ 0001:000006f4       ??_C@_0BC@HOFHKGJN@Invalid?5Parameter?$AA@ 000008f4     BasePrintLib:PrintLibInternal.obj
+ 0001:00000708       ??_C@_0M@BEECMOIL@Unsupported?$AA@ 00000908     BasePrintLib:PrintLibInternal.obj
+ 0001:00000714       ??_C@_0BA@FLNMPMCF@Bad?5Buffer?5Size?$AA@ 00000914     BasePrintLib:PrintLibInternal.obj
+ 0001:00000724       ??_C@_0BB@EGELJFOB@Buffer?5Too?5Small?$AA@ 00000924     BasePrintLib:PrintLibInternal.obj
+ 0001:00000738       ??_C@_09NKFGCIPN@Not?5Ready?$AA@ 00000938     BasePrintLib:PrintLibInternal.obj
+ 0001:00000744       ??_C@_0N@HHEABDHO@Device?5Error?$AA@ 00000944     BasePrintLib:PrintLibInternal.obj
+ 0001:00000754       ??_C@_0BA@LNEDDFNB@Write?5Protected?$AA@ 00000954     BasePrintLib:PrintLibInternal.obj
+ 0001:00000764       ??_C@_0BB@GOILNEAA@Out?5of?5Resources?$AA@ 00000964     BasePrintLib:PrintLibInternal.obj
+ 0001:00000778       ??_C@_0P@EIOJGIF@Volume?5Corrupt?$AA@ 00000978     BasePrintLib:PrintLibInternal.obj
+ 0001:00000788       ??_C@_0M@HDLEPOFA@Volume?5Full?$AA@ 00000988     BasePrintLib:PrintLibInternal.obj
+ 0001:00000794       ??_C@_08KEGAJDNN@No?5Media?$AA@ 00000994     BasePrintLib:PrintLibInternal.obj
+ 0001:000007a0       ??_C@_0O@JNCJKCCD@Media?5changed?$AA@ 000009a0     BasePrintLib:PrintLibInternal.obj
+ 0001:000007b0       ??_C@_09CFCBFJND@Not?5Found?$AA@ 000009b0     BasePrintLib:PrintLibInternal.obj
+ 0001:000007bc       ??_C@_0O@NFHOBIDO@Access?5Denied?$AA@ 000009bc     BasePrintLib:PrintLibInternal.obj
+ 0001:000007cc       ??_C@_0M@ENKCBFEP@No?5Response?$AA@ 000009cc     BasePrintLib:PrintLibInternal.obj
+ 0001:000007d8       ??_C@_0L@IFPBNFC@No?5mapping?$AA@ 000009d8     BasePrintLib:PrintLibInternal.obj
+ 0001:000007e4       ??_C@_08PAFJCNGP@Time?5out?$AA@ 000009e4     BasePrintLib:PrintLibInternal.obj
+ 0001:000007f0       ??_C@_0M@DCJFAFHJ@Not?5started?$AA@ 000009f0     BasePrintLib:PrintLibInternal.obj
+ 0001:000007fc       ??_C@_0BA@IGIBFFPH@Already?5started?$AA@ 000009fc     BasePrintLib:PrintLibInternal.obj
+ 0001:0000080c       ??_C@_07LCKDCBKK@Aborted?$AA@ 00000a0c     BasePrintLib:PrintLibInternal.obj
+ 0001:00000814       ??_C@_0L@LKIFCMNO@ICMP?5Error?$AA@ 00000a14     BasePrintLib:PrintLibInternal.obj
+ 0001:00000820       ??_C@_0L@DJKNJKHM@TFTP?5Error?$AA@ 00000a20     BasePrintLib:PrintLibInternal.obj
+ 0001:0000082c       ??_C@_0P@NCJHBCLM@Protocol?5Error?$AA@ 00000a2c     BasePrintLib:PrintLibInternal.obj
+ 0001:0000083c       ??_C@_0DO@GOAMAIEG@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00000a3c     BasePrintLib:PrintLibInternal.obj
+ 0001:0000087c       ??_C@_0CB@NIHAJGJE@StrSize?5?$CI?$CICHAR16?5?$CK?$CJ?5Format?$CJ?5?$CB?$DN?50@ 00000a7c     BasePrintLib:PrintLibInternal.obj
+ 0001:000008a0       ??_C@_0BL@BFEFANFD@AsciiStrSize?5?$CIFormat?$CJ?5?$CB?$DN?50?$AA@ 00000aa0     BasePrintLib:PrintLibInternal.obj
+ 0001:000008bc       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO?$AA@ 00000abc     BasePrintLib:PrintLibInternal.obj
+ 0001:000008cc       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO?$AA@ 00000acc     BasePrintLib:PrintLibInternal.obj
+ 0001:000008d8       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02x@ 00000ad8     BasePrintLib:PrintLibInternal.obj
+ 0001:0000090c       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO?$AA@ 00000b0c     BasePrintLib:PrintLibInternal.obj
+ 0001:00000918       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d?$AA@ 00000b18     BasePrintLib:PrintLibInternal.obj
+ 0001:00000934       ??_C@_04JIMNDDED@?$CF08X?$AA@ 00000b34     BasePrintLib:PrintLibInternal.obj
+ 0001:0000093c       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 00000b3c     BasePrintLib:PrintLibInternal.obj
+ 0001:00000940       ??_C@_01LIIJDEN@?$AN?$AA@  00000b40     BasePrintLib:PrintLibInternal.obj
+ 0001:00000948       ??_C@_0EM@FPGGOFNC@?$CI?$CI?$CIFlags?5?$CG?50x00000040?$CJ?5?$DN?$DN?50?$CJ?$CJ?5?$HM?$HM@ 00000b48     BasePrintLib:PrintLibInternal.obj
+ 0001:00000998       ??_C@_0EG@NFDMKACK@?$CI?$CI?$CIFlags?5?$CG?50x00000040?$CJ?5?$CB?$DN?50?$CJ?$CJ?5?$HM?$HM@ 00000b98     BasePrintLib:PrintLibInternal.obj
+ 0001:000009e0       _mHexStr                   00000be0     BasePrintLib:PrintLibInternal.obj
+ 0001:000009f0       ??_C@_0CI@MNELLLEK@?$CB?$CIBuffer?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Leng@ 00000bf0     BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00000a18       ??_C@_0DN@KMMKGMC@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00000c18     BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00000a58       ??_C@_0DL@HKFHNCLF@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00000c58     BaseLib:DivU64x32Remainder.obj
+ 0001:00000a93       __ModuleEntryPoint         00000c93 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000abb       _ProcessLibraryConstructorList 00000cbb f   SmmFaultTolerantWriteDxe:AutoGen.obj
+ 0001:00000b93       _ExitDriver                00000d93 f   SmmFaultTolerantWriteDxe:AutoGen.obj
+ 0001:00000bd3       _ProcessModuleEntryPointList 00000dd3 f   SmmFaultTolerantWriteDxe:AutoGen.obj
+ 0001:00000c13       _SmmFaultTolerantWriteInitialize 00000e13 f   SmmFaultTolerantWriteDxe:FaultTolerantWriteSmm.obj
+ 0001:00000c52       _SetJump                   00000e52 f   BaseLib:SetJump.obj
+ 0001:00000c75       _InternalAssertJumpBuffer  00000e75 f   BaseLib:SetJump.obj
+ 0001:00000cab       _InternalLongJump          00000eab f   BaseLib:LongJump.obj
+ 0001:00000cbf       _DebugPrint                00000ebf f   UefiDebugLibConOut:DebugLib.obj
+ 0001:00000d22       _DebugAssert               00000f22 f   UefiDebugLibConOut:DebugLib.obj
+ 0001:00000d67       _SmmServicesTableLibConstructor 00000f67 f   SmmServicesTableLib:SmmServicesTableLib.obj
+ 0001:00000e0a       _SmmMemoryAllocationLibConstructor 0000100a f   SmmMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000eee       _BufferInSmram             000010ee f   SmmMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000f3d       _InternalAllocatePool      0000113d f   SmmMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000f61       _InternalAllocateZeroPool  00001161 f   SmmMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000f79       _FreePool                  00001179 f   SmmMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000fc7       _ReadUnaligned16           000011c7 f   BaseLib:Unaligned.obj
+ 0001:00000fe6       _StrLen                    000011e6 f   BaseLib:String.obj
+ 0001:0000104e       _StrSize                   0000124e f   BaseLib:String.obj
+ 0001:0000105b       _AsciiStrLen               0000125b f   BaseLib:String.obj
+ 0001:000010a6       _UnicodeVSPrintAsciiFormat 000012a6 f   BasePrintLib:PrintLib.obj
+ 0001:000010e2       _UnicodeSPrintAsciiFormat  000012e2 f   BasePrintLib:PrintLib.obj
+ 0001:000010fb       _BasePrintLibFillBuffer    000012fb f   BasePrintLib:PrintLibInternal.obj
+ 0001:0000112f       _BasePrintLibValueToString 0000132f f   BasePrintLib:PrintLibInternal.obj
+ 0001:00001192       _BasePrintLibSPrintMarker  00001392 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00001d30       _BasePrintLibSPrint        00001f30 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00001d4f       _ZeroMem                   00001f4f f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00001da0       _mEndOfDxe                 00001fa0     SmmFaultTolerantWriteDxe:FaultTolerantWriteSmm.obj
+ 0001:00001da4       _mFtwDevice                00001fa4     SmmFaultTolerantWriteDxe:FaultTolerantWriteSmm.obj
+ 0001:00001da8       _mFvbRegistration          00001fa8     SmmFaultTolerantWriteDxe:FaultTolerantWriteSmm.obj
+ 0001:00001dac       _gST                       00001fac     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00001db0       _mWorkingBlockHeader       00001fb0     SmmFaultTolerantWriteDxe:UpdateWorkingBlock.obj
+ 0001:00001dd0       _gBS                       00001fd0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00001dd4       _gImageHandle              00001fd4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00001dd8       _gSmst                     00001fd8     SmmServicesTableLib:SmmServicesTableLib.obj
+ 0001:00001ddc       _mInternalSmmBase2         00001fdc     SmmServicesTableLib:SmmServicesTableLib.obj
+ 0001:00001de0       _gRT                       00001fe0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00001e00       _mSmramRangeCount          00002000     <common>
+ 0001:00001e04       _mSmramRanges              00002004     <common>
+
+ entry point at        0001:00000a93
+
+ Static symbols
+
+ 0001:00001de4       _mDriverEntryPointStatus   00001fe4     * CIL library *:* CIL module *
+ 0001:00001de8       _mJumpContext              00001fe8     * CIL library *:* CIL module *

@@ -1,0 +1,54 @@
+ EhciPei
+
+ Timestamp is 527c414f (Fri Nov 08 09:41:35 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000048H .data                   CODE
+ 0001:00000048 00000000H .rdata                  CODE
+ 0001:00000048 000013cbH .text                   CODE
+ 0001:00001414 00000004H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gPeiUsbControllerPpiGuid  00000220     EhciPei:AutoGen.obj
+ 0001:00000010       _gPeiUsb2HostControllerPpiGuid 00000230     EhciPei:AutoGen.obj
+ 0001:00000020       _mUsbPortChangeMap         00000240     EhciPei:EhcPeim.obj
+ 0001:0000002c       _mUsbPortStateMap          0000024c     EhciPei:EhcPeim.obj
+ 0001:00000048       __ModuleEntryPoint         00000268 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:0000005b       _EhcWaitOpRegBit           0000027b f   EhciPei:EhcPeim.obj
+ 0001:000000a5       _EhcResetHC                000002c5 f   EhciPei:EhcPeim.obj
+ 0001:00000114       _EhcInitHC                 00000334 f   EhciPei:EhcPeim.obj
+ 0001:00000204       _EhcBulkTransfer           00000424 f   EhciPei:EhcPeim.obj
+ 0001:0000039f       _EhcGetRootHubPortNumber   000005bf f   EhciPei:EhcPeim.obj
+ 0001:000003bb       _EhcClearRootHubPortFeature 000005db f   EhciPei:EhcPeim.obj
+ 0001:0000045b       _EhcSetRootHubPortFeature  0000067b f   EhciPei:EhcPeim.obj
+ 0001:00000533       _EhcGetRootHubPortStatus   00000753 f   EhciPei:EhcPeim.obj
+ 0001:000005e0       _EhcControlTransfer        00000800 f   EhciPei:EhcPeim.obj
+ 0001:0000077f       _EhcPeimEntry              0000099f f   EhciPei:EhcPeim.obj
+ 0001:000008d6       _EhcCreateHelpQ            00000af6 f   EhciPei:EhciSched.obj
+ 0001:00000979       _EhcInitSched              00000b99 f   EhciPei:EhciSched.obj
+ 0001:00000a50       _EhcFreeSched              00000c70 f   EhciPei:EhciSched.obj
+ 0001:00000ac8       _EhcUnlinkQhFromAsync      00000ce8 f   EhciPei:EhciSched.obj
+ 0001:00000b2a       _EhcCheckUrbResult         00000d4a f   EhciPei:EhciSched.obj
+ 0001:00000c16       _EhcExecTransfer           00000e36 f   EhciPei:EhciSched.obj
+ 0001:00000c6b       _EhcCreateQtd              00000e8b f   EhciPei:EhciUrb.obj
+ 0001:00000d45       _EhcCreateQh               00000f65 f   EhciPei:EhciUrb.obj
+ 0001:00000e6d       _EhcFreeQtds               0000108d f   EhciPei:EhciUrb.obj
+ 0001:00000ea5       _EhcFreeUrb                000010c5 f   EhciPei:EhciUrb.obj
+ 0001:00000ecb       _EhcCreateQtds             000010eb f   EhciPei:EhciUrb.obj
+ 0001:00001051       _EhcCreateUrb              00001271 f   EhciPei:EhciUrb.obj
+ 0001:00001138       _UsbHcAllocMemBlock        00001358 f   EhciPei:UsbHcMem.obj
+ 0001:000011fa       _UsbHcAllocMemFromBlock    0000141a f   EhciPei:UsbHcMem.obj
+ 0001:0000128e       _UsbHcAllocateMem          000014ae f   EhciPei:UsbHcMem.obj
+ 0001:0000132b       _UsbHcFreeMem              0000154b f   EhciPei:UsbHcMem.obj
+ 0001:000013c8       _RShiftU64                 000015e8 f   BaseLib:RShiftU64.obj
+ 0001:000013ed       _PeiServicesAllocatePages  0000160d f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00001403       _ZeroMem                   00001623 f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00001414       _gPeiServices              00001634     <common>
+
+ entry point at        0001:00000048
+
+ Static symbols
+

@@ -1,0 +1,29 @@
+ FaultTolerantWriteDxe
+
+ Timestamp is 527c416b (Fri Nov 08 09:42:03 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000000H .data                   CODE
+ 0001:00000000 00000004H .rdata                  CODE
+ 0001:00000004 0000008eH .text                   CODE
+ 0001:00000098 00000034H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       __gUefiDriverRevision      00000200     FaultTolerantWriteDxe:AutoGen.obj
+ 0001:00000004       __ModuleEntryPoint         00000204 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000053       _InternalAllocatePool      00000253 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000077       _InternalAllocateZeroPool  00000277 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000098       _mFvbRegistration          00000298     FaultTolerantWriteDxe:FaultTolerantWriteDxe.obj
+ 0001:0000009c       _gST                       0000029c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000000a0       _mWorkingBlockHeader       000002a0     FaultTolerantWriteDxe:UpdateWorkingBlock.obj
+ 0001:000000c0       _gBS                       000002c0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000000c4       _gImageHandle              000002c4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000000c8       _gRT                       000002c8     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+
+ entry point at        0001:00000004
+
+ Static symbols
+

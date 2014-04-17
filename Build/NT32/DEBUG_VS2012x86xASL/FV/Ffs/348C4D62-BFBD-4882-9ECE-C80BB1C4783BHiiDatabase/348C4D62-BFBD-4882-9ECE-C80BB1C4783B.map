@@ -1,0 +1,476 @@
+ HiiDatabase
+
+ Timestamp is 52778b15 (Mon Nov 04 19:55:01 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000ea23H .text                   CODE
+ 0002:00000000 0000218fH .rdata                  DATA
+ 0002:00002190 000000a8H .rdata$debug            DATA
+ 0003:00000000 000002a4H .data                   DATA
+ 0003:000002a4 00000028H .bss                    DATA
+ 0004:00000000 00000053H .edata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       __ModuleEntryPoint         00001000 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:0000002a       _ProcessLibraryConstructorList 0000102a f   HiiDatabase:AutoGen.obj
+ 0001:0000013a       _ProcessLibraryDestructorList 0000113a f   HiiDatabase:AutoGen.obj
+ 0001:0000017f       _KeyboardLayoutChangeNullEvent 0000117f f   HiiDatabase:HiiDatabaseEntry.obj
+ 0001:00000180       _InitializeHiiDatabase     00001180 f   HiiDatabase:HiiDatabaseEntry.obj
+ 0001:0000033d       _CalculateConfigStringLen  0000133d f   HiiDatabase:ConfigRouting.obj
+ 0001:000003a8       _GetDevicePath             000013a8 f   HiiDatabase:ConfigRouting.obj
+ 0001:000004f7       _HiiToLower                000014f7 f   HiiDatabase:ConfigRouting.obj
+ 0001:0000054c       _GenerateSubStr            0000154c f   HiiDatabase:ConfigRouting.obj
+ 0001:000006c1       _OutputConfigBody          000016c1 f   HiiDatabase:ConfigRouting.obj
+ 0001:00000740       _AppendToMultiString       00001740 f   HiiDatabase:ConfigRouting.obj
+ 0001:000007b1       _GetValueOfNumber          000017b1 f   HiiDatabase:ConfigRouting.obj
+ 0001:000008eb       _MergeDefaultString        000018eb f   HiiDatabase:ConfigRouting.obj
+ 0001:00000b01       _InsertDefaultValue        00001b01 f   HiiDatabase:ConfigRouting.obj
+ 0001:00000b80       _InsertBlockData           00001b80 f   HiiDatabase:ConfigRouting.obj
+ 0001:00000bcd       _BlockArrayCheck           00001bcd f   HiiDatabase:ConfigRouting.obj
+ 0001:00000c15       _GetFormPackageData        00001c15 f   HiiDatabase:ConfigRouting.obj
+ 0001:00000cac       _GetVarStoreType           00001cac f   HiiDatabase:ConfigRouting.obj
+ 0001:00000e9c       _ParseIfrData              00001e9c f   HiiDatabase:ConfigRouting.obj
+ 0001:00001a3f       _GetFullStringFromHiiFormPackages 00002a3f f   HiiDatabase:ConfigRouting.obj
+ 0001:00002376       _GetConfigRespFromEfiVarStore 00003376 f   HiiDatabase:ConfigRouting.obj
+ 0001:0000244f       _RouteConfigRespForEfiVarStore 0000344f f   HiiDatabase:ConfigRouting.obj
+ 0001:0000254e       _HiiConfigRoutingExtractConfig 0000354e f   HiiDatabase:ConfigRouting.obj
+ 0001:00002aa0       _HiiConfigRoutingExportConfig 00003aa0 f   HiiDatabase:ConfigRouting.obj
+ 0001:00002e2b       _HiiConfigRoutingRouteConfig 00003e2b f   HiiDatabase:ConfigRouting.obj
+ 0001:00003108       _HiiBlockToConfig          00004108 f   HiiDatabase:ConfigRouting.obj
+ 0001:000035ae       _HiiConfigToBlock          000045ae f   HiiDatabase:ConfigRouting.obj
+ 0001:00003923       _HiiGetAltCfg              00004923 f   HiiDatabase:ConfigRouting.obj
+ 0001:00003c73       _GenerateHiiDatabaseRecord 00004c73 f   HiiDatabase:Database.obj
+ 0001:00003d57       _IsHiiHandleValid          00004d57 f   HiiDatabase:Database.obj
+ 0001:00003d68       _InvokeRegisteredFunction  00004d68 f   HiiDatabase:Database.obj
+ 0001:0000402c       _InsertGuidPackage         0000502c f   HiiDatabase:Database.obj
+ 0001:000040d6       _ExportGuidPackages        000050d6 f   HiiDatabase:Database.obj
+ 0001:000041ff       _RemoveGuidPackages        000051ff f   HiiDatabase:Database.obj
+ 0001:00004293       _InsertFormPackage         00005293 f   HiiDatabase:Database.obj
+ 0001:0000435b       _ExportFormPackages        0000535b f   HiiDatabase:Database.obj
+ 0001:000044a7       _RemoveFormPackages        000054a7 f   HiiDatabase:Database.obj
+ 0001:0000452b       _InsertStringPackage       0000552b f   HiiDatabase:Database.obj
+ 0001:000046f9       _AdjustStringPackage       000056f9 f   HiiDatabase:Database.obj
+ 0001:00004828       _ExportStringPackages      00005828 f   HiiDatabase:Database.obj
+ 0001:00004964       _RemoveStringPackages      00005964 f   HiiDatabase:Database.obj
+ 0001:00004a60       _InsertFontPackage         00005a60 f   HiiDatabase:Database.obj
+ 0001:00004c41       _ExportFontPackages        00005c41 f   HiiDatabase:Database.obj
+ 0001:00004d7d       _RemoveFontPackages        00005d7d f   HiiDatabase:Database.obj
+ 0001:00004ed4       _InsertImagePackage        00005ed4 f   HiiDatabase:Database.obj
+ 0001:00005037       _ExportImagePackages       00006037 f   HiiDatabase:Database.obj
+ 0001:00005145       _RemoveImagePackages       00006145 f   HiiDatabase:Database.obj
+ 0001:00005193       _InsertSimpleFontPackage   00006193 f   HiiDatabase:Database.obj
+ 0001:0000523b       _ExportSimpleFontPackages  0000623b f   HiiDatabase:Database.obj
+ 0001:00005357       _RemoveSimpleFontPackages  00006357 f   HiiDatabase:Database.obj
+ 0001:000053dd       _InsertDevicePathPackage   000063dd f   HiiDatabase:Database.obj
+ 0001:0000544e       _ExportDevicePathPackage   0000644e f   HiiDatabase:Database.obj
+ 0001:0000552a       _RemoveDevicePathPackage   0000652a f   HiiDatabase:Database.obj
+ 0001:00005575       _AddDevicePathPackage      00006575 f   HiiDatabase:Database.obj
+ 0001:000055eb       _InsertKeyboardLayoutPackage 000065eb f   HiiDatabase:Database.obj
+ 0001:00005693       _ExportKeyboardLayoutPackages 00006693 f   HiiDatabase:Database.obj
+ 0001:000057c6       _RemoveKeyboardLayoutPackages 000067c6 f   HiiDatabase:Database.obj
+ 0001:0000585a       _AddPackages               0000685a f   HiiDatabase:Database.obj
+ 0001:00005abe       _ExportPackageList         00006abe f   HiiDatabase:Database.obj
+ 0001:00005cd1       _HiiNewPackageList         00006cd1 f   HiiDatabase:Database.obj
+ 0001:00005e23       _HiiRemovePackageList      00006e23 f   HiiDatabase:Database.obj
+ 0001:00005f9a       _HiiUpdatePackageList      00006f9a f   HiiDatabase:Database.obj
+ 0001:0000613a       _HiiListPackageLists       0000713a f   HiiDatabase:Database.obj
+ 0001:000062fe       _HiiExportPackageLists     000072fe f   HiiDatabase:Database.obj
+ 0001:00006489       _HiiRegisterPackageNotify  00007489 f   HiiDatabase:Database.obj
+ 0001:0000656e       _HiiUnregisterPackageNotify 0000756e f   HiiDatabase:Database.obj
+ 0001:00006669       _HiiFindKeyboardLayouts    00007669 f   HiiDatabase:Database.obj
+ 0001:000067ff       _HiiGetKeyboardLayout      000077ff f   HiiDatabase:Database.obj
+ 0001:000069ae       _HiiSetKeyboardLayout      000079ae f   HiiDatabase:Database.obj
+ 0001:00006af4       _HiiGetPackageListHandle   00007af4 f   HiiDatabase:Database.obj
+ 0001:00006b88       _ReferFontInfoLocally      00007b88 f   HiiDatabase:String.obj
+ 0001:00006c58       _ConvertToUnicodeText      00007c58 f   HiiDatabase:String.obj
+ 0001:00006cc9       _GetUnicodeStringTextOrSize 00007cc9 f   HiiDatabase:String.obj
+ 0001:00006d3c       _GetStringFontInfo         00007d3c f   HiiDatabase:String.obj
+ 0001:00006dff       _FindStringBlock           00007dff f   HiiDatabase:String.obj
+ 0001:00007486       _GetStringWorker           00008486 f   HiiDatabase:String.obj
+ 0001:00007580       _InsertLackStringBlock     00008580 f   HiiDatabase:String.obj
+ 0001:00007723       _SetStringWorker           00008723 f   HiiDatabase:String.obj
+ 0001:00007b26       _HiiNewString              00008b26 f   HiiDatabase:String.obj
+ 0001:000081fc       _HiiGetString              000091fc f   HiiDatabase:String.obj
+ 0001:00008380       _HiiSetString              00009380 f   HiiDatabase:String.obj
+ 0001:000084c6       _HiiGetLanguages           000094c6 f   HiiDatabase:String.obj
+ 0001:0000861d       _HiiGetSecondaryLanguages  0000961d f   HiiDatabase:String.obj
+ 0001:0000875c       _AsciiHiiToLower           0000975c f   HiiDatabase:String.obj
+ 0001:00008790       _HiiCompareLanguage        00009790 f   HiiDatabase:String.obj
+ 0001:00008856       _NewCell                   00009856 f   HiiDatabase:Font.obj
+ 0001:000088c9       _GetCell                   000098c9 f   HiiDatabase:Font.obj
+ 0001:00008940       _GetGlyphBuffer            00009940 f   HiiDatabase:Font.obj
+ 0001:00008bb1       _NarrowGlyphToBlt          00009bb1 f   HiiDatabase:Font.obj
+ 0001:00008ca2       _GlyphToBlt                00009ca2 f   HiiDatabase:Font.obj
+ 0001:00008eb6       _GlyphToImage              00009eb6 f   HiiDatabase:Font.obj
+ 0001:00008fa6       _WriteOutputParam          00009fa6 f   HiiDatabase:Font.obj
+ 0001:00009001       _FindGlyphBlock            0000a001 f   HiiDatabase:Font.obj
+ 0001:000094b8       _SaveFontName              0000a4b8 f   HiiDatabase:Font.obj
+ 0001:00009508       _GetSystemFont             0000a508 f   HiiDatabase:Font.obj
+ 0001:000095a7       _IsSystemFontInfo          0000a5a7 f   HiiDatabase:Font.obj
+ 0001:000096cd       _IsFontInfoExisted         0000a6cd f   HiiDatabase:Font.obj
+ 0001:00009bb2       _IsLineBreak               0000abb2 f   HiiDatabase:Font.obj
+ 0001:00009c60       _HiiStringToImage          0000ac60 f   HiiDatabase:Font.obj
+ 0001:0000a861       _HiiStringIdToImage        0000b861 f   HiiDatabase:Font.obj
+ 0001:0000ab15       _HiiGetGlyph               0000bb15 f   HiiDatabase:Font.obj
+ 0001:0000addb       _HiiGetFontInfo            0000bddb f   HiiDatabase:Font.obj
+ 0001:0000b080       _GetImageIdOrAddress       0000c080 f   HiiDatabase:Image.obj
+ 0001:0000b2c0       _CopyGopToRgbPixel         0000c2c0 f   HiiDatabase:Image.obj
+ 0001:0000b305       _CopyRgbToGopPixel         0000c305 f   HiiDatabase:Image.obj
+ 0001:0000b34a       _Output1bitPixel           0000c34a f   HiiDatabase:Image.obj
+ 0001:0000b548       _Output4bitPixel           0000c548 f   HiiDatabase:Image.obj
+ 0001:0000b6f2       _Output8bitPixel           0000c6f2 f   HiiDatabase:Image.obj
+ 0001:0000b80b       _Output24bitPixel          0000c80b f   HiiDatabase:Image.obj
+ 0001:0000b86a       _ImageToBlt                0000c86a f   HiiDatabase:Image.obj
+ 0001:0000b983       _HiiNewImage               0000c983 f   HiiDatabase:Image.obj
+ 0001:0000bbcf       _HiiGetImage               0000cbcf f   HiiDatabase:Image.obj
+ 0001:0000be47       _HiiSetImage               0000ce47 f   HiiDatabase:Image.obj
+ 0001:0000c153       _HiiDrawImage              0000d153 f   HiiDatabase:Image.obj
+ 0001:0000c409       _HiiDrawImageId            0000d409 f   HiiDatabase:Image.obj
+ 0001:0000c478       _DebugPrint                0000d478 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:0000c5e3       _DebugAssert               0000d5e3 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:0000c682       _CopyMem                   0000d682 f   BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0001:0000c6e7       _CompareMem                0000d6e7 f   BaseMemoryLibOptDxe:CompareMemWrapper.obj
+ 0001:0000c776       _CopyGuid                  0000d776 f   BaseMemoryLibOptDxe:MemLibGuid.obj
+ 0001:0000c7a6       _CompareGuid               0000d7a6 f   BaseMemoryLibOptDxe:MemLibGuid.obj
+ 0001:0000c805       _ZeroMem                   0000d805 f   BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0001:0000c84e       _InternalBaseLibIsNodeInList 0000d84e f   BaseLib:LinkedList.obj
+ 0001:0000c8db       _InitializeListHead        0000d8db f   BaseLib:LinkedList.obj
+ 0001:0000c900       _InsertTailList            0000d900 f   BaseLib:LinkedList.obj
+ 0001:0000c93a       _IsListEmpty               0000d93a f   BaseLib:LinkedList.obj
+ 0001:0000c966       _RemoveEntryList           0000d966 f   BaseLib:LinkedList.obj
+ 0001:0000c99a       _StrCpy                    0000d99a f   BaseLib:String.obj
+ 0001:0000ca31       _StrnCpy                   0000da31 f   BaseLib:String.obj
+ 0001:0000caf4       _StrLen                    0000daf4 f   BaseLib:String.obj
+ 0001:0000cb5c       _StrSize                   0000db5c f   BaseLib:String.obj
+ 0001:0000cb6b       _StrCmp                    0000db6b f   BaseLib:String.obj
+ 0001:0000cbd0       _StrnCmp                   0000dbd0 f   BaseLib:String.obj
+ 0001:0000cc63       _StrCat                    0000dc63 f   BaseLib:String.obj
+ 0001:0000cc9f       _StrnCat                   0000dc9f f   BaseLib:String.obj
+ 0001:0000ccf5       _StrStr                    0000dcf5 f   BaseLib:String.obj
+ 0001:0000cd8e       _InternalHexCharToUintn    0000dd8e f   BaseLib:String.obj
+ 0001:0000cdb9       _InternalIsHexaDecimalDigitCharacter 0000ddb9 f   BaseLib:String.obj
+ 0001:0000cde0       _StrHexToUint64            0000dde0 f   BaseLib:String.obj
+ 0001:0000cef2       _AsciiStrCpy               0000def2 f   BaseLib:String.obj
+ 0001:0000cf6c       _AsciiStrLen               0000df6c f   BaseLib:String.obj
+ 0001:0000cfb7       _AsciiStrnCmp              0000dfb7 f   BaseLib:String.obj
+ 0001:0000d041       _AsciiStrStr               0000e041 f   BaseLib:String.obj
+ 0001:0000d0b9       _AsciiStrToUnicodeStr      0000e0b9 f   BaseLib:String.obj
+ 0001:0000d17a       _ReadUnaligned16           0000e17a f   BaseLib:Unaligned.obj
+ 0001:0000d199       _ReadUnaligned64           0000e199 f   BaseLib:Unaligned.obj
+ 0001:0000d1bc       _WriteUnaligned64          0000e1bc f   BaseLib:Unaligned.obj
+ 0001:0000d1e7       _RShiftU64                 0000e1e7 f   BaseLib:RShiftU64.obj
+ 0001:0000d20c       _LShiftU64                 0000e20c f   BaseLib:LShiftU64.obj
+ 0001:0000d231       _IsDevicePathValid         0000e231 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000d280       _DevicePathSubType         0000e280 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000d2a1       _DevicePathNodeLength      0000e2a1 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000d2e9       _NextDevicePathNode        0000e2e9 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000d310       _IsDevicePathEndType       0000e310 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000d347       _IsDevicePathEnd           0000e347 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000d381       _GetDevicePathSize         0000e381 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000d3bc       _DevicePathFromHandle      0000e3bc f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000d3e3       _InternalAllocatePool      0000e3e3 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000d407       _InternalAllocateZeroPool  0000e407 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000d41f       _InternalAllocateCopyPool  0000e41f f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000d478       _InternalReallocatePool    0000e478 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000d4b6       _FreePool                  0000e4b6 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000d4ef       _UnicodeSPrint             0000e4ef f   BasePrintLib:PrintLib.obj
+ 0001:0000d544       _UnicodeValueToString      0000e544 f   BasePrintLib:PrintLib.obj
+ 0001:0000d57c       _BasePrintLibFillBuffer    0000e57c f   BasePrintLib:PrintLibInternal.obj
+ 0001:0000d5b0       _BasePrintLibValueToString 0000e5b0 f   BasePrintLib:PrintLibInternal.obj
+ 0001:0000d613       _BasePrintLibConvertValueToString 0000e613 f   BasePrintLib:PrintLibInternal.obj
+ 0001:0000d7a3       _BasePrintLibSPrintMarker  0000e7a3 f   BasePrintLib:PrintLibInternal.obj
+ 0001:0000e341       _BasePrintLibSPrint        0000f341 f   BasePrintLib:PrintLibInternal.obj
+ 0001:0000e360       _GetVariable2              0000f360 f   UefiLib:UefiLib.obj
+ 0001:0000e40a       _GetBestLanguage           0000f40a f   UefiLib:UefiLib.obj
+ 0001:0000e515       _HobLibConstructor         0000f515 f   DxeHobLib:HobLib.obj
+ 0001:0000e5b3       _GetHobList                0000f5b3 f   DxeHobLib:HobLib.obj
+ 0001:0000e5d5       _GetNextHob                0000f5d5 f   DxeHobLib:HobLib.obj
+ 0001:0000e612       _GetDebugPrintErrorLevel   0000f612 f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:0000e708       _GetDebugMask              0000f708 f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:0000e720       _SetDebugMask              0000f720 f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:0000e72c       _InternalGetReportStatusCode 0000f72c f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000e76d       _InternalReportStatusCode  0000f76d f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000e7b4       _ReportStatusCodeEx        0000f7b4 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000e910       _InternalMemCopyMem        0000f910 f   BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:0000e980       _InternalMemCompareMem     0000f980 f   BaseMemoryLibOptDxe:CompareMem.obj
+ 0001:0000e9a0       _InternalMemZeroMem        0000f9a0 f   BaseMemoryLibOptDxe:ZeroMem.obj
+ 0001:0000e9c0       _InternalMemSetMem         0000f9c0 f   BaseMemoryLibOptDxe:SetMem.obj
+ 0001:0000e9ec       _InternalMemSetMem32       0000f9ec f   BaseMemoryLibOptDxe:SetMem32.obj
+ 0001:0000ea04       _InternalMemSetMem64       0000fa04 f   BaseMemoryLibOptDxe:SetMem64.obj
+ 0002:00000038       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ?6@ 00010038     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:0000005c       ??_C@_0BE@DCHLEIGN@?$CBEFI_ERROR?5?$CIStatus?$CJ?$AA@ 0001005c     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000070       __gUefiDriverRevision      00010070     HiiDatabase:AutoGen.obj
+ 0002:00000078       ??_C@_0HI@PJDNDMOB@d?3?2myworkspace?2Build?2NT32?2DEBUG_@ 00010078     HiiDatabase:AutoGen.obj
+ 0002:000000f0       __gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLang 000100f0     HiiDatabase:AutoGen.obj
+ 0002:000000f8       ??_C@_0EI@GIKBGCIE@d?3?2myworkspace?2MdeModulePkg?2Univ@ 000100f8     HiiDatabase:HiiDatabaseEntry.obj
+ 0002:00000140       ??_C@_0DL@LBEMLKGK@?$CGgEfiHiiDatabaseProtocolGuid?5alr@ 00010140     HiiDatabase:HiiDatabaseEntry.obj
+ 0002:0000017c       ??_C@_0DH@NLDPGKDK@?$CGgEfiHiiFontProtocolGuid?5already@ 0001017c     HiiDatabase:HiiDatabaseEntry.obj
+ 0002:000001b4       ??_C@_0DI@OBEFILKP@?$CGgEfiHiiImageProtocolGuid?5alread@ 000101b4     HiiDatabase:HiiDatabaseEntry.obj
+ 0002:000001ec       ??_C@_0DJ@DLDEGPMF@?$CGgEfiHiiStringProtocolGuid?5alrea@ 000101ec     HiiDatabase:HiiDatabaseEntry.obj
+ 0002:00000228       ??_C@_0EA@DDCOHLFB@?$CGgEfiHiiConfigRoutingProtocolGui@ 00010228     HiiDatabase:HiiDatabaseEntry.obj
+ 0002:00000268       _mImageProtocol            00010268     HiiDatabase:HiiDatabaseEntry.obj
+ 0002:0000027c       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001027c     HiiDatabase:ConfigRouting.obj
+ 0002:00000298       ??_C@_0EF@OJPEODJI@d?3?2myworkspace?2MdeModulePkg?2Univ@ 00010298     HiiDatabase:ConfigRouting.obj
+ 0002:000002e0       ??_C@_1M@DPLGJLCD@?$AAG?$AAU?$AAI?$AAD?$AA?$DN?$AA?$AA@ 000102e0     HiiDatabase:ConfigRouting.obj
+ 0002:000002ec       ??_C@_0DD@LHLPKNIP@StrnCmp?5?$CIString?0?5L?$CCGUID?$DN?$CC?0?5StrLe@ 000102ec     HiiDatabase:ConfigRouting.obj
+ 0002:00000320       ??_C@_1O@KAHOBHOF@?$AA?$CG?$AAG?$AAU?$AAI?$AAD?$AA?$DN?$AA?$AA@ 00010320     HiiDatabase:ConfigRouting.obj
+ 0002:00000330       ??_C@_1M@PJAPFKED@?$AAP?$AAA?$AAT?$AAH?$AA?$DN?$AA?$AA@ 00010330     HiiDatabase:ConfigRouting.obj
+ 0002:0000033c       ??_C@_0BN@EHPNHAIF@ConfigString?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001033c     HiiDatabase:ConfigRouting.obj
+ 0002:0000035c       ??_C@_0DB@CFICOEMJ@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5SubStr@ 0001035c     HiiDatabase:ConfigRouting.obj
+ 0002:00000390       ??_C@_0BI@LBGLHCOA@?$CKSubStr?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010390     HiiDatabase:ConfigRouting.obj
+ 0002:000003a8       ??_C@_0BE@LNIAOOBG@Str?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000103a8     HiiDatabase:ConfigRouting.obj
+ 0002:000003bc       ??_C@_0DC@PCMLEOGG@?$CIBufferLen?5?$CK?52?5?$CL?51?$CJ?5?$DO?$DN?5?$CIStrLen?5?$CI@ 000103bc     HiiDatabase:ConfigRouting.obj
+ 0002:000003f0       ??_C@_13FLOCNAAB@?$AA?$CG?$AA?$AA@ 000103f0     HiiDatabase:ConfigRouting.obj
+ 0002:000003f4       ??_C@_1BC@JFJKDJKC@?$AA?$CG?$AAA?$AAL?$AAT?$AAC?$AAF?$AAG?$AA?$DN?$AA?$AA@ 000103f4     HiiDatabase:ConfigRouting.obj
+ 0002:00000408       ??_C@_0BN@DILICBAI@?$CKMultiString?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010408     HiiDatabase:ConfigRouting.obj
+ 0002:00000428       ??_C@_1O@FMIENBLJ@?$AA?$CG?$AAN?$AAA?$AAM?$AAE?$AA?$DN?$AA?$AA@ 00010428     HiiDatabase:ConfigRouting.obj
+ 0002:00000438       ??_C@_1O@GGMHNGIF@?$AA?$CG?$AAP?$AAA?$AAT?$AAH?$AA?$DN?$AA?$AA@ 00010438     HiiDatabase:ConfigRouting.obj
+ 0002:00000448       ??_C@_1M@COKHDCDN@?$AA?$CG?$AAG?$AAU?$AAI?$AAD?$AA?$AA@ 00010448     HiiDatabase:ConfigRouting.obj
+ 0002:00000454       ??_C@_0CC@KFDCKDOA@DefaultValueArray?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 00010454     HiiDatabase:ConfigRouting.obj
+ 0002:00000478       ??_C@_1M@MDEMFNHP@?$AAN?$AAA?$AAM?$AAE?$AA?$DN?$AA?$AA@ 00010478     HiiDatabase:ConfigRouting.obj
+ 0002:00000484       ??_C@_1BC@KLGPJAMP@?$AA?$CG?$AAO?$AAF?$AAF?$AAS?$AAE?$AAT?$AA?$DN?$AA?$AA@ 00010484     HiiDatabase:ConfigRouting.obj
+ 0002:00000498       ??_C@_1BA@BPJBLIJE@?$AA?$CG?$AAW?$AAI?$AAD?$AAT?$AAH?$AA?$DN?$AA?$AA@ 00010498     HiiDatabase:ConfigRouting.obj
+ 0002:000004a8       ??_C@_1BA@OHHBHMKI@?$AA?$CG?$AAV?$AAA?$AAL?$AAU?$AAE?$AA?$DN?$AA?$AA@ 000104a8     HiiDatabase:ConfigRouting.obj
+ 0002:000004b8       ??_C@_1DA@JIFMPMJE@?$AA?$CG?$AAO?$AAF?$AAF?$AAS?$AAE?$AAT?$AA?$DN?$AA?$CF?$AA0?$AA4?$AAX?$AA?$CG?$AAW?$AAI?$AAD?$AAT?$AAH?$AA?$DN?$AA?$CF?$AA0?$AA4?$AAX?$AA?$AA@ 000104b8     HiiDatabase:ConfigRouting.obj
+ 0002:000004e8       ??_C@_1CA@GGACGAGD@?$AA?$CG?$AA?$CF?$AAs?$AA?$CG?$AAA?$AAL?$AAT?$AAC?$AAF?$AAG?$AA?$DN?$AA?$CF?$AA0?$AA4?$AAX?$AA?$AA@ 000104e8     HiiDatabase:ConfigRouting.obj
+ 0002:00000508       ??_C@_1DO@NCNJHDGD@?$AA?$CG?$AAO?$AAF?$AAF?$AAS?$AAE?$AAT?$AA?$DN?$AA?$CF?$AA0?$AA4?$AAX?$AA?$CG?$AAW?$AAI?$AAD?$AAT?$AAH?$AA?$DN?$AA?$CF?$AA0?$AA4?$AAX?$AA?$CG?$AAV?$AAA?$AAL?$AAU?$AAE?$AA?$DN?$AA?$AA@ 00010508     HiiDatabase:ConfigRouting.obj
+ 0002:00000548       ??_C@_0BJ@HKDHKLNC@VarStore?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010548     HiiDatabase:ConfigRouting.obj
+ 0002:00000564       ??_C@_0BF@NDBIKIKC@CR?5has?5Bad?5Signature?$AA@ 00010564     HiiDatabase:ConfigRouting.obj
+ 0002:0000057c       ??_C@_0BF@GFADBPJJ@?$CKAccessProgress?5?$DN?$DN?50?$AA@ 0001057c     HiiDatabase:ConfigRouting.obj
+ 0002:00000594       ??_C@_0BI@GONLCNCH@Private?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010594     HiiDatabase:ConfigRouting.obj
+ 0002:000005ac       ??_C@_1BA@HDPFBAGC@?$AAO?$AAF?$AAF?$AAS?$AAE?$AAT?$AA?$DN?$AA?$AA@ 000105ac     HiiDatabase:ConfigRouting.obj
+ 0002:000005bc       ??_C@_1O@JONPFMKD@?$AAV?$AAA?$AAL?$AAU?$AAE?$AA?$DN?$AA?$AA@ 000105bc     HiiDatabase:ConfigRouting.obj
+ 0002:000005cc       ??_C@_1BA@ENAALJAP@?$AAA?$AAL?$AAT?$AAC?$AAF?$AAG?$AA?$DN?$AA?$AA@ 000105cc     HiiDatabase:ConfigRouting.obj
+ 0002:000005dc       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000105dc     HiiDatabase:Database.obj
+ 0002:000005f8       ??_C@_0EA@DEBFDFHC@d?3?2myworkspace?2MdeModulePkg?2Univ@ 000105f8     HiiDatabase:Database.obj
+ 0002:00000638       ??_C@_0HO@ICAHMDKK@Package?9?$DOImagePkgHdr?4Header?4Leng@ 00010638     HiiDatabase:Database.obj
+ 0002:000006b8       ??_C@_0BP@FEPODHBK@DatabaseRecord?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000106b8     HiiDatabase:Database.obj
+ 0002:000006d8       ??_C@_0FD@KKBJAAKD@Private?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Packa@ 000106d8     HiiDatabase:Database.obj
+ 0002:00000730       ??_C@_0EM@GDEIOGJC@Private?9?$DOSignature?5?$DN?$DN?5?$CI?$CI?$CI?8H?8?$CJ?5?$HM?5@ 00010730     HiiDatabase:Database.obj
+ 0002:0000077c       ??_C@_0BK@BBKIEBOB@IsHiiHandleValid?5?$CIHandle?$CJ?$AA@ 0001077c     HiiDatabase:Database.obj
+ 0002:00000798       ??_C@_0BM@JEBIDOHP@PackageList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010798     HiiDatabase:Database.obj
+ 0002:000007b4       ??_C@_0BN@GGKEKANL@Private?9?$DOHiiHandleCount?5?$DO?$DN?50?$AA@ 000107b4     HiiDatabase:Database.obj
+ 0002:000007d4       ??_C@_0BP@NFJAKEPG@KeyboardLayout?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000107d4     HiiDatabase:Database.obj
+ 0002:000007f8       ??_C@_0HM@JBFKAAEF@Private?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Strin@ 000107f8     HiiDatabase:String.obj
+ 0002:00000874       ??_C@_0DO@CAKPMFHO@d?3?2myworkspace?2MdeModulePkg?2Univ@ 00010874     HiiDatabase:String.obj
+ 0002:000008b4       ??_C@_0BK@LPAGOJEE@LocalFont?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000108b4     HiiDatabase:String.obj
+ 0002:000008d0       ??_C@_0DI@BFKAJOKH@StringSrc?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Buf@ 000108d0     HiiDatabase:String.obj
+ 0002:00000908       ??_C@_0EA@MHHLLLEI@StringFontInfo?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG@ 00010908     HiiDatabase:String.obj
+ 0002:00000948       ??_C@_0BO@DGNLHLCI@StringPackage?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010948     HiiDatabase:String.obj
+ 0002:00000968       ??_C@_0FC@FJMCODKF@StringPackage?9?$DOSignature?5?$DN?$DN?5?$CI?$CI?$CI?8@ 00010968     HiiDatabase:String.obj
+ 0002:000009c0       ??_C@_0GB@GDNHNHKN@BlockType?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Str@ 000109c0     HiiDatabase:String.obj
+ 0002:00000a28       ??_C@_0GH@GJCDMCGP@Private?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Priva@ 00010a28     HiiDatabase:String.obj
+ 0002:00000a90       ??_C@_0BM@KAGBBICE@StringId?5?$CB?$DN?5CurrentStringId?$AA@ 00010a90     HiiDatabase:String.obj
+ 0002:00000aac       ??_C@_0CJ@IFNGKCKJ@?$CKBlockType?5?$DN?$DN?50x22?5?$HM?$HM?5?$CKBlockType@ 00010aac     HiiDatabase:String.obj
+ 0002:00000ad8       ??_C@_0FD@NPKBDFKJ@Private?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Strin@ 00010ad8     HiiDatabase:String.obj
+ 0002:00000b2c       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ?$AA@ 00010b2c     HiiDatabase:String.obj
+ 0002:00000b40       ??_C@_01ICJEACDI@?$DL?$AA@ 00010b40     HiiDatabase:String.obj
+ 0002:00000b44       ??_C@_0BF@DOBDPAPC@Lan1?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010b44     HiiDatabase:String.obj
+ 0002:00000b5c       ??_C@_0BF@NEJFCNJA@Lan2?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010b5c     HiiDatabase:String.obj
+ 0002:00000b74       ??_C@_0DG@IHDLCIDM@Cell?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5GlyphInf@ 00010b74     HiiDatabase:Font.obj
+ 0002:00000bac       ??_C@_0DM@GJBFCJOH@d?3?2myworkspace?2MdeModulePkg?2Univ@ 00010bac     HiiDatabase:Font.obj
+ 0002:00000be8       ??_C@_0FB@NKDAFHPL@GlyphBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5O@ 00010be8     HiiDatabase:Font.obj
+ 0002:00000c40       ??_C@_0EK@IJHDKPAG@Origin?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5?$CKOrigi@ 00010c40     HiiDatabase:Font.obj
+ 0002:00000c8c       ??_C@_0BM@BBEAFKJB@FontPackage?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010c8c     HiiDatabase:Font.obj
+ 0002:00000ca8       ??_C@_0FA@GBHOFNKI@FontPackage?9?$DOSignature?5?$DN?$DN?5?$CI?$CI?$CI?8h?8@ 00010ca8     HiiDatabase:Font.obj
+ 0002:00000cf8       ??_C@_0DF@LOENGHAO@FontName?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Font@ 00010cf8     HiiDatabase:Font.obj
+ 0002:00000d30       ??_C@_1BG@PCIHAGAA@?$AAs?$AAy?$AAs?$AAd?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AA?$AA@ 00010d30     HiiDatabase:Font.obj
+ 0002:00000d48       ??_C@_0BJ@FFPEFLGO@FontInfo?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010d48     HiiDatabase:Font.obj
+ 0002:00000d64       ??_C@_0BJ@KMEIBEC@GlyphBuf?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010d64     HiiDatabase:Font.obj
+ 0002:00000d80       ??_C@_0BF@CPNKHBOH@Cell?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010d80     HiiDatabase:Font.obj
+ 0002:00000d98       ??_C@_0BL@PMPKEABA@Attributes?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010d98     HiiDatabase:Font.obj
+ 0002:00000db4       ??_C@_0BL@BBPNKGPN@StringInfo?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010db4     HiiDatabase:Font.obj
+ 0002:00000dcf       ??_C@_00CNPNBAHC@?$AA@     00010dcf     HiiDatabase:Font.obj
+ 0002:00000dd0       ??_C@_1BK@GGGENMOA@?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAL?$AAa?$AAn?$AAg?$AA?$AA@ 00010dd0     HiiDatabase:Font.obj
+ 0002:00000dec       ??_C@_0BO@JAOLLJBB@StringInfoOut?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010dec     HiiDatabase:Font.obj
+ 0002:00000e0c       ??_C@_0BN@PACIKCEF@StringInfoIn?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010e0c     HiiDatabase:Font.obj
+ 0002:00000e2c       ??_C@_0DG@EHGLMIAE@ImageBlock?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Im@ 00010e2c     HiiDatabase:Image.obj
+ 0002:00000e64       ??_C@_0DN@NMCJMHDL@d?3?2myworkspace?2MdeModulePkg?2Univ@ 00010e64     HiiDatabase:Image.obj
+ 0002:00000ea4       ??_C@_0BL@HMPOLNFB@?$CKImageId?5?$CB?$DN?5ImageIdCurrent?$AA@ 00010ea4     HiiDatabase:Image.obj
+ 0002:00000ec0       ??_C@_0DG@CMCHKEMN@BitMapOut?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Bit@ 00010ec0     HiiDatabase:Image.obj
+ 0002:00000ef8       ??_C@_0EN@ELLNHLCC@Image?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Data?5?$CB?$DN@ 00010ef8     HiiDatabase:Image.obj
+ 0002:00000f48       ??_C@_0BI@KJHDIOKD@Palette?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010f48     HiiDatabase:Image.obj
+ 0002:00000f60       ??_C@_0CO@MJKHFAPP@Image?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Data?5?$CB?$DN@ 00010f60     HiiDatabase:Image.obj
+ 0002:00000f90       ??_C@_0CG@IBCJOBGA@PaletteIndex?5?$DN?$DN?5Iibt1bit?4Palette@ 00010f90     HiiDatabase:Image.obj
+ 0002:00000fb8       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00010fb8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000fd0       ??_C@_0FJ@PPEMNEPO@d?3?2myworkspace?2IntelFrameworkMod@ 00010fd0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:0000102c       ??_C@_0CI@HIINONDG@?$CICHAR8?5?$CK?$CJBaseListMarker?5?$DM?$DN?5Forma@ 0001102c     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00001054       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 00011054     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:00001090       ??_C@_0ED@GBCNNLAE@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00011090     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:000010d4       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 000110d4     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:00001108       ??_C@_0CC@JOEHDGKB@DestinationBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 00011108     BaseMemoryLibOptDxe:CompareMemWrapper.obj
+ 0002:00001130       ??_C@_0EG@KIBCAHOO@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00011130     BaseMemoryLibOptDxe:CompareMemWrapper.obj
+ 0002:00001178       ??_C@_0BN@MDMCNBCC@SourceBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00011178     BaseMemoryLibOptDxe:CompareMemWrapper.obj
+ 0002:00001198       ??_C@_0CL@OBMFBPED@Length?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIUINTN?$CJB@ 00011198     BaseMemoryLibOptDxe:MemLibGuid.obj
+ 0002:000011c4       ??_C@_0CI@MNELLLEK@?$CB?$CIBuffer?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Leng@ 000111c4     BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0002:000011f0       ??_C@_0ED@NFIPLKMD@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000111f0     BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0002:00001234       ??_C@_0BF@NJNGJMPC@List?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00011234     BaseLib:LinkedList.obj
+ 0002:0000124c       ??_C@_0DD@EHJNIBEL@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 0001124c     BaseLib:LinkedList.obj
+ 0002:00001280       ??_C@_0CC@KDLPLAED@List?9?$DOForwardLink?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 00011280     BaseLib:LinkedList.obj
+ 0002:000012a4       ??_C@_0BP@IJJCCMAK@List?9?$DOBackLink?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000112a4     BaseLib:LinkedList.obj
+ 0002:000012c4       ??_C@_0BF@CBLMFKOC@Node?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000112c4     BaseLib:LinkedList.obj
+ 0002:000012dc       ??_C@_0DG@IMEFJFAE@Count?5?$DM?5_gPcd_FixedAtBuild_PcdMa@ 000112dc     BaseLib:LinkedList.obj
+ 0002:00001314       ??_C@_0BJ@NJABNCDK@ListHead?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00011314     BaseLib:LinkedList.obj
+ 0002:00001330       ??_C@_0EB@JGCKPMLP@InternalBaseLibIsNodeInList?5?$CILis@ 00011330     BaseLib:LinkedList.obj
+ 0002:00001378       ??_C@_0EE@BFCMBGFO@InternalBaseLibIsNodeInList?5?$CILis@ 00011378     BaseLib:LinkedList.obj
+ 0002:000013bc       ??_C@_0BF@NMBJJECB@?$CBIsListEmpty?5?$CIEntry?$CJ?$AA@ 000113bc     BaseLib:LinkedList.obj
+ 0002:000013d4       ??_C@_0BM@NLNKOJGD@Destination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000113d4     BaseLib:String.obj
+ 0002:000013f0       ??_C@_0CP@EAMGNBHJ@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000113f0     BaseLib:String.obj
+ 0002:00001420       ??_C@_0CI@LLKACKFD@?$CI?$CIUINTN?$CJ?5Destination?5?$CG?50x0000000@ 00011420     BaseLib:String.obj
+ 0002:00001448       ??_C@_0DA@MIOLHJCL@?$CIUINTN?$CJ?$CIDestination?5?9?5Source?$CJ?5?$DO?5@ 00011448     BaseLib:String.obj
+ 0002:00001478       ??_C@_0DA@KDPHFAHA@?$CIUINTN?$CJ?$CISource?5?9?5Destination?$CJ?5?$DO?5@ 00011478     BaseLib:String.obj
+ 0002:000014a8       ??_C@_0CI@FOLEBOJ@?$CIUINTN?$CJ?$CISource?5?9?5Destination?$CJ?5?$DO?$DN@ 000114a8     BaseLib:String.obj
+ 0002:000014d0       ??_C@_0DL@LFIMEMJP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pcd@ 000114d0     BaseLib:String.obj
+ 0002:0000150c       ??_C@_0CD@BDCLIGHD@?$CI?$CIUINTN?$CJ?5String?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 0001150c     BaseLib:String.obj
+ 0002:00001530       ??_C@_0DK@EOJCOAME@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 00011530     BaseLib:String.obj
+ 0002:0000156c       ??_C@_0BL@JAAMOCAJ@StrSize?5?$CIFirstString?$CJ?5?$CB?$DN?50?$AA@ 0001156c     BaseLib:String.obj
+ 0002:00001588       ??_C@_0BM@DALBOILC@StrSize?5?$CISecondString?$CJ?5?$CB?$DN?50?$AA@ 00011588     BaseLib:String.obj
+ 0002:000015a4       ??_C@_0BL@NAIOOBPB@StrSize?5?$CIDestination?$CJ?5?$CB?$DN?50?$AA@ 000115a4     BaseLib:String.obj
+ 0002:000015c0       ??_C@_0BG@KBNOLIGE@StrSize?5?$CIString?$CJ?5?$CB?$DN?50?$AA@ 000115c0     BaseLib:String.obj
+ 0002:000015d8       ??_C@_0BM@NNBLOHJD@StrSize?5?$CISearchString?$CJ?5?$CB?$DN?50?$AA@ 000115d8     BaseLib:String.obj
+ 0002:000015f4       ??_C@_0BG@HIIAKMOO@?$CK?$CIString?5?9?51?$CJ?5?$DN?$DN?5L?80?8?$AA@ 000115f4     BaseLib:String.obj
+ 0002:00001610       ??_C@_0EL@OAPPFKCC@Result?5?$DM?$DN?5RShiftU64?5?$CI?$CI?$CIUINT64?$CJ?5?$HO@ 00011610     BaseLib:String.obj
+ 0002:0000165c       ??_C@_0DF@CDKFFDDI@?$CIUINTN?$CJ?$CIDestination?5?9?5Source?$CJ?5?$DO?5@ 0001165c     BaseLib:String.obj
+ 0002:00001694       ??_C@_0DF@CCGJKFCO@?$CIUINTN?$CJ?$CISource?5?9?5Destination?$CJ?5?$DO?5@ 00011694     BaseLib:String.obj
+ 0002:000016cc       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pcd@ 000116cc     BaseLib:String.obj
+ 0002:00001708       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 00011708     BaseLib:String.obj
+ 0002:00001740       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ?$AA@ 00011740     BaseLib:String.obj
+ 0002:0000175c       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ?$AA@ 0001175c     BaseLib:String.obj
+ 0002:00001778       ??_C@_0BL@OFIBAIAL@AsciiStrSize?5?$CIString?$CJ?5?$CB?$DN?50?$AA@ 00011778     BaseLib:String.obj
+ 0002:00001794       ??_C@_0CB@NAIDGIOA@AsciiStrSize?5?$CISearchString?$CJ?5?$CB?$DN?50@ 00011794     BaseLib:String.obj
+ 0002:000017b8       ??_C@_0BL@NNBEMOEP@AsciiStrSize?5?$CISource?$CJ?5?$CB?$DN?50?$AA@ 000117b8     BaseLib:String.obj
+ 0002:000017d8       ??_C@_0EA@ELKIMFNG@?$CIUINTN?$CJ?5?$CI?$CICHAR8?5?$CK?$CJ?5Destination?5?9@ 000117d8     BaseLib:String.obj
+ 0002:00001818       ??_C@_0FE@OCCFPKLD@?$CIUINTN?$CJ?5?$CISource?5?9?5?$CICHAR8?5?$CK?$CJ?5Dest@ 00011818     BaseLib:String.obj
+ 0002:0000186c       ??_C@_0BL@KAGEINIP@StrSize?5?$CIReturnValue?$CJ?5?$CB?$DN?50?$AA@ 0001186c     BaseLib:String.obj
+ 0002:00001888       ??_C@_0DC@NGPEEDEA@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00011888     BaseLib:Unaligned.obj
+ 0002:000018bc       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50?$AA@ 000118bc     BaseLib:DivU64x32.obj
+ 0002:000018cc       ??_C@_0BL@JFODOCGB@DevicePath?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000118cc     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0002:000018e8       ??_C@_0EE@FMLOGMHH@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 000118e8     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0002:0000192c       ??_C@_0CM@OCJNHBHB@Length?5?$DO?$DN?5sizeof?5?$CIEFI_DEVICE_PAT@ 0001192c     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0002:00001958       ??_C@_0EM@MDJMIFIM@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00011958     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000019a4       ??_C@_0DE@FCAJAHCJ@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5@ 000119a4     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000019d8       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000119d8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000019f8       ??_C@_0FC@CHGHPDAC@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 000119f8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001a4c       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00011a4c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001a60       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00011a60     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001a74       ??_C@_0CI@BGLNHBLM@?$CI?$CI?$CIUINTN?$CJ?5?$CIStartOfBuffer?$CJ?$CJ?5?$CG?50x0@ 00011a74     BasePrintLib:PrintLib.obj
+ 0002:00001a9c       ??_C@_0DG@PDLDNIEO@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00011a9c     BasePrintLib:PrintLib.obj
+ 0002:00001ad4       ??_C@_0CH@KJLBGOBB@?$CI?$CI?$CIUINTN?$CJ?5?$CIFormatString?$CJ?$CJ?5?$CG?50x01@ 00011ad4     BasePrintLib:PrintLib.obj
+ 0002:00001afc       ??_C@_0CB@LDBAOPMG@?$CI?$CI?$CIUINTN?$CJ?5?$CIBuffer?$CJ?$CJ?5?$CG?50x01?$CJ?5?$DN?$DN?50@ 00011afc     BasePrintLib:PrintLib.obj
+ 0002:00001b20       ??_C@_07PBILKAFL@Success?$AA@ 00011b20     BasePrintLib:PrintLibInternal.obj
+ 0002:00001b28       ??_C@_0BG@CFJMNNJK@Warning?5Unknown?5Glyph?$AA@ 00011b28     BasePrintLib:PrintLibInternal.obj
+ 0002:00001b40       ??_C@_0BH@GKKCJEPJ@Warning?5Delete?5Failure?$AA@ 00011b40     BasePrintLib:PrintLibInternal.obj
+ 0002:00001b58       ??_C@_0BG@ECIJMOED@Warning?5Write?5Failure?$AA@ 00011b58     BasePrintLib:PrintLibInternal.obj
+ 0002:00001b70       ??_C@_0BJ@ODIPDGHB@Warning?5Buffer?5Too?5Small?$AA@ 00011b70     BasePrintLib:PrintLibInternal.obj
+ 0002:00001b8c       ??_C@_0L@PLPBEPPC@Load?5Error?$AA@ 00011b8c     BasePrintLib:PrintLibInternal.obj
+ 0002:00001b98       ??_C@_0BC@HOFHKGJN@Invalid?5Parameter?$AA@ 00011b98     BasePrintLib:PrintLibInternal.obj
+ 0002:00001bac       ??_C@_0M@BEECMOIL@Unsupported?$AA@ 00011bac     BasePrintLib:PrintLibInternal.obj
+ 0002:00001bb8       ??_C@_0BA@FLNMPMCF@Bad?5Buffer?5Size?$AA@ 00011bb8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001bc8       ??_C@_0BB@EGELJFOB@Buffer?5Too?5Small?$AA@ 00011bc8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001bdc       ??_C@_09NKFGCIPN@Not?5Ready?$AA@ 00011bdc     BasePrintLib:PrintLibInternal.obj
+ 0002:00001be8       ??_C@_0N@HHEABDHO@Device?5Error?$AA@ 00011be8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001bf8       ??_C@_0BA@LNEDDFNB@Write?5Protected?$AA@ 00011bf8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001c08       ??_C@_0BB@GOILNEAA@Out?5of?5Resources?$AA@ 00011c08     BasePrintLib:PrintLibInternal.obj
+ 0002:00001c1c       ??_C@_0P@EIOJGIF@Volume?5Corrupt?$AA@ 00011c1c     BasePrintLib:PrintLibInternal.obj
+ 0002:00001c2c       ??_C@_0M@HDLEPOFA@Volume?5Full?$AA@ 00011c2c     BasePrintLib:PrintLibInternal.obj
+ 0002:00001c38       ??_C@_08KEGAJDNN@No?5Media?$AA@ 00011c38     BasePrintLib:PrintLibInternal.obj
+ 0002:00001c44       ??_C@_0O@JNCJKCCD@Media?5changed?$AA@ 00011c44     BasePrintLib:PrintLibInternal.obj
+ 0002:00001c54       ??_C@_09CFCBFJND@Not?5Found?$AA@ 00011c54     BasePrintLib:PrintLibInternal.obj
+ 0002:00001c60       ??_C@_0O@NFHOBIDO@Access?5Denied?$AA@ 00011c60     BasePrintLib:PrintLibInternal.obj
+ 0002:00001c70       ??_C@_0M@ENKCBFEP@No?5Response?$AA@ 00011c70     BasePrintLib:PrintLibInternal.obj
+ 0002:00001c7c       ??_C@_0L@IFPBNFC@No?5mapping?$AA@ 00011c7c     BasePrintLib:PrintLibInternal.obj
+ 0002:00001c88       ??_C@_08PAFJCNGP@Time?5out?$AA@ 00011c88     BasePrintLib:PrintLibInternal.obj
+ 0002:00001c94       ??_C@_0M@DCJFAFHJ@Not?5started?$AA@ 00011c94     BasePrintLib:PrintLibInternal.obj
+ 0002:00001ca0       ??_C@_0BA@IGIBFFPH@Already?5started?$AA@ 00011ca0     BasePrintLib:PrintLibInternal.obj
+ 0002:00001cb0       ??_C@_07LCKDCBKK@Aborted?$AA@ 00011cb0     BasePrintLib:PrintLibInternal.obj
+ 0002:00001cb8       ??_C@_0L@LKIFCMNO@ICMP?5Error?$AA@ 00011cb8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001cc4       ??_C@_0L@DJKNJKHM@TFTP?5Error?$AA@ 00011cc4     BasePrintLib:PrintLibInternal.obj
+ 0002:00001cd0       ??_C@_0P@NCJHBCLM@Protocol?5Error?$AA@ 00011cd0     BasePrintLib:PrintLibInternal.obj
+ 0002:00001ce0       ??_C@_0DO@GOAMAIEG@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00011ce0     BasePrintLib:PrintLibInternal.obj
+ 0002:00001d20       ??_C@_0L@ILDOPMPD@Width?5?$DM?538?$AA@ 00011d20     BasePrintLib:PrintLibInternal.obj
+ 0002:00001d2c       ??_C@_0CB@NIHAJGJE@StrSize?5?$CI?$CICHAR16?5?$CK?$CJ?5Format?$CJ?5?$CB?$DN?50@ 00011d2c     BasePrintLib:PrintLibInternal.obj
+ 0002:00001d50       ??_C@_0BL@BFEFANFD@AsciiStrSize?5?$CIFormat?$CJ?5?$CB?$DN?50?$AA@ 00011d50     BasePrintLib:PrintLibInternal.obj
+ 0002:00001d6c       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO?$AA@ 00011d6c     BasePrintLib:PrintLibInternal.obj
+ 0002:00001d7c       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO?$AA@ 00011d7c     BasePrintLib:PrintLibInternal.obj
+ 0002:00001d88       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02x@ 00011d88     BasePrintLib:PrintLibInternal.obj
+ 0002:00001dbc       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO?$AA@ 00011dbc     BasePrintLib:PrintLibInternal.obj
+ 0002:00001dc8       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d?$AA@ 00011dc8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001de4       ??_C@_04JIMNDDED@?$CF08X?$AA@ 00011de4     BasePrintLib:PrintLibInternal.obj
+ 0002:00001dec       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 00011dec     BasePrintLib:PrintLibInternal.obj
+ 0002:00001df0       ??_C@_01LIIJDEN@?$AN?$AA@  00011df0     BasePrintLib:PrintLibInternal.obj
+ 0002:00001df8       ??_C@_0EM@FPGGOFNC@?$CI?$CI?$CIFlags?5?$CG?50x00000040?$CJ?5?$DN?$DN?50?$CJ?$CJ?5?$HM?$HM@ 00011df8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e48       ??_C@_0EG@NFDMKACK@?$CI?$CI?$CIFlags?5?$CG?50x00000040?$CJ?5?$CB?$DN?50?$CJ?$CJ?5?$HM?$HM@ 00011e48     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e90       _mHexStr                   00011e90     BasePrintLib:PrintLibInternal.obj
+ 0002:00001ea0       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00011ea0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00001eb8       ??_C@_0FI@JAAEOOHA@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00011eb8     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00001f10       ??_C@_0DA@BAMHPGBM@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00011f10     UefiLib:UefiLib.obj
+ 0002:00001f40       ??_C@_0EG@GOBFPEEP@Name?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Guid?5?$CB?$DN?5@ 00011f40     UefiLib:UefiLib.obj
+ 0002:00001f88       ??_C@_0BH@FMEOEIBC@?$CKValue?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00011f88     UefiLib:UefiLib.obj
+ 0002:00001fa0       ??_C@_0CD@OLFKAJF@SupportedLanguages?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 00011fa0     UefiLib:UefiLib.obj
+ 0002:00001fc4       ??_C@_0DB@LFGOOKNH@d?3?2myworkspace?2MdePkg?2Library?2Dx@ 00011fc4     DxeHobLib:HobLib.obj
+ 0002:00001ff8       ??_C@_0BJ@OBFMLLDO@mHobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00011ff8     DxeHobLib:HobLib.obj
+ 0002:00002014       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00012014     DxeHobLib:HobLib.obj
+ 0002:00002030       ??_C@_1BC@DPOIABCP@?$AAE?$AAF?$AAI?$AAD?$AAe?$AAb?$AAu?$AAg?$AA?$AA@ 00012030     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0002:00002048       ??_C@_0FB@ILKBFLFI@d?3?2myworkspace?2MdeModulePkg?2Libr@ 00012048     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:0000209c       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0001209c     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000020dc       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000120dc     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:0000211c       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5too@ 0001211c     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00002154       ??_C@_0DL@HKFHNCLF@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00012154     BaseLib:DivU64x32Remainder.obj
+ 0003:00000000       _gEfiHiiFontProtocolGuid   00013000     HiiDatabase:AutoGen.obj
+ 0003:00000010       _gEfiDebugMaskProtocolGuid 00013010     HiiDatabase:AutoGen.obj
+ 0003:00000020       _gEfiHiiDatabaseProtocolGuid 00013020     HiiDatabase:AutoGen.obj
+ 0003:00000030       _gEfiHiiConfigRoutingProtocolGuid 00013030     HiiDatabase:AutoGen.obj
+ 0003:00000040       _gEfiHobListGuid           00013040     HiiDatabase:AutoGen.obj
+ 0003:00000050       _gEfiHiiImageProtocolGuid  00013050     HiiDatabase:AutoGen.obj
+ 0003:00000060       _gEfiDevicePathProtocolGuid 00013060     HiiDatabase:AutoGen.obj
+ 0003:00000070       _gEfiHiiStringProtocolGuid 00013070     HiiDatabase:AutoGen.obj
+ 0003:00000080       _gEfiGenericVariableGuid   00013080     HiiDatabase:AutoGen.obj
+ 0003:00000090       _gEfiCallerIdGuid          00013090     HiiDatabase:AutoGen.obj
+ 0003:000000a0       _gEfiStatusCodeDataTypeDebugGuid 000130a0     HiiDatabase:AutoGen.obj
+ 0003:000000b0       _gEfiStatusCodeSpecificDataGuid 000130b0     HiiDatabase:AutoGen.obj
+ 0003:000000c0       _gEfiHiiConfigAccessProtocolGuid 000130c0     HiiDatabase:AutoGen.obj
+ 0003:000000d0       _gEfiGlobalVariableGuid    000130d0     HiiDatabase:AutoGen.obj
+ 0003:000000e0       _gEfiStatusCodeRuntimeProtocolGuid 000130e0     HiiDatabase:AutoGen.obj
+ 0003:000000f0       _gEfiHiiKeyBoardLayoutGuid 000130f0     HiiDatabase:AutoGen.obj
+ 0003:00000100       _mPrivate                  00013100     HiiDatabase:HiiDatabaseEntry.obj
+ 0003:000001bc       _mLanguageWindow           000131bc     HiiDatabase:String.obj
+ 0003:000001e0       _mHiiEfiColors             000131e0     HiiDatabase:Font.obj
+ 0003:00000220       _mDebugMaskProtocol        00013220     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:00000230       _mStatusString             00013230     BasePrintLib:PrintLibInternal.obj
+ 0003:000002a4       _gST                       000132a4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000002a8       _gBS                       000132a8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000002ac       _gImageHandle              000132ac     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000002b0       _gRT                       000132b0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0003:000002b4       _mHobList                  000132b4     DxeHobLib:HobLib.obj
+ 0003:000002b8       _mDebugPrintErrorLevel     000132b8     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:000002bc       _mGlobalErrorLevelInitialized 000132bc     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:000002c0       _mSystemTable              000132c0     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:000002c4       _mReportStatusCodeLibStatusCodeProtocol 000132c4     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0003:000002c8       _gHiiKeyboardLayoutChanged 000132c8     <common>
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0001:00004008       $LN82                      00005008     * CIL library *:* CIL module *
+ 0001:00005a9a       $LN44                      00006a9a     * CIL library *:* CIL module *
+ 0001:00006116       $LN44                      00007116     * CIL library *:* CIL module *
+ 0001:000062d6       $LN67                      000072d6     * CIL library *:* CIL module *
+ 0001:0000b29c       $LN65                      0000c29c     * CIL library *:* CIL module *
+ 0001:0000be23       $LN65                      0000ce23     * CIL library *:* CIL module *
+ 0001:0000c12f       $LN46                      0000d12f     * CIL library *:* CIL module *
+ 0001:0000e910       $$000000                   0000f910     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:0000e980       $$000000                   0000f980     BaseMemoryLibOptDxe:CompareMem.obj
+ 0001:0000e9a0       $$000000                   0000f9a0     BaseMemoryLibOptDxe:ZeroMem.obj
+ 0001:0000e9c0       $$000000                   0000f9c0     BaseMemoryLibOptDxe:SetMem.obj
+ 0001:0000e9ec       $$000000                   0000f9ec     BaseMemoryLibOptDxe:SetMem32.obj
+ 0001:0000ea04       $$000000                   0000fa04     BaseMemoryLibOptDxe:SetMem64.obj
+ 0004:00000000       .edata                     00014000     HiiDatabase.exp
+ 0004:00000028       rgpv                       00014028     HiiDatabase.exp
+ 0004:0000002c       rgszName                   0001402c     HiiDatabase.exp
+ 0004:00000030       rgwOrd                     00014030     HiiDatabase.exp
+ 0004:00000032       szName                     00014032     HiiDatabase.exp
+ 0004:00000042       $N00001                    00014042     HiiDatabase.exp

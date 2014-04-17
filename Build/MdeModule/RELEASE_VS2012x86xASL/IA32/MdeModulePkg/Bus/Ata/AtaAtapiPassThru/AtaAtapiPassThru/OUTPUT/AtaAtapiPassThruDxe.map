@@ -1,0 +1,315 @@
+ AtaAtapiPassThruDxe
+
+ Timestamp is 527c4151 (Fri Nov 08 09:41:37 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000264H .data                   CODE
+ 0001:00000268 00001553H .rdata                  CODE
+ 0001:000017bb 000061a5H .text                   CODE
+ 0001:00007960 00000010H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiDevicePathProtocolGuid 00000200     AtaAtapiPassThruDxe:AutoGen.obj
+ 0001:00000010       _gEfiPciIoProtocolGuid     00000210     AtaAtapiPassThruDxe:AutoGen.obj
+ 0001:00000020       _gEfiAtaPassThruProtocolGuid 00000220     AtaAtapiPassThruDxe:AutoGen.obj
+ 0001:00000030       _gEfiExtScsiPassThruProtocolGuid 00000230     AtaAtapiPassThruDxe:AutoGen.obj
+ 0001:00000040       _gEfiIdeControllerInitProtocolGuid 00000240     AtaAtapiPassThruDxe:AutoGen.obj
+ 0001:00000050       _gEfiDriverBindingProtocolGuid 00000250     AtaAtapiPassThruDxe:AutoGen.obj
+ 0001:00000060       _gEfiComponentNameProtocolGuid 00000260     AtaAtapiPassThruDxe:AutoGen.obj
+ 0001:00000070       _mSataDevicePathTemplate   00000270     AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:0000007c       _mScsiId                   0000027c     AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:0000008c       _gAtaAtapiPassThruDriverBinding 0000028c     AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:000000a4       _mAtapiDevicePathTemplate  000002a4     AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:000000b0       _gAtaAtapiPassThruInstanceTemplate 000002b0     AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:000001b0       _gAtaAtapiPassThruComponentName 000003b0     AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:000001bc       _mAtaAtapiPassThruIdeControllerNameTable 000003bc     AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:000001cc       _mAtaAtapiPassThruAhciControllerNameTable 000003cc     AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:000001dc       _mAtaAtapiPassThruDriverNameTable 000003dc     AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:000001f0       _mStatusString             000003f0     BasePrintLib:PrintLibInternal.obj
+ 0001:00000268       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ?6@ 00000468     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:0000028c       ??_C@_0BE@DCHLEIGN@?$CBEFI_ERROR?5?$CIStatus?$CJ?$AA@ 0000048c     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:000002a0       __gUefiDriverRevision      000004a0     AtaAtapiPassThruDxe:AutoGen.obj
+ 0001:000002a4       ??_C@_0BF@NDBIKIKC@CR?5has?5Bad?5Signature?$AA@ 000004a4     AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:000002c0       ??_C@_0EI@LJMJKPHK@d?3?2myworkspace?2MdeModulePkg?2Bus?2@ 000004c0     AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00000308       ??_C@_0CM@DGNDOAGH@?$DN?$DNAtaAtapiPassThru?5Start?$DN?$DN?5Contr@ 00000508     AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00000334       ??_C@_0CK@PPBHLAGJ@Open?5Ide_Controller_Init?5Error?0?5@ 00000534     AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00000360       ??_C@_0CF@OLDOAHDA@Get?5Pci_Io?5Protocol?5Error?0?5Statu@ 00000560     AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00000388       ??_C@_0CL@DOPFHFJC@?$DN?$DNAtaAtapiPassThru?5Stop?$DN?$DN?5Contro@ 00000588     AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:000003b4       ??_C@_0BG@BDDIFCPF@PciIo?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000005b4     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000003cc       ??_C@_0DP@IKOELDDG@d?3?2myworkspace?2MdeModulePkg?2Bus?2@ 000005cc     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000040c       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000060c     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000424       ??_C@_0BN@PBAGALLH@IdeRegisters?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00000624     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000444       ??_C@_0DE@DMPLFKLN@CheckRegisterStatus?$CI?$CJ?9?9?5?$CF02x?5?3?5E@ 00000644     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000478       ??_C@_0DH@FEGNNJML@CheckRegisterStatus?$CI?$CJ?9?9?5?$CF02x?5?3?5E@ 00000678     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000004b0       ??_C@_0DL@KGNJKAMB@CheckRegisterStatus?$CI?$CJ?9?9?5?$CF02x?5?3?5E@ 000006b0     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000004ec       ??_C@_0DL@GJFPLKNG@CheckRegisterStatus?$CI?$CJ?9?9?5?$CF02x?5?3?5E@ 000006ec     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000528       ??_C@_0DF@POAMJOPK@CheckRegisterStatus?$CI?$CJ?9?9?5?$CF02x?5?3?5E@ 00000728     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000560       ??_C@_0CO@PANIFIFC@CheckRegisterStatus?$CI?$CJ?9?9?5?$CF02x?5?3?5E@ 00000760     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000590       ??_C@_0DK@KDJEIFAM@CheckRegisterStatus?$CI?$CJ?9?9?5?$CF02x?5?3?5E@ 00000790     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000005cc       ??_C@_0DP@FHOJHGEF@CheckRegisterStatus?$CI?$CJ?9?9?5?$CF02x?5?3?5E@ 000007cc     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000060c       ??_C@_0CA@LDLEOENP@AtaCommandBlock?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000080c     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000062c       ??_C@_0BK@KEBEKLPO@ATA?5UDMA?5operation?5fails?6?$AA@ 0000082c     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000648       ??_C@_0BO@MKAHNPBE@?$CIBufferMapAddress?5?$CG?50x1?$CJ?5?$DN?$DN?50?$AA@ 00000848     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000668       ??_C@_0BH@HIHPLAJL@?$CIByteCount?5?$CG?50x1?$CJ?5?$DN?$DN?50?$AA@ 00000868     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000680       ??_C@_0DM@BIALJCJN@The?5S?4M?4A?4R?4T?5threshold?5exceeded@ 00000880     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000006bc       ??_C@_0DI@GJOGFJCJ@The?5S?4M?4A?4R?4T?5threshold?5exceeded@ 000008bc     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000006f4       ??_C@_05FECFKABJ@slave?$AA@ 000008f4     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000006fc       ??_C@_06ECGAGODA@master?$AA@ 000008fc     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000704       ??_C@_09EADLKHON@secondary?$AA@ 00000904     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000710       ??_C@_07CJDBHDIN@primary?$AA@ 00000910     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000718       ??_C@_0EB@JEODCBJI@S?4M?4A?4R?4T?5feature?5is?5not?5support@ 00000918     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000075c       ??_C@_0DI@IGHDPKJH@Enabled?5S?4M?4A?4R?4T?5feature?5at?5?$FL?$CFa@ 0000095c     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000798       ??_C@_0FE@NGINKIOM@New?5detecting?5method?3?5Send?5Execu@ 00000998     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000007ec       ??_C@_08MGLFPKHM@cdrom?5?5?5?$AA@ 000009ec     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000007f8       ??_C@_08PALMOJOH@harddisk?$AA@ 000009f8     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000804       ??_C@_06PBLLKJMC@slave?5?$AA@ 00000a04     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000080c       ??_C@_09OKOIINPD@primary?5?5?$AA@ 00000a0c     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000818       ??_C@_0BP@FPLKOKIB@?$FL?$CFa?$FN?5channel?5?$FL?$CFa?$FN?5?$FL?$CFa?$FN?5device?6?$AA@ 00000a18     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000838       ??_C@_0CC@GGCKBEOK@Calculate?5Mode?5Fail?0?5Status?5?$DN?5?$CFr@ 00000a38     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000085c       ??_C@_0CF@ONEKJMPC@Set?5transfer?5Mode?5Fail?0?5Status?5?$DN@ 00000a5c     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00000884       ??_C@_0BI@CHLGLNHM@?$FLGetChannel?0?5Status?$DN?$CFx?$FN?$AA@ 00000a84     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000089c       ??_C@_0BA@HEEHNPAK@MaxDevices?5?$DM?$DN?52?$AA@ 00000a9c     AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000008b0       ??_C@_0EA@BEOLGNMK@d?3?2myworkspace?2MdeModulePkg?2Bus?2@ 00000ab0     AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:000008f0       ??_C@_0BE@EIHDHNL@PrdtNumber?5?$DM?$DN?565535?$AA@ 00000af0     AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00000908       ??_C@_0EG@BPMDGPHA@S?4M?4A?4R?4T?5feature?5is?5not?5support@ 00000b08     AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00000950       ??_C@_0DN@OJCBAOBK@Enabled?5S?4M?4A?4R?4T?5feature?5at?5por@ 00000b50     AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00000990       ??_C@_05POABADMF@cdrom?$AA@ 00000b90     AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00000998       ??_C@_0CL@CGHBIPDJ@port?5?$FL?$CFd?$FN?5port?5mulitplier?5?$FL?$CFd?$FN?5h@ 00000b98     AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:000009c4       ??_C@_06DALJLGPG@eng?$DLen?$AA@ 00000bc4     AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:000009cc       ??_C@_1DA@EOBAEKJJ@?$AAA?$AAt?$AAa?$AAA?$AAt?$AAa?$AAp?$AAi?$AAP?$AAa?$AAs?$AAs?$AAT?$AAh?$AAr?$AAu?$AA?5?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AA?$AA@ 00000bcc     AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:000009fc       ??_C@_1BO@KOEKNILH@?$AAI?$AAD?$AAE?$AA?5?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAl?$AAe?$AAr?$AA?$AA@ 00000bfc     AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:00000a1c       ??_C@_1CA@HECPKGJI@?$AAA?$AAH?$AAC?$AAI?$AA?5?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAl?$AAe?$AAr?$AA?$AA@ 00000c1c     AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:00000a3c       ??_C@_03LKLGDMJI@eng?$AA@  00000c3c     AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:00000a40       ??_C@_0EF@OFDGAHNB@d?3?2myworkspace?2MdeModulePkg?2Bus?2@ 00000c40     AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:00000a88       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00000c88     UefiDebugLibConOut:DebugLib.obj
+ 0001:00000aa0       ??_C@_0DM@OJNICEHB@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00000ca0     UefiDebugLibConOut:DebugLib.obj
+ 0001:00000adc       ??_C@_0BD@OMEPNDED@ASSERT?5?$CFa?$CI?$CFd?$CJ?3?5?$CFa?6?$AA@ 00000cdc     UefiDebugLibConOut:DebugLib.obj
+ 0001:00000af0       ??_C@_0BF@NJNGJMPC@List?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00000cf0     BaseLib:LinkedList.obj
+ 0001:00000b08       ??_C@_0DD@EHJNIBEL@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00000d08     BaseLib:LinkedList.obj
+ 0001:00000b3c       ??_C@_0CC@KDLPLAED@List?9?$DOForwardLink?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 00000d3c     BaseLib:LinkedList.obj
+ 0001:00000b60       ??_C@_0BP@IJJCCMAK@List?9?$DOBackLink?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00000d60     BaseLib:LinkedList.obj
+ 0001:00000b80       ??_C@_0BF@CBLMFKOC@Node?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00000d80     BaseLib:LinkedList.obj
+ 0001:00000b98       ??_C@_0DG@IMEFJFAE@Count?5?$DM?5_gPcd_FixedAtBuild_PcdMa@ 00000d98     BaseLib:LinkedList.obj
+ 0001:00000bd0       ??_C@_0BJ@NJABNCDK@ListHead?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00000dd0     BaseLib:LinkedList.obj
+ 0001:00000bf0       ??_C@_0EB@JGCKPMLP@InternalBaseLibIsNodeInList?5?$CILis@ 00000df0     BaseLib:LinkedList.obj
+ 0001:00000c34       ??_C@_0DM@PHLIJEML@InternalBaseLibIsNodeInList?5?$CILis@ 00000e34     BaseLib:LinkedList.obj
+ 0001:00000c70       ??_C@_0DM@NCFNNADL@InternalBaseLibIsNodeInList?5?$CILis@ 00000e70     BaseLib:LinkedList.obj
+ 0001:00000cb0       ??_C@_0EE@BFCMBGFO@InternalBaseLibIsNodeInList?5?$CILis@ 00000eb0     BaseLib:LinkedList.obj
+ 0001:00000cf4       ??_C@_0BF@NMBJJECB@?$CBIsListEmpty?5?$CIEntry?$CJ?$AA@ 00000ef4     BaseLib:LinkedList.obj
+ 0001:00000d0c       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50?$AA@ 00000f0c     BaseLib:DivU64x32.obj
+ 0001:00000d1c       ??_C@_0L@MEMPDLHB@Count?5?$DM?564?$AA@ 00000f1c     BaseLib:RShiftU64.obj
+ 0001:00000d28       ??_C@_0DC@KCAFBLHJ@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00000f28     BaseLib:RShiftU64.obj
+ 0001:00000d5c       ??_C@_0CC@JOEHDGKB@DestinationBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 00000f5c     BaseMemoryLib:CompareMemWrapper.obj
+ 0001:00000d80       ??_C@_0EA@KAHCCAHB@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00000f80     BaseMemoryLib:CompareMemWrapper.obj
+ 0001:00000dc0       ??_C@_0BN@MDMCNBCC@SourceBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00000fc0     BaseMemoryLib:CompareMemWrapper.obj
+ 0001:00000de0       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 00000fe0     BaseMemoryLib:CompareMemWrapper.obj
+ 0001:00000e18       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 00001018     BaseMemoryLib:CompareMemWrapper.obj
+ 0001:00000e4c       ??_C@_0DN@LOGOMHAF@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 0000104c     BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00000e8c       ??_C@_0CN@BPIPMCPJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 0000108c     BaseMemoryLib:SetMemWrapper.obj
+ 0001:00000ebc       ??_C@_0DM@ILEDMHBO@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000010bc     BaseMemoryLib:SetMemWrapper.obj
+ 0001:00000ef8       ??_C@_0CI@MNELLLEK@?$CB?$CIBuffer?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Leng@ 000010f8     BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00000f20       ??_C@_0DN@KMMKGMC@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00001120     BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00000f60       ??_C@_0CL@OBMFBPED@Length?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIUINTN?$CJB@ 00001160     BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00000f8c       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000118c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000fb0       ??_C@_0FC@CHGHPDAC@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 000011b0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00001004       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001204     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00001018       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001218     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00001030       ??_C@_0EM@MDJMIFIM@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00001230     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000107c       ??_C@_0DE@FCAJAHCJ@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5@ 0000127c     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000010b0       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000012b0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:000010c8       ??_C@_0FI@JAAEOOHA@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 000012c8     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00001120       ??_C@_0EE@FMLOGMHH@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00001320     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001164       ??_C@_0CM@OCJNHBHB@Length?5?$DO?$DN?5sizeof?5?$CIEFI_DEVICE_PAT@ 00001364     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00001190       ??_C@_0DI@EAKGNDEJ@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00001390     UefiLib:UefiDriverModel.obj
+ 0001:000011c8       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ?$AA@ 000013c8     BaseTimerLibNullTemplate:TimerLibNull.obj
+ 0001:000011e0       ??_C@_0EG@NCLPJEBA@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000013e0     BaseTimerLibNullTemplate:TimerLibNull.obj
+ 0001:00001228       ??_C@_0CI@BGLNHBLM@?$CI?$CI?$CIUINTN?$CJ?5?$CIStartOfBuffer?$CJ?$CJ?5?$CG?50x0@ 00001428     BasePrintLib:PrintLib.obj
+ 0001:00001250       ??_C@_0DG@PDLDNIEO@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00001450     BasePrintLib:PrintLib.obj
+ 0001:00001288       ??_C@_07PBILKAFL@Success?$AA@ 00001488     BasePrintLib:PrintLibInternal.obj
+ 0001:00001290       ??_C@_0BG@CFJMNNJK@Warning?5Unknown?5Glyph?$AA@ 00001490     BasePrintLib:PrintLibInternal.obj
+ 0001:000012a8       ??_C@_0BH@GKKCJEPJ@Warning?5Delete?5Failure?$AA@ 000014a8     BasePrintLib:PrintLibInternal.obj
+ 0001:000012c0       ??_C@_0BG@ECIJMOED@Warning?5Write?5Failure?$AA@ 000014c0     BasePrintLib:PrintLibInternal.obj
+ 0001:000012d8       ??_C@_0BJ@ODIPDGHB@Warning?5Buffer?5Too?5Small?$AA@ 000014d8     BasePrintLib:PrintLibInternal.obj
+ 0001:000012f4       ??_C@_0L@PLPBEPPC@Load?5Error?$AA@ 000014f4     BasePrintLib:PrintLibInternal.obj
+ 0001:00001300       ??_C@_0BC@HOFHKGJN@Invalid?5Parameter?$AA@ 00001500     BasePrintLib:PrintLibInternal.obj
+ 0001:00001314       ??_C@_0M@BEECMOIL@Unsupported?$AA@ 00001514     BasePrintLib:PrintLibInternal.obj
+ 0001:00001320       ??_C@_0BA@FLNMPMCF@Bad?5Buffer?5Size?$AA@ 00001520     BasePrintLib:PrintLibInternal.obj
+ 0001:00001330       ??_C@_0BB@EGELJFOB@Buffer?5Too?5Small?$AA@ 00001530     BasePrintLib:PrintLibInternal.obj
+ 0001:00001344       ??_C@_09NKFGCIPN@Not?5Ready?$AA@ 00001544     BasePrintLib:PrintLibInternal.obj
+ 0001:00001350       ??_C@_0N@HHEABDHO@Device?5Error?$AA@ 00001550     BasePrintLib:PrintLibInternal.obj
+ 0001:00001360       ??_C@_0BA@LNEDDFNB@Write?5Protected?$AA@ 00001560     BasePrintLib:PrintLibInternal.obj
+ 0001:00001370       ??_C@_0BB@GOILNEAA@Out?5of?5Resources?$AA@ 00001570     BasePrintLib:PrintLibInternal.obj
+ 0001:00001384       ??_C@_0P@EIOJGIF@Volume?5Corrupt?$AA@ 00001584     BasePrintLib:PrintLibInternal.obj
+ 0001:00001394       ??_C@_0M@HDLEPOFA@Volume?5Full?$AA@ 00001594     BasePrintLib:PrintLibInternal.obj
+ 0001:000013a0       ??_C@_08KEGAJDNN@No?5Media?$AA@ 000015a0     BasePrintLib:PrintLibInternal.obj
+ 0001:000013ac       ??_C@_0O@JNCJKCCD@Media?5changed?$AA@ 000015ac     BasePrintLib:PrintLibInternal.obj
+ 0001:000013bc       ??_C@_09CFCBFJND@Not?5Found?$AA@ 000015bc     BasePrintLib:PrintLibInternal.obj
+ 0001:000013c8       ??_C@_0O@NFHOBIDO@Access?5Denied?$AA@ 000015c8     BasePrintLib:PrintLibInternal.obj
+ 0001:000013d8       ??_C@_0M@ENKCBFEP@No?5Response?$AA@ 000015d8     BasePrintLib:PrintLibInternal.obj
+ 0001:000013e4       ??_C@_0L@IFPBNFC@No?5mapping?$AA@ 000015e4     BasePrintLib:PrintLibInternal.obj
+ 0001:000013f0       ??_C@_08PAFJCNGP@Time?5out?$AA@ 000015f0     BasePrintLib:PrintLibInternal.obj
+ 0001:000013fc       ??_C@_0M@DCJFAFHJ@Not?5started?$AA@ 000015fc     BasePrintLib:PrintLibInternal.obj
+ 0001:00001408       ??_C@_0BA@IGIBFFPH@Already?5started?$AA@ 00001608     BasePrintLib:PrintLibInternal.obj
+ 0001:00001418       ??_C@_07LCKDCBKK@Aborted?$AA@ 00001618     BasePrintLib:PrintLibInternal.obj
+ 0001:00001420       ??_C@_0L@LKIFCMNO@ICMP?5Error?$AA@ 00001620     BasePrintLib:PrintLibInternal.obj
+ 0001:0000142c       ??_C@_0L@DJKNJKHM@TFTP?5Error?$AA@ 0000162c     BasePrintLib:PrintLibInternal.obj
+ 0001:00001438       ??_C@_0P@NCJHBCLM@Protocol?5Error?$AA@ 00001638     BasePrintLib:PrintLibInternal.obj
+ 0001:00001448       ??_C@_0DO@GOAMAIEG@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00001648     BasePrintLib:PrintLibInternal.obj
+ 0001:00001488       ??_C@_0CB@NIHAJGJE@StrSize?5?$CI?$CICHAR16?5?$CK?$CJ?5Format?$CJ?5?$CB?$DN?50@ 00001688     BasePrintLib:PrintLibInternal.obj
+ 0001:000014ac       ??_C@_0BL@BFEFANFD@AsciiStrSize?5?$CIFormat?$CJ?5?$CB?$DN?50?$AA@ 000016ac     BasePrintLib:PrintLibInternal.obj
+ 0001:000014c8       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO?$AA@ 000016c8     BasePrintLib:PrintLibInternal.obj
+ 0001:000014d8       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO?$AA@ 000016d8     BasePrintLib:PrintLibInternal.obj
+ 0001:000014e4       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02x@ 000016e4     BasePrintLib:PrintLibInternal.obj
+ 0001:00001518       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO?$AA@ 00001718     BasePrintLib:PrintLibInternal.obj
+ 0001:00001524       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d?$AA@ 00001724     BasePrintLib:PrintLibInternal.obj
+ 0001:00001540       ??_C@_04JIMNDDED@?$CF08X?$AA@ 00001740     BasePrintLib:PrintLibInternal.obj
+ 0001:00001548       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 00001748     BasePrintLib:PrintLibInternal.obj
+ 0001:0000154c       ??_C@_01LIIJDEN@?$AN?$AA@  0000174c     BasePrintLib:PrintLibInternal.obj
+ 0001:00001550       ??_C@_0EM@FPGGOFNC@?$CI?$CI?$CIFlags?5?$CG?50x00000040?$CJ?5?$DN?$DN?50?$CJ?$CJ?5?$HM?$HM@ 00001750     BasePrintLib:PrintLibInternal.obj
+ 0001:000015a0       ??_C@_0EG@NFDMKACK@?$CI?$CI?$CIFlags?5?$CG?50x00000040?$CJ?5?$CB?$DN?50?$CJ?$CJ?5?$HM?$HM@ 000017a0     BasePrintLib:PrintLibInternal.obj
+ 0001:000015e8       _mHexStr                   000017e8     BasePrintLib:PrintLibInternal.obj
+ 0001:000015f8       ??_C@_0DC@NGPEEDEA@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000017f8     BaseLib:Unaligned.obj
+ 0001:0000162c       ??_C@_0CP@EAMGNBHJ@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 0000182c     BaseLib:String.obj
+ 0001:0000165c       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000185c     BaseLib:String.obj
+ 0001:00001674       ??_C@_0CD@BDCLIGHD@?$CI?$CIUINTN?$CJ?5String?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 00001874     BaseLib:String.obj
+ 0001:00001698       ??_C@_0DK@EOJCOAME@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 00001898     BaseLib:String.obj
+ 0001:000016d4       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pcd@ 000018d4     BaseLib:String.obj
+ 0001:00001710       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 00001910     BaseLib:String.obj
+ 0001:00001748       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ?$AA@ 00001948     BaseLib:String.obj
+ 0001:00001764       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ?$AA@ 00001964     BaseLib:String.obj
+ 0001:00001780       ??_C@_0DL@HKFHNCLF@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00001980     BaseLib:DivU64x32Remainder.obj
+ 0001:000017bb       __ModuleEntryPoint         000019bb f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:000017d1       _ProcessLibraryConstructorList 000019d1 f   AtaAtapiPassThruDxe:AutoGen.obj
+ 0001:0000184c       _AtaPassThruPassThruExecute 00001a4c f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00001a52       _AsyncNonBlockingTransferRoutine 00001c52 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00001aeb       _InitializeAtaAtapiPassThru 00001ceb f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00001b88       _AtaAtapiPassThruSupported 00001d88 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00001c68       _AtaAtapiPassThruStart     00001e68 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00001ee1       _AtaAtapiPassThruStop      000020e1 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:000020e5       _SearchDeviceInfoList      000022e5 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002170       _CreateNewDeviceInfo       00002370 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:000021e3       _DestroyDeviceInfoList     000023e3 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002250       _DestroyAsynTaskList       00002450 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:000022ea       _EnumerateAttachedDevice   000024ea f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002377       _AtaPassThruPassThru       00002577 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:0000252c       _AtaPassThruGetNextPort    0000272c f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002654       _AtaPassThruGetNextDevice  00002854 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002792       _AtaPassThruBuildDevicePath 00002992 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002845       _AtaPassThruGetDevice      00002a45 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:0000290a       _ExtScsiPassThruResetTargetLun 00002b0a f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:0000290a       _AtaPassThruResetPort      00002b0a f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:0000290a       _AtaPassThruResetDevice    00002b0a f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:0000290a       _ExtScsiPassThruResetChannel 00002b0a f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002910       _ExtScsiPassThruPassThru   00002b10 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002a86       _ExtScsiPassThruGetNextTargetLun 00002c86 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002c40       _ExtScsiPassThruBuildDevicePath 00002e40 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002d14       _ExtScsiPassThruGetTargetLun 00002f14 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002e08       _ExtScsiPassThruGetNextTarget 00003008 f   AtaAtapiPassThruDxe:AtaAtapiPassThru.obj
+ 0001:00002f6a       _IdeReadPortB              0000316a f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00002fb1       _IdeWritePortB             000031b1 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00002fed       _IdeWritePortWMultiple     000031ed f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00003049       _IdeReadPortWMultiple      00003249 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000030a5       _DumpAllIdeRegisters       000032a5 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000326e       _CheckStatusRegister       0000346e f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000032cb       _DRQClear                  000034cb f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00003348       _DRQClear2                 00003548 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000033c5       _DRQReady                  000035c5 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000345c       _DRQReady2                 0000365c f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000034f3       _WaitForBSYClear           000036f3 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00003564       _GetIdeRegisterIoAddr      00003764 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000036a4       _AtaIssueCommand           000038a4 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00003822       _AtaPioDataInOut           00003a22 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00003991       _AtaNonDataCommandIn       00003b91 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00003a08       _AtaUdmStatusWait          00003c08 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00003a81       _AtaUdmStatusCheck         00003c81 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00003aed       _AtaUdmaInOut              00003ced f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00003f98       _AtaPacketReadPendingData  00004198 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00003fee       _AtaPacketReadWrite        000041ee f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00004112       _AtaPacketRequestSense     00004312 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000417c       _AtaPacketCommandExecute   0000437c f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000432c       _SetDeviceTransferMode     0000452c f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000043a2       _SetDriveParameters        000045a2 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000447c       _IdeAtaSmartReturnStatusCheck 0000467c f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:0000454a       _IdeAtaSmartSupport        0000474a f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000046c8       _AtaIdentify               000048c8 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00004740       _AtaIdentifyPacket         00004940 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:000047b8       _DetectAndConfigIdeDevice  000049b8 f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00004aff       _IdeModeInitialization     00004cff f   AtaAtapiPassThruDxe:IdeMode.obj
+ 0001:00004bea       _AhciReadReg               00004dea f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00004c2a       _AhciWriteReg              00004e2a f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00004c5f       _AhciAndReg                00004e5f f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00004c97       _AhciOrReg                 00004e97 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00004ccf       _AhciWaitMmioSet           00004ecf f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00004d13       _AhciWaitMemSet            00004f13 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00004d4b       _AhciCheckMemSet           00004f4b f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00004d77       _AhciClearPortStatus       00004f77 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00004dce       _AhciDumpPortStatus        00004fce f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00004e25       _AhciEnableFisReceive      00005025 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00004e61       _AhciDisableFisReceive     00005061 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00004ebb       _AhciBuildCommand          000050bb f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:0000503f       _AhciBuildCommandFis       0000523f f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:000050a3       _AhciPioTransfer           000052a3 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:000052cd       _AhciDmaTransfer           000054cd f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00005541       _AhciNonDataTransfer       00005741 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:0000562f       _AhciStopCommand           0000582f f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00005681       _AhciStartCommand          00005881 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00005781       _AhciReset                 00005981 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:000057dc       _AhciAtaSmartReturnStatusCheck 000059dc f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00005884       _AhciAtaSmartSupport       00005a84 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:0000599b       _AhciIdentify              00005b9b f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00005a23       _AhciIdentifyPacket        00005c23 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00005aa5       _AhciDeviceSetFeature      00005ca5 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00005b2b       _AhciPacketCommandExecute  00005d2b f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00005bea       _AhciCreateTransferDescriptor 00005dea f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00005e90       _AhciModeInitialization    00006090 f   AtaAtapiPassThruDxe:AhciMode.obj
+ 0001:00006334       _AtaAtapiPassThruComponentNameGetDriverName 00006534 f   AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:0000635e       _AtaAtapiPassThruComponentNameGetControllerName 0000655e f   AtaAtapiPassThruDxe:ComponentName.obj
+ 0001:00006431       _DebugPrint                00006631 f   UefiDebugLibConOut:DebugLib.obj
+ 0001:00006494       _DebugAssert               00006694 f   UefiDebugLibConOut:DebugLib.obj
+ 0001:000064d9       _InternalBaseLibIsNodeInList 000066d9 f   BaseLib:LinkedList.obj
+ 0001:00006566       _InitializeListHead        00006766 f   BaseLib:LinkedList.obj
+ 0001:0000658b       _InsertTailList            0000678b f   BaseLib:LinkedList.obj
+ 0001:000065c5       _GetFirstNode              000067c5 f   BaseLib:LinkedList.obj
+ 0001:000065ee       _GetNextNode               000067ee f   BaseLib:LinkedList.obj
+ 0001:00006615       _IsListEmpty               00006815 f   BaseLib:LinkedList.obj
+ 0001:00006641       _IsNull                    00006841 f   BaseLib:LinkedList.obj
+ 0001:00006671       _RemoveEntryList           00006871 f   BaseLib:LinkedList.obj
+ 0001:000066a5       _DivU64x32                 000068a5 f   BaseLib:DivU64x32.obj
+ 0001:000066c4       _RShiftU64                 000068c4 f   BaseLib:RShiftU64.obj
+ 0001:000066fb       _CompareMem                000068fb f   BaseMemoryLib:CompareMemWrapper.obj
+ 0001:00006794       _CopyMem                   00006994 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:0000680c       _SetMem                    00006a0c f   BaseMemoryLib:SetMemWrapper.obj
+ 0001:00006845       _ZeroMem                   00006a45 f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00006894       _InternalAllocatePool      00006a94 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000068b8       _InternalAllocateZeroPool  00006ab8 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000068d0       _InternalAllocateCopyPool  00006ad0 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000692d       _FreePool                  00006b2d f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00006966       _DevicePathNodeLength      00006b66 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:000069ac       _CompareIso639LanguageCode 00006bac f   UefiLib:UefiLib.obj
+ 0001:000069c6       _EfiTestManagedDevice      00006bc6 f   UefiLib:UefiLib.obj
+ 0001:00006a20       _LookupUnicodeString2      00006c20 f   UefiLib:UefiLib.obj
+ 0001:00006b11       _MicroSecondDelay          00006d11 f   BaseTimerLibNullTemplate:TimerLibNull.obj
+ 0001:00006b2b       _UnicodeVSPrintAsciiFormat 00006d2b f   BasePrintLib:PrintLib.obj
+ 0001:00006b67       _UnicodeSPrintAsciiFormat  00006d67 f   BasePrintLib:PrintLib.obj
+ 0001:00006b80       _BasePrintLibFillBuffer    00006d80 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00006bb4       _BasePrintLibValueToString 00006db4 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00006c17       _BasePrintLibSPrintMarker  00006e17 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000077b5       _BasePrintLibSPrint        000079b5 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000077d4       _ReadUnaligned16           000079d4 f   BaseLib:Unaligned.obj
+ 0001:000077f3       _ReadUnaligned24           000079f3 f   BaseLib:Unaligned.obj
+ 0001:00007816       _StrLen                    00007a16 f   BaseLib:String.obj
+ 0001:0000787e       _StrSize                   00007a7e f   BaseLib:String.obj
+ 0001:0000788b       _AsciiStrLen               00007a8b f   BaseLib:String.obj
+ 0001:000078d6       _AsciiStrnCmp              00007ad6 f   BaseLib:String.obj
+ 0001:00007960       _gST                       00007b60     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00007964       _gBS                       00007b64     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00007968       _gImageHandle              00007b68     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:0000796c       _gRT                       00007b6c     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+
+ entry point at        0001:000017bb
+
+ Static symbols
+

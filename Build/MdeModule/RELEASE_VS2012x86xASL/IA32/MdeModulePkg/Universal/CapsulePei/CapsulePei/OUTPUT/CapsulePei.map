@@ -1,0 +1,60 @@
+ CapsulePei
+
+ Timestamp is 527c4158 (Fri Nov 08 09:41:44 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000088H .data                   CODE
+ 0001:00000088 00000090H .rdata                  CODE
+ 0001:00000120 00000c75H .text                   CODE
+ 0001:00000d98 00000004H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiPeiLoadFilePpiGuid    00000200     CapsulePei:AutoGen.obj
+ 0001:00000010       _gEfiPeiReadOnlyVariable2PpiGuid 00000210     CapsulePei:AutoGen.obj
+ 0001:00000020       _gPeiCapsulePpiGuid        00000220     CapsulePei:AutoGen.obj
+ 0001:00000030       _gEfiCapsuleVendorGuid     00000230     CapsulePei:AutoGen.obj
+ 0001:00000040       _mGdtEntries               00000240     CapsulePei:UefiCapsule.obj
+ 0001:00000088       __gPcd_FixedAtBuild_PcdCapsuleCoalesceFile 00000288     CapsulePei:AutoGen.obj
+ 0001:00000098       ??_C@_1CE@KAHHLODK@?$AAC?$AAa?$AAp?$AAs?$AAu?$AAl?$AAe?$AAU?$AAp?$AAd?$AAa?$AAt?$AAe?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 00000298     CapsulePei:UefiCapsule.obj
+ 0001:000000bc       ??_C@_1CM@MKADNKPL@?$AAC?$AAa?$AAp?$AAs?$AAu?$AAl?$AAe?$AAL?$AAo?$AAn?$AAg?$AAM?$AAo?$AAd?$AAe?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AA?$AA@ 000002bc     CapsulePei:UefiCapsule.obj
+ 0001:000000e8       _mCapsulePpi               000002e8     CapsulePei:UefiCapsule.obj
+ 0001:000000f4       _mUefiPpiListCapsule       000002f4     CapsulePei:UefiCapsule.obj
+ 0001:00000100       _mGdt                      00000300     CapsulePei:UefiCapsule.obj
+ 0001:00000108       _mHexStr                   00000308     BasePrintLib:PrintLibInternal.obj
+ 0001:00000120       __ModuleEntryPoint         00000320 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:00000138       _CalculatePageTableSize    00000338 f   CapsulePei:UefiCapsule.obj
+ 0001:000001bf       _CreateIdentityMappingPageTables 000003bf f   CapsulePei:UefiCapsule.obj
+ 0001:00000412       _ReturnFunction            00000612 f   CapsulePei:UefiCapsule.obj
+ 0001:00000430       _Thunk32To64               00000630 f   CapsulePei:UefiCapsule.obj
+ 0001:000004a2       _ModeSwitch                000006a2 f   CapsulePei:UefiCapsule.obj
+ 0001:00000688       _FindCapsuleCoalesceImage  00000888 f   CapsulePei:UefiCapsule.obj
+ 0001:00000755       _GetCapsuleDescriptors     00000955 f   CapsulePei:UefiCapsule.obj
+ 0001:00000852       _CapsuleCoalesce           00000a52 f   CapsulePei:UefiCapsule.obj
+ 0001:000009e0       _CheckCapsuleUpdate        00000be0 f   CapsulePei:UefiCapsule.obj
+ 0001:000009e7       _CreateState               00000be7 f   CapsulePei:UefiCapsule.obj
+ 0001:00000ab5       _SetJump                   00000cb5 f   BaseLib:SetJump.obj
+ 0001:00000ad8       _StrCpy                    00000cd8 f   BaseLib:String.obj
+ 0001:00000b03       _StrLen                    00000d03 f   BaseLib:String.obj
+ 0001:00000b13       _AsmCpuid                  00000d13 f   BaseLib:CpuId.obj
+ 0001:00000b51       _LShiftU64                 00000d51 f   BaseLib:LShiftU64.obj
+ 0001:00000b7e       _InternalAssertJumpBuffer  00000d7e f   BaseLib:SetJump.obj
+ 0001:00000b7f       _InternalLongJump          00000d7f f   BaseLib:LongJump.obj
+ 0001:00000b93       _CopyMem                   00000d93 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00000bcb       _ZeroMem                   00000dcb f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00000bdb       _GetNextHob                00000ddb f   PeiHobLib:HobLib.obj
+ 0001:00000bfc       _GetFirstHob               00000dfc f   PeiHobLib:HobLib.obj
+ 0001:00000c1b       _InternalPeiCreateHob      00000e1b f   PeiHobLib:HobLib.obj
+ 0001:00000c43       _BasePrintLibFillBuffer    00000e43 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000c70       _BasePrintLibValueToString 00000e70 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000cb8       _BasePrintLibConvertValueToString 00000eb8 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000d50       _InternalX86EnablePaging64 00000f50 f   BaseLib:EnablePaging64.obj
+ 0001:00000d98       _gPeiServices              00000f98     <common>
+
+ entry point at        0001:00000120
+
+ Static symbols
+
+ 0001:00000d50       $$000000                   00000f50     BaseLib:EnablePaging64.obj

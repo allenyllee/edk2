@@ -1,0 +1,13 @@
+<component>
+	name = "Include"
+	category = ModulePart
+	LocalRoot = "SourceLevelDebugPkg\Include\"
+	RefName = "SourceLevelDebug.Include"
+[files]
+"ImageDebugSupport.h"	
+"TransferProtocol.h"	
+[parts]
+"SourceLevelDebug.Include.Guid"
+"SourceLevelDebug.Include.Ia32"
+"SourceLevelDebug.Include.Library"
+<endComponent>

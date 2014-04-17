@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_RAW -o d:\myworkspace\Build\NT32\DEBUG_VS2012x86xASL\FV\Ffs\EBf342FE-B1D3-4EF8-957C-8048606FF671SetupBrowser\SetupBrowserOffset.raw d:\myworkspace\Build\NT32\DEBUG_VS2012x86xASL\FV\Ffs\EBf342FE-B1D3-4EF8-957C-8048606FF671SetupBrowser\SetupBrowser.offset

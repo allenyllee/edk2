@@ -1,0 +1,401 @@
+ DxeCore
+
+ Timestamp is 527c4156 (Fri Nov 08 09:41:42 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000da8H .data                   CODE
+ 0001:00000da8 00000004H .rdata                  CODE
+ 0001:00000dac 0000bbf0H .text                   CODE
+ 0001:0000c9a0 00001268H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiResetArchProtocolGuid 00000200     DxeCore:AutoGen.obj
+ 0001:00000010       _gEfiFileInfoGuid          00000210     DxeCore:AutoGen.obj
+ 0001:00000020       _gEfiEventVirtualAddressChangeGuid 00000220     DxeCore:AutoGen.obj
+ 0001:00000030       _gEfiFirmwareVolumeBlockProtocolGuid 00000230     DxeCore:AutoGen.obj
+ 0001:00000040       _gEfiFirmwareFileSystem3Guid 00000240     DxeCore:AutoGen.obj
+ 0001:00000050       _gEfiRealTimeClockArchProtocolGuid 00000250     DxeCore:AutoGen.obj
+ 0001:00000060       _gEfiLoadedImageDevicePathProtocolGuid 00000260     DxeCore:AutoGen.obj
+ 0001:00000070       _gEfiSmmBase2ProtocolGuid  00000270     DxeCore:AutoGen.obj
+ 0001:00000080       _gEfiHobListGuid           00000280     DxeCore:AutoGen.obj
+ 0001:00000090       _gEfiHiiPackageListProtocolGuid 00000290     DxeCore:AutoGen.obj
+ 0001:000000a0       _gEfiHobMemoryAllocModuleGuid 000002a0     DxeCore:AutoGen.obj
+ 0001:000000b0       _gEfiBusSpecificDriverOverrideProtocolGuid 000002b0     DxeCore:AutoGen.obj
+ 0001:000000c0       _gEfiDecompressProtocolGuid 000002c0     DxeCore:AutoGen.obj
+ 0001:000000d0       _gEfiLoadFile2ProtocolGuid 000002d0     DxeCore:AutoGen.obj
+ 0001:000000e0       _gEfiCrc32GuidedSectionExtractionGuid 000002e0     DxeCore:AutoGen.obj
+ 0001:000000f0       _gEfiDevicePathProtocolGuid 000002f0     DxeCore:AutoGen.obj
+ 0001:00000100       _gEfiDxeServicesTableGuid  00000300     DxeCore:AutoGen.obj
+ 0001:00000110       _gEfiRuntimeArchProtocolGuid 00000310     DxeCore:AutoGen.obj
+ 0001:00000120       _gIdleLoopEventGuid        00000320     DxeCore:AutoGen.obj
+ 0001:00000130       _gEfiEventExitBootServicesGuid 00000330     DxeCore:AutoGen.obj
+ 0001:00000140       _gEfiSimpleFileSystemProtocolGuid 00000340     DxeCore:AutoGen.obj
+ 0001:00000150       _gEfiEventDxeDispatchGuid  00000350     DxeCore:AutoGen.obj
+ 0001:00000160       _gEventExitBootServicesFailedGuid 00000360     DxeCore:AutoGen.obj
+ 0001:00000170       _gEfiFirmwareVolume2ProtocolGuid 00000370     DxeCore:AutoGen.obj
+ 0001:00000180       _gEfiEventMemoryMapChangeGuid 00000380     DxeCore:AutoGen.obj
+ 0001:00000190       _gEfiCpuArchProtocolGuid   00000390     DxeCore:AutoGen.obj
+ 0001:000001a0       _gEfiWatchdogTimerArchProtocolGuid 000003a0     DxeCore:AutoGen.obj
+ 0001:000001b0       _gEfiPlatformDriverOverrideProtocolGuid 000003b0     DxeCore:AutoGen.obj
+ 0001:000001c0       _gEfiDriverFamilyOverrideProtocolGuid 000003c0     DxeCore:AutoGen.obj
+ 0001:000001d0       _gEfiLoadedImageProtocolGuid 000003d0     DxeCore:AutoGen.obj
+ 0001:000001e0       _gEfiSecurityPolicyProtocolGuid 000003e0     DxeCore:AutoGen.obj
+ 0001:000001f0       _gEfiSecurityArchProtocolGuid 000003f0     DxeCore:AutoGen.obj
+ 0001:00000200       _gEfiVariableArchProtocolGuid 00000400     DxeCore:AutoGen.obj
+ 0001:00000210       _gEfiBdsArchProtocolGuid   00000410     DxeCore:AutoGen.obj
+ 0001:00000220       _gEfiVariableWriteArchProtocolGuid 00000420     DxeCore:AutoGen.obj
+ 0001:00000230       _gAprioriGuid              00000430     DxeCore:AutoGen.obj
+ 0001:00000240       _gEfiMonotonicCounterArchProtocolGuid 00000440     DxeCore:AutoGen.obj
+ 0001:00000250       _gEfiDriverBindingProtocolGuid 00000450     DxeCore:AutoGen.obj
+ 0001:00000260       _gEfiMemoryTypeInformationGuid 00000460     DxeCore:AutoGen.obj
+ 0001:00000270       _gEfiSecurity2ArchProtocolGuid 00000470     DxeCore:AutoGen.obj
+ 0001:00000280       _gEfiEbcProtocolGuid       00000480     DxeCore:AutoGen.obj
+ 0001:00000290       _gEfiCapsuleArchProtocolGuid 00000490     DxeCore:AutoGen.obj
+ 0001:000002a0       _gEfiDebugImageInfoTableGuid 000004a0     DxeCore:AutoGen.obj
+ 0001:000002b0       _gEfiMetronomeArchProtocolGuid 000004b0     DxeCore:AutoGen.obj
+ 0001:000002c0       _gEfiFirmwareFileSystem2Guid 000004c0     DxeCore:AutoGen.obj
+ 0001:000002d0       _gEfiLoadFileProtocolGuid  000004d0     DxeCore:AutoGen.obj
+ 0001:000002e0       _gEfiTimerArchProtocolGuid 000004e0     DxeCore:AutoGen.obj
+ 0001:000002f0       _mEfiSystemTableTemplate   000004f0     DxeCore:DxeMain.obj
+ 0001:00000338       _gRuntimeTemplate          00000538     DxeCore:DxeMain.obj
+ 0001:00000360       _mEfiRuntimeServicesTableTemplate 00000560     DxeCore:DxeMain.obj
+ 0001:000003b0       _gEfiDecompress            000005b0     DxeCore:DxeMain.obj
+ 0001:000003b8       _gRuntime                  000005b8     DxeCore:DxeMain.obj
+ 0001:000003bc       _gDxeCoreDS                000005bc     DxeCore:DxeMain.obj
+ 0001:000003c0       _mDxeServices              000005c0     DxeCore:DxeMain.obj
+ 0001:00000420       _gDxeCoreRT                00000620     DxeCore:DxeMain.obj
+ 0001:00000424       _mGcdMemorySpaceLock       00000624     DxeCore:Gcd.obj
+ 0001:00000430       _mBootServices             00000630     DxeCore:DxeMain.obj
+ 0001:000004f8       _mCorePrivateImage         000006f8     DxeCore:Image.obj
+ 0001:00000600       _mLoadPe32PrivateData      00000800     DxeCore:Image.obj
+ 0001:00000610       _mGcdMemorySpaceMapEntryTemplate 00000810     DxeCore:Gcd.obj
+ 0001:00000650       _mGcdIoSpaceMapEntryTemplate 00000850     DxeCore:Gcd.obj
+ 0001:00000690       _mGcdIoSpaceMap            00000890     DxeCore:Gcd.obj
+ 0001:00000698       _mAttributeConversionTable 00000898     DxeCore:Gcd.obj
+ 0001:000007b8       _mGcdMemorySpaceMap        000009b8     DxeCore:Gcd.obj
+ 0001:000007c0       _mGcdIoSpaceLock           000009c0     DxeCore:Gcd.obj
+ 0001:000007cc       _gEfiCurrentTpl            000009cc     DxeCore:Event.obj
+ 0001:000007d0       _gEventSignalQueue         000009d0     DxeCore:Event.obj
+ 0001:000007d8       _mEventTable               000009d8     DxeCore:Event.obj
+ 0001:000007f8       _gEventQueueLock           000009f8     DxeCore:Event.obj
+ 0001:00000804       _mDispatcherLock           00000a04     DxeCore:Dispatcher.obj
+ 0001:00000810       _gMemoryTypeInformation    00000a10     DxeCore:Page.obj
+ 0001:00000888       _mMemoryTypeStatistics     00000a88     DxeCore:Page.obj
+ 0001:00000ae0       _mFreeMemoryMapEntryList   00000ce0     DxeCore:Page.obj
+ 0001:00000ae8       _mDefaultMaximumAddress    00000ce8     DxeCore:Page.obj
+ 0001:00000af0       _mDefaultBaseAddress       00000cf0     DxeCore:Page.obj
+ 0001:00000af8       _mDiscoveredList           00000cf8     DxeCore:Dispatcher.obj
+ 0001:00000b00       _mFvHandleList             00000d00     DxeCore:Dispatcher.obj
+ 0001:00000b08       _mScheduledQueue           00000d08     DxeCore:Dispatcher.obj
+ 0001:00000b10       _mDxeFileTypes             00000d10     DxeCore:Dispatcher.obj
+ 0001:00000b18       _mPoolHeadList             00000d18     DxeCore:Pool.obj
+ 0001:00000b20       _gHandleList               00000d20     DxeCore:Handle.obj
+ 0001:00000b28       _gProtocolDatabaseLock     00000d28     DxeCore:Handle.obj
+ 0001:00000b34       _mProtocolDatabase         00000d34     DxeCore:Handle.obj
+ 0001:00000b3c       _mFvPIWGDevicePathTemplate 00000d3c     DxeCore:FwVolBlock.obj
+ 0001:00000b54       _mFvMemmapDevicePathTemplate 00000d54     DxeCore:FwVolBlock.obj
+ 0001:00000b70       _mFwVolBlock               00000d70     DxeCore:FwVolBlock.obj
+ 0001:00000bb8       _mStreamRoot               00000db8     DxeCore:CoreSectionExtraction.obj
+ 0001:00000bc0       _mCustomGuidedSectionExtractionProtocol 00000dc0     DxeCore:CoreSectionExtraction.obj
+ 0001:00000bc4       _mOptionalProtocols        00000dc4     DxeCore:DxeProtocolNotify.obj
+ 0001:00000c00       _mArchProtocols            00000e00     DxeCore:DxeProtocolNotify.obj
+ 0001:00000d18       _mEfiTimerList             00000f18     DxeCore:Timer.obj
+ 0001:00000d20       _mEfiSystemTimeLock        00000f20     DxeCore:Timer.obj
+ 0001:00000d2c       _mEfiTimerLock             00000f2c     DxeCore:Timer.obj
+ 0001:00000d38       _mFvDevice                 00000f38     DxeCore:FwVol.obj
+ 0001:00000d8c       _gMemoryMap                00000f8c     DxeCore:MemData.obj
+ 0001:00000d94       _gMemoryLock               00000f94     DxeCore:MemData.obj
+ 0001:00000da0       _mFvAttributes             00000fa0     DxeCore:FwVolRead.obj
+ 0001:00000da8       _mUefiDevicePathLibEndDevicePath 00000fa8     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00000dac       __ModuleEntryPoint         00000fac f   DxeCoreEntryPoint:DxeCoreEntryPoint.obj
+ 0001:00000dcc       _DxeMain                   00000fcc f   DxeCore:DxeMain.obj
+ 0001:00001015       _CoreEfiNotAvailableYetArg2 00001215 f   DxeCore:DxeMain.obj
+ 0001:00001015       _CoreEfiNotAvailableYetArg5 00001215 f   DxeCore:DxeMain.obj
+ 0001:00001015       _CoreEfiNotAvailableYetArg4 00001215 f   DxeCore:DxeMain.obj
+ 0001:00001015       _CoreEfiNotAvailableYetArg1 00001215 f   DxeCore:DxeMain.obj
+ 0001:00001015       _CoreEfiNotAvailableYetArg3 00001215 f   DxeCore:DxeMain.obj
+ 0001:0000101b       _CalculateEfiHdrCrc        0000121b f   DxeCore:DxeMain.obj
+ 0001:00001049       _CoreExitBootServices      00001249 f   DxeCore:DxeMain.obj
+ 0001:000010d7       _DxeMainUefiDecompressGetInfo 000012d7 f   DxeCore:DxeMain.obj
+ 0001:00001106       _DxeMainUefiDecompress     00001306 f   DxeCore:DxeMain.obj
+ 0001:0000115e       _CoreInitializeImageServices 0000135e f   DxeCore:Image.obj
+ 0001:0000126d       _CoreReadImageFile         0000146d f   DxeCore:Image.obj
+ 0001:000012cc       _CoreLoadPeImage           000014cc f   DxeCore:Image.obj
+ 0001:00001697       _CoreLoadedImageInfo       00001897 f   DxeCore:Image.obj
+ 0001:000016bd       _CoreUnloadAndCloseImage   000018bd f   DxeCore:Image.obj
+ 0001:0000192f       _CoreLoadImageCommon       00001b2f f   DxeCore:Image.obj
+ 0001:00001d02       _CoreLoadImage             00001f02 f   DxeCore:Image.obj
+ 0001:00001d2e       _CoreLoadImageEx           00001f2e f   DxeCore:Image.obj
+ 0001:00001d60       _CoreStartImage            00001f60 f   DxeCore:Image.obj
+ 0001:00001ea0       _CoreExit                  000020a0 f   DxeCore:Image.obj
+ 0001:00001f46       _CoreUnloadImage           00002146 f   DxeCore:Image.obj
+ 0001:00001f8f       _CoreUnloadImageEx         0000218f f   DxeCore:Image.obj
+ 0001:00001f9a       _AlignValue                0000219a f   DxeCore:Gcd.obj
+ 0001:00001fed       _PageAlignAddress          000021ed f   DxeCore:Gcd.obj
+ 0001:00002001       _PageAlignLength           00002201 f   DxeCore:Gcd.obj
+ 0001:00002015       _CoreAllocateGcdMapEntry   00002215 f   DxeCore:Gcd.obj
+ 0001:00002072       _CoreInsertGcdMapEntry     00002272 f   DxeCore:Gcd.obj
+ 0001:00002130       _CoreMergeGcdMapEntry      00002330 f   DxeCore:Gcd.obj
+ 0001:000021ca       _CoreCleanupGcdMapEntry    000023ca f   DxeCore:Gcd.obj
+ 0001:00002213       _CoreSearchGcdMapEntry     00002413 f   DxeCore:Gcd.obj
+ 0001:00002294       _ConverToCpuArchAttributes 00002494 f   DxeCore:Gcd.obj
+ 0001:000022d9       _CoreConvertSpace          000024d9 f   DxeCore:Gcd.obj
+ 0001:000025b9       _CoreAllocateSpaceCheckEntry 000027b9 f   DxeCore:Gcd.obj
+ 0001:000025ea       _CoreAllocateSpace         000027ea f   DxeCore:Gcd.obj
+ 0001:000029c9       _CoreInternalAddMemorySpace 00002bc9 f   DxeCore:Gcd.obj
+ 0001:00002a01       _CoreAllocateMemorySpace   00002c01 f   DxeCore:Gcd.obj
+ 0001:00002a30       _CoreAddMemorySpace        00002c30 f   DxeCore:Gcd.obj
+ 0001:000030e3       _CoreFreeMemorySpace       000032e3 f   DxeCore:Gcd.obj
+ 0001:0000310d       _CoreRemoveMemorySpace     0000330d f   DxeCore:Gcd.obj
+ 0001:00003137       _BuildMemoryDescriptor     00003337 f   DxeCore:Gcd.obj
+ 0001:00003187       _CoreGetMemorySpaceDescriptor 00003387 f   DxeCore:Gcd.obj
+ 0001:000031ed       _CoreSetMemorySpaceAttributes 000033ed f   DxeCore:Gcd.obj
+ 0001:0000321b       _CoreGetMemorySpaceMap     0000341b f   DxeCore:Gcd.obj
+ 0001:0000329f       _CoreAddIoSpace            0000349f f   DxeCore:Gcd.obj
+ 0001:000032db       _CoreAllocateIoSpace       000034db f   DxeCore:Gcd.obj
+ 0001:0000330a       _CoreFreeIoSpace           0000350a f   DxeCore:Gcd.obj
+ 0001:00003334       _CoreRemoveIoSpace         00003534 f   DxeCore:Gcd.obj
+ 0001:0000335e       _BuildIoDescriptor         0000355e f   DxeCore:Gcd.obj
+ 0001:00003396       _CoreGetIoSpaceDescriptor  00003596 f   DxeCore:Gcd.obj
+ 0001:000033fb       _CoreGetIoSpaceMap         000035fb f   DxeCore:Gcd.obj
+ 0001:0000347f       _CoreConvertResourceDescriptorHobAttributesToCapabilities 0000367f f   DxeCore:Gcd.obj
+ 0001:000034dd       _CoreInitializeMemoryServices 000036dd f   DxeCore:Gcd.obj
+ 0001:00003bdf       _CoreInitializeGcdServices 00003ddf f   DxeCore:Gcd.obj
+ 0001:00004279       _CoreDispatchEventNotifies 00004479 f   DxeCore:Event.obj
+ 0001:000042fc       _CoreNotifyEvent           000044fc f   DxeCore:Event.obj
+ 0001:0000433f       _CoreNotifySignalList      0000453f f   DxeCore:Event.obj
+ 0001:0000438e       _CoreCreateEvent           0000458e f   DxeCore:Event.obj
+ 0001:000043ae       _CoreCreateEventEx         000045ae f   DxeCore:Event.obj
+ 0001:000043eb       _CoreCreateEventInternal   000045eb f   DxeCore:Event.obj
+ 0001:000045b1       _CoreSignalEvent           000047b1 f   DxeCore:Event.obj
+ 0001:0000461d       _CoreCheckEvent            0000481d f   DxeCore:Event.obj
+ 0001:00004699       _CoreWaitForEvent          00004899 f   DxeCore:Event.obj
+ 0001:000046e9       _CoreCloseEvent            000048e9 f   DxeCore:Event.obj
+ 0001:00004784       _CoreSetWatchdogTimer      00004984 f   DxeCore:SetWatchdogTimer.obj
+ 0001:000047d1       _CoreInitializeDebugImageInfoTable 000049d1 f   DxeCore:DebugImageInfo.obj
+ 0001:0000490b       _CoreNewDebugImageInfoEntry 00004b0b f   DxeCore:DebugImageInfo.obj
+ 0001:000049ce       _RemoveMemoryMapEntry      00004bce f   DxeCore:Page.obj
+ 0001:00004a02       _CoreAddRange              00004c02 f   DxeCore:Page.obj
+ 0001:00004b5c       _CoreFreeMemoryMapStack    00004d5c f   DxeCore:Page.obj
+ 0001:00004cc1       _PromoteMemoryResource     00004ec1 f   DxeCore:Page.obj
+ 0001:00004d6a       _CoreAddMemoryDescriptor   00004f6a f   DxeCore:Page.obj
+ 0001:00004fef       _CoreConvertPages          000051ef f   DxeCore:Page.obj
+ 0001:00005392       _CoreFindFreePagesI        00005592 f   DxeCore:Page.obj
+ 0001:0000553a       _FindFreePages             0000573a f   DxeCore:Page.obj
+ 0001:00005688       _CoreAllocatePages         00005888 f   DxeCore:Page.obj
+ 0001:00005795       _CoreFreePages             00005995 f   DxeCore:Page.obj
+ 0001:0000581c       _MergeMemoryMapDescriptor  00005a1c f   DxeCore:Page.obj
+ 0001:000058a4       _CoreGetMemoryMap          00005aa4 f   DxeCore:Page.obj
+ 0001:00005b3a       _CoreAllocatePoolPages     00005d3a f   DxeCore:Page.obj
+ 0001:00005b74       _CoreTerminateMemoryMap    00005d74 f   DxeCore:Page.obj
+ 0001:00005bef       _CoreGetDepexSectionAndPreProccess 00005def f   DxeCore:Dispatcher.obj
+ 0001:00005c43       _CoreSchedule              00005e43 f   DxeCore:Dispatcher.obj
+ 0001:00005ca8       _CoreTrust                 00005ea8 f   DxeCore:Dispatcher.obj
+ 0001:00005d26       _CoreEmptyCallbackFunction 00005f26 f   DxeCore:Dispatcher.obj
+ 0001:00005d26       _InternalAssertJumpBuffer  00005f26 f   BaseLib:SetJump.obj
+ 0001:00005d27       _CoreDispatcher            00005f27 f   DxeCore:Dispatcher.obj
+ 0001:00005edb       _CoreInsertOnScheduledQueueWhileProcessingBeforeAndAfter 000060db f   DxeCore:Dispatcher.obj
+ 0001:00005f8f       _FvIsBeingProcesssed       0000618f f   DxeCore:Dispatcher.obj
+ 0001:000060f4       _CoreFvToDevicePath        000062f4 f   DxeCore:Dispatcher.obj
+ 0001:00006169       _CoreAddToDriverList       00006369 f   DxeCore:Dispatcher.obj
+ 0001:00006205       _CoreProcessFvImageFile    00006405 f   DxeCore:Dispatcher.obj
+ 0001:0000634a       _CoreFwVolEventProtocolNotify 0000654a f   DxeCore:Dispatcher.obj
+ 0001:00006694       _LookupPoolHead            00006894 f   DxeCore:Pool.obj
+ 0001:00006737       _CoreAllocatePool          00006937 f   DxeCore:Pool.obj
+ 0001:000067b8       _CoreAllocatePoolI         000069b8 f   DxeCore:Pool.obj
+ 0001:000068f1       _CoreFreePool              00006af1 f   DxeCore:Pool.obj
+ 0001:00006924       _CoreFreePoolI             00006b24 f   DxeCore:Pool.obj
+ 0001:00006a81       _CoreLocateHandle          00006c81 f   DxeCore:Locate.obj
+ 0001:00006ba9       _CoreGetNextLocateAllHandles 00006da9 f   DxeCore:Locate.obj
+ 0001:00006bcd       _CoreGetNextLocateByRegisterNotify 00006dcd f   DxeCore:Locate.obj
+ 0001:00006c01       _CoreGetNextLocateByProtocol 00006e01 f   DxeCore:Locate.obj
+ 0001:00006c53       _CoreLocateDevicePath      00006e53 f   DxeCore:Locate.obj
+ 0001:00006ddb       _CoreLocateProtocol        00006fdb f   DxeCore:Locate.obj
+ 0001:00006e84       _CoreLocateHandleBuffer    00007084 f   DxeCore:Locate.obj
+ 0001:00006f27       _CoreAcquireProtocolLock   00007127 f   DxeCore:Handle.obj
+ 0001:00006f31       _CoreReleaseProtocolLock   00007131 f   DxeCore:Handle.obj
+ 0001:00006f3b       _CoreValidateHandle        0000713b f   DxeCore:Handle.obj
+ 0001:00006f56       _CoreFindProtocolEntry     00007156 f   DxeCore:Handle.obj
+ 0001:00007007       _CoreFindProtocolInterface 00007207 f   DxeCore:Handle.obj
+ 0001:00007043       _CoreUnregisterProtocolNotify 00007243 f   DxeCore:Handle.obj
+ 0001:0000709e       _CoreInstallProtocolInterface 0000729e f   DxeCore:Handle.obj
+ 0001:000070bb       _CoreInstallProtocolInterfaceNotify 000072bb f   DxeCore:Handle.obj
+ 0001:00007258       _CoreInstallMultipleProtocolInterfaces 00007458 f   DxeCore:Handle.obj
+ 0001:0000735c       _CoreDisconnectControllersUsingProtocolInterface 0000755c f   DxeCore:Handle.obj
+ 0001:00007430       _CoreUninstallProtocolInterface 00007630 f   DxeCore:Handle.obj
+ 0001:00007511       _CoreUninstallMultipleProtocolInterfaces 00007711 f   DxeCore:Handle.obj
+ 0001:0000756b       _CoreGetProtocolInterface  0000776b f   DxeCore:Handle.obj
+ 0001:000075ad       _CoreHandleProtocol        000077ad f   DxeCore:Handle.obj
+ 0001:000075d2       _CoreOpenProtocol          000077d2 f   DxeCore:Handle.obj
+ 0001:000077d8       _CoreCloseProtocol         000079d8 f   DxeCore:Handle.obj
+ 0001:00007893       _CoreOpenProtocolInformation 00007a93 f   DxeCore:Handle.obj
+ 0001:0000793a       _CoreProtocolsPerHandle    00007b3a f   DxeCore:Handle.obj
+ 0001:000079ce       _CoreConnectHandlesByKey   00007bce f   DxeCore:Handle.obj
+ 0001:00007a6e       _CoreSetInterruptState     00007c6e f   DxeCore:Tpl.obj
+ 0001:00007aae       _CoreRaiseTpl              00007cae f   DxeCore:Tpl.obj
+ 0001:00007ade       _CoreRestoreTpl            00007cde f   DxeCore:Tpl.obj
+ 0001:00007b4a       _FwVolBlockGetAttributes   00007d4a f   DxeCore:FwVolBlock.obj
+ 0001:00007b5d       _FvWriteFile               00007d5d f   DxeCore:FwVolWrite.obj
+ 0001:00007b5d       _FvGetVolumeInfo           00007d5d f   DxeCore:FwVolAttrib.obj
+ 0001:00007b5d       _FvSetVolumeAttributes     00007d5d f   DxeCore:FwVolAttrib.obj
+ 0001:00007b5d       _FwVolBlockSetAttributes   00007d5d f   DxeCore:FwVolBlock.obj
+ 0001:00007b5d       _FwVolBlockEraseBlock      00007d5d f   DxeCore:FwVolBlock.obj
+ 0001:00007b5d       _FvSetVolumeInfo           00007d5d f   DxeCore:FwVolAttrib.obj
+ 0001:00007b5d       _FwVolBlockWriteBlock      00007d5d f   DxeCore:FwVolBlock.obj
+ 0001:00007b63       _FwVolBlockReadBlock       00007d63 f   DxeCore:FwVolBlock.obj
+ 0001:00007bec       _FwVolBlockGetPhysicalAddress 00007dec f   DxeCore:FwVolBlock.obj
+ 0001:00007c11       _FwVolBlockGetBlockSize    00007e11 f   DxeCore:FwVolBlock.obj
+ 0001:00007c69       _ProduceFVBProtocolOnBuffer 00007e69 f   DxeCore:FwVolBlock.obj
+ 0001:00007dfd       _CoreProcessFirmwareVolume 00007ffd f   DxeCore:FwVolBlock.obj
+ 0001:00007e55       _CoreInstallConfigurationTable 00008055 f   DxeCore:InstallConfigurationTable.obj
+ 0001:00007f97       _OpenSectionStreamEx       00008197 f   DxeCore:CoreSectionExtraction.obj
+ 0001:00008050       _OpenSectionStream         00008250 f   DxeCore:CoreSectionExtraction.obj
+ 0001:000080a9       _VerifyGuidedSectionGuid   000082a9 f   DxeCore:CoreSectionExtraction.obj
+ 0001:00008123       _NotifyGuidedExtraction    00008323 f   DxeCore:CoreSectionExtraction.obj
+ 0001:000081ae       _CreateChildNode           000083ae f   DxeCore:CoreSectionExtraction.obj
+ 0001:000084db       _FindChildNode             000086db f   DxeCore:CoreSectionExtraction.obj
+ 0001:0000864f       _FindStreamNode            0000884f f   DxeCore:CoreSectionExtraction.obj
+ 0001:00008689       _GetSection                00008889 f   DxeCore:CoreSectionExtraction.obj
+ 0001:000087a5       _CloseSectionStream        000089a5 f   DxeCore:CoreSectionExtraction.obj
+ 0001:00008851       _CustomGuidedSectionExtract 00008a51 f   DxeCore:CoreSectionExtraction.obj
+ 0001:0000897e       _CoreRemoveInterfaceFromProtocol 00008b7e f   DxeCore:Notify.obj
+ 0001:000089c6       _CoreRegisterProtocolNotify 00008bc6 f   DxeCore:Notify.obj
+ 0001:00008a4d       _CoreReinstallProtocolInterface 00008c4d f   DxeCore:Notify.obj
+ 0001:00008b37       _CoreConnectController     00008d37 f   DxeCore:DriverSupport.obj
+ 0001:00008cf4       _AddSortedDriverBindingProtocol 00008ef4 f   DxeCore:DriverSupport.obj
+ 0001:00008dd8       _CoreConnectSingleController 00008fd8 f   DxeCore:DriverSupport.obj
+ 0001:000090fb       _CoreDisconnectController  000092fb f   DxeCore:DriverSupport.obj
+ 0001:00009460       _CoreAllEfiServicesAvailable 00009660 f   DxeCore:DxeProtocolNotify.obj
+ 0001:00009485       _GenericProtocolNotify     00009685 f   DxeCore:DxeProtocolNotify.obj
+ 0001:000095ca       _CoreNotifyOnProtocolEntryTable 000097ca f   DxeCore:DxeProtocolNotify.obj
+ 0001:00009606       _CoreInsertEventTimer      00009806 f   DxeCore:Timer.obj
+ 0001:00009640       _CoreCurrentSystemTime     00009840 f   DxeCore:Timer.obj
+ 0001:0000966a       _CoreCheckTimers           0000986a f   DxeCore:Timer.obj
+ 0001:0000970a       _CoreTimerTick             0000990a f   DxeCore:Timer.obj
+ 0001:00009763       _CoreSetTimer              00009963 f   DxeCore:Timer.obj
+ 0001:0000981e       _ReadFvbData               00009a1e f   DxeCore:FwVol.obj
+ 0001:00009940       _GetFwVolHeader            00009b40 f   DxeCore:FwVol.obj
+ 0001:000099cc       _FvCheck                   00009bcc f   DxeCore:FwVol.obj
+ 0001:00009d51       _NotifyFwVolBlock          00009f51 f   DxeCore:FwVol.obj
+ 0001:00009eb4       _CoreInternalWaitForTick   0000a0b4 f   DxeCore:Stall.obj
+ 0001:00009ee1       _CoreStall                 0000a0e1 f   DxeCore:Stall.obj
+ 0001:00009fba       _CoreAcquireLock           0000a1ba f   DxeCore:Library.obj
+ 0001:00009fd1       _CoreReleaseLock           0000a1d1 f   DxeCore:Library.obj
+ 0001:00009feb       _GrowDepexStack            0000a1eb f   DxeCore:Dependency.obj
+ 0001:0000a069       _PushBool                  0000a269 f   DxeCore:Dependency.obj
+ 0001:0000a093       _PopBool                   0000a293 f   DxeCore:Dependency.obj
+ 0001:0000a0b3       _CorePreProcessDepex       0000a2b3 f   DxeCore:Dependency.obj
+ 0001:0000a0f8       _CoreIsSchedulable         0000a2f8 f   DxeCore:Dependency.obj
+ 0001:0000a2a4       _VerifyFvHeaderChecksum    0000a4a4 f   DxeCore:Ffs.obj
+ 0001:0000a2d3       _FvGetVolumeAttributes     0000a4d3 f   DxeCore:FwVolAttrib.obj
+ 0001:0000a2fa       _FfsAttributes2FvFileAttributes 0000a4fa f   DxeCore:FwVolRead.obj
+ 0001:0000a315       _FvGetNextFile             0000a515 f   DxeCore:FwVolRead.obj
+ 0001:0000a3eb       _FvReadFile                0000a5eb f   DxeCore:FwVolRead.obj
+ 0001:0000a4f1       _FvReadFileSection         0000a6f1 f   DxeCore:FwVolRead.obj
+ 0001:0000a5d3       _SetJump                   0000a7d3 f   BaseLib:SetJump.obj
+ 0001:0000a5f6       _RShiftU64                 0000a7f6 f   BaseLib:RShiftU64.obj
+ 0001:0000a61b       _CalculateCheckSum8        0000a81b f   BaseLib:CheckSum.obj
+ 0001:0000a63a       _InternalLongJump          0000a83a f   BaseLib:LongJump.obj
+ 0001:0000a64e       _HighBitSet32              0000a84e f   BaseLib:HighBitSet32.obj
+ 0001:0000a663       _CopyMem                   0000a863 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:0000a6a8       _ZeroMem                   0000a8a8 f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:0000a6b8       _SetMem                    0000a8b8 f   BaseMemoryLib:SetMemWrapper.obj
+ 0001:0000a6d3       _CompareGuid               0000a8d3 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:0000a6f7       _InternalAllocateAlignedPages 0000a8f7 f   DxeCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000a7b7       _InternalAllocatePool      0000a9b7 f   DxeCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000a7d8       _InternalAllocateZeroPool  0000a9d8 f   DxeCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000a7f3       _AllocateCopyPool          0000a9f3 f   DxeCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000a817       _InternalReallocatePool    0000aa17 f   DxeCoreMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000a85a       _IsDevicePathValid         0000aa5a f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000a882       _IsDevicePathEnd           0000aa82 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000a893       _GetDevicePathSize         0000aa93 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000a8c2       _DuplicateDevicePath       0000aac2 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000a8da       _AppendDevicePath          0000aada f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000a968       _EfiCreateProtocolNotifyEvent 0000ab68 f   UefiLib:UefiLib.obj
+ 0001:0000a9aa       _ReallocateExtractHandlerTable 0000abaa f   DxeExtractGuidedSectionLib:DxeExtractGuidedSectionLib.obj
+ 0001:0000aa69       _ExtractGuidedSectionRegisterHandlers 0000ac69 f   DxeExtractGuidedSectionLib:DxeExtractGuidedSectionLib.obj
+ 0001:0000ab40       _ExtractGuidedSectionDecode 0000ad40 f   DxeExtractGuidedSectionLib:DxeExtractGuidedSectionLib.obj
+ 0001:0000abaa       _InvalidateInstructionCacheRange 0000adaa f   BaseCacheMaintenanceLib:X86Cache.obj
+ 0001:0000abaf       _FillBuf                   0000adaf f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000ac1a       _GetBits                   0000ae1a f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000ac32       _MakeTable                 0000ae32 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000aee6       _DecodeP                   0000b0e6 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000af58       _ReadPTLen                 0000b158 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000b092       _ReadCLen                  0000b292 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000b204       _DecodeC                   0000b404 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000b2b9       _Decode                    0000b4b9 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000b33c       _UefiDecompressGetInfo     0000b53c f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000b366       _UefiDecompress            0000b566 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000b3fe       _GetNextHob                0000b5fe f   DxeCoreHobLib:HobLib.obj
+ 0001:0000b421       _PeCoffLoaderGetPeHeaderMagicValue 0000b621 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000b446       _PeCoffLoaderGetPeHeader   0000b646 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000b8e2       _PeCoffLoaderGetImageInfo  0000bae2 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000bc3a       _PeCoffLoaderImageAddress  0000be3a f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000bc6a       _PeCoffLoaderRelocateImage 0000be6a f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000bedb       _PeCoffLoaderLoadImage     0000c0db f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000c415       _GetFileBufferByFilePath   0000c615 f   DxeServicesLib:DxeServicesLib.obj
+ 0001:0000c83c       _Crc32GuidedSectionGetInfo 0000ca3c f   DxeCrc32GuidedSectionExtractLib:DxeCrc32GuidedSectionExtractLib.obj
+ 0001:0000c8b8       _Crc32GuidedSectionHandler 0000cab8 f   DxeCrc32GuidedSectionExtractLib:DxeCrc32GuidedSectionExtractLib.obj
+ 0001:0000c9a0       _gHobList                  0000cba0     DxeCoreEntryPoint:DxeCoreEntryPoint.obj
+ 0001:0000c9a4       __gPcd_BinaryPatch_PcdLoadFixAddressRuntimeCodePageNumber 0000cba4     DxeCore:AutoGen.obj
+ 0001:0000c9a8       __gPcd_BinaryPatch_PcdLoadFixAddressBootTimeCodePageNumber 0000cba8     DxeCore:AutoGen.obj
+ 0001:0000c9ac       _gBds                      0000cbac     DxeCore:DxeMain.obj
+ 0001:0000c9b0       _gTimer                    0000cbb0     DxeCore:DxeMain.obj
+ 0001:0000c9b4       _gSmmBase2                 0000cbb4     DxeCore:DxeMain.obj
+ 0001:0000c9b8       _gCpu                      0000cbb8     DxeCore:DxeMain.obj
+ 0001:0000c9bc       _gMetronome                0000cbbc     DxeCore:DxeMain.obj
+ 0001:0000c9c0       _gDxeCoreImageHandle       0000cbc0     DxeCore:DxeMain.obj
+ 0001:0000c9c4       _mDecompressHandle         0000cbc4     DxeCore:DxeMain.obj
+ 0001:0000c9c8       _gSecurity                 0000cbc8     DxeCore:DxeMain.obj
+ 0001:0000c9cc       _gDxeCoreST                0000cbcc     DxeCore:DxeMain.obj
+ 0001:0000c9d0       _gWatchdogTimer            0000cbd0     DxeCore:DxeMain.obj
+ 0001:0000c9d4       _gSecurity2                0000cbd4     DxeCore:DxeMain.obj
+ 0001:0000c9d8       _mCurrentImage             0000cbd8     DxeCore:Image.obj
+ 0001:0000c9dc       _mDxeCoreImageMachineType  0000cbdc     DxeCore:Image.obj
+ 0001:0000c9de       _mMemoryTypeInformationInitialized 0000cbde     DxeCore:Page.obj
+ 0001:0000c9df       _gDispatcherRunning        0000cbdf     DxeCore:Dispatcher.obj
+ 0001:0000c9e0       _gEventPending             0000cbe0     DxeCore:Event.obj
+ 0001:0000c9e4       _gIdleLoopEvent            0000cbe4     DxeCore:Event.obj
+ 0001:0000c9e8       _mDebugTable               0000cbe8     DxeCore:DebugImageInfo.obj
+ 0001:0000c9ec       _mDebugInfoTableHeader     0000cbec     DxeCore:DebugImageInfo.obj
+ 0001:0000c9f8       _mMaxTableEntries          0000cbf8     DxeCore:DebugImageInfo.obj
+ 0001:0000c9fc       _mMapDepth                 0000cbfc     DxeCore:Page.obj
+ 0001:0000ca00       _mFreeMapStack             0000cc00     DxeCore:Page.obj
+ 0001:0000ca04       _mMemoryMapKey             0000cc04     DxeCore:Page.obj
+ 0001:0000ca08       _mEfiLocateHandleRequest   0000cc08     DxeCore:Locate.obj
+ 0001:0000ca0c       _mSystemTableAllocateSize  0000cc0c     DxeCore:InstallConfigurationTable.obj
+ 0001:0000ca10       _gHandleDatabaseKey        0000cc10     DxeCore:Handle.obj
+ 0001:0000ca18       _mSectionExtractionHandle  0000cc18     DxeCore:CoreSectionExtraction.obj
+ 0001:0000ca1c       _mEfiCheckTimerEvent       0000cc1c     DxeCore:Timer.obj
+ 0001:0000ca20       _mEfiSystemTime            0000cc20     DxeCore:Timer.obj
+ 0001:0000ca28       _mDepexEvaluationStackPointer 0000cc28     DxeCore:Dependency.obj
+ 0001:0000ca2c       _mDepexEvaluationStackEnd  0000cc2c     DxeCore:Dependency.obj
+ 0001:0000ca30       _mDepexEvaluationStack     0000cc30     DxeCore:Dependency.obj
+ 0001:0000ca34       _gBS                       0000cc34     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:0000ca38       _gImageHandle              0000cc38     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:0000ca3c       _gST                       0000cc3c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:0000ca40       _gRT                       0000cc40     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:0000ca44       _mExtractHandlerGuidTable  0000cc44     DxeExtractGuidedSectionLib:DxeExtractGuidedSectionLib.obj
+ 0001:0000ca48       _mMaxNumberOfExtractHandler 0000cc48     DxeExtractGuidedSectionLib:DxeExtractGuidedSectionLib.obj
+ 0001:0000ca4c       _mNumberOfExtractHandler   0000cc4c     DxeExtractGuidedSectionLib:DxeExtractGuidedSectionLib.obj
+ 0001:0000ca50       _mExtractDecodeHandlerTable 0000cc50     DxeExtractGuidedSectionLib:DxeExtractGuidedSectionLib.obj
+ 0001:0000ca54       _mExtractGetInfoHandlerTable 0000cc54     DxeExtractGuidedSectionLib:DxeExtractGuidedSectionLib.obj
+ 0001:0000ca58       _gEfiFwVolBlockEvent       0000cc58     <common>
+ 0001:0000ca5c       _gEfiFwVolBlockNotifyReg   0000cc5c     <common>
+ 0001:0000ca60       _mPoolHead                 0000cc60     <common>
+ 0001:0000d978       _mFwVolEvent               0000db78     <common>
+ 0001:0000d97c       _mFwVolEventRegistration   0000db7c     <common>
+ 0001:0000d980       _mFvDevicePath             0000db80     <common>
+ 0001:0000d9a0       _mMapStack                 0000dba0     <common>
+ 0001:0000db00       _gEventQueue               0000dd00     <common>
+ 0001:0000dc00       _gDxeCoreFileName          0000de00     <common>
+ 0001:0000dc04       _gDxeCoreLoadedImage       0000de04     <common>
+
+ entry point at        0001:00000dac
+
+ Static symbols
+
+ 0001:0000a27c       $LN276                     0000a47c     * CIL library *:* CIL module *

@@ -1,0 +1,76 @@
+ StatusCodeHandlerPei
+
+ Timestamp is 527c4171 (Fri Nov 08 09:42:09 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000094H .data                   CODE
+ 0001:00000098 000002b8H .rdata                  CODE
+ 0001:00000350 00000c6dH .text                   CODE
+ 0001:00000fc0 00000004H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiStatusCodeDataTypeStringGuid 00000200     StatusCodeHandlerPei:AutoGen.obj
+ 0001:00000010       _gEfiPeiRscHandlerPpiGuid  00000210     StatusCodeHandlerPei:AutoGen.obj
+ 0001:00000020       _mStatusString             00000220     BasePrintLib:PrintLibInternal.obj
+ 0001:00000098       ??_C@_0BD@OMAHIICL@ERROR?3?5C?$CFx?3V?$CFx?5I?$CFx?$AA@ 00000298     StatusCodeHandlerPei:SerialStatusCodeWorker.obj
+ 0001:000000ac       ??_C@_03GKLDPGLG@?5?$CFg?$AA@ 000002ac     StatusCodeHandlerPei:SerialStatusCodeWorker.obj
+ 0001:000000b0       ??_C@_03KHOJPICI@?5?$CFx?$AA@ 000002b0     StatusCodeHandlerPei:SerialStatusCodeWorker.obj
+ 0001:000000b4       ??_C@_02LIIHNNHG@?6?$AN?$AA@ 000002b4     StatusCodeHandlerPei:SerialStatusCodeWorker.obj
+ 0001:000000b8       ??_C@_0BJ@KDCPJMDH@PROGRESS?5CODE?3?5V?$CFx?5I?$CFx?6?$AN?$AA@ 000002b8     StatusCodeHandlerPei:SerialStatusCodeWorker.obj
+ 0001:000000d4       ??_C@_04LFPMDGL@?$CFa?6?$AN?$AA@ 000002d4     StatusCodeHandlerPei:SerialStatusCodeWorker.obj
+ 0001:000000dc       ??_C@_0BJ@KMGICPHL@Undefined?3?5C?$CFx?3V?$CFx?5I?$CFx?6?$AN?$AA@ 000002dc     StatusCodeHandlerPei:SerialStatusCodeWorker.obj
+ 0001:000000f8       ??_C@_07PBILKAFL@Success?$AA@ 000002f8     BasePrintLib:PrintLibInternal.obj
+ 0001:00000100       ??_C@_0BG@CFJMNNJK@Warning?5Unknown?5Glyph?$AA@ 00000300     BasePrintLib:PrintLibInternal.obj
+ 0001:00000118       ??_C@_0BH@GKKCJEPJ@Warning?5Delete?5Failure?$AA@ 00000318     BasePrintLib:PrintLibInternal.obj
+ 0001:00000130       ??_C@_0BG@ECIJMOED@Warning?5Write?5Failure?$AA@ 00000330     BasePrintLib:PrintLibInternal.obj
+ 0001:00000148       ??_C@_0BJ@ODIPDGHB@Warning?5Buffer?5Too?5Small?$AA@ 00000348     BasePrintLib:PrintLibInternal.obj
+ 0001:00000164       ??_C@_0L@PLPBEPPC@Load?5Error?$AA@ 00000364     BasePrintLib:PrintLibInternal.obj
+ 0001:00000170       ??_C@_0BC@HOFHKGJN@Invalid?5Parameter?$AA@ 00000370     BasePrintLib:PrintLibInternal.obj
+ 0001:00000184       ??_C@_0M@BEECMOIL@Unsupported?$AA@ 00000384     BasePrintLib:PrintLibInternal.obj
+ 0001:00000190       ??_C@_0BA@FLNMPMCF@Bad?5Buffer?5Size?$AA@ 00000390     BasePrintLib:PrintLibInternal.obj
+ 0001:000001a0       ??_C@_0BB@EGELJFOB@Buffer?5Too?5Small?$AA@ 000003a0     BasePrintLib:PrintLibInternal.obj
+ 0001:000001b4       ??_C@_09NKFGCIPN@Not?5Ready?$AA@ 000003b4     BasePrintLib:PrintLibInternal.obj
+ 0001:000001c0       ??_C@_0N@HHEABDHO@Device?5Error?$AA@ 000003c0     BasePrintLib:PrintLibInternal.obj
+ 0001:000001d0       ??_C@_0BA@LNEDDFNB@Write?5Protected?$AA@ 000003d0     BasePrintLib:PrintLibInternal.obj
+ 0001:000001e0       ??_C@_0BB@GOILNEAA@Out?5of?5Resources?$AA@ 000003e0     BasePrintLib:PrintLibInternal.obj
+ 0001:000001f4       ??_C@_0P@EIOJGIF@Volume?5Corrupt?$AA@ 000003f4     BasePrintLib:PrintLibInternal.obj
+ 0001:00000204       ??_C@_0M@HDLEPOFA@Volume?5Full?$AA@ 00000404     BasePrintLib:PrintLibInternal.obj
+ 0001:00000210       ??_C@_08KEGAJDNN@No?5Media?$AA@ 00000410     BasePrintLib:PrintLibInternal.obj
+ 0001:0000021c       ??_C@_0O@JNCJKCCD@Media?5changed?$AA@ 0000041c     BasePrintLib:PrintLibInternal.obj
+ 0001:0000022c       ??_C@_09CFCBFJND@Not?5Found?$AA@ 0000042c     BasePrintLib:PrintLibInternal.obj
+ 0001:00000238       ??_C@_0O@NFHOBIDO@Access?5Denied?$AA@ 00000438     BasePrintLib:PrintLibInternal.obj
+ 0001:00000248       ??_C@_0M@ENKCBFEP@No?5Response?$AA@ 00000448     BasePrintLib:PrintLibInternal.obj
+ 0001:00000254       ??_C@_0L@IFPBNFC@No?5mapping?$AA@ 00000454     BasePrintLib:PrintLibInternal.obj
+ 0001:00000260       ??_C@_08PAFJCNGP@Time?5out?$AA@ 00000460     BasePrintLib:PrintLibInternal.obj
+ 0001:0000026c       ??_C@_0M@DCJFAFHJ@Not?5started?$AA@ 0000046c     BasePrintLib:PrintLibInternal.obj
+ 0001:00000278       ??_C@_0BA@IGIBFFPH@Already?5started?$AA@ 00000478     BasePrintLib:PrintLibInternal.obj
+ 0001:00000288       ??_C@_07LCKDCBKK@Aborted?$AA@ 00000488     BasePrintLib:PrintLibInternal.obj
+ 0001:00000290       ??_C@_0L@LKIFCMNO@ICMP?5Error?$AA@ 00000490     BasePrintLib:PrintLibInternal.obj
+ 0001:0000029c       ??_C@_0L@DJKNJKHM@TFTP?5Error?$AA@ 0000049c     BasePrintLib:PrintLibInternal.obj
+ 0001:000002a8       ??_C@_0P@NCJHBCLM@Protocol?5Error?$AA@ 000004a8     BasePrintLib:PrintLibInternal.obj
+ 0001:000002b8       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO?$AA@ 000004b8     BasePrintLib:PrintLibInternal.obj
+ 0001:000002c8       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO?$AA@ 000004c8     BasePrintLib:PrintLibInternal.obj
+ 0001:000002d4       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02x@ 000004d4     BasePrintLib:PrintLibInternal.obj
+ 0001:00000308       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO?$AA@ 00000508     BasePrintLib:PrintLibInternal.obj
+ 0001:00000314       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d?$AA@ 00000514     BasePrintLib:PrintLibInternal.obj
+ 0001:00000330       ??_C@_04JIMNDDED@?$CF08X?$AA@ 00000530     BasePrintLib:PrintLibInternal.obj
+ 0001:00000338       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 00000538     BasePrintLib:PrintLibInternal.obj
+ 0001:0000033c       ??_C@_01LIIJDEN@?$AN?$AA@  0000053c     BasePrintLib:PrintLibInternal.obj
+ 0001:00000340       _mHexStr                   00000540     BasePrintLib:PrintLibInternal.obj
+ 0001:00000350       __ModuleEntryPoint         00000550 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:00000380       _SerialStatusCodeReportWorker 00000580 f   StatusCodeHandlerPei:SerialStatusCodeWorker.obj
+ 0001:000004a6       _CompareGuid               000006a6 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:000004ca       _AsciiSPrint               000006ca f   BasePrintLib:PrintLib.obj
+ 0001:000004e8       _BasePrintLibFillBuffer    000006e8 f   BasePrintLib:PrintLibInternal.obj
+ 0001:0000051c       _BasePrintLibValueToString 0000071c f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000564       _BasePrintLibSPrintMarker  00000764 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000f9e       _BasePrintLibSPrint        0000119e f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000fc0       _gPeiServices              000011c0     <common>
+
+ entry point at        0001:00000350
+
+ Static symbols
+

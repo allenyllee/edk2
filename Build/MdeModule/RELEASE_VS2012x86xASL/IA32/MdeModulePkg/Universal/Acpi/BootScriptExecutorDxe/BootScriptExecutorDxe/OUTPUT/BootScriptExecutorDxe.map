@@ -1,0 +1,117 @@
+ BootScriptExecutorDxe
+
+ Timestamp is 527c4176 (Fri Nov 08 09:42:14 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000f0H .data                   CODE
+ 0001:000000f0 00000004H .rdata                  CODE
+ 0001:00000100 00002debH .text                   CODE
+ 0001:00002ef0 00000030H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiLoadedImageProtocolGuid 00000200     BootScriptExecutorDxe:AutoGen.obj
+ 0001:00000010       _gEfiDxeSmmReadyToLockProtocolGuid 00000210     BootScriptExecutorDxe:AutoGen.obj
+ 0001:00000020       _gEfiSmmBase2ProtocolGuid  00000220     BootScriptExecutorDxe:AutoGen.obj
+ 0001:00000030       _gEfiBootScriptExecutorVariableGuid 00000230     BootScriptExecutorDxe:AutoGen.obj
+ 0001:00000040       _gEfiSmmCommunicationProtocolGuid 00000240     BootScriptExecutorDxe:AutoGen.obj
+ 0001:00000050       _gEfiSmbusHcProtocolGuid   00000250     BootScriptExecutorDxe:AutoGen.obj
+ 0001:00000060       _gEfiSmmReadyToLockProtocolGuid 00000260     BootScriptExecutorDxe:AutoGen.obj
+ 0001:00000070       _gEfiFirmwareVolume2ProtocolGuid 00000270     BootScriptExecutorDxe:AutoGen.obj
+ 0001:00000080       _gEfiBootScriptExecutorContextGuid 00000280     BootScriptExecutorDxe:AutoGen.obj
+ 0001:00000090       _gEfiCallerIdGuid          00000290     BootScriptExecutorDxe:AutoGen.obj
+ 0001:000000a0       _gEfiSmmLockBoxCommunicationGuid 000002a0     BootScriptExecutorDxe:AutoGen.obj
+ 0001:000000b0       _mBootScriptExecutorImageGuid 000002b0     BootScriptExecutorDxe:ScriptExecute.obj
+ 0001:000000c0       _mBootScriptHeaderDataGuid 000002c0     DxeS3BootScriptLib:BootScriptSave.obj
+ 0001:000000d0       _mBootScriptDataGuid       000002d0     DxeS3BootScriptLib:BootScriptSave.obj
+ 0001:000000e0       _mBootScriptInformationGuid 000002e0     DxeS3BootScriptLib:BootScriptSave.obj
+ 0001:000000f0       __gUefiDriverRevision      000002f0     BootScriptExecutorDxe:AutoGen.obj
+ 0001:00000100       __ModuleEntryPoint         00000300 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000147       _S3BootScriptExecutorEntryFunction 00000347 f   BootScriptExecutorDxe:ScriptExecute.obj
+ 0001:00000212       _BootScriptExecutorEntryPoint 00000412 f   BootScriptExecutorDxe:ScriptExecute.obj
+ 0001:000003bf       _SwitchStack               000005bf f   BaseLib:SwitchStack.obj
+ 0001:000003f2       _InternalLongJump          000005f2 f   BaseLib:LongJump.obj
+ 0001:00000406       _SaveLockBox               00000606 f   SmmLockBoxDxeLib:SmmLockBoxDxeLib.obj
+ 0001:000004ba       _SetLockBoxAttributes      000006ba f   SmmLockBoxDxeLib:SmmLockBoxDxeLib.obj
+ 0001:0000054e       _EfiCreateProtocolNotifyEvent 0000074e f   UefiLib:UefiLib.obj
+ 0001:00000592       _InternalSmBusExec         00000792 f   DxeSmbusLib:DxeSmbusLib.obj
+ 0001:000005e1       _S3BootScriptInternalCloseTable 000007e1 f   DxeS3BootScriptLib:BootScriptSave.obj
+ 0001:0000062b       _FixBootScriptInformation  0000082b f   DxeS3BootScriptLib:BootScriptSave.obj
+ 0001:000006cf       _SaveBootScriptDataToLockBox 000008cf f   DxeS3BootScriptLib:BootScriptSave.obj
+ 0001:000007df       _S3BootScriptEventCallBack 000009df f   DxeS3BootScriptLib:BootScriptSave.obj
+ 0001:0000081d       _S3BootScriptSmmEventCallBack 00000a1d f   DxeS3BootScriptLib:BootScriptSave.obj
+ 0001:00000864       _S3BootScriptLibInitialize 00000a64 f   DxeS3BootScriptLib:BootScriptSave.obj
+ 0001:0000091e       _CheckParameters           00000b1e f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:000009c6       _SmbusExecute              00000bc6 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00000b7e       _BuildLoopData             00000d7e f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00000bd1       _ScriptIoRead              00000dd1 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00000c90       _ScriptIoWrite             00000e90 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00000dac       _ScriptMemoryRead          00000fac f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00000e54       _ScriptMemoryWrite         00001054 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00000f58       _ScriptPciCfgRead          00001158 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00001055       _ScriptPciCfgWrite         00001255 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00001180       _BootScriptExecutePciCfgWrite 00001380 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:000011f9       _BootScriptExecuteIoReadWrite 000013f9 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00001261       _BootScriptExecuteMemoryReadWrite 00001461 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:000012c9       _BootScriptExecutePciCfgReadWrite 000014c9 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00001322       _BootScriptExecuteMemPoll  00001522 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:000013dc       _CheckAndOrMask            000015dc f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:0000148c       _BootScriptExecuteIoPoll   0000168c f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00001546       _BootScriptExecutePciCfg2Write 00001746 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:000015bf       _BootScriptExecutePciCfg2ReadWrite 000017bf f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00001618       _BootScriptPciCfgPoll      00001818 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:000016ce       _BootScriptPciCfg2Poll     000018ce f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00001784       _S3BootScriptExecute       00001984 f   DxeS3BootScriptLib:BootScriptExecute.obj
+ 0001:00001b14       _PeCoffLoaderGetPeHeaderMagicValue 00001d14 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00001b39       _PeCoffLoaderGetPeHeader   00001d39 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00001fd5       _PeCoffLoaderGetImageInfo  000021d5 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000232d       _PeCoffLoaderImageAddress  0000252d f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000235d       _PeCoffLoaderRelocateImage 0000255d f   BasePeCoffLib:BasePeCoff.obj
+ 0001:000025ce       _PeCoffLoaderLoadImage     000027ce f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00002b09       _PeCoffLoaderImageReadFromMemory 00002d09 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00002b29       _InternalImageHandleToFvHandle 00002d29 f   DxeServicesLib:DxeServicesLib.obj
+ 0001:00002b4f       _InternalGetSectionFromFv  00002d4f f   DxeServicesLib:DxeServicesLib.obj
+ 0001:00002b9b       _GetSectionFromAnyFv       00002d9b f   DxeServicesLib:DxeServicesLib.obj
+ 0001:00002c3f       _RShiftU64                 00002e3f f   BaseLib:RShiftU64.obj
+ 0001:00002c64       _CopyMem                   00002e64 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00002c9c       _PciCf8Read8               00002e9c f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:00002cf4       _PciCf8Write8              00002ef4 f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:00002d4e       _PciCf8Read16              00002f4e f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:00002da7       _PciCf8Write16             00002fa7 f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:00002e05       _PciCf8Read32              00003005 f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:00002e50       _PciCf8Write32             00003050 f   BasePciCf8Lib:PciCf8Lib.obj
+ 0001:00002ea0       _AsmTransferControl        000030a0 f   BootScriptExecutorDxe:S3Asm.obj
+ 0001:00002ee1       _AsmTransferControl32      000030e1 f   BootScriptExecutorDxe:S3Asm.obj
+ 0001:00002ee3       _AsmFixAddress16           000030e3     BootScriptExecutorDxe:S3Asm.obj
+ 0001:00002ee3       _AsmTransferControl16      000030e3 f   BootScriptExecutorDxe:S3Asm.obj
+ 0001:00002ee7       _AsmJmpAddr32              000030e7     BootScriptExecutorDxe:S3Asm.obj
+ 0001:00002ef0       _gST                       000030f0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00002ef4       _gBS                       000030f4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00002ef8       _gImageHandle              000030f8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00002efc       _gRT                       000030fc     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00002f00       _mSmbus                    00003100     DxeSmbusLib:DxeSmbusLib.obj
+ 0001:00002f04       _mLockBoxLength            00003104     <common>
+ 0001:00002f08       _mS3BootScriptTablePtr     00003108     <common>
+ 0001:00002f10       _mS3BootScriptTable        00003110     <common>
+ 0001:00002f1c       _mEnterRuntimeEvent        0000311c     <common>
+
+ entry point at        0001:00000100
+
+ Static symbols
+
+ 0001:000009a2       $LN24                      00000ba2     * CIL library *:* CIL module *
+ 0001:000009ba       $LN21                      00000bba     * CIL library *:* CIL module *
+ 0001:00000b52       $LN396                     00000d52     * CIL library *:* CIL module *
+ 0001:00000c75       $LN65                      00000e75     * CIL library *:* CIL module *
+ 0001:00000c85       $LN62                      00000e85     * CIL library *:* CIL module *
+ 0001:00000d7c       $LN213                     00000f7c     * CIL library *:* CIL module *
+ 0001:00000e38       $LN98                      00001038     * CIL library *:* CIL module *
+ 0001:00000e48       $LN94                      00001048     * CIL library *:* CIL module *
+ 0001:00000f28       $LN255                     00001128     * CIL library *:* CIL module *
+ 0001:00001165       $LN35                      00001365     * CIL library *:* CIL module *
+ 0001:00001175       $LN33                      00001375     * CIL library *:* CIL module *
+ 0001:00001ad0       $LN284                     00001cd0     * CIL library *:* CIL module *
+ 0001:00002ea0       $$000000                   000030a0     BootScriptExecutorDxe:S3Asm.obj
+ 0001:00002edd       @jmp_addr                  000030dd     BootScriptExecutorDxe:S3Asm.obj

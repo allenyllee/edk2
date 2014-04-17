@@ -1,0 +1,28 @@
+ Metronome
+
+ Timestamp is 527c415f (Fri Nov 08 09:41:51 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000018H .data                   CODE
+ 0001:00000018 00000004H .rdata                  CODE
+ 0001:0000001c 00000038H .text                   CODE
+ 0001:00000054 00000010H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiMetronomeArchProtocolGuid 00000220     Metronome:AutoGen.obj
+ 0001:00000010       _mMetronome                00000230     Metronome:Metronome.obj
+ 0001:00000018       __gUefiDriverRevision      00000238     Metronome:AutoGen.obj
+ 0001:0000001c       __ModuleEntryPoint         0000023c f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000051       _WaitForTick               00000271 f   Metronome:Metronome.obj
+ 0001:00000054       _mMetronomeHandle          00000274     Metronome:Metronome.obj
+ 0001:00000058       _gST                       00000278     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:0000005c       _gBS                       0000027c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000060       _gImageHandle              00000280     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+
+ entry point at        0001:0000001c
+
+ Static symbols
+

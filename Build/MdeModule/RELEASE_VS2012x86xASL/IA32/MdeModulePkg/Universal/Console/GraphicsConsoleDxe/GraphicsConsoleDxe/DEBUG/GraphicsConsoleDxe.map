@@ -1,0 +1,212 @@
+ GraphicsConsoleDxe
+
+ Timestamp is 527c415b (Fri Nov 08 09:41:47 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001734H .data                   CODE
+ 0001:00001738 00000ce3H .rdata                  CODE
+ 0001:0000241b 00002adbH .text                   CODE
+ 0001:00004ef8 00000038H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiHiiFontProtocolGuid   00000200     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00000010       __gPcd_BinaryPatch_PcdVideoHorizontalResolution 00000210     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00000014       __gPcd_BinaryPatch_PcdVideoVerticalResolution 00000214     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00000018       _mGraphicsConsoleModeData  00000218     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00000050       _mGraphicsEfiColors        00000250     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00000090       _mFontPackageListGuid      00000290     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000000a0       _SpaceStr                  000002a0     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000000a8       _gGraphicsConsoleDriverBinding 000002a8     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000000c0       _mCrLfString               000002c0     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000000c8       _mGraphicsConsoleDevTemplate 000002c8     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:0000011c       _mCursorGlyph              0000031c     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00000134       _mNarrowFontSize           00000334     GraphicsConsoleDxe:LaffStd.obj
+ 0001:00000138       _gUsStdNarrowGlyphData     00000338     GraphicsConsoleDxe:LaffStd.obj
+ 0001:00001604       _gEfiHiiDatabaseProtocolGuid 00001804     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00001614       _gEfiHiiConfigRoutingProtocolGuid 00001814     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00001624       _gEfiGraphicsOutputProtocolGuid 00001824     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00001634       _gEfiHiiImageProtocolGuid  00001834     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00001644       _gEfiDevicePathProtocolGuid 00001844     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00001654       _gEfiHiiStringProtocolGuid 00001854     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00001664       _gEfiDriverBindingProtocolGuid 00001864     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00001674       _gEfiSimpleTextOutProtocolGuid 00001874     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00001684       _gEfiComponentNameProtocolGuid 00001884     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00001694       _gEfiUgaDrawProtocolGuid   00001894     GraphicsConsoleDxe:AutoGen.obj
+ 0001:000016a4       _gGraphicsConsoleComponentName 000018a4     GraphicsConsoleDxe:ComponentName.obj
+ 0001:000016b0       _mGraphicsConsoleDriverNameTable 000018b0     GraphicsConsoleDxe:ComponentName.obj
+ 0001:000016c0       _mStatusString             000018c0     BasePrintLib:PrintLibInternal.obj
+ 0001:00001738       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ?6@ 00001938     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:0000175c       ??_C@_0BE@DCHLEIGN@?$CBEFI_ERROR?5?$CIStatus?$CJ?$AA@ 0000195c     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00001770       __gUefiDriverRevision      00001970     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00001778       ??_C@_0IP@BBPBHCJK@d?3?2myworkspace?2Build?2MdeModule?2R@ 00001978     GraphicsConsoleDxe:AutoGen.obj
+ 0001:00001808       ??_C@_0CG@FMMEGIFI@?$CIMaxColumns?5?$DO?$DN?580?$CJ?5?$CG?$CG?5?$CIMaxRows?5?$DO@ 00001a08     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00001830       ??_C@_0FD@OBKLJMKK@d?3?2myworkspace?2MdeModulePkg?2Univ@ 00001a30     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00001884       ??_C@_0BO@GKGDGBHG@NewModeBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001a84     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000018a4       ??_C@_0CL@GFHEHEGF@Graphics?5?9?5Mode?5?$CFd?0?5Column?5?$DN?5?$CFd?0@ 00001aa4     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000018d0       ??_C@_0CK@GKJCJHBL@GraphicsConsole?5video?5resolution@ 00001ad0     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000018fc       ??_C@_1DG@MLMPCMEK@?$AAG?$AAr?$AAa?$AAp?$AAh?$AAi?$AAc?$AAs?$AA?5?$AAC?$AAo?$AAn?$AAs?$AAo?$AAl?$AAe?$AA?5?$AAS?$AAt?$AAa?$AAr?$AAt?$AAe?$AAd?$AA?6?$AA?$AN?$AA?$AA@ 00001afc     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00001934       ??_C@_0BF@NDBIKIKC@CR?5has?5Bad?5Signature?$AA@ 00001b34     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:0000194c       ??_C@_0CA@NIDBBNEF@Private?9?$DOUgaDraw?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001b4c     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:0000196c       ??_C@_0BG@FILCNCLA@RowInfoArraySize?5?$DM?$DN?51?$AA@ 00001b6c     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00001984       ??_C@_0BI@NNHOFMMK@Package?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001b84     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:0000199c       ??_C@_0BL@MNAEHLEJ@mHiiHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001b9c     GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000019b8       ??_C@_03LKLGDMJI@eng?$AA@  00001bb8     GraphicsConsoleDxe:ComponentName.obj
+ 0001:000019bc       ??_C@_06DALJLGPG@eng?$DLen?$AA@ 00001bbc     GraphicsConsoleDxe:ComponentName.obj
+ 0001:000019c4       ??_C@_1DA@OHNPCAKP@?$AAG?$AAr?$AAa?$AAp?$AAh?$AAi?$AAc?$AAs?$AA?5?$AAC?$AAo?$AAn?$AAs?$AAo?$AAl?$AAe?$AA?5?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AA?$AA@ 00001bc4     GraphicsConsoleDxe:ComponentName.obj
+ 0001:000019f4       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001bf4     BaseLib:Unaligned.obj
+ 0001:00001a0c       ??_C@_0DC@NGPEEDEA@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00001c0c     BaseLib:Unaligned.obj
+ 0001:00001a40       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001c40     UefiDebugLibConOut:DebugLib.obj
+ 0001:00001a58       ??_C@_0DM@OJNICEHB@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00001c58     UefiDebugLibConOut:DebugLib.obj
+ 0001:00001a94       ??_C@_0BD@OMEPNDED@ASSERT?5?$CFa?$CI?$CFd?$CJ?3?5?$CFa?6?$AA@ 00001c94     UefiDebugLibConOut:DebugLib.obj
+ 0001:00001aa8       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 00001ca8     BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00001ae0       ??_C@_0DN@LOGOMHAF@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00001ce0     BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00001b20       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 00001d20     BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00001b54       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001d54     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00001b78       ??_C@_0FC@CHGHPDAC@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00001d78     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00001bcc       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001dcc     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00001be0       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001de0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00001bf8       ??_C@_0EM@MDJMIFIM@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00001df8     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001c44       ??_C@_0DE@FCAJAHCJ@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5@ 00001e44     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001c78       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001e78     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00001c90       ??_C@_0FI@JAAEOOHA@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00001e90     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00001ce8       ??_C@_0EM@KKODNMEN@d?3?2myworkspace?2MdeModulePkg?2Libr@ 00001ee8     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0001:00001d34       ??_C@_0DA@BAMHPGBM@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00001f34     UefiLib:UefiLib.obj
+ 0001:00001d64       ??_C@_0BP@DEIEJICI@NotifyFunction?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001f64     UefiLib:UefiLib.obj
+ 0001:00001d84       ??_C@_0DI@EAKGNDEJ@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00001f84     UefiLib:UefiDriverModel.obj
+ 0001:00001dbc       ??_C@_0DI@GMNKKHGK@d?3?2myworkspace?2MdeModulePkg?2Libr@ 00001fbc     UefiHiiLib:HiiLib.obj
+ 0001:00001df4       ??_C@_0CA@OEKIMLLB@PackageListGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00001ff4     UefiHiiLib:HiiLib.obj
+ 0001:00001e14       _mEndOfPakageList          00002014     UefiHiiLib:HiiLib.obj
+ 0001:00001e18       ??_C@_0CI@BGLNHBLM@?$CI?$CI?$CIUINTN?$CJ?5?$CIStartOfBuffer?$CJ?$CJ?5?$CG?50x0@ 00002018     BasePrintLib:PrintLib.obj
+ 0001:00001e40       ??_C@_0DG@PDLDNIEO@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00002040     BasePrintLib:PrintLib.obj
+ 0001:00001e78       ??_C@_07PBILKAFL@Success?$AA@ 00002078     BasePrintLib:PrintLibInternal.obj
+ 0001:00001e80       ??_C@_0BG@CFJMNNJK@Warning?5Unknown?5Glyph?$AA@ 00002080     BasePrintLib:PrintLibInternal.obj
+ 0001:00001e98       ??_C@_0BH@GKKCJEPJ@Warning?5Delete?5Failure?$AA@ 00002098     BasePrintLib:PrintLibInternal.obj
+ 0001:00001eb0       ??_C@_0BG@ECIJMOED@Warning?5Write?5Failure?$AA@ 000020b0     BasePrintLib:PrintLibInternal.obj
+ 0001:00001ec8       ??_C@_0BJ@ODIPDGHB@Warning?5Buffer?5Too?5Small?$AA@ 000020c8     BasePrintLib:PrintLibInternal.obj
+ 0001:00001ee4       ??_C@_0L@PLPBEPPC@Load?5Error?$AA@ 000020e4     BasePrintLib:PrintLibInternal.obj
+ 0001:00001ef0       ??_C@_0BC@HOFHKGJN@Invalid?5Parameter?$AA@ 000020f0     BasePrintLib:PrintLibInternal.obj
+ 0001:00001f04       ??_C@_0M@BEECMOIL@Unsupported?$AA@ 00002104     BasePrintLib:PrintLibInternal.obj
+ 0001:00001f10       ??_C@_0BA@FLNMPMCF@Bad?5Buffer?5Size?$AA@ 00002110     BasePrintLib:PrintLibInternal.obj
+ 0001:00001f20       ??_C@_0BB@EGELJFOB@Buffer?5Too?5Small?$AA@ 00002120     BasePrintLib:PrintLibInternal.obj
+ 0001:00001f34       ??_C@_09NKFGCIPN@Not?5Ready?$AA@ 00002134     BasePrintLib:PrintLibInternal.obj
+ 0001:00001f40       ??_C@_0N@HHEABDHO@Device?5Error?$AA@ 00002140     BasePrintLib:PrintLibInternal.obj
+ 0001:00001f50       ??_C@_0BA@LNEDDFNB@Write?5Protected?$AA@ 00002150     BasePrintLib:PrintLibInternal.obj
+ 0001:00001f60       ??_C@_0BB@GOILNEAA@Out?5of?5Resources?$AA@ 00002160     BasePrintLib:PrintLibInternal.obj
+ 0001:00001f74       ??_C@_0P@EIOJGIF@Volume?5Corrupt?$AA@ 00002174     BasePrintLib:PrintLibInternal.obj
+ 0001:00001f84       ??_C@_0M@HDLEPOFA@Volume?5Full?$AA@ 00002184     BasePrintLib:PrintLibInternal.obj
+ 0001:00001f90       ??_C@_08KEGAJDNN@No?5Media?$AA@ 00002190     BasePrintLib:PrintLibInternal.obj
+ 0001:00001f9c       ??_C@_0O@JNCJKCCD@Media?5changed?$AA@ 0000219c     BasePrintLib:PrintLibInternal.obj
+ 0001:00001fac       ??_C@_09CFCBFJND@Not?5Found?$AA@ 000021ac     BasePrintLib:PrintLibInternal.obj
+ 0001:00001fb8       ??_C@_0O@NFHOBIDO@Access?5Denied?$AA@ 000021b8     BasePrintLib:PrintLibInternal.obj
+ 0001:00001fc8       ??_C@_0M@ENKCBFEP@No?5Response?$AA@ 000021c8     BasePrintLib:PrintLibInternal.obj
+ 0001:00001fd4       ??_C@_0L@IFPBNFC@No?5mapping?$AA@ 000021d4     BasePrintLib:PrintLibInternal.obj
+ 0001:00001fe0       ??_C@_08PAFJCNGP@Time?5out?$AA@ 000021e0     BasePrintLib:PrintLibInternal.obj
+ 0001:00001fec       ??_C@_0M@DCJFAFHJ@Not?5started?$AA@ 000021ec     BasePrintLib:PrintLibInternal.obj
+ 0001:00001ff8       ??_C@_0BA@IGIBFFPH@Already?5started?$AA@ 000021f8     BasePrintLib:PrintLibInternal.obj
+ 0001:00002008       ??_C@_07LCKDCBKK@Aborted?$AA@ 00002208     BasePrintLib:PrintLibInternal.obj
+ 0001:00002010       ??_C@_0L@LKIFCMNO@ICMP?5Error?$AA@ 00002210     BasePrintLib:PrintLibInternal.obj
+ 0001:0000201c       ??_C@_0L@DJKNJKHM@TFTP?5Error?$AA@ 0000221c     BasePrintLib:PrintLibInternal.obj
+ 0001:00002028       ??_C@_0P@NCJHBCLM@Protocol?5Error?$AA@ 00002228     BasePrintLib:PrintLibInternal.obj
+ 0001:00002038       ??_C@_0DO@GOAMAIEG@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00002238     BasePrintLib:PrintLibInternal.obj
+ 0001:00002078       ??_C@_0CB@NIHAJGJE@StrSize?5?$CI?$CICHAR16?5?$CK?$CJ?5Format?$CJ?5?$CB?$DN?50@ 00002278     BasePrintLib:PrintLibInternal.obj
+ 0001:0000209c       ??_C@_0BL@BFEFANFD@AsciiStrSize?5?$CIFormat?$CJ?5?$CB?$DN?50?$AA@ 0000229c     BasePrintLib:PrintLibInternal.obj
+ 0001:000020b8       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO?$AA@ 000022b8     BasePrintLib:PrintLibInternal.obj
+ 0001:000020c8       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO?$AA@ 000022c8     BasePrintLib:PrintLibInternal.obj
+ 0001:000020d4       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02x@ 000022d4     BasePrintLib:PrintLibInternal.obj
+ 0001:00002108       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO?$AA@ 00002308     BasePrintLib:PrintLibInternal.obj
+ 0001:00002114       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d?$AA@ 00002314     BasePrintLib:PrintLibInternal.obj
+ 0001:00002130       ??_C@_04JIMNDDED@?$CF08X?$AA@ 00002330     BasePrintLib:PrintLibInternal.obj
+ 0001:00002138       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 00002338     BasePrintLib:PrintLibInternal.obj
+ 0001:0000213c       ??_C@_01LIIJDEN@?$AN?$AA@  0000233c     BasePrintLib:PrintLibInternal.obj
+ 0001:00002140       ??_C@_0EM@FPGGOFNC@?$CI?$CI?$CIFlags?5?$CG?50x00000040?$CJ?5?$DN?$DN?50?$CJ?$CJ?5?$HM?$HM@ 00002340     BasePrintLib:PrintLibInternal.obj
+ 0001:00002190       ??_C@_0EG@NFDMKACK@?$CI?$CI?$CIFlags?5?$CG?50x00000040?$CJ?5?$CB?$DN?50?$CJ?$CJ?5?$HM?$HM@ 00002390     BasePrintLib:PrintLibInternal.obj
+ 0001:000021d8       _mHexStr                   000023d8     BasePrintLib:PrintLibInternal.obj
+ 0001:000021e8       ??_C@_0CP@EAMGNBHJ@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000023e8     BaseLib:String.obj
+ 0001:00002218       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00002418     BaseLib:String.obj
+ 0001:00002230       ??_C@_0CD@BDCLIGHD@?$CI?$CIUINTN?$CJ?5String?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 00002430     BaseLib:String.obj
+ 0001:00002254       ??_C@_0DK@EOJCOAME@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 00002454     BaseLib:String.obj
+ 0001:00002290       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pcd@ 00002490     BaseLib:String.obj
+ 0001:000022cc       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 000024cc     BaseLib:String.obj
+ 0001:00002304       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ?$AA@ 00002504     BaseLib:String.obj
+ 0001:00002320       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ?$AA@ 00002520     BaseLib:String.obj
+ 0001:0000233c       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50?$AA@ 0000253c     BaseLib:DivU64x32Remainder.obj
+ 0001:0000234c       ??_C@_0DL@HKFHNCLF@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 0000254c     BaseLib:DivU64x32Remainder.obj
+ 0001:00002388       ??_C@_0CI@MNELLLEK@?$CB?$CIBuffer?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Leng@ 00002588     BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:000023b0       ??_C@_0DN@KMMKGMC@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000025b0     BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:000023f0       ??_C@_0CL@OBMFBPED@Length?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIUINTN?$CJB@ 000025f0     BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:0000241b       __ModuleEntryPoint         0000261b f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00002431       _ProcessLibraryConstructorList 00002631 f   GraphicsConsoleDxe:AutoGen.obj
+ 0001:000024dc       _GraphicsConsoleControllerDriverSupported 000026dc f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000025a9       _InitializeGraphicsConsoleTextMode 000027a9 f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000027af       _GraphicsConsoleControllerDriverStart 000029af f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00002aab       _GraphicsConsoleControllerDriverStop 00002cab f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00002b6f       _CheckModeSupported        00002d6f f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00002c0b       _EfiLocateHiiProtocol      00002e0b f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00002c6c       _GraphicsConsoleConOutReset 00002e6c f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00002c8f       _GraphicsConsoleConOutOutputString 00002e8f f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00003005       _GraphicsConsoleConOutTestString 00003205 f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00003066       _GraphicsConsoleConOutQueryMode 00003266 f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000030ed       _GraphicsConsoleConOutSetMode 000032ed f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00003269       _GraphicsConsoleConOutSetAttribute 00003469 f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000032ce       _GraphicsConsoleConOutClearScreen 000034ce f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00003398       _GraphicsConsoleConOutSetCursorPosition 00003598 f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00003440       _GraphicsConsoleConOutEnableCursor 00003640 f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:0000348c       _GetTextColors             0000368c f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000034b6       _DrawUnicodeWeightAtCursorN 000036b6 f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00003727       _FlushCursor               00003927 f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00003854       _RegisterFontPackage       00003a54 f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:00003933       _InitializeGraphicsConsole 00003b33 f   GraphicsConsoleDxe:GraphicsConsole.obj
+ 0001:000039d8       _GraphicsConsoleComponentNameGetDriverName 00003bd8 f   GraphicsConsoleDxe:ComponentName.obj
+ 0001:000039fe       _GraphicsConsoleComponentNameGetControllerName 00003bfe f   GraphicsConsoleDxe:ComponentName.obj
+ 0001:00003a04       _ReadUnaligned16           00003c04 f   BaseLib:Unaligned.obj
+ 0001:00003a23       _ReadUnaligned24           00003c23 f   BaseLib:Unaligned.obj
+ 0001:00003a46       _ReadUnaligned32           00003c46 f   BaseLib:Unaligned.obj
+ 0001:00003a66       _WriteUnaligned32          00003c66 f   BaseLib:Unaligned.obj
+ 0001:00003a8c       _ReadUnaligned64           00003c8c f   BaseLib:Unaligned.obj
+ 0001:00003aaf       _WriteUnaligned64          00003caf f   BaseLib:Unaligned.obj
+ 0001:00003ada       _DebugPrint                00003cda f   UefiDebugLibConOut:DebugLib.obj
+ 0001:00003b3d       _DebugAssert               00003d3d f   UefiDebugLibConOut:DebugLib.obj
+ 0001:00003b82       _CopyMem                   00003d82 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00003bfa       _InternalAllocatePool      00003dfa f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00003c1e       _InternalAllocateZeroPool  00003e1e f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00003c36       _InternalAllocateCopyPool  00003e36 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00003c93       _FreePool                  00003e93 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00003cc9       _UefiHiiServicesLibConstructor 00003ec9 f   UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0001:00003db6       _CompareIso639LanguageCode 00003fb6 f   UefiLib:UefiLib.obj
+ 0001:00003dd0       _EfiCreateProtocolNotifyEvent 00003fd0 f   UefiLib:UefiLib.obj
+ 0001:00003e86       _LookupUnicodeString2      00004086 f   UefiLib:UefiLib.obj
+ 0001:00003f7a       _HiiAddPackages            0000417a f   UefiHiiLib:HiiLib.obj
+ 0001:00004067       _UnicodeVSPrintAsciiFormat 00004267 f   BasePrintLib:PrintLib.obj
+ 0001:000040a3       _UnicodeSPrintAsciiFormat  000042a3 f   BasePrintLib:PrintLib.obj
+ 0001:000040bc       _BasePrintLibFillBuffer    000042bc f   BasePrintLib:PrintLibInternal.obj
+ 0001:000040f0       _BasePrintLibValueToString 000042f0 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00004153       _BasePrintLibSPrintMarker  00004353 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00004d05       _BasePrintLibSPrint        00004f05 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00004d24       _StrLen                    00004f24 f   BaseLib:String.obj
+ 0001:00004d8c       _StrSize                   00004f8c f   BaseLib:String.obj
+ 0001:00004d99       _AsciiStrLen               00004f99 f   BaseLib:String.obj
+ 0001:00004de4       _AsciiStrnCmp              00004fe4 f   BaseLib:String.obj
+ 0001:00004e6e       _ZeroMem                   0000506e f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00004ebd       _CopyGuid                  000050bd f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00004ef8       _gST                       000050f8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00004efc       _gBS                       000050fc     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00004f00       _gImageHandle              00005100     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00004f04       _gRT                       00005104     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00004f08       _gHiiImage                 00005108     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0001:00004f0c       _gHiiFont                  0000510c     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0001:00004f10       _gHiiString                00005110     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0001:00004f14       _gHiiDatabase              00005114     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0001:00004f18       _gHiiConfigRouting         00005118     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0001:00004f1c       _mUefiFormBrowser2         0000511c     UefiHiiLib:HiiLib.obj
+ 0001:00004f20       _mHiiDatabase              00005120     <common>
+ 0001:00004f24       _mHiiFont                  00005124     <common>
+ 0001:00004f28       _mHiiHandle                00005128     <common>
+ 0001:00004f2c       _mHiiRegistration          0000512c     <common>
+
+ entry point at        0001:0000241b
+
+ Static symbols
+

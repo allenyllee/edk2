@@ -1,0 +1,48 @@
+ IdeBusPei
+
+ Timestamp is 527c414f (Fri Nov 08 09:41:35 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000020H .data                   CODE
+ 0001:00000020 00000000H .rdata                  CODE
+ 0001:00000020 00001039H .text                   CODE
+ 0001:0000105c 00000004H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gPeiAtaControllerPpiGuid  00000220     IdeBusPei:AutoGen.obj
+ 0001:00000010       _gEfiPeiVirtualBlockIoPpiGuid 00000230     IdeBusPei:AutoGen.obj
+ 0001:00000020       __ModuleEntryPoint         00000240 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:00000032       _AtapiPeimEntry            00000252 f   IdeBusPei:AtapiPeim.obj
+ 0001:000000d2       _AtapiGetNumberOfBlockDevices 000002f2 f   IdeBusPei:AtapiPeim.obj
+ 0001:000000e2       _AtapiGetBlockDeviceMediaInfo 00000302 f   IdeBusPei:AtapiPeim.obj
+ 0001:00000145       _AtapiReadBlocks           00000365 f   IdeBusPei:AtapiPeim.obj
+ 0001:00000211       _AtapiEnumerateDevices     00000431 f   IdeBusPei:AtapiPeim.obj
+ 0001:000003ab       _CheckPowerMode            000005cb f   IdeBusPei:AtapiPeim.obj
+ 0001:000004e9       _WaitForBSYClear           00000709 f   IdeBusPei:AtapiPeim.obj
+ 0001:0000051d       _DRQClear                  0000073d f   IdeBusPei:AtapiPeim.obj
+ 0001:00000560       _DRQClear2                 00000780 f   IdeBusPei:AtapiPeim.obj
+ 0001:000005b4       _DRQReady                  000007d4 f   IdeBusPei:AtapiPeim.obj
+ 0001:00000610       _DRQReady2                 00000830 f   IdeBusPei:AtapiPeim.obj
+ 0001:0000066c       _ATAPIIdentify             0000088c f   IdeBusPei:AtapiPeim.obj
+ 0001:000007eb       _TestUnitReady             00000a0b f   IdeBusPei:AtapiPeim.obj
+ 0001:0000081b       _AtapiPacketCommandIn      00000a3b f   IdeBusPei:AtapiPeim.obj
+ 0001:000009ff       _Inquiry                   00000c1f f   IdeBusPei:AtapiPeim.obj
+ 0001:00000a91       _DetectMedia               00000cb1 f   IdeBusPei:AtapiPeim.obj
+ 0001:00000c98       _ResetDevice               00000eb8 f   IdeBusPei:AtapiPeim.obj
+ 0001:00000d24       _RequestSense              00000f44 f   IdeBusPei:AtapiPeim.obj
+ 0001:00000db6       _ReadCapacity              00000fd6 f   IdeBusPei:AtapiPeim.obj
+ 0001:00000eb8       _ReadSectors               000010d8 f   IdeBusPei:AtapiPeim.obj
+ 0001:00000f79       _IsNoMedia                 00001199 f   IdeBusPei:AtapiPeim.obj
+ 0001:00000fa4       _IsMediaError              000011c4 f   IdeBusPei:AtapiPeim.obj
+ 0001:00000fec       _InternalAllocatePages     0000120c f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001015       _CopyMem                   00001235 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00001049       _ZeroMem                   00001269 f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:0000105c       _gPeiServices              0000127c     <common>
+
+ entry point at        0001:00000020
+
+ Static symbols
+

@@ -1,0 +1,17 @@
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = UEFI-6.5
+  FILE_GUID                      = 49464555-362D-352E-2020-202020202020
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = ShellCEntryLib
+
+[Sources]
+  UEFI-6.5.c
+
+[Packages]
+  StdLib/StdLib.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  LibC

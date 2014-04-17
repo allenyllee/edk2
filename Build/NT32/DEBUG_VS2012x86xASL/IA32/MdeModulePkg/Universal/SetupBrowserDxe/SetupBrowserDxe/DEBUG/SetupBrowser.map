@@ -1,0 +1,699 @@
+ SetupBrowser
+
+ Timestamp is 52778b16 (Mon Nov 04 19:55:02 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00014e13H .text                   CODE
+ 0002:00000000 0000257cH .rdata                  DATA
+ 0002:0000257c 000000acH .rdata$debug            DATA
+ 0003:00000000 0000145cH .data                   DATA
+ 0003:00001460 000001c0H .bss                    DATA
+ 0004:00000000 00000054H .edata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       __ModuleEntryPoint         00001000 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:0000002d       _ProcessLibraryConstructorList 0000102d f   SetupBrowser:AutoGen.obj
+ 0001:00000165       _ProcessLibraryDestructorList 00001165 f   SetupBrowser:AutoGen.obj
+ 0001:000001aa       _SendForm                  000011aa f   SetupBrowser:Setup.obj
+ 0001:0000045e       _BrowserCallback           0000145e f   SetupBrowser:Setup.obj
+ 0001:00000670       _InitializeSetup           00001670 f   SetupBrowser:Setup.obj
+ 0001:000008d0       _NewString                 000018d0 f   SetupBrowser:Setup.obj
+ 0001:00000902       _GetToken                  00001902 f   SetupBrowser:Setup.obj
+ 0001:00000955       _NewStringCpy              00001955 f   SetupBrowser:Setup.obj
+ 0001:00000996       _NewStringCat              00001996 f   SetupBrowser:Setup.obj
+ 0001:000009ff       _SynchronizeStorage        000019ff f   SetupBrowser:Setup.obj
+ 0001:00000a94       _GetValueByName            00001a94 f   SetupBrowser:Setup.obj
+ 0001:00000b43       _SetValueByName            00001b43 f   SetupBrowser:Setup.obj
+ 0001:00000c16       _StorageToConfigResp       00001c16 f   SetupBrowser:Setup.obj
+ 0001:00000d12       _ConfigRespToStorage       00001d12 f   SetupBrowser:Setup.obj
+ 0001:00000e8b       _GetQuestionValue          00001e8b f   SetupBrowser:Setup.obj
+ 0001:00001695       _SetQuestionValue          00002695 f   SetupBrowser:Setup.obj
+ 0001:00001ba3       _ValidateQuestion          00002ba3 f   SetupBrowser:Setup.obj
+ 0001:00001c92       _NoSubmitCheck             00002c92 f   SetupBrowser:Setup.obj
+ 0001:00001d67       _SynchronizeStorageForForm 00002d67 f   SetupBrowser:Setup.obj
+ 0001:00001eb8       _SendDiscardInfoToDriver   00002eb8 f   SetupBrowser:Setup.obj
+ 0001:00002063       _ValidateFormSet           00003063 f   SetupBrowser:Setup.obj
+ 0001:000020e0       _DiscardForm               000030e0 f   SetupBrowser:Setup.obj
+ 0001:00002324       _SubmitForm                00003324 f   SetupBrowser:Setup.obj
+ 0001:00002791       _GetDefaultValueFromAltCfg 00003791 f   SetupBrowser:Setup.obj
+ 0001:00002a48       _GetDefaultIdForCallBack   00003a48 f   SetupBrowser:Setup.obj
+ 0001:00002aa4       _GetQuestionDefault        00003aa4 f   SetupBrowser:Setup.obj
+ 0001:00002ece       _ExtractDefault            00003ece f   SetupBrowser:Setup.obj
+ 0001:0000323d       _LoadFormConfig            0000423d f   SetupBrowser:Setup.obj
+ 0001:00003332       _LoadFormSetConfig         00004332 f   SetupBrowser:Setup.obj
+ 0001:0000339b       _RemoveConfigRequest       0000439b f   SetupBrowser:Setup.obj
+ 0001:000034a8       _CleanBrowserStorage       000044a8 f   SetupBrowser:Setup.obj
+ 0001:00003517       _AppendConfigRequest       00004517 f   SetupBrowser:Setup.obj
+ 0001:000035a0       _ConfigRequestAdjust       000045a0 f   SetupBrowser:Setup.obj
+ 0001:00003704       _LoadStorage               00004704 f   SetupBrowser:Setup.obj
+ 0001:000037c1       _InitializeCurrentSetting  000047c1 f   SetupBrowser:Setup.obj
+ 0001:000039b8       _GetIfrBinaryData          000049b8 f   SetupBrowser:Setup.obj
+ 0001:00003c00       _InitializeFormSet         00004c00 f   SetupBrowser:Setup.obj
+ 0001:00003d27       _SaveBrowserContext        00004d27 f   SetupBrowser:Setup.obj
+ 0001:00003ef5       _RestoreBrowserContext     00004ef5 f   SetupBrowser:Setup.obj
+ 0001:00004107       _GetFormSetFromHiiHandle   00005107 f   SetupBrowser:Setup.obj
+ 0001:00004174       _IsHiiHandleInBrowserContext 00005174 f   SetupBrowser:Setup.obj
+ 0001:000041e4       _GetHotKeyFromRegisterList 000051e4 f   SetupBrowser:Setup.obj
+ 0001:00004246       _SetScope                  00005246 f   SetupBrowser:Setup.obj
+ 0001:0000428e       _RegisterHotKey            0000528e f   SetupBrowser:Setup.obj
+ 0001:00004375       _RegiserExitHandler        00005375 f   SetupBrowser:Setup.obj
+ 0001:0000437f       _SaveReminder              0000537f f   SetupBrowser:Setup.obj
+ 0001:0000453b       _ProcessQuestionConfig     0000553b f   SetupBrowser:ProcessOptions.obj
+ 0001:00004587       _ValueToOption             00005587 f   SetupBrowser:ProcessOptions.obj
+ 0001:000045fe       _GetArrayData              000055fe f   SetupBrowser:ProcessOptions.obj
+ 0001:00004670       _SetArrayData              00005670 f   SetupBrowser:ProcessOptions.obj
+ 0001:000046da       _PrintFormattedNumber      000056da f   SetupBrowser:ProcessOptions.obj
+ 0001:00004753       _PasswordCallback          00005753 f   SetupBrowser:ProcessOptions.obj
+ 0001:000047d6       _PasswordInvalid           000057d6 f   SetupBrowser:ProcessOptions.obj
+ 0001:0000480a       _ProcessOptions            0000580a f   SetupBrowser:ProcessOptions.obj
+ 0001:00005563       _ProcessHelpString         00006563 f   SetupBrowser:ProcessOptions.obj
+ 0001:000056b7       _SetUnicodeMem             000066b7 f   SetupBrowser:Ui.obj
+ 0001:000056d8       _UiFreeMenu                000066d8 f   SetupBrowser:Ui.obj
+ 0001:0000573a       _UiAddMenuList             0000673a f   SetupBrowser:Ui.obj
+ 0001:00005795       _UiFindChildMenuList       00006795 f   SetupBrowser:Ui.obj
+ 0001:0000582c       _UiFindMenuList            0000682c f   SetupBrowser:Ui.obj
+ 0001:00005892       _UiFreeRefreshList         00006892 f   SetupBrowser:Ui.obj
+ 0001:000058df       _ProcessStringForDateTime  000068df f   SetupBrowser:Ui.obj
+ 0001:000059ab       _RefreshQuestion           000069ab f   SetupBrowser:Ui.obj
+ 0001:00005a71       _RefreshQuestionNotify     00006a71 f   SetupBrowser:Ui.obj
+ 0001:00005abb       _RefreshForm               00006abb f   SetupBrowser:Ui.obj
+ 0001:00005b05       _UiWaitForSingleEvent      00006b05 f   SetupBrowser:Ui.obj
+ 0001:00005bbf       _UiAddMenuOption           00006bbf f   SetupBrowser:Ui.obj
+ 0001:00005cf6       _CreateDialog              00006cf6 f   SetupBrowser:Ui.obj
+ 0001:00006096       _CreateSharedPopUp         00007096 f   SetupBrowser:Ui.obj
+ 0001:00006262       _CreateMultiStringPopUp    00007262 f   SetupBrowser:Ui.obj
+ 0001:00006278       _UpdateStatusBar           00007278 f   SetupBrowser:Ui.obj
+ 0001:000064f9       _GetWidth                  000074f9 f   SetupBrowser:Ui.obj
+ 0001:00006584       _GetLineByWidth            00007584 f   SetupBrowser:Ui.obj
+ 0001:0000675e       _UpdateOptionSkipLines     0000775e f   SetupBrowser:Ui.obj
+ 0001:000067e4       _IsSelectable              000077e4 f   SetupBrowser:Ui.obj
+ 0001:000067ff       _MoveToNextStatement       000077ff f   SetupBrowser:Ui.obj
+ 0001:000068e1       _AdjustDateAndTimePosition 000078e1 f   SetupBrowser:Ui.obj
+ 0001:00006982       _DevicePathToHiiHandle     00007982 f   SetupBrowser:Ui.obj
+ 0001:00006ab2       _FormSetGuidToHiiHandle    00007ab2 f   SetupBrowser:Ui.obj
+ 0001:00006c62       _ProcessGotoOpCode         00007c62 f   SetupBrowser:Ui.obj
+ 0001:00006e9b       _UiDisplayMenu             00007e9b f   SetupBrowser:Ui.obj
+ 0001:00009a6b       _ClearLines                0000aa6b f   SetupBrowser:Presentation.obj
+ 0001:00009aeb       _NewStrCat                 0000aaeb f   SetupBrowser:Presentation.obj
+ 0001:00009b11       _GetStringWidth            0000ab11 f   SetupBrowser:Presentation.obj
+ 0001:00009b99       _DisplayPageFrame          0000ab99 f   SetupBrowser:Presentation.obj
+ 0001:00009f0d       _EvaluateFormExpressions   0000af0d f   SetupBrowser:Presentation.obj
+ 0001:00009f94       _DisplayForm               0000af94 f   SetupBrowser:Presentation.obj
+ 0001:0000a1d4       _InitializeBrowserStrings  0000b1d4 f   SetupBrowser:Presentation.obj
+ 0001:0000a3e9       _FreeBrowserStrings        0000b3e9 f   SetupBrowser:Presentation.obj
+ 0001:0000a51d       _PrintHotKeyHelpString     0000b51d f   SetupBrowser:Presentation.obj
+ 0001:0000a5ff       _UpdateKeyHelp             0000b5ff f   SetupBrowser:Presentation.obj
+ 0001:0000a985       _FormUpdateNotify          0000b985 f   SetupBrowser:Presentation.obj
+ 0001:0000a98f       _IsNvUpdateRequired        0000b98f f   SetupBrowser:Presentation.obj
+ 0001:0000a9eb       _UpdateNvInfoInForm        0000b9eb f   SetupBrowser:Presentation.obj
+ 0001:0000aa3f       _FindNextMenu              0000ba3f f   SetupBrowser:Presentation.obj
+ 0001:0000acb5       _ProcessCallBackFunction   0000bcb5 f   SetupBrowser:Presentation.obj
+ 0001:0000af1e       _SetupBrowser              0000bf1e f   SetupBrowser:Presentation.obj
+ 0001:0000b25b       _GrowStack                 0000c25b f   SetupBrowser:Expression.obj
+ 0001:0000b2d4       _PushStack                 0000c2d4 f   SetupBrowser:Expression.obj
+ 0001:0000b33d       _GrowConditionalStack      0000c33d f   SetupBrowser:Expression.obj
+ 0001:0000b3b9       _PushConditionalStack      0000c3b9 f   SetupBrowser:Expression.obj
+ 0001:0000b3ea       _GetConditionalExpressionCount 0000c3ea f   SetupBrowser:Expression.obj
+ 0001:0000b435       _PushConditionalExpression 0000c435 f   SetupBrowser:Expression.obj
+ 0001:0000b4a7       _PopConditionalExpression  0000c4a7 f   SetupBrowser:Expression.obj
+ 0001:0000b52e       _PushScope                 0000c52e f   SetupBrowser:Expression.obj
+ 0001:0000b557       _PopScope                  0000c557 f   SetupBrowser:Expression.obj
+ 0001:0000b593       _PopExpression             0000c593 f   SetupBrowser:Expression.obj
+ 0001:0000b5c5       _IdToForm                  0000c5c5 f   SetupBrowser:Expression.obj
+ 0001:0000b620       _IdToQuestion2             0000c620 f   SetupBrowser:Expression.obj
+ 0001:0000b681       _IdToQuestion              0000c681 f   SetupBrowser:Expression.obj
+ 0001:0000b71e       _RuleIdToExpression        0000c71e f   SetupBrowser:Expression.obj
+ 0001:0000b77a       _InitializeUnicodeCollationProtocol 0000c77a f   SetupBrowser:Expression.obj
+ 0001:0000b7a1       _IfrStrToUpper             0000c7a1 f   SetupBrowser:Expression.obj
+ 0001:0000b7c3       _IfrToString               0000c7c3 f   SetupBrowser:Expression.obj
+ 0001:0000b910       _IfrToUint                 0000c910 f   SetupBrowser:Expression.obj
+ 0001:0000b9c7       _IfrCatenate               0000c9c7 f   SetupBrowser:Expression.obj
+ 0001:0000bb90       _IfrMatch                  0000cb90 f   SetupBrowser:Expression.obj
+ 0001:0000bc55       _IfrFind                   0000cc55 f   SetupBrowser:Expression.obj
+ 0001:0000bd97       _IfrMid                    0000cd97 f   SetupBrowser:Expression.obj
+ 0001:0000bf0b       _IfrToken                  0000cf0b f   SetupBrowser:Expression.obj
+ 0001:0000c054       _IfrSpan                   0000d054 f   SetupBrowser:Expression.obj
+ 0001:0000c1d4       _ExtendValueToU64          0000d1d4 f   SetupBrowser:Expression.obj
+ 0001:0000c20e       _CompareHiiValue           0000d20e f   SetupBrowser:Expression.obj
+ 0001:0000c34e       _CheckUserPrivilege        0000d34e f   SetupBrowser:Expression.obj
+ 0001:0000c4bf       _GetQuestionValueFromForm  0000d4bf f   SetupBrowser:Expression.obj
+ 0001:0000c6bc       _EvaluateExpression        0000d6bc f   SetupBrowser:Expression.obj
+ 0001:0000d960       _EvaluateExpressionList    0000e960 f   SetupBrowser:Expression.obj
+ 0001:0000da11       _CreateStatement           0000ea11 f   SetupBrowser:IfrParse.obj
+ 0001:0000db18       _CreateQuestion            0000eb18 f   SetupBrowser:IfrParse.obj
+ 0001:0000dd40       _CreateExpression          0000ed40 f   SetupBrowser:IfrParse.obj
+ 0001:0000dd76       _FindStorageInList         0000ed76 f   SetupBrowser:IfrParse.obj
+ 0001:0000ddfe       _IntializeBrowserStorage   0000edfe f   SetupBrowser:IfrParse.obj
+ 0001:0000dead       _CreateStorage             0000eead f   SetupBrowser:IfrParse.obj
+ 0001:0000e05d       _InitializeRequestElement  0000f05d f   SetupBrowser:IfrParse.obj
+ 0001:0000e328       _DestroyExpression         0000f328 f   SetupBrowser:IfrParse.obj
+ 0001:0000e3f6       _DestroyStatement          0000f3f6 f   SetupBrowser:IfrParse.obj
+ 0001:0000e5a4       _DestroyForm               0000f5a4 f   SetupBrowser:IfrParse.obj
+ 0001:0000e6b1       _DestroyFormSet            0000f6b1 f   SetupBrowser:IfrParse.obj
+ 0001:0000e85d       _IsExpressionOpCode        0000f85d f   SetupBrowser:IfrParse.obj
+ 0001:0000e89f       _ParseOpCodes              0000f89f f   SetupBrowser:IfrParse.obj
+ 0001:0001026b       _ReadString                0001126b f   SetupBrowser:InputHandler.obj
+ 0001:000108e7       _AdjustQuestionValue       000118e7 f   SetupBrowser:InputHandler.obj
+ 0001:0001096a       _GetNumericInput           0001196a f   SetupBrowser:InputHandler.obj
+ 0001:00011476       _GetSelectionInputPopUp    00012476 f   SetupBrowser:InputHandler.obj
+ 0001:00011f0f       _WaitForKeyStroke          00012f0f f   SetupBrowser:InputHandler.obj
+ 0001:00011f50       _PrintInternal             00012f50 f   SetupBrowser:Print.obj
+ 0001:000120db       _ConsolePrint              000130db f   SetupBrowser:Print.obj
+ 0001:000120fa       _PrintChar                 000130fa f   SetupBrowser:Print.obj
+ 0001:0001210d       _PrintAt                   0001310d f   SetupBrowser:Print.obj
+ 0001:0001212f       _PrintStringAt             0001312f f   SetupBrowser:Print.obj
+ 0001:00012143       _PrintCharAt               00013143 f   SetupBrowser:Print.obj
+ 0001:00012159       _IsDevicePathValid         00013159 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:000121a8       _DevicePathSubType         000131a8 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:000121c9       _DevicePathNodeLength      000131c9 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00012211       _NextDevicePathNode        00013211 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00012238       _IsDevicePathEndType       00013238 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0001226f       _IsDevicePathEnd           0001326f f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:000122a9       _GetDevicePathSize         000132a9 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:000122e4       _DevicePathFromHandle      000132e4 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0001230b       _DebugPrint                0001330b f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00012476       _DebugAssert               00013476 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00012515       _CompareMem                00013515 f   BaseMemoryLibOptDxe:CompareMemWrapper.obj
+ 0001:000125a4       _CopyMem                   000135a4 f   BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0001:00012609       _ZeroMem                   00013609 f   BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0001:00012652       _CopyGuid                  00013652 f   BaseMemoryLibOptDxe:MemLibGuid.obj
+ 0001:00012682       _CompareGuid               00013682 f   BaseMemoryLibOptDxe:MemLibGuid.obj
+ 0001:000126e1       _StrCpy                    000136e1 f   BaseLib:String.obj
+ 0001:00012778       _StrnCpy                   00013778 f   BaseLib:String.obj
+ 0001:00012830       _StrLen                    00013830 f   BaseLib:String.obj
+ 0001:00012898       _StrSize                   00013898 f   BaseLib:String.obj
+ 0001:000128a7       _StrCmp                    000138a7 f   BaseLib:String.obj
+ 0001:0001290c       _StrCat                    0001390c f   BaseLib:String.obj
+ 0001:00012948       _StrStr                    00013948 f   BaseLib:String.obj
+ 0001:000129e1       _InternalHexCharToUintn    000139e1 f   BaseLib:String.obj
+ 0001:00012a0c       _InternalIsHexaDecimalDigitCharacter 00013a0c f   BaseLib:String.obj
+ 0001:00012a33       _StrDecimalToUint64        00013a33 f   BaseLib:String.obj
+ 0001:00012b2e       _StrHexToUint64            00013b2e f   BaseLib:String.obj
+ 0001:00012c7a       _AsciiStrCpy               00013c7a f   BaseLib:String.obj
+ 0001:00012cf4       _AsciiStrLen               00013cf4 f   BaseLib:String.obj
+ 0001:00012d3f       _AsciiStrnCmp              00013d3f f   BaseLib:String.obj
+ 0001:00012dc9       _InternalBaseLibIsNodeInList 00013dc9 f   BaseLib:LinkedList.obj
+ 0001:00012e56       _InitializeListHead        00013e56 f   BaseLib:LinkedList.obj
+ 0001:00012e7b       _InsertHeadList            00013e7b f   BaseLib:LinkedList.obj
+ 0001:00012eb4       _InsertTailList            00013eb4 f   BaseLib:LinkedList.obj
+ 0001:00012eee       _GetFirstNode              00013eee f   BaseLib:LinkedList.obj
+ 0001:00012f17       _GetNextNode               00013f17 f   BaseLib:LinkedList.obj
+ 0001:00012f3e       _IsListEmpty               00013f3e f   BaseLib:LinkedList.obj
+ 0001:00012f6a       _IsNull                    00013f6a f   BaseLib:LinkedList.obj
+ 0001:00012f9a       _SwapListEntries           00013f9a f   BaseLib:LinkedList.obj
+ 0001:00013002       _RemoveEntryList           00014002 f   BaseLib:LinkedList.obj
+ 0001:00013036       _DivU64x32                 00014036 f   BaseLib:DivU64x32.obj
+ 0001:00013066       _RShiftU64                 00014066 f   BaseLib:RShiftU64.obj
+ 0001:0001309d       _DivU64x32Remainder        0001409d f   BaseLib:DivU64x32Remainder.obj
+ 0001:000130d9       _LShiftU64                 000140d9 f   BaseLib:LShiftU64.obj
+ 0001:00013110       _ReadUnaligned16           00014110 f   BaseLib:Unaligned.obj
+ 0001:0001312f       _ReadUnaligned32           0001412f f   BaseLib:Unaligned.obj
+ 0001:0001314f       _ReadUnaligned64           0001414f f   BaseLib:Unaligned.obj
+ 0001:00013172       _WriteUnaligned64          00014172 f   BaseLib:Unaligned.obj
+ 0001:0001319d       _InternalAllocatePool      0001419d f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000131c1       _InternalAllocateZeroPool  000141c1 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000131d9       _InternalAllocateCopyPool  000141d9 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00013232       _FreePool                  00014232 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0001326b       _UnicodeVSPrint            0001426b f   BasePrintLib:PrintLib.obj
+ 0001:000132c3       _UnicodeSPrint             000142c3 f   BasePrintLib:PrintLib.obj
+ 0001:000132dc       _UnicodeValueToString      000142dc f   BasePrintLib:PrintLib.obj
+ 0001:00013318       _BasePrintLibFillBuffer    00014318 f   BasePrintLib:PrintLibInternal.obj
+ 0001:0001334c       _BasePrintLibValueToString 0001434c f   BasePrintLib:PrintLibInternal.obj
+ 0001:00013384       _BasePrintLibConvertValueToString 00014384 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00013544       _BasePrintLibSPrintMarker  00014544 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000140f6       _BasePrintLibSPrint        000150f6 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00014115       _GetVariable2              00015115 f   UefiLib:UefiLib.obj
+ 0001:000141c1       _GetBestLanguage           000151c1 f   UefiLib:UefiLib.obj
+ 0001:000142cc       _HobLibConstructor         000152cc f   DxeHobLib:HobLib.obj
+ 0001:0001436a       _GetHobList                0001536a f   DxeHobLib:HobLib.obj
+ 0001:0001438c       _GetNextHob                0001538c f   DxeHobLib:HobLib.obj
+ 0001:000143c9       _GetDebugPrintErrorLevel   000153c9 f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:000144bf       _GetDebugMask              000154bf f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:000144d7       _SetDebugMask              000154d7 f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:000144e3       _UefiHiiServicesLibConstructor 000154e3 f   UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0001:000145d0       _HiiAddPackages            000155d0 f   UefiHiiLib:HiiLib.obj
+ 0001:000146b9       _HiiGetHiiHandles          000156b9 f   UefiHiiLib:HiiLib.obj
+ 0001:00014727       _HiiConstructConfigHdr     00015727 f   UefiHiiLib:HiiLib.obj
+ 0001:000148cd       _HiiSetString              000158cd f   UefiHiiLib:HiiString.obj
+ 0001:00014997       _HiiGetString              00015997 f   UefiHiiLib:HiiString.obj
+ 0001:00014aaa       _HiiGetSupportedLanguages  00015aaa f   UefiHiiLib:HiiLanguage.obj
+ 0001:00014b21       _InternalGetReportStatusCode 00015b21 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00014b62       _InternalReportStatusCode  00015b62 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00014ba9       _ReportStatusCodeEx        00015ba9 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00014d00       _InternalMemCompareMem     00015d00 f   BaseMemoryLibOptDxe:CompareMem.obj
+ 0001:00014d20       _InternalMemCopyMem        00015d20 f   BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:00014d90       _InternalMemZeroMem        00015d90 f   BaseMemoryLibOptDxe:ZeroMem.obj
+ 0001:00014db0       _InternalMemSetMem         00015db0 f   BaseMemoryLibOptDxe:SetMem.obj
+ 0001:00014ddc       _InternalMemSetMem32       00015ddc f   BaseMemoryLibOptDxe:SetMem32.obj
+ 0001:00014df4       _InternalMemSetMem64       00015df4 f   BaseMemoryLibOptDxe:SetMem64.obj
+ 0002:00000038       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ?6@ 00016038     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:0000005c       ??_C@_0BE@DCHLEIGN@?$CBEFI_ERROR?5?$CIStatus?$CJ?$AA@ 0001605c     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000070       __gUefiDriverRevision      00016070     SetupBrowser:AutoGen.obj
+ 0002:00000078       ??_C@_0HK@LOOICKKK@d?3?2myworkspace?2Build?2NT32?2DEBUG_@ 00016078     SetupBrowser:AutoGen.obj
+ 0002:000000f4       ??_C@_13MGDFOILI@?$AA?$CB?$AA?$AA@ 000160f4     SetupBrowser:Setup.obj
+ 0002:000000f8       ??_C@_0BK@EMAPFBAF@Selection?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000160f8     SetupBrowser:Setup.obj
+ 0002:00000114       ??_C@_0DO@CPJBPGFA@d?3?2myworkspace?2MdeModulePkg?2Univ@ 00016114     SetupBrowser:Setup.obj
+ 0002:00000154       ??_C@_0BI@DCAIAKBG@FormSet?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016154     SetupBrowser:Setup.obj
+ 0002:0000016c       ??_C@_0BF@NDBIKIKC@CR?5has?5Bad?5Signature?$AA@ 0001616c     SetupBrowser:Setup.obj
+ 0002:00000184       ??_C@_0BL@IKMGLHBA@ConfigResp?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016184     SetupBrowser:Setup.obj
+ 0002:000001a0       ??_C@_13FLOCNAAB@?$AA?$CG?$AA?$AA@ 000161a0     SetupBrowser:Setup.obj
+ 0002:000001a4       ??_C@_0BL@NCJOJLEB@gHiiHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000161a4     SetupBrowser:Setup.obj
+ 0002:000001c0       ??_C@_0BM@DBDJAPO@gBannerData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000161c0     SetupBrowser:Setup.obj
+ 0002:000001dc       ??_C@_0O@EMMLPDMJ@StringId?5?$CB?$DN?50?$AA@ 000161dc     SetupBrowser:Setup.obj
+ 0002:000001ec       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000161ec     SetupBrowser:Setup.obj
+ 0002:00000204       ??_C@_0BG@NJLDKBEH@?$CKDest?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016204     SetupBrowser:Setup.obj
+ 0002:0000021c       ??_C@_0BK@HACKOMPP@NewString?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001621c     SetupBrowser:Setup.obj
+ 0002:00000238       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016238     SetupBrowser:Setup.obj
+ 0002:00000250       ??_C@_13NMPKAAJP@?$AA?$DN?$AA?$AA@ 00016250     SetupBrowser:Setup.obj
+ 0002:00000254       ??_C@_19IJOJOJIB@?$AAP?$AAA?$AAT?$AAH?$AA?$AA@ 00016254     SetupBrowser:Setup.obj
+ 0002:00000260       ??_C@_0EN@IEPODJOD@Question?9?$DOHiiValue?4Type?5?$DN?$DN?50x0B?5@ 00016260     SetupBrowser:Setup.obj
+ 0002:000002b0       ??_C@_0BG@GJANEBOB@Value?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000162b0     SetupBrowser:Setup.obj
+ 0002:000002c8       ??_C@_0BO@KAEFIFMO@ConfigRequest?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000162c8     SetupBrowser:Setup.obj
+ 0002:000002e8       ??_C@_1O@DHGHMAMN@?$AA?$CG?$AAV?$AAA?$AAL?$AAU?$AAE?$AA?$AA@ 000162e8     SetupBrowser:Setup.obj
+ 0002:000002f8       ??_C@_1BA@OHHBHMKI@?$AA?$CG?$AAV?$AAA?$AAL?$AAU?$AAE?$AA?$DN?$AA?$AA@ 000162f8     SetupBrowser:Setup.obj
+ 0002:00000308       ??_C@_0BM@KPFIBAGG@BufferValue?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016308     SetupBrowser:Setup.obj
+ 0002:00000324       ??_C@_0BL@IONPMOEP@HiiHandles?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016324     SetupBrowser:Setup.obj
+ 0002:00000340       ??_C@_0BM@HCOHNAAK@BufferSize?5?$DN?$DN?5Storage?9?$DOSize?$AA@ 00016340     SetupBrowser:Setup.obj
+ 0002:00000360       ??_C@_0EA@DDHKAGAC@HiiValue?9?$DOType?5?$DN?$DN?50x0B?5?$CG?$CG?5Questi@ 00016360     SetupBrowser:Setup.obj
+ 0002:000003a0       ??_C@_0BN@JKIBMOPP@LocalFormSet?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000163a0     SetupBrowser:Setup.obj
+ 0002:000003c0       ??_C@_0EJ@MNBONPGK@Storage?9?$DOConfigRequest?5?$CB?$DN?5?$CI?$CIvoid@ 000163c0     SetupBrowser:Setup.obj
+ 0002:0000040c       ??_C@_1BA@MMGOHHMM@?$AA?$CG?$AAO?$AAF?$AAF?$AAS?$AAE?$AAT?$AA?$AA@ 0001640c     SetupBrowser:Setup.obj
+ 0002:0000041c       ??_C@_0BP@KOOPOOKN@RequestElement?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001641c     SetupBrowser:Setup.obj
+ 0002:0000043c       ??_C@_0BH@GADOMDOK@NewStr?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001643c     SetupBrowser:Setup.obj
+ 0002:00000454       ??_C@_0BH@GNPPLONF@RetBuf?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016454     SetupBrowser:Setup.obj
+ 0002:0000046c       ??_C@_1O@KAHOBHOF@?$AA?$CG?$AAG?$AAU?$AAI?$AAD?$AA?$DN?$AA?$AA@ 0001646c     SetupBrowser:Setup.obj
+ 0002:0000047c       ??_C@_0BP@JFMDNGDC@HiiPackageList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001647c     SetupBrowser:Setup.obj
+ 0002:0000049c       ??_C@_0BI@DNICFLOF@Context?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001649c     SetupBrowser:Setup.obj
+ 0002:000004b4       ??_C@_0BK@JLAANJCP@gBrowserContextCount?5?$CB?$DN?50?$AA@ 000164b4     SetupBrowser:Setup.obj
+ 0002:000004d0       ??_C@_0CE@OLHOFBAK@?$CBIsListEmpty?5?$CI?$CGgBrowserContextLi@ 000164d0     SetupBrowser:Setup.obj
+ 0002:000004f4       ??_C@_0BH@CFJDGJFI@HotKey?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000164f4     SetupBrowser:Setup.obj
+ 0002:0000050c       ??_C@_0BM@HEJNJOOM@YesResponse?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001650c     SetupBrowser:Setup.obj
+ 0002:00000528       ??_C@_0BL@IMLNHFCK@NoResponse?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016528     SetupBrowser:Setup.obj
+ 0002:00000548       ??_C@_0EH@GOLEOOMP@d?3?2myworkspace?2MdeModulePkg?2Univ@ 00016548     SetupBrowser:ProcessOptions.obj
+ 0002:00000590       ??_C@_0BG@KEJHFGFH@Array?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016590     SetupBrowser:ProcessOptions.obj
+ 0002:000005a8       ??_C@_19NMDCNMKO@?$AA?9?$AA?$CF?$AAl?$AAd?$AA?$AA@ 000165a8     SetupBrowser:ProcessOptions.obj
+ 0002:000005b4       ??_C@_17OADJODNB@?$AA?$CF?$AAl?$AAd?$AA?$AA@ 000165b4     SetupBrowser:ProcessOptions.obj
+ 0002:000005bc       ??_C@_17PKPGALPG@?$AA?$CF?$AAl?$AAx?$AA?$AA@ 000165bc     SetupBrowser:ProcessOptions.obj
+ 0002:000005c4       ??_C@_0O@IFFFLPLH@?$CKOptionString?$AA@ 000165c4     SetupBrowser:ProcessOptions.obj
+ 0002:000005d4       ??_C@_0BK@OHHEMHCC@StringPtr?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000165d4     SetupBrowser:ProcessOptions.obj
+ 0002:000005f0       ??_C@_19MNDKMKJC@?$AA?$CF?$AA0?$AA2?$AAd?$AA?$AA@ 000165f0     SetupBrowser:ProcessOptions.obj
+ 0002:000005fc       ??_C@_19BLGDCJIP@?$AA?$CF?$AA0?$AA4?$AAd?$AA?$AA@ 000165fc     SetupBrowser:ProcessOptions.obj
+ 0002:00000608       ??_C@_09IPFCLGON@StringPtr?$AA@ 00016608     SetupBrowser:ProcessOptions.obj
+ 0002:00000614       ??_C@_0BL@GNJCLPEO@TempString?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016614     SetupBrowser:ProcessOptions.obj
+ 0002:00000630       ??_C@_0L@EFOKHEHD@TempString?$AA@ 00016630     SetupBrowser:ProcessOptions.obj
+ 0002:0000063c       ??_C@_0CB@FFCAMKBE@?$CKFormattedString?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001663c     SetupBrowser:ProcessOptions.obj
+ 0002:00000660       ??_C@_0DL@PKJDNAMD@d?3?2myworkspace?2MdeModulePkg?2Univ@ 00016660     SetupBrowser:Ui.obj
+ 0002:0000069c       ??_C@_0BH@EDIPJKNP@Parent?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001669c     SetupBrowser:Ui.obj
+ 0002:000006b4       ??_C@_0DL@JHBACIIB@MenuOption?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Op@ 000166b4     SetupBrowser:Ui.obj
+ 0002:000006f0       ??_C@_0CB@HBMOJFPH@MenuRefreshEntry?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000166f0     SetupBrowser:Ui.obj
+ 0002:00000714       ??_C@_0L@IFJDCMOO@MenuOption?$AA@ 00016714     SetupBrowser:Ui.obj
+ 0002:00000720       ??_C@_0P@PDMJIOFD@BufferedString?$AA@ 00016720     SetupBrowser:Ui.obj
+ 0002:00000730       ??_C@_15OJKDPEFE@?$AA?5?$AA?5?$AA?$AA@ 00016730     SetupBrowser:Ui.obj
+ 0002:00000738       ??_C@_0BL@JFODOCGB@DevicePath?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016738     SetupBrowser:Ui.obj
+ 0002:00000754       ??_C@_0BO@CNJADLFN@ComparingGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016754     SetupBrowser:Ui.obj
+ 0002:00000774       ??_C@_0BM@OFLAELCN@CurrentMenu?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016774     SetupBrowser:Ui.obj
+ 0002:00000790       ??_C@_15DAMPJCDE@?$AA?$CF?$AAc?$AA?$AA@ 00016790     SetupBrowser:Ui.obj
+ 0002:00000798       ??_C@_0CA@NMNFFJCN@MenuUpdateEntry?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016798     SetupBrowser:Ui.obj
+ 0002:000007b8       ??_C@_0CH@BBNBJKHK@?$CB?$CI?$CI?$CIINTN?$CJ?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ@ 000167b8     SetupBrowser:Ui.obj
+ 0002:000007e0       ??_C@_0BL@MGMMPOHB@MenuOption?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000167e0     SetupBrowser:Ui.obj
+ 0002:000007fc       ??_C@_13NOLLCAOD@?$AA?$AA?$AA?$AA@ 000167fc     SetupBrowser:Ui.obj
+ 0002:00000800       ??_C@_0BE@LNJPNPCM@HelpHeaderLine?5?$DN?$DN?51?$AA@ 00016800     SetupBrowser:Ui.obj
+ 0002:00000818       ??_C@_0EG@DECCKOBD@GetStringWidth?5?$CIHelpHeaderString@ 00016818     SetupBrowser:Ui.obj
+ 0002:00000860       ??_C@_0BE@KPAMDEKB@HelpBottomLine?5?$DN?$DN?51?$AA@ 00016860     SetupBrowser:Ui.obj
+ 0002:00000878       ??_C@_0EG@LAABIDIP@GetStringWidth?5?$CIHelpBottomString@ 00016878     SetupBrowser:Ui.obj
+ 0002:000008c0       ??_C@_0BH@JJHAJIOH@NewPos?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000168c0     SetupBrowser:Ui.obj
+ 0002:000008d8       ??_C@_13LBAGMAIH@?$AA?6?$AA?$AA@ 000168d8     SetupBrowser:Ui.obj
+ 0002:000008e0       ??_C@_0EF@HODIPNCN@d?3?2myworkspace?2MdeModulePkg?2Univ@ 000168e0     SetupBrowser:Presentation.obj
+ 0002:00000928       ??_C@_0L@GELDFKAD@RowIdx?5?$DM?56?$AA@ 00016928     SetupBrowser:Presentation.obj
+ 0002:00000934       ??_C@_0O@DBMKCEOG@ColumnIdx?5?$DM?53?$AA@ 00016934     SetupBrowser:Presentation.obj
+ 0002:00000944       ??_C@_1BG@HCKICKBP@?$AA?$CF?$AAc?$AA?$CF?$AAc?$AA?$CF?$AAc?$AA?$CF?$AAc?$AA?$CF?$AAs?$AA?$AA@ 00016944     SetupBrowser:Presentation.obj
+ 0002:0000095c       ??_C@_1O@OBLENKEO@?$AA?$CF?$AAc?$AA?$CF?$AAc?$AA?$CF?$AAs?$AA?$AA@ 0001695c     SetupBrowser:Presentation.obj
+ 0002:0000096c       ??_C@_0CE@BKGMEKGE@?$CI?$CKStackPtr?$CJ?9?$DOBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ@ 0001696c     SetupBrowser:Expression.obj
+ 0002:00000990       ??_C@_0ED@HNEKIBKD@d?3?2myworkspace?2MdeModulePkg?2Univ@ 00016990     SetupBrowser:Expression.obj
+ 0002:000009d4       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ?$AA@ 000169d4     SetupBrowser:Expression.obj
+ 0002:000009e8       ??_C@_17FKMEKEMI@?$AA?$CF?$AAl?$AAX?$AA?$AA@ 000169e8     SetupBrowser:Expression.obj
+ 0002:000009f0       ??_C@_19BFOILMBF@?$AAT?$AAr?$AAu?$AAe?$AA?$AA@ 000169f0     SetupBrowser:Expression.obj
+ 0002:000009fc       ??_C@_1M@GDFLIJGE@?$AAF?$AAa?$AAl?$AAs?$AAe?$AA?$AA@ 000169fc     SetupBrowser:Expression.obj
+ 0002:00000a08       ??_C@_0BH@CLIPOOBE@TmpBuf?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016a08     SetupBrowser:Expression.obj
+ 0002:00000a20       ??_C@_15JKMGFKLP@?$AA?$CF?$AAa?$AA?$AA@ 00016a20     SetupBrowser:Expression.obj
+ 0002:00000a28       ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ 00016a28     SetupBrowser:Expression.obj
+ 0002:00000a30       ??_C@_15EEPOHOLM@?$AA0?$AAX?$AA?$AA@ 00016a30     SetupBrowser:Expression.obj
+ 0002:00000a38       ??_C@_0BP@EIEKCNDB@Result?9?$DOBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016a38     SetupBrowser:Expression.obj
+ 0002:00000a58       ??_C@_0IB@KFHIDHPK@?$CIDevicePath?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5I@ 00016a58     SetupBrowser:Expression.obj
+ 0002:00000adc       ??_C@_0BK@KLJHMMPJ@HiiHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016adc     SetupBrowser:Expression.obj
+ 0002:00000af8       ??_C@_0BF@JNIBMNIB@Form?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016af8     SetupBrowser:Expression.obj
+ 0002:00000b10       ??_C@_0BL@KHDGDGDB@Expression?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016b10     SetupBrowser:Expression.obj
+ 0002:00000b2c       ??_C@_0BH@GGIPKJKJ@StrPtr?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016b2c     SetupBrowser:Expression.obj
+ 0002:00000b44       ??_C@_19ELAAHEEL@?$AAT?$AAR?$AAU?$AAE?$AA?$AA@ 00016b44     SetupBrowser:Expression.obj
+ 0002:00000b50       ??_C@_1M@HCOOECOK@?$AAF?$AAA?$AAL?$AAS?$AAE?$AA?$AA@ 00016b50     SetupBrowser:Expression.obj
+ 0002:00000b60       ??_C@_0EM@CLIHPKHD@ExpList?9?$DOSignature?5?$DN?$DN?5?$CI?$CI?$CI?8F?8?$CJ?5?$HM?5@ 00016b60     SetupBrowser:Expression.obj
+ 0002:00000bac       ??_C@_0CG@CKCPKHDO@Statement?9?$DOExpression?5?$CB?$DN?5?$CI?$CIvoid?5@ 00016bac     SetupBrowser:IfrParse.obj
+ 0002:00000bd8       ??_C@_0EB@GGEOGFEJ@d?3?2myworkspace?2MdeModulePkg?2Univ@ 00016bd8     SetupBrowser:IfrParse.obj
+ 0002:00000c1c       ??_C@_0CD@CICHGBGI@Statement?9?$DOStorage?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 00016c1c     SetupBrowser:IfrParse.obj
+ 0002:00000c40       ??_C@_0CI@FCJMMEKE@Statement?9?$DOVariableName?5?$CB?$DN?5?$CI?$CIvoi@ 00016c40     SetupBrowser:IfrParse.obj
+ 0002:00000c68       ??_C@_0BO@ECGAOMEO@NameValueNode?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016c68     SetupBrowser:IfrParse.obj
+ 0002:00000c88       ??_C@_0CE@MDJACFNL@NameValueNode?9?$DOName?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ@ 00016c88     SetupBrowser:IfrParse.obj
+ 0002:00000cac       ??_C@_0CF@BNJJAENC@NameValueNode?9?$DOValue?5?$CB?$DN?5?$CI?$CIvoid?5?$CK@ 00016cac     SetupBrowser:IfrParse.obj
+ 0002:00000cd4       ??_C@_0CJ@MMIMALPJ@NameValueNode?9?$DOEditValue?5?$CB?$DN?5?$CI?$CIvo@ 00016cd4     SetupBrowser:IfrParse.obj
+ 0002:00000d00       ??_C@_0BB@KMDMKCCA@StorageType?5?$DN?$DN?51?$AA@ 00016d00     SetupBrowser:IfrParse.obj
+ 0002:00000d14       ??_C@_0BM@FGIEGNBG@StorageName?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016d14     SetupBrowser:IfrParse.obj
+ 0002:00000d30       ??_C@_0BO@HEPHOKMP@UnicodeString?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016d30     SetupBrowser:IfrParse.obj
+ 0002:00000d50       ??_C@_0BI@LBDBFON@Storage?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016d50     SetupBrowser:IfrParse.obj
+ 0002:00000d68       ??_C@_0BP@CMBLIOEG@BrowserStorage?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016d68     SetupBrowser:IfrParse.obj
+ 0002:00000d88       ??_C@_1CI@DEPKIPGF@?$AA?$CG?$AAO?$AAF?$AAF?$AAS?$AAE?$AAT?$AA?$DN?$AA?$CF?$AAx?$AA?$CG?$AAW?$AAI?$AAD?$AAT?$AAH?$AA?$DN?$AA?$CF?$AAx?$AA?$AA@ 00016d88     SetupBrowser:IfrParse.obj
+ 0002:00000db0       ??_C@_17ILCPNALA@?$AA?$CG?$AA?$CF?$AAs?$AA?$AA@ 00016db0     SetupBrowser:IfrParse.obj
+ 0002:00000db8       ??_C@_0BP@PAMADMNP@FormsetStorage?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016db8     SetupBrowser:IfrParse.obj
+ 0002:00000dd8       ??_C@_0BL@FIKIPLNB@ConfigInfo?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016dd8     SetupBrowser:IfrParse.obj
+ 0002:00000df4       ??_C@_0CM@FAHOBEMA@Storage?9?$DOBrowserStorage?9?$DOReferen@ 00016df4     SetupBrowser:IfrParse.obj
+ 0002:00000e20       ??_C@_0CB@MLGBCBKK@CurrentStatement?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00016e20     SetupBrowser:IfrParse.obj
+ 0002:00000e44       ??_C@_0CC@CCFCBLAK@MapExpressionList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 00016e44     SetupBrowser:IfrParse.obj
+ 0002:00000e68       ??_C@_0CC@PGIJCEIB@CurrentExpression?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 00016e68     SetupBrowser:IfrParse.obj
+ 0002:00000e8c       ??_C@_0BM@CGDALJPP@CurrentForm?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016e8c     SetupBrowser:IfrParse.obj
+ 0002:00000ea8       ??_C@_0DA@GCFPAAIJ@CurrentForm?9?$DOSuppressExpression?5@ 00016ea8     SetupBrowser:IfrParse.obj
+ 0002:00000ed8       ??_C@_0BN@LJPHENLK@DefaultStore?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016ed8     SetupBrowser:IfrParse.obj
+ 0002:00000ef8       ??_C@_0BP@CNIHKIFA@CurrentDefault?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016ef8     SetupBrowser:IfrParse.obj
+ 0002:00000f18       ??_C@_0BO@KCDJJCJE@CurrentOption?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016f18     SetupBrowser:IfrParse.obj
+ 0002:00000f38       ??_C@_0DC@MCNNHCBO@CurrentOption?9?$DOSuppressExpressio@ 00016f38     SetupBrowser:IfrParse.obj
+ 0002:00000f6c       ??_C@_0BI@PLMFGBKM@ImageId?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00016f6c     SetupBrowser:IfrParse.obj
+ 0002:00000f84       ??_C@_0BC@FOLOGLBK@MapScopeDepth?5?$DO?50?$AA@ 00016f84     SetupBrowser:IfrParse.obj
+ 0002:00000f98       ??_C@_0EF@DDFKOIJA@d?3?2myworkspace?2MdeModulePkg?2Univ@ 00016f98     SetupBrowser:InputHandler.obj
+ 0002:00000fe0       ??_C@_0BE@DNAAGIKO@InputWidth?5?$CL?52?5?$DM?523?$AA@ 00016fe0     SetupBrowser:InputHandler.obj
+ 0002:00000ff4       ??_C@_0O@GHOKFFIC@EraseLen?5?$DO?$DN?52?$AA@ 00016ff4     SetupBrowser:InputHandler.obj
+ 0002:00001004       ??_C@_0O@EMMHAGEB@EraseLen?5?$DO?$DN?51?$AA@ 00017004     SetupBrowser:InputHandler.obj
+ 0002:00001014       ??_C@_13HOIJIPNN@?$AA?5?$AA?$AA@ 00017014     SetupBrowser:InputHandler.obj
+ 0002:00001018       ??_C@_0DN@MNPHGHMF@Count?5?$DM?5sizeof?5?$CIPreviousNumber?$CJ?5@ 00017018     SetupBrowser:InputHandler.obj
+ 0002:00001058       ??_C@_0DP@GJDNCJMJ@Count?5?$DM?5?$CIsizeof?5?$CIPreviousNumber?$CJ@ 00017058     SetupBrowser:InputHandler.obj
+ 0002:00001098       ??_C@_0BO@PFDGAAML@HiiValueArray?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00017098     SetupBrowser:InputHandler.obj
+ 0002:000010b8       ??_C@_0BO@FEDJMLCM@TempStringPtr?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000170b8     SetupBrowser:InputHandler.obj
+ 0002:000010d8       ??_C@_17LGKOMLJ@?$AA?4?$AA?4?$AA?4?$AA?$AA@ 000170d8     SetupBrowser:InputHandler.obj
+ 0002:000010e0       ??_C@_06LBMCOACO@Buffer?$AA@ 000170e0     SetupBrowser:Print.obj
+ 0002:000010e8       ??_C@_0DO@CEHNHDHC@d?3?2myworkspace?2MdeModulePkg?2Univ@ 000170e8     SetupBrowser:Print.obj
+ 0002:00001128       ??_C@_0N@LLKJGFOB@BackupBuffer?$AA@ 00017128     SetupBrowser:Print.obj
+ 0002:00001138       ??_C@_0EE@FMLOGMHH@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00017138     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0002:0000117c       ??_C@_0BF@CBLMFKOC@Node?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001717c     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0002:00001194       ??_C@_0CM@OCJNHBHB@Length?5?$DO?$DN?5sizeof?5?$CIEFI_DEVICE_PAT@ 00017194     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0002:000011c0       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000171c0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000011d8       ??_C@_0FJ@PPEMNEPO@d?3?2myworkspace?2IntelFrameworkMod@ 000171d8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00001234       ??_C@_0CI@HIINONDG@?$CICHAR8?5?$CK?$CJBaseListMarker?5?$DM?$DN?5Forma@ 00017234     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:0000125c       ??_C@_0CC@JOEHDGKB@DestinationBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 0001725c     BaseMemoryLibOptDxe:CompareMemWrapper.obj
+ 0002:00001280       ??_C@_0EG@KIBCAHOO@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00017280     BaseMemoryLibOptDxe:CompareMemWrapper.obj
+ 0002:000012c8       ??_C@_0BN@MDMCNBCC@SourceBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000172c8     BaseMemoryLibOptDxe:CompareMemWrapper.obj
+ 0002:000012e8       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 000172e8     BaseMemoryLibOptDxe:CompareMemWrapper.obj
+ 0002:00001320       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 00017320     BaseMemoryLibOptDxe:CompareMemWrapper.obj
+ 0002:00001358       ??_C@_0ED@GBCNNLAE@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00017358     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:0000139c       ??_C@_0CI@MNELLLEK@?$CB?$CIBuffer?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Leng@ 0001739c     BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0002:000013c8       ??_C@_0ED@NFIPLKMD@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 000173c8     BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0002:0000140c       ??_C@_0CL@OBMFBPED@Length?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIUINTN?$CJB@ 0001740c     BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0002:00001438       ??_C@_0BM@NLNKOJGD@Destination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00017438     BaseLib:String.obj
+ 0002:00001454       ??_C@_0CP@EAMGNBHJ@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00017454     BaseLib:String.obj
+ 0002:00001484       ??_C@_0CI@LLKACKFD@?$CI?$CIUINTN?$CJ?5Destination?5?$CG?50x0000000@ 00017484     BaseLib:String.obj
+ 0002:000014ac       ??_C@_0DA@MIOLHJCL@?$CIUINTN?$CJ?$CIDestination?5?9?5Source?$CJ?5?$DO?5@ 000174ac     BaseLib:String.obj
+ 0002:000014dc       ??_C@_0DA@KDPHFAHA@?$CIUINTN?$CJ?$CISource?5?9?5Destination?$CJ?5?$DO?5@ 000174dc     BaseLib:String.obj
+ 0002:0000150c       ??_C@_0CI@FOLEBOJ@?$CIUINTN?$CJ?$CISource?5?9?5Destination?$CJ?5?$DO?$DN@ 0001750c     BaseLib:String.obj
+ 0002:00001534       ??_C@_0DL@LFIMEMJP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pcd@ 00017534     BaseLib:String.obj
+ 0002:00001570       ??_C@_0CD@BDCLIGHD@?$CI?$CIUINTN?$CJ?5String?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 00017570     BaseLib:String.obj
+ 0002:00001594       ??_C@_0DK@EOJCOAME@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 00017594     BaseLib:String.obj
+ 0002:000015d0       ??_C@_0BL@JAAMOCAJ@StrSize?5?$CIFirstString?$CJ?5?$CB?$DN?50?$AA@ 000175d0     BaseLib:String.obj
+ 0002:000015ec       ??_C@_0BM@DALBOILC@StrSize?5?$CISecondString?$CJ?5?$CB?$DN?50?$AA@ 000175ec     BaseLib:String.obj
+ 0002:00001608       ??_C@_0BL@NAIOOBPB@StrSize?5?$CIDestination?$CJ?5?$CB?$DN?50?$AA@ 00017608     BaseLib:String.obj
+ 0002:00001624       ??_C@_0BG@KBNOLIGE@StrSize?5?$CIString?$CJ?5?$CB?$DN?50?$AA@ 00017624     BaseLib:String.obj
+ 0002:0000163c       ??_C@_0BM@NNBLOHJD@StrSize?5?$CISearchString?$CJ?5?$CB?$DN?50?$AA@ 0001763c     BaseLib:String.obj
+ 0002:00001658       ??_C@_0DM@KKCDKJBK@Result?5?$DM?$DN?5DivU64x32?5?$CI?$CI?$CIUINT64?$CJ?5?$HO@ 00017658     BaseLib:String.obj
+ 0002:00001694       ??_C@_0BG@HIIAKMOO@?$CK?$CIString?5?9?51?$CJ?5?$DN?$DN?5L?80?8?$AA@ 00017694     BaseLib:String.obj
+ 0002:000016b0       ??_C@_0EL@OAPPFKCC@Result?5?$DM?$DN?5RShiftU64?5?$CI?$CI?$CIUINT64?$CJ?5?$HO@ 000176b0     BaseLib:String.obj
+ 0002:000016fc       ??_C@_0DF@CDKFFDDI@?$CIUINTN?$CJ?$CIDestination?5?9?5Source?$CJ?5?$DO?5@ 000176fc     BaseLib:String.obj
+ 0002:00001734       ??_C@_0DF@CCGJKFCO@?$CIUINTN?$CJ?$CISource?5?9?5Destination?$CJ?5?$DO?5@ 00017734     BaseLib:String.obj
+ 0002:0000176c       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pcd@ 0001776c     BaseLib:String.obj
+ 0002:000017a8       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 000177a8     BaseLib:String.obj
+ 0002:000017e0       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ?$AA@ 000177e0     BaseLib:String.obj
+ 0002:000017fc       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ?$AA@ 000177fc     BaseLib:String.obj
+ 0002:00001818       ??_C@_0BF@NJNGJMPC@List?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00017818     BaseLib:LinkedList.obj
+ 0002:00001830       ??_C@_0DD@EHJNIBEL@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00017830     BaseLib:LinkedList.obj
+ 0002:00001864       ??_C@_0CC@KDLPLAED@List?9?$DOForwardLink?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 00017864     BaseLib:LinkedList.obj
+ 0002:00001888       ??_C@_0BP@IJJCCMAK@List?9?$DOBackLink?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00017888     BaseLib:LinkedList.obj
+ 0002:000018a8       ??_C@_0DG@IMEFJFAE@Count?5?$DM?5_gPcd_FixedAtBuild_PcdMa@ 000178a8     BaseLib:LinkedList.obj
+ 0002:000018e0       ??_C@_0BJ@NJABNCDK@ListHead?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000178e0     BaseLib:LinkedList.obj
+ 0002:00001900       ??_C@_0EB@JGCKPMLP@InternalBaseLibIsNodeInList?5?$CILis@ 00017900     BaseLib:LinkedList.obj
+ 0002:00001944       ??_C@_0DM@PHLIJEML@InternalBaseLibIsNodeInList?5?$CILis@ 00017944     BaseLib:LinkedList.obj
+ 0002:00001980       ??_C@_0DM@NCFNNADL@InternalBaseLibIsNodeInList?5?$CILis@ 00017980     BaseLib:LinkedList.obj
+ 0002:000019c0       ??_C@_0EE@BFCMBGFO@InternalBaseLibIsNodeInList?5?$CILis@ 000179c0     BaseLib:LinkedList.obj
+ 0002:00001a08       ??_C@_0EJ@NJMKNBJ@InternalBaseLibIsNodeInList?5?$CIFir@ 00017a08     BaseLib:LinkedList.obj
+ 0002:00001a54       ??_C@_0BF@NMBJJECB@?$CBIsListEmpty?5?$CIEntry?$CJ?$AA@ 00017a54     BaseLib:LinkedList.obj
+ 0002:00001a6c       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50?$AA@ 00017a6c     BaseLib:DivU64x32.obj
+ 0002:00001a7c       ??_C@_0DC@DNBDICJL@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00017a7c     BaseLib:DivU64x32.obj
+ 0002:00001ab0       ??_C@_0L@MEMPDLHB@Count?5?$DM?564?$AA@ 00017ab0     BaseLib:RShiftU64.obj
+ 0002:00001abc       ??_C@_0DC@KCAFBLHJ@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00017abc     BaseLib:RShiftU64.obj
+ 0002:00001af0       ??_C@_0DL@HKFHNCLF@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00017af0     BaseLib:DivU64x32Remainder.obj
+ 0002:00001b2c       ??_C@_0DC@EHCMCFJL@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00017b2c     BaseLib:LShiftU64.obj
+ 0002:00001b60       ??_C@_0DC@NGPEEDEA@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00017b60     BaseLib:Unaligned.obj
+ 0002:00001b98       ??_C@_0EM@MDJMIFIM@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00017b98     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00001be4       ??_C@_0DE@FCAJAHCJ@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5@ 00017be4     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00001c18       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00017c18     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001c38       ??_C@_0FC@CHGHPDAC@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00017c38     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001c8c       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00017c8c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001ca0       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00017ca0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001cb4       ??_C@_0CI@BGLNHBLM@?$CI?$CI?$CIUINTN?$CJ?5?$CIStartOfBuffer?$CJ?$CJ?5?$CG?50x0@ 00017cb4     BasePrintLib:PrintLib.obj
+ 0002:00001cdc       ??_C@_0DG@PDLDNIEO@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00017cdc     BasePrintLib:PrintLib.obj
+ 0002:00001d14       ??_C@_0CH@KJLBGOBB@?$CI?$CI?$CIUINTN?$CJ?5?$CIFormatString?$CJ?$CJ?5?$CG?50x01@ 00017d14     BasePrintLib:PrintLib.obj
+ 0002:00001d3c       ??_C@_0CB@LDBAOPMG@?$CI?$CI?$CIUINTN?$CJ?5?$CIBuffer?$CJ?$CJ?5?$CG?50x01?$CJ?5?$DN?$DN?50@ 00017d3c     BasePrintLib:PrintLib.obj
+ 0002:00001d60       ??_C@_07PBILKAFL@Success?$AA@ 00017d60     BasePrintLib:PrintLibInternal.obj
+ 0002:00001d68       ??_C@_0BG@CFJMNNJK@Warning?5Unknown?5Glyph?$AA@ 00017d68     BasePrintLib:PrintLibInternal.obj
+ 0002:00001d80       ??_C@_0BH@GKKCJEPJ@Warning?5Delete?5Failure?$AA@ 00017d80     BasePrintLib:PrintLibInternal.obj
+ 0002:00001d98       ??_C@_0BG@ECIJMOED@Warning?5Write?5Failure?$AA@ 00017d98     BasePrintLib:PrintLibInternal.obj
+ 0002:00001db0       ??_C@_0BJ@ODIPDGHB@Warning?5Buffer?5Too?5Small?$AA@ 00017db0     BasePrintLib:PrintLibInternal.obj
+ 0002:00001dcc       ??_C@_0L@PLPBEPPC@Load?5Error?$AA@ 00017dcc     BasePrintLib:PrintLibInternal.obj
+ 0002:00001dd8       ??_C@_0BC@HOFHKGJN@Invalid?5Parameter?$AA@ 00017dd8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001dec       ??_C@_0M@BEECMOIL@Unsupported?$AA@ 00017dec     BasePrintLib:PrintLibInternal.obj
+ 0002:00001df8       ??_C@_0BA@FLNMPMCF@Bad?5Buffer?5Size?$AA@ 00017df8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e08       ??_C@_0BB@EGELJFOB@Buffer?5Too?5Small?$AA@ 00017e08     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e1c       ??_C@_09NKFGCIPN@Not?5Ready?$AA@ 00017e1c     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e28       ??_C@_0N@HHEABDHO@Device?5Error?$AA@ 00017e28     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e38       ??_C@_0BA@LNEDDFNB@Write?5Protected?$AA@ 00017e38     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e48       ??_C@_0BB@GOILNEAA@Out?5of?5Resources?$AA@ 00017e48     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e5c       ??_C@_0P@EIOJGIF@Volume?5Corrupt?$AA@ 00017e5c     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e6c       ??_C@_0M@HDLEPOFA@Volume?5Full?$AA@ 00017e6c     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e78       ??_C@_08KEGAJDNN@No?5Media?$AA@ 00017e78     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e84       ??_C@_0O@JNCJKCCD@Media?5changed?$AA@ 00017e84     BasePrintLib:PrintLibInternal.obj
+ 0002:00001e94       ??_C@_09CFCBFJND@Not?5Found?$AA@ 00017e94     BasePrintLib:PrintLibInternal.obj
+ 0002:00001ea0       ??_C@_0O@NFHOBIDO@Access?5Denied?$AA@ 00017ea0     BasePrintLib:PrintLibInternal.obj
+ 0002:00001eb0       ??_C@_0M@ENKCBFEP@No?5Response?$AA@ 00017eb0     BasePrintLib:PrintLibInternal.obj
+ 0002:00001ebc       ??_C@_0L@IFPBNFC@No?5mapping?$AA@ 00017ebc     BasePrintLib:PrintLibInternal.obj
+ 0002:00001ec8       ??_C@_08PAFJCNGP@Time?5out?$AA@ 00017ec8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001ed4       ??_C@_0M@DCJFAFHJ@Not?5started?$AA@ 00017ed4     BasePrintLib:PrintLibInternal.obj
+ 0002:00001ee0       ??_C@_0BA@IGIBFFPH@Already?5started?$AA@ 00017ee0     BasePrintLib:PrintLibInternal.obj
+ 0002:00001ef0       ??_C@_07LCKDCBKK@Aborted?$AA@ 00017ef0     BasePrintLib:PrintLibInternal.obj
+ 0002:00001ef8       ??_C@_0L@LKIFCMNO@ICMP?5Error?$AA@ 00017ef8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001f04       ??_C@_0L@DJKNJKHM@TFTP?5Error?$AA@ 00017f04     BasePrintLib:PrintLibInternal.obj
+ 0002:00001f10       ??_C@_0P@NCJHBCLM@Protocol?5Error?$AA@ 00017f10     BasePrintLib:PrintLibInternal.obj
+ 0002:00001f20       ??_C@_0DO@GOAMAIEG@d?3?2myworkspace?2MdePkg?2Library?2Ba@ 00017f20     BasePrintLib:PrintLibInternal.obj
+ 0002:00001f60       ??_C@_0L@ILDOPMPD@Width?5?$DM?538?$AA@ 00017f60     BasePrintLib:PrintLibInternal.obj
+ 0002:00001f6c       ??_C@_0CM@NNLBNNOJ@?$CIFlags?5?$CG?5?$HO?$CI0x01?5?$HM?50x08?5?$HM?50x20?5?$HM?5@ 00017f6c     BasePrintLib:PrintLibInternal.obj
+ 0002:00001f98       ??_C@_0CP@IAKNKPOB@?$CI?$CIFlags?5?$CG?50x08?$CJ?5?$DN?$DN?50?$CJ?5?$HM?$HM?5?$CI?$CIFlags@ 00017f98     BasePrintLib:PrintLibInternal.obj
+ 0002:00001fc8       ??_C@_0CB@NIHAJGJE@StrSize?5?$CI?$CICHAR16?5?$CK?$CJ?5Format?$CJ?5?$CB?$DN?50@ 00017fc8     BasePrintLib:PrintLibInternal.obj
+ 0002:00001fec       ??_C@_0BL@BFEFANFD@AsciiStrSize?5?$CIFormat?$CJ?5?$CB?$DN?50?$AA@ 00017fec     BasePrintLib:PrintLibInternal.obj
+ 0002:00002008       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO?$AA@ 00018008     BasePrintLib:PrintLibInternal.obj
+ 0002:00002018       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO?$AA@ 00018018     BasePrintLib:PrintLibInternal.obj
+ 0002:00002024       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02x@ 00018024     BasePrintLib:PrintLibInternal.obj
+ 0002:00002058       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO?$AA@ 00018058     BasePrintLib:PrintLibInternal.obj
+ 0002:00002064       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d?$AA@ 00018064     BasePrintLib:PrintLibInternal.obj
+ 0002:00002080       ??_C@_04JIMNDDED@?$CF08X?$AA@ 00018080     BasePrintLib:PrintLibInternal.obj
+ 0002:00002088       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 00018088     BasePrintLib:PrintLibInternal.obj
+ 0002:0000208c       ??_C@_01LIIJDEN@?$AN?$AA@  0001808c     BasePrintLib:PrintLibInternal.obj
+ 0002:00002090       ??_C@_0EM@FPGGOFNC@?$CI?$CI?$CIFlags?5?$CG?50x00000040?$CJ?5?$DN?$DN?50?$CJ?$CJ?5?$HM?$HM@ 00018090     BasePrintLib:PrintLibInternal.obj
+ 0002:000020e0       ??_C@_0EG@NFDMKACK@?$CI?$CI?$CIFlags?5?$CG?50x00000040?$CJ?5?$CB?$DN?50?$CJ?$CJ?5?$HM?$HM@ 000180e0     BasePrintLib:PrintLibInternal.obj
+ 0002:00002128       _mHexStr                   00018128     BasePrintLib:PrintLibInternal.obj
+ 0002:00002138       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00018138     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00002150       ??_C@_0FI@JAAEOOHA@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 00018150     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000021a8       ??_C@_0DA@BAMHPGBM@d?3?2myworkspace?2MdePkg?2Library?2Ue@ 000181a8     UefiLib:UefiLib.obj
+ 0002:000021d8       ??_C@_0EG@GOBFPEEP@Name?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Guid?5?$CB?$DN?5@ 000181d8     UefiLib:UefiLib.obj
+ 0002:00002220       ??_C@_0BH@FMEOEIBC@?$CKValue?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00018220     UefiLib:UefiLib.obj
+ 0002:00002238       ??_C@_0CD@OLFKAJF@SupportedLanguages?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 00018238     UefiLib:UefiLib.obj
+ 0002:0000225c       ??_C@_0DB@LFGOOKNH@d?3?2myworkspace?2MdePkg?2Library?2Dx@ 0001825c     DxeHobLib:HobLib.obj
+ 0002:00002290       ??_C@_0BJ@OBFMLLDO@mHobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00018290     DxeHobLib:HobLib.obj
+ 0002:000022ac       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000182ac     DxeHobLib:HobLib.obj
+ 0002:000022c8       ??_C@_1BC@DPOIABCP@?$AAE?$AAF?$AAI?$AAD?$AAe?$AAb?$AAu?$AAg?$AA?$AA@ 000182c8     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0002:000022e0       ??_C@_0EM@KKODNMEN@d?3?2myworkspace?2MdeModulePkg?2Libr@ 000182e0     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0002:0000232c       ??_C@_0DI@GMNKKHGK@d?3?2myworkspace?2MdeModulePkg?2Libr@ 0001832c     UefiHiiLib:HiiLib.obj
+ 0002:00002364       ??_C@_0CA@OEKIMLLB@PackageListGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00018364     UefiHiiLib:HiiLib.obj
+ 0002:00002384       ??_C@_0BN@EHPNHAIF@ConfigString?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00018384     UefiHiiLib:HiiLib.obj
+ 0002:000023a4       ??_C@_1M@DPLGJLCD@?$AAG?$AAU?$AAI?$AAD?$AA?$DN?$AA?$AA@ 000183a4     UefiHiiLib:HiiLib.obj
+ 0002:000023b0       ??_C@_1O@FMIENBLJ@?$AA?$CG?$AAN?$AAA?$AAM?$AAE?$AA?$DN?$AA?$AA@ 000183b0     UefiHiiLib:HiiLib.obj
+ 0002:000023c0       ??_C@_1O@GGMHNGIF@?$AA?$CG?$AAP?$AAA?$AAT?$AAH?$AA?$DN?$AA?$AA@ 000183c0     UefiHiiLib:HiiLib.obj
+ 0002:000023d0       _mEndOfPakageList          000183d0     UefiHiiLib:HiiLib.obj
+ 0002:000023d4       ??_C@_0DL@BCGAILL@d?3?2myworkspace?2MdeModulePkg?2Libr@ 000183d4     UefiHiiLib:HiiString.obj
+ 0002:00002410       ??_C@_1BK@GGGENMOA@?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAL?$AAa?$AAn?$AAg?$AA?$AA@ 00018410     UefiHiiLib:HiiString.obj
+ 0002:0000242a       ??_C@_00CNPNBAHC@?$AA@     0001842a     UefiHiiLib:HiiString.obj
+ 0002:0000242c       ??_C@_0DN@BFBGDKNC@d?3?2myworkspace?2MdeModulePkg?2Libr@ 0001842c     UefiHiiLib:HiiLanguage.obj
+ 0002:00002470       ??_C@_0FB@ILKBFLFI@d?3?2myworkspace?2MdeModulePkg?2Libr@ 00018470     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000024c4       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000184c4     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00002504       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00018504     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00002544       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5too@ 00018544     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0003:00000000       _gEfiHiiStandardFormGuid   00019000     SetupBrowser:AutoGen.obj
+ 0003:00000010       _gEfiIfrTianoGuid          00019010     SetupBrowser:AutoGen.obj
+ 0003:00000020       _gEfiHiiFontProtocolGuid   00019020     SetupBrowser:AutoGen.obj
+ 0003:00000030       _gEfiDebugMaskProtocolGuid 00019030     SetupBrowser:AutoGen.obj
+ 0003:00000040       _gEfiHiiDatabaseProtocolGuid 00019040     SetupBrowser:AutoGen.obj
+ 0003:00000050       _gEfiDevicePathFromTextProtocolGuid 00019050     SetupBrowser:AutoGen.obj
+ 0003:00000060       _gEfiHiiConfigRoutingProtocolGuid 00019060     SetupBrowser:AutoGen.obj
+ 0003:00000070       _gEfiFormBrowser2ProtocolGuid 00019070     SetupBrowser:AutoGen.obj
+ 0003:00000080       _gEfiHobListGuid           00019080     SetupBrowser:AutoGen.obj
+ 0003:00000090       _gEfiHiiImageProtocolGuid  00019090     SetupBrowser:AutoGen.obj
+ 0003:000000a0       _gEfiHiiPlatformSetupFormsetGuid 000190a0     SetupBrowser:AutoGen.obj
+ 0003:000000b0       _gEfiFormBrowserExProtocolGuid 000190b0     SetupBrowser:AutoGen.obj
+ 0003:000000c0       _gEfiDevicePathProtocolGuid 000190c0     SetupBrowser:AutoGen.obj
+ 0003:000000d0       _gEfiHiiStringProtocolGuid 000190d0     SetupBrowser:AutoGen.obj
+ 0003:000000e0       _gEfiUserManagerProtocolGuid 000190e0     SetupBrowser:AutoGen.obj
+ 0003:000000f0       _gEfiGenericVariableGuid   000190f0     SetupBrowser:AutoGen.obj
+ 0003:00000100       _gEfiCallerIdGuid          00019100     SetupBrowser:AutoGen.obj
+ 0003:00000110       _gEfiUnicodeCollation2ProtocolGuid 00019110     SetupBrowser:AutoGen.obj
+ 0003:00000120       _SetupBrowserStrings       00019120     SetupBrowser:AutoGen.obj
+ 0003:00001244       _gBrowserHotKeyList        0001a244     SetupBrowser:Setup.obj
+ 0003:0000124c       _mBrowserScopeFirstSet     0001a24c     SetupBrowser:Setup.obj
+ 0003:00001250       _gFunctionKeySettingTable  0001a250     SetupBrowser:Setup.obj
+ 0003:000012a0       _gBrowserContextList       0001a2a0     SetupBrowser:Setup.obj
+ 0003:000012a8       _gSetupBrowserGuid         0001a2a8     SetupBrowser:Setup.obj
+ 0003:000012b8       _gBrowserSettingScope      0001a2b8     SetupBrowser:Setup.obj
+ 0003:000012bc       _mPrivateData              0001a2bc     SetupBrowser:Setup.obj
+ 0003:000012dc       _gBrowserFormSetList       0001a2dc     SetupBrowser:Setup.obj
+ 0003:000012e4       _gBrowserStorageList       0001a2e4     SetupBrowser:Setup.obj
+ 0003:000012ec       _mUnknownString            0001a2ec     SetupBrowser:Setup.obj
+ 0003:000012f0       _gMenuList                 0001a2f0     SetupBrowser:Ui.obj
+ 0003:000012f8       _mScanCodeNumber           0001a2f8     SetupBrowser:Ui.obj
+ 0003:00001300       _gScreenOperationToControlFlag 0001a300     SetupBrowser:Ui.obj
+ 0003:00001350       _gScanCodeToOperation      0001a350     SetupBrowser:Ui.obj
+ 0003:00001388       _mDebugMaskProtocol        0001a388     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:00001398       _gEfiStatusCodeDataTypeDebugGuid 0001a398     SetupBrowser:AutoGen.obj
+ 0003:000013a8       _gEfiStatusCodeSpecificDataGuid 0001a3a8     SetupBrowser:AutoGen.obj
+ 0003:000013b8       _gEfiHiiConfigAccessProtocolGuid 0001a3b8     SetupBrowser:AutoGen.obj
+ 0003:000013c8       _gEfiGlobalVariableGuid    0001a3c8     SetupBrowser:AutoGen.obj
+ 0003:000013d8       _gEfiStatusCodeRuntimeProtocolGuid 0001a3d8     SetupBrowser:AutoGen.obj
+ 0003:000013e8       _mStatusString             0001a3e8     BasePrintLib:PrintLibInternal.obj
+ 0003:00001460       _ExitHandlerFunction       0001a460     SetupBrowser:Setup.obj
+ 0003:00001464       _gOldFormSet               0001a464     SetupBrowser:Setup.obj
+ 0003:00001468       _gBrowserContextCount      0001a468     SetupBrowser:Setup.obj
+ 0003:0000146c       _gZeroGuid                 0001a46c     SetupBrowser:Setup.obj
+ 0003:0000147c       _mCurrentFormSetGuid       0001a47c     SetupBrowser:Presentation.obj
+ 0003:0000148c       _mCurrentFormId            0001a48c     SetupBrowser:Presentation.obj
+ 0003:0000148e       _mGlobalErrorLevelInitialized 0001a48e     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:00001490       _mCurrentHiiHandle         0001a490     SetupBrowser:Presentation.obj
+ 0003:00001494       _mOptionExpressionStack    0001a494     SetupBrowser:Expression.obj
+ 0003:00001498       _mMapExpressionListStack   0001a498     SetupBrowser:Expression.obj
+ 0003:0000149c       _mStatementExpressionPointer 0001a49c     SetupBrowser:Expression.obj
+ 0003:000014a0       _mFormExpressionPointer    0001a4a0     SetupBrowser:Expression.obj
+ 0003:000014a4       _mUserManager              0001a4a4     SetupBrowser:Expression.obj
+ 0003:000014a8       _mExpressionEvaluationStackPointer 0001a4a8     SetupBrowser:Expression.obj
+ 0003:000014ac       _mOpCodeScopeStackPointer  0001a4ac     SetupBrowser:Expression.obj
+ 0003:000014b0       _mExpressionEvaluationStackOffset 0001a4b0     SetupBrowser:Expression.obj
+ 0003:000014b4       _mFormExpressionStack      0001a4b4     SetupBrowser:Expression.obj
+ 0003:000014b8       _mCurrentExpressionStack   0001a4b8     SetupBrowser:Expression.obj
+ 0003:000014bc       _mExpressionEvaluationStackEnd 0001a4bc     SetupBrowser:Expression.obj
+ 0003:000014c0       _mOptionExpressionEnd      0001a4c0     SetupBrowser:Expression.obj
+ 0003:000014c4       _mMapExpressionListPointer 0001a4c4     SetupBrowser:Expression.obj
+ 0003:000014c8       _mExpressionEvaluationStack 0001a4c8     SetupBrowser:Expression.obj
+ 0003:000014cc       _mCurrentExpressionPointer 0001a4cc     SetupBrowser:Expression.obj
+ 0003:000014d0       _mMapExpressionListEnd     0001a4d0     SetupBrowser:Expression.obj
+ 0003:000014d4       _mOpCodeScopeStackEnd      0001a4d4     SetupBrowser:Expression.obj
+ 0003:000014d8       _mCurrentExpressionEnd     0001a4d8     SetupBrowser:Expression.obj
+ 0003:000014dc       _mStatementExpressionStack 0001a4dc     SetupBrowser:Expression.obj
+ 0003:000014e0       _mOpCodeScopeStack         0001a4e0     SetupBrowser:Expression.obj
+ 0003:000014e4       _mStatementExpressionEnd   0001a4e4     SetupBrowser:Expression.obj
+ 0003:000014e8       _mFormExpressionEnd        0001a4e8     SetupBrowser:Expression.obj
+ 0003:000014ec       _mOptionExpressionPointer  0001a4ec     SetupBrowser:Expression.obj
+ 0003:000014f0       _mUnicodeCollation         0001a4f0     SetupBrowser:Expression.obj
+ 0003:000014f4       _gST                       0001a4f4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000014f8       _gBS                       0001a4f8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000014fc       _gImageHandle              0001a4fc     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00001500       _gRT                       0001a500     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0003:00001504       _mHobList                  0001a504     DxeHobLib:HobLib.obj
+ 0003:00001508       _mDebugPrintErrorLevel     0001a508     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:0000150c       _mSystemTable              0001a50c     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:00001510       _gHiiImage                 0001a510     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0003:00001514       _gHiiFont                  0001a514     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0003:00001518       _gHiiString                0001a518     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0003:0000151c       _gHiiDatabase              0001a51c     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0003:00001520       _gHiiConfigRouting         0001a520     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0003:00001524       _mUefiFormBrowser2         0001a524     UefiHiiLib:HiiLib.obj
+ 0003:00001528       _mReportStatusCodeLibStatusCodeProtocol 0001a528     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0003:0000152c       _mExpressionOpCodeIndex    0001a52c     <common>
+ 0003:0000152e       _mStatementIndex           0001a52e     <common>
+ 0003:00001530       _mInScopeSubtitle          0001a530     <common>
+ 0003:00001531       _mHiiPackageListUpdated    0001a531     <common>
+ 0003:00001534       _gCurrentSelection         0001a534     <common>
+ 0003:00001538       _gMenuEventGuidRefreshHead 0001a538     <common>
+ 0003:0000153c       _mInputError               0001a53c     <common>
+ 0003:00001540       _gMenuOption               0001a540     <common>
+ 0003:00001548       _gMenuRefreshHead          0001a548     <common>
+ 0003:0000154c       _gBannerData               0001a54c     <common>
+ 0003:00001550       _gConfirmPassword          0001a550     <common>
+ 0003:00001554       _gEnterString              0001a554     <common>
+ 0003:00001558       _gMoveHighlight            0001a558     <common>
+ 0003:0000155c       _gProtocolNotFound         0001a55c     <common>
+ 0003:00001560       _gEnterEscapeString        0001a560     <common>
+ 0003:00001570       _gScreenDimensions         0001a570     <common>
+ 0003:00001580       _gDirection                0001a580     <common>
+ 0003:00001584       _gEscapeString             0001a584     <common>
+ 0003:00001588       _mHiiConfigRouting         0001a588     <common>
+ 0003:0000158c       _gHelpBlockWidth           0001a58c     <common>
+ 0003:00001590       _gFooterHeight             0001a590     <common>
+ 0003:00001594       _gEmptyString              0001a594     <common>
+ 0003:00001598       _gOptionBlockWidth         0001a598     <common>
+ 0003:0000159c       _gFunctionKeySetting       0001a59c     <common>
+ 0003:000015a0       _gMakeSelection            0001a5a0     <common>
+ 0003:000015a4       _gAdjustNumber             0001a5a4     <common>
+ 0003:000015a8       _gDiscardFailed            0001a5a8     <common>
+ 0003:000015ac       _mHiiDatabase              0001a5ac     <common>
+ 0003:000015b0       _gResetRequired            0001a5b0     <common>
+ 0003:000015b4       _gHiiHandle                0001a5b4     <common>
+ 0003:000015b8       _gHexNumericInput          0001a5b8     <common>
+ 0003:000015bc       _gYesResponse              0001a5bc     <common>
+ 0003:000015c0       _gSaveChanges              0001a5c0     <common>
+ 0003:000015c4       _gNoResponse               0001a5c4     <common>
+ 0003:000015c8       _mPathFromText             0001a5c8     <common>
+ 0003:000015cc       _gMiniString               0001a5cc     <common>
+ 0003:000015d0       _gConfirmError             0001a5d0     <common>
+ 0003:000015d4       _gDefaultFailed            0001a5d4     <common>
+ 0003:000015d8       _mHiiString                0001a5d8     <common>
+ 0003:000015dc       _gPressEnter               0001a5dc     <common>
+ 0003:000015e0       _gPassowordInvalid         0001a5e0     <common>
+ 0003:000015e4       _gFormSuppress             0001a5e4     <common>
+ 0003:000015e8       _gClassOfVfr               0001a5e8     <common>
+ 0003:000015ec       _gSaveFailed               0001a5ec     <common>
+ 0003:000015f0       _gDecNumericInput          0001a5f0     <common>
+ 0003:000015f4       _gFrontPageHandle          0001a5f4     <common>
+ 0003:000015f8       _gAreYouSure               0001a5f8     <common>
+ 0003:000015fc       _gOptionMismatch           0001a5fc     <common>
+ 0003:00001600       _gPlusString               0001a600     <common>
+ 0003:00001604       _gToggleCheckBox           0001a604     <common>
+ 0003:00001608       _gEnterCommitString        0001a608     <common>
+ 0003:0000160c       _gPromptForData            0001a60c     <common>
+ 0003:00001610       _gPromptForPassword        0001a610     <common>
+ 0003:00001614       _gPromptBlockWidth         0001a614     <common>
+ 0003:00001618       _gPromptForNewPassword     0001a618     <common>
+ 0003:0000161c       _gMinusString              0001a61c     <common>
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0001:00009a1b       $LN1337                    0000aa1b     * CIL library *:* CIL module *
+ 0001:0000a953       $LN39                      0000b953     * CIL library *:* CIL module *
+ 0001:0000a963       $LN34                      0000b963     * CIL library *:* CIL module *
+ 0001:0000d864       $LN496                     0000e864     * CIL library *:* CIL module *
+ 0001:0000d8e8       $LN407                     0000e8e8     * CIL library *:* CIL module *
+ 0001:0000d938       $LN497                     0000e938     * CIL library *:* CIL module *
+ 0001:00010207       $LN756                     00011207     * CIL library *:* CIL module *
+ 0001:00014d00       $$000000                   00015d00     BaseMemoryLibOptDxe:CompareMem.obj
+ 0001:00014d20       $$000000                   00015d20     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:00014d90       $$000000                   00015d90     BaseMemoryLibOptDxe:ZeroMem.obj
+ 0001:00014db0       $$000000                   00015db0     BaseMemoryLibOptDxe:SetMem.obj
+ 0001:00014ddc       $$000000                   00015ddc     BaseMemoryLibOptDxe:SetMem32.obj
+ 0001:00014df4       $$000000                   00015df4     BaseMemoryLibOptDxe:SetMem64.obj
+ 0004:00000000       .edata                     0001b000     SetupBrowser.exp
+ 0004:00000028       rgpv                       0001b028     SetupBrowser.exp
+ 0004:0000002c       rgszName                   0001b02c     SetupBrowser.exp
+ 0004:00000030       rgwOrd                     0001b030     SetupBrowser.exp
+ 0004:00000032       szName                     0001b032     SetupBrowser.exp
+ 0004:00000043       $N00001                    0001b043     SetupBrowser.exp

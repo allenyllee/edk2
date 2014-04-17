@@ -1,0 +1,45 @@
+ UhciPei
+
+ Timestamp is 527c414e (Fri Nov 08 09:41:34 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000020H .data                   CODE
+ 0001:00000020 00000000H .rdata                  CODE
+ 0001:00000020 00000e5bH .text                   CODE
+ 0001:00000e7c 00000004H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gPeiUsbHostControllerPpiGuid 00000220     UhciPei:AutoGen.obj
+ 0001:00000010       _gPeiUsbControllerPpiGuid  00000230     UhciPei:AutoGen.obj
+ 0001:00000020       __ModuleEntryPoint         00000240 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:00000045       _UhcPeimEntry              00000265 f   UhciPei:UhcPeim.obj
+ 0001:000001af       _UhcControlTransfer        000003cf f   UhciPei:UhcPeim.obj
+ 0001:000003f0       _UhcBulkTransfer           00000610 f   UhciPei:UhcPeim.obj
+ 0001:0000060c       _UhcGetRootHubPortNumber   0000082c f   UhciPei:UhcPeim.obj
+ 0001:0000064a       _UhcGetRootHubPortStatus   0000086a f   UhciPei:UhcPeim.obj
+ 0001:000006e3       _UhcSetRootHubPortFeature  00000903 f   UhciPei:UhcPeim.obj
+ 0001:0000077b       _UhcClearRootHubPortFeature 0000099b f   UhciPei:UhcPeim.obj
+ 0001:00000812       _CreateFrameList           00000a32 f   UhciPei:UhcPeim.obj
+ 0001:000008ae       _CreateQH                  00000ace f   UhciPei:UhcPeim.obj
+ 0001:000008d2       _AllocateTDorQHStruct      00000af2 f   UhciPei:UhcPeim.obj
+ 0001:00000947       _GenSetupStageTD           00000b67 f   UhciPei:UhcPeim.obj
+ 0001:000009ee       _GenDataTD                 00000c0e f   UhciPei:UhcPeim.obj
+ 0001:00000abe       _CreateStatusTD            00000cde f   UhciPei:UhcPeim.obj
+ 0001:00000b5d       _SetTDTokenMaxLength       00000d7d f   UhciPei:UhcPeim.obj
+ 0001:00000b84       _LinkTDToQH                00000da4 f   UhciPei:UhcPeim.obj
+ 0001:00000ba4       _LinkTDToTD                00000dc4 f   UhciPei:UhcPeim.obj
+ 0001:00000bc7       _ExecBulkTransfer          00000de7 f   UhciPei:UhcPeim.obj
+ 0001:00000c40       _DeleteQueuedTDs           00000e60 f   UhciPei:UhcPeim.obj
+ 0001:00000cb3       _CheckTDsResults           00000ed3 f   UhciPei:UhcPeim.obj
+ 0001:00000d2e       _CreateMemoryBlock         00000f4e f   UhciPei:UhcPeim.obj
+ 0001:00000d8a       _AllocMemInMemoryBlock     00000faa f   UhciPei:UhcPeim.obj
+ 0001:00000e65       _PeiServicesAllocatePages  00001085 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00000e7c       _gPeiServices              0000109c     <common>
+
+ entry point at        0001:00000020
+
+ Static symbols
+

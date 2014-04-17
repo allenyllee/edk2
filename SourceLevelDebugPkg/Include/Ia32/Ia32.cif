@@ -1,0 +1,8 @@
+<component>
+	name = "Ia32"
+	category = ModulePart
+	LocalRoot = "SourceLevelDebugPkg\Include\Ia32\"
+	RefName = "SourceLevelDebug.Include.Ia32"
+[files]
+"ProcessorContext.h"	
+<endComponent>

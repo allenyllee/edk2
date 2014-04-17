@@ -1,0 +1,93 @@
+ PcdDxe
+
+ Timestamp is 527c4170 (Fri Nov 08 09:42:08 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000134H .data                   CODE
+ 0001:00000138 00000004H .rdata                  CODE
+ 0001:0000013c 00000e7bH .text                   CODE
+ 0001:00000fb8 00000028H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gPcdDataBaseHobGuid       00000220     PcdDxe:AutoGen.obj
+ 0001:00000010       _gEfiHobListGuid           00000230     PcdDxe:AutoGen.obj
+ 0001:00000020       _gDXEPcdDbInit             00000240     PcdDxe:AutoGen.obj
+ 0001:00000044       _mPcdDatabaseLock          00000264     PcdDxe:Pcd.obj
+ 0001:00000050       _mEfiPcdInstance           00000270     PcdDxe:Pcd.obj
+ 0001:00000098       _mPcdInstance              000002b8     PcdDxe:Pcd.obj
+ 0001:00000114       _gEfiPcdProtocolGuid       00000334     PcdDxe:AutoGen.obj
+ 0001:00000124       _gPcdProtocolGuid          00000344     PcdDxe:AutoGen.obj
+ 0001:00000138       __gUefiDriverRevision      00000358     PcdDxe:AutoGen.obj
+ 0001:0000013c       __ModuleEntryPoint         0000035c f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000178       _ProcessLibraryConstructorList 00000398 f   PcdDxe:AutoGen.obj
+ 0001:000001dd       _DxePcdSetSku              000003fd f   PcdDxe:Pcd.obj
+ 0001:000001ea       _DxePcdGetBool             0000040a f   PcdDxe:Pcd.obj
+ 0001:000001ea       _DxePcdGet8                0000040a f   PcdDxe:Pcd.obj
+ 0001:000001f9       _DxePcdGet16               00000419 f   PcdDxe:Pcd.obj
+ 0001:00000209       _DxePcdGet32               00000429 f   PcdDxe:Pcd.obj
+ 0001:00000218       _DxePcdGet64               00000438 f   PcdDxe:Pcd.obj
+ 0001:0000022c       _DxePcdGetPtr              0000044c f   PcdDxe:Pcd.obj
+ 0001:00000237       _DxePcdGetSize             00000457 f   PcdDxe:Pcd.obj
+ 0001:0000026e       _DxePcdGet8Ex              0000048e f   PcdDxe:Pcd.obj
+ 0001:0000026e       _DxePcdGetBoolEx           0000048e f   PcdDxe:Pcd.obj
+ 0001:00000288       _DxePcdGet16Ex             000004a8 f   PcdDxe:Pcd.obj
+ 0001:000002a3       _DxePcdGet32Ex             000004c3 f   PcdDxe:Pcd.obj
+ 0001:000002bd       _DxePcdGet64Ex             000004dd f   PcdDxe:Pcd.obj
+ 0001:000002dc       _DxePcdGetPtrEx            000004fc f   PcdDxe:Pcd.obj
+ 0001:000002f2       _DxePcdGetSizeEx           00000512 f   PcdDxe:Pcd.obj
+ 0001:00000307       _DxePcdSet8                00000527 f   PcdDxe:Pcd.obj
+ 0001:00000307       _DxePcdSetBool             00000527 f   PcdDxe:Pcd.obj
+ 0001:00000327       _DxePcdSet16               00000547 f   PcdDxe:Pcd.obj
+ 0001:00000347       _DxePcdSet32               00000567 f   PcdDxe:Pcd.obj
+ 0001:00000367       _DxePcdSet64               00000587 f   PcdDxe:Pcd.obj
+ 0001:00000387       _DxePcdSetPtr              000005a7 f   PcdDxe:Pcd.obj
+ 0001:0000039d       _DxePcdSet8Ex              000005bd f   PcdDxe:Pcd.obj
+ 0001:0000039d       _DxePcdSetBoolEx           000005bd f   PcdDxe:Pcd.obj
+ 0001:000003c2       _DxePcdSet16Ex             000005e2 f   PcdDxe:Pcd.obj
+ 0001:000003e7       _DxePcdSet32Ex             00000607 f   PcdDxe:Pcd.obj
+ 0001:0000040c       _DxePcdSet64Ex             0000062c f   PcdDxe:Pcd.obj
+ 0001:00000431       _DxePcdSetPtrEx            00000651 f   PcdDxe:Pcd.obj
+ 0001:0000044c       _DxeRegisterCallBackOnSet  0000066c f   PcdDxe:Pcd.obj
+ 0001:0000047c       _DxeUnRegisterCallBackOnSet 0000069c f   PcdDxe:Pcd.obj
+ 0001:000004ac       _DxePcdGetNextToken        000006cc f   PcdDxe:Pcd.obj
+ 0001:000004f0       _DxePcdGetNextTokenSpace   00000710 f   PcdDxe:Pcd.obj
+ 0001:00000508       _GetWorker                 00000728 f   PcdDxe:Service.obj
+ 0001:00000687       _DxeRegisterCallBackWorker 000008a7 f   PcdDxe:Service.obj
+ 0001:000006d6       _DxeUnRegisterCallBackWorker 000008f6 f   PcdDxe:Service.obj
+ 0001:00000729       _BuildPcdDxeDataBase       00000949 f   PcdDxe:Service.obj
+ 0001:000007c3       _GetHiiVariable            000009e3 f   PcdDxe:Service.obj
+ 0001:0000082a       _GetSkuEnabledTokenNumber  00000a4a f   PcdDxe:Service.obj
+ 0001:000008cd       _InvokeCallbackOnSet       00000aed f   PcdDxe:Service.obj
+ 0001:0000090a       _SetWorker                 00000b2a f   PcdDxe:Service.obj
+ 0001:00000b51       _ExSetWorker               00000d71 f   PcdDxe:Service.obj
+ 0001:00000b90       _SetHiiVariable            00000db0 f   PcdDxe:Service.obj
+ 0001:00000c6f       _GetExPcdTokenNumber       00000e8f f   PcdDxe:Service.obj
+ 0001:00000cb1       _GetSkuIdArray             00000ed1 f   PcdDxe:Service.obj
+ 0001:00000cda       _GetSizeTableIndex         00000efa f   PcdDxe:Service.obj
+ 0001:00000d43       _GetPtrTypeSize            00000f63 f   PcdDxe:Service.obj
+ 0001:00000dde       _SetPtrTypeSize            00000ffe f   PcdDxe:Service.obj
+ 0001:00000e99       _CopyMem                   000010b9 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00000ecd       _CompareGuid               000010ed f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00000ef1       _ScanGuid                  00001111 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00000f1e       _InternalAllocatePool      0000113e f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000f42       _InternalAllocateZeroPool  00001162 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00000f5d       _EfiAcquireLock            0000117d f   UefiLib:UefiLib.obj
+ 0001:00000f7c       _EfiReleaseLock            0000119c f   UefiLib:UefiLib.obj
+ 0001:00000f96       _GetNextHob                000011b6 f   DxeHobLib:HobLib.obj
+ 0001:00000fb8       _mPcdHandle                000011d8     PcdDxe:Pcd.obj
+ 0001:00000fbc       _TmpTokenSpaceBuffer       000011dc     PcdDxe:Pcd.obj
+ 0001:00000fc4       _gST                       000011e4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000fc8       _gBS                       000011e8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000fcc       _gImageHandle              000011ec     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000fd0       _gRT                       000011f0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00000fd4       _mHobList                  000011f4     DxeHobLib:HobLib.obj
+ 0001:00000fd8       _mCallbackFnTable          000011f8     <common>
+ 0001:00000fdc       _mPcdDatabase              000011fc     <common>
+
+ entry point at        0001:0000013c
+
+ Static symbols
+

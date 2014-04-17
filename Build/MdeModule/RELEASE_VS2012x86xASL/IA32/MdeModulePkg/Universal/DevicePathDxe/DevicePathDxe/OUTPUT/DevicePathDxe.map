@@ -1,0 +1,49 @@
+ DevicePathDxe
+
+ Timestamp is 527c415c (Fri Nov 08 09:41:48 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000010H .data                   CODE
+ 0001:00000010 00000028H .rdata                  CODE
+ 0001:00000038 00000431H .text                   CODE
+ 0001:0000046c 00000010H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiDevicePathUtilitiesProtocolGuid 00000200     DevicePathDxe:AutoGen.obj
+ 0001:00000010       __gUefiDriverRevision      00000210     DevicePathDxe:AutoGen.obj
+ 0001:00000014       _mDevicePathUtilities      00000214     DevicePathDxe:DevicePath.obj
+ 0001:00000034       _mUefiDevicePathLibEndDevicePath 00000234     UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00000038       __ModuleEntryPoint         00000238 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:0000006d       _GetDevicePathSizeProtocolInterface 0000026d f   DevicePathDxe:DevicePathUtilities.obj
+ 0001:00000076       _DuplicateDevicePathProtocolInterface 00000276 f   DevicePathDxe:DevicePathUtilities.obj
+ 0001:0000007f       _AppendDevicePathProtocolInterface 0000027f f   DevicePathDxe:DevicePathUtilities.obj
+ 0001:0000008c       _AppendDeviceNodeProtocolInterface 0000028c f   DevicePathDxe:DevicePathUtilities.obj
+ 0001:00000099       _AppendDevicePathInstanceProtocolInterface 00000299 f   DevicePathDxe:DevicePathUtilities.obj
+ 0001:000000a6       _GetNextDevicePathInstanceProtocolInterface 000002a6 f   DevicePathDxe:DevicePathUtilities.obj
+ 0001:00000116       _IsDevicePathMultiInstanceProtocolInterface 00000316 f   DevicePathDxe:DevicePathUtilities.obj
+ 0001:00000150       _CreateDeviceNodeProtocolInterface 00000350 f   DevicePathDxe:DevicePathUtilities.obj
+ 0001:00000163       _ZeroMem                   00000363 f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00000173       _CopyMem                   00000373 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:000001a7       _InternalAllocatePool      000003a7 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000001cb       _InternalAllocateZeroPool  000003cb f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000001e6       _InternalAllocateCopyPool  000003e6 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000020b       _IsDevicePathValid         0000040b f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00000233       _IsDevicePathEnd           00000433 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00000244       _GetDevicePathSize         00000444 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00000273       _DuplicateDevicePath       00000473 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000028c       _AppendDevicePath          0000048c f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00000320       _AppendDevicePathNode      00000520 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:00000392       _AppendDevicePathInstance  00000592 f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000043c       _CreateDeviceNode          0000063c f   UefiDevicePathLib:UefiDevicePathLib.obj
+ 0001:0000046c       _mDevicePathHandle         0000066c     DevicePathDxe:DevicePath.obj
+ 0001:00000470       _gST                       00000670     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000474       _gBS                       00000674     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000478       _gImageHandle              00000678     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+
+ entry point at        0001:00000038
+
+ Static symbols
+

@@ -1,0 +1,48 @@
+ UsbBotPei
+
+ Timestamp is 527c4150 (Fri Nov 08 09:41:36 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000044H .data                   CODE
+ 0001:00000048 00000000H .rdata                  CODE
+ 0001:00000048 00000bf8H .text                   CODE
+ 0001:00000c40 00000004H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiPeiVirtualBlockIoPpiGuid 00000200     UsbBotPei:AutoGen.obj
+ 0001:00000010       _gPeiUsbIoPpiGuid          00000210     UsbBotPei:AutoGen.obj
+ 0001:00000020       _mPpiList                  00000220     UsbBotPei:UsbBotPeim.obj
+ 0001:0000002c       _mRecoveryBlkIoPpi         0000022c     UsbBotPei:UsbBotPeim.obj
+ 0001:00000038       _mNotifyList               00000238     UsbBotPei:UsbBotPeim.obj
+ 0001:00000048       __ModuleEntryPoint         00000248 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:000000a3       _NotifyOnUsbIoPpi          000002a3 f   UsbBotPei:UsbBotPeim.obj
+ 0001:000000b3       _InitUsbBot                000002b3 f   UsbBotPei:UsbBotPeim.obj
+ 0001:000001d3       _BotGetNumberOfBlockDevices 000003d3 f   UsbBotPei:UsbBotPeim.obj
+ 0001:000001e0       _BotGetMediaInfo           000003e0 f   UsbBotPei:UsbBotPeim.obj
+ 0001:0000021d       _BotReadBlocks             0000041d f   UsbBotPei:UsbBotPeim.obj
+ 0001:0000036e       _PeiBotDetectMedia         0000056e f   UsbBotPei:UsbBotPeim.obj
+ 0001:000004e8       _PeiUsbInquiry             000006e8 f   UsbBotPei:PeiAtapi.obj
+ 0001:0000057e       _PeiUsbTestUnitReady       0000077e f   UsbBotPei:PeiAtapi.obj
+ 0001:000005bf       _PeiUsbRequestSense        000007bf f   UsbBotPei:PeiAtapi.obj
+ 0001:00000643       _PeiUsbReadCapacity        00000843 f   UsbBotPei:PeiAtapi.obj
+ 0001:000006c3       _PeiUsbReadFormattedCapacity 000008c3 f   UsbBotPei:PeiAtapi.obj
+ 0001:00000759       _PeiUsbRead10              00000959 f   UsbBotPei:PeiAtapi.obj
+ 0001:0000083a       _IsNoMedia                 00000a3a f   UsbBotPei:PeiAtapi.obj
+ 0001:00000865       _IsMediaError              00000a65 f   UsbBotPei:PeiAtapi.obj
+ 0001:000008ad       _BotRecoveryReset          00000aad f   UsbBotPei:BotPeim.obj
+ 0001:00000922       _BotCommandPhase           00000b22 f   UsbBotPei:BotPeim.obj
+ 0001:000009c2       _BotDataPhase              00000bc2 f   UsbBotPei:BotPeim.obj
+ 0001:00000a70       _BotStatusPhase            00000c70 f   UsbBotPei:BotPeim.obj
+ 0001:00000ad2       _PeiAtapiCommand           00000cd2 f   UsbBotPei:BotPeim.obj
+ 0001:00000b66       _PeiUsbClearEndpointHalt   00000d66 f   UsbBotPei:PeiUsbLib.obj
+ 0001:00000bf5       _PeiServicesAllocatePages  00000df5 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00000c0c       _CopyMem                   00000e0c f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00000c40       _gPeiServices              00000e40     <common>
+
+ entry point at        0001:00000048
+
+ Static symbols
+

@@ -1,0 +1,32 @@
+ LegacyRegion2Dxe
+
+ Timestamp is 527c416d (Fri Nov 08 09:42:05 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000024H .data                   CODE
+ 0001:00000028 00000004H .rdata                  CODE
+ 0001:0000002c 0000008cH .text                   CODE
+ 0001:000000b8 00000010H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiLegacyRegion2ProtocolGuid 00000220     LegacyRegion2Dxe:AutoGen.obj
+ 0001:00000010       _mLegacyRegion2            00000230     LegacyRegion2Dxe:LegacyRegion2.obj
+ 0001:00000028       __gUefiDriverRevision      00000248     LegacyRegion2Dxe:AutoGen.obj
+ 0001:0000002c       __ModuleEntryPoint         0000024c f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000063       _LegacyRegion2Decode       00000283 f   LegacyRegion2Dxe:LegacyRegion2.obj
+ 0001:00000063       _LegacyRegion2Unlock       00000283 f   LegacyRegion2Dxe:LegacyRegion2.obj
+ 0001:00000063       _LegacyRegion2Lock         00000283 f   LegacyRegion2Dxe:LegacyRegion2.obj
+ 0001:0000008d       _LegacyRegion2BootLock     000002ad f   LegacyRegion2Dxe:LegacyRegion2.obj
+ 0001:000000b2       _LegacyRegionGetInfo       000002d2 f   LegacyRegion2Dxe:LegacyRegion2.obj
+ 0001:000000b8       _mLegacyRegion2Handle      000002d8     LegacyRegion2Dxe:LegacyRegion2.obj
+ 0001:000000bc       _gST                       000002dc     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000000c0       _gBS                       000002e0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000000c4       _gImageHandle              000002e4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+
+ entry point at        0001:0000002c
+
+ Static symbols
+

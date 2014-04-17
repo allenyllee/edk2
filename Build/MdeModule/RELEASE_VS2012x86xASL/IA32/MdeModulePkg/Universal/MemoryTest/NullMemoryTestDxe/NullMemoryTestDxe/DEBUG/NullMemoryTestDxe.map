@@ -1,0 +1,38 @@
+ NullMemoryTestDxe
+
+ Timestamp is 527c416f (Fri Nov 08 09:42:07 2013)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000030H .data                   CODE
+ 0001:00000030 00000004H .rdata                  CODE
+ 0001:00000034 0000025eH .text                   CODE
+ 0001:00000298 00000028H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       _gEfiDxeServicesTableGuid  00000220     NullMemoryTestDxe:AutoGen.obj
+ 0001:00000010       _gEfiGenericMemTestProtocolGuid 00000230     NullMemoryTestDxe:AutoGen.obj
+ 0001:00000020       _mGenericMemoryTest        00000240     NullMemoryTestDxe:NullMemoryTest.obj
+ 0001:00000030       __gUefiDriverRevision      00000250     NullMemoryTestDxe:AutoGen.obj
+ 0001:00000034       __ModuleEntryPoint         00000254 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000060       _ProcessLibraryConstructorList 00000280 f   NullMemoryTestDxe:AutoGen.obj
+ 0001:000000bd       _InitializeMemoryTest      000002dd f   NullMemoryTestDxe:NullMemoryTest.obj
+ 0001:000001d3       _GenPerformMemoryTest      000003f3 f   NullMemoryTestDxe:NullMemoryTest.obj
+ 0001:00000206       _GenMemoryTestFinished     00000426 f   NullMemoryTestDxe:NullMemoryTest.obj
+ 0001:00000209       _GenCompatibleRangeTest    00000429 f   NullMemoryTestDxe:NullMemoryTest.obj
+ 0001:00000265       _CompareGuid               00000485 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00000298       _mTotalSystemMemory        000004b8     NullMemoryTestDxe:NullMemoryTest.obj
+ 0001:000002a0       _mTestedSystemMemory       000004c0     NullMemoryTestDxe:NullMemoryTest.obj
+ 0001:000002a8       _gST                       000004c8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000002ac       _gBS                       000004cc     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000002b0       _gImageHandle              000004d0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000002b4       _gRT                       000004d4     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:000002b8       _gDS                       000004d8     DxeServicesTableLib:DxeServicesTableLib.obj
+ 0001:000002bc       _mGenericMemoryTestHandle  000004dc     <common>
+
+ entry point at        0001:00000034
+
+ Static symbols
+

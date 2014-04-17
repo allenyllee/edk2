@@ -1,0 +1,11 @@
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BasePcdLibNull\BasePcdLibNull\OUTPUT\BasePcdLibNull.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseLib\BaseLib\OUTPUT\BaseLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseDebugLibNull\BaseDebugLibNull\OUTPUT\BaseDebugLibNull.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\PeiMemoryAllocationLib\PeiMemoryAllocationLib\OUTPUT\PeiMemoryAllocationLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\PeiServicesLib\PeiServicesLib\OUTPUT\PeiServicesLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseMemoryLib\BaseMemoryLib\OUTPUT\BaseMemoryLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\PeiServicesTablePointerLib\PeiServicesTablePointerLib\OUTPUT\PeiServicesTablePointerLib.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT\BaseIoLibIntrinsic.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\BaseTimerLibNullTemplate\BaseTimerLibNullTemplate\OUTPUT\BaseTimerLibNullTemplate.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdePkg\Library\PeimEntryPoint\PeimEntryPoint\OUTPUT\PeimEntryPoint.lib
+d:\myworkspace\Build\MdeModule\RELEASE_VS2012x86xASL\IA32\MdeModulePkg\Bus\Pci\EhciPei\EhciPei\OUTPUT\EhciPei.lib

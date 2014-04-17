@@ -1,0 +1,773 @@
+ SecMain
+
+ Timestamp is 527b089f (Thu Nov 07 11:27:27 2013)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00003f2dH .text                   CODE
+ 0002:00000000 000002c4H .idata$5                DATA
+ 0002:000002c4 00000004H .CRT$XCA                DATA
+ 0002:000002c8 00000004H .CRT$XCAA               DATA
+ 0002:000002cc 00000004H .CRT$XCZ                DATA
+ 0002:000002d0 00000004H .CRT$XIA                DATA
+ 0002:000002d4 00000004H .CRT$XIAA               DATA
+ 0002:000002d8 00000004H .CRT$XIC                DATA
+ 0002:000002dc 00000004H .CRT$XIY                DATA
+ 0002:000002e0 00000004H .CRT$XIZ                DATA
+ 0002:000002f0 00000950H .rdata                  DATA
+ 0002:00000c40 00000068H .rdata$debug            DATA
+ 0002:00000ca8 00000004H .rtc$IAA                DATA
+ 0002:00000cac 00000004H .rtc$IZZ                DATA
+ 0002:00000cb0 00000004H .rtc$TAA                DATA
+ 0002:00000cb4 00000004H .rtc$TZZ                DATA
+ 0002:00000cb8 0000005cH .xdata$x                DATA
+ 0002:00000d14 00000078H .idata$2                DATA
+ 0002:00000d8c 00000014H .idata$3                DATA
+ 0002:00000da0 000002c4H .idata$4                DATA
+ 0002:00001064 00000c6cH .idata$6                DATA
+ 0002:00001cd0 0000004fH .edata                  DATA
+ 0003:00000000 00000374H .data                   DATA
+ 0003:00000378 00000378H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _ReportStatusCodeExtractAssertInfo 10001000 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000004d       _ReportStatusCodeExtractDebugInfo 1000104d f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000007c       _StrCpy                    1000107c f   BaseLib:String.obj
+ 0001:000000ad       _StrLen                    100010ad f   BaseLib:String.obj
+ 0001:000000c1       _AsciiStrLen               100010c1 f   BaseLib:String.obj
+ 0001:000000cf       _RShiftU64                 100010cf f   BaseLib:RShiftU64.obj
+ 0001:000000ea       _LongJump                  100010ea f   BaseLib:LongJump.obj
+ 0001:000000ef       _InternalLongJump          100010ef f   BaseLib:LongJump.obj
+ 0001:00000103       _CopyMem                   10001103 f   BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0001:0000012a       _ZeroMem                   1000112a f   BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0001:0000012f       _CompareGuid               1000112f f   BaseMemoryLibOptDxe:MemLibGuid.obj
+ 0001:00000160       _AsciiBSPrint              10001160 f   BasePrintLib:PrintLib.obj
+ 0001:00000181       _BasePrintLibFillBuffer    10001181 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000001b5       _BasePrintLibValueToString 100011b5 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000001fd       _BasePrintLibSPrintMarker  100011fd f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000c37       _BasePrintLibSPrint        10001c37 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000c56       _DebugAssert               10001c56 f   BaseDebugLibNull:DebugLib.obj
+ 0001:00000c57       _DebugAssertEnabled        10001c57 f   BaseDebugLibNull:DebugLib.obj
+ 0001:00000c5a       _PeCoffLoaderGetPeHeaderMagicValue 10001c5a f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00000c7f       _PeCoffLoaderGetPeHeader   10001c7f f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000111b       _PeCoffLoaderGetImageInfo  1000211b f   BasePeCoffLib:BasePeCoff.obj
+ 0001:000014a9       _PeCoffLoaderImageAddress  100024a9 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:000014d9       _PeCoffLoaderRelocateImage 100024d9 f   BasePeCoffLib:BasePeCoff.obj
+ 0001:0000175f       _PeCoffLoaderLoadImage     1000275f f   BasePeCoffLib:BasePeCoff.obj
+ 0001:00001da0       _NtCurrentTeb              10002da0 f i MSVCRTD:crtexe.obj
+ 0001:00002080       _mainCRTStartup            10003080 f   MSVCRTD:crtexe.obj
+ 0001:00002090       ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z 10003090 f   MSVCRTD:unhandld.obj
+ 0001:00002100       ___CxxSetUnhandledExceptionFilter 10003100 f   MSVCRTD:unhandld.obj
+ 0001:00002114       __XcptFilter               10003114 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000211a       __amsg_exit                1000311a f   MSVCRTD:MSVCR110D.dll
+ 0001:00002120       __FindPESection            10003120 f   MSVCRTD:pesect.obj
+ 0001:000021a0       __IsNonwritableInCurrentImage 100031a0 f   MSVCRTD:pesect.obj
+ 0001:000022d0       __ValidateImageBase        100032d0 f   MSVCRTD:pesect.obj
+ 0001:0000232e       _exit                      1000332e f   MSVCRTD:MSVCR110D.dll
+ 0001:00002340       ___security_init_cookie    10003340 f   MSVCRTD:gs_support.obj
+ 0001:00002420       __setargv                  10003420 f   MSVCRTD:dllargv.obj
+ 0001:00002420       __matherr                  10003420 f   MSVCRTD:merr.obj
+ 0001:00002430       ___atonexitinit            10003430 f   MSVCRTD:atonexit.obj
+ 0001:000024e0       __onexit                   100034e0 f   MSVCRTD:atonexit.obj
+ 0001:000025e0       _atexit                    100035e0 f   MSVCRTD:atonexit.obj
+ 0001:00002610       __RTC_Initialize           10003610 f   MSVCRTD:initsect.obj
+ 0001:00002640       __RTC_Terminate            10003640 f   MSVCRTD:initsect.obj
+ 0001:00002670       __invoke_watson_if_error   10003670 f i MSVCRTD:fp8.obj
+ 0001:000026a0       __setdefaultprecision      100036a0 f   MSVCRTD:fp8.obj
+ 0001:000026d6       __initterm_e               100036d6 f   MSVCRTD:MSVCR110D.dll
+ 0001:000026dc       __initterm                 100036dc f   MSVCRTD:MSVCR110D.dll
+ 0001:000026f0       __except_handler4          100036f0 f   MSVCRTD:chandler4gs.obj
+ 0001:00002718       ?terminate@@YAXXZ          10003718 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000271e       ___crtSetUnhandledExceptionFilter 1000371e f   MSVCRTD:MSVCR110D.dll
+ 0001:00002724       __lock                     10003724 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000272a       __unlock                   1000372a f   MSVCRTD:MSVCR110D.dll
+ 0001:00002730       ___dllonexit               10003730 f   MSVCRTD:MSVCR110D.dll
+ 0001:00002736       __invoke_watson            10003736 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000273c       __controlfp_s              1000373c f   MSVCRTD:MSVCR110D.dll
+ 0001:00002750       @__security_check_cookie@4 10003750 f   MSVCRTD:secchk.obj
+ 0001:00002760       __except_handler4_common   10003760 f   MSVCRTD:MSVCR110D.dll
+ 0001:00002770       ___raise_securityfailure   10003770 f   MSVCRTD:gs_report.obj
+ 0001:000027c0       ___report_gsfailure        100037c0 f   MSVCRTD:gs_report.obj
+ 0001:000028c2       __crt_debugger_hook        100038c2 f   MSVCRTD:MSVCR110D.dll
+ 0001:000028c8       ___crtUnhandledException   100038c8 f   MSVCRTD:MSVCR110D.dll
+ 0001:000028ce       ___crtTerminateProcess     100038ce f   MSVCRTD:MSVCR110D.dll
+ 0001:000028e0       _SecTemporaryRamSupport    100038e0 f   SecMain:SecMain.obj
+ 0001:00002910       _SecWinNtPeiLoadFile       10003910 f   SecMain:SecMain.obj
+ 0001:00002a20       _SecWinNtPeiAutoScan       10003a20 f   SecMain:SecMain.obj
+ 0001:00002ae0       _SecWinNtWinNtThunkAddress 10003ae0 f   SecMain:SecMain.obj
+ 0001:00002af0       _SecPeiReportStatusCode    10003af0 f   SecMain:SecMain.obj
+ 0001:00002bd0       _SecWinNtFdAddress         10003bd0 f   SecMain:SecMain.obj
+ 0001:00002c60       _AsciiToUnicode            10003c60 f   SecMain:SecMain.obj
+ 0001:00002d00       _CountSeperatorsInString   10003d00 f   SecMain:SecMain.obj
+ 0001:00002d40       _PeiSwitchStacks           10003d40 f   SecMain:SecMain.obj
+ 0001:00002e70       _SecImageRead              10003e70 f   SecMain:SecMain.obj
+ 0001:00002ed0       _SecLoadFromCore           10003ed0 f   SecMain:SecMain.obj
+ 0001:00002fc0       _SecNt32PeCoffRelocateImage 10003fc0 f   SecMain:SecMain.obj
+ 0001:00003100       _SecPrint                  10004100 f   SecMain:SecMain.obj
+ 0001:00003190       _WinNtOpenFile             10004190 f   SecMain:SecMain.obj
+ 0001:00003270       __ModuleEntryPoint         10004270 f   SecMain:SecMain.obj
+ 0001:00003280       _main                      10004280 f   SecMain:SecMain.obj
+ 0001:00003700       _CalculateHeaderChecksum   10004700 f   SecMain:FwVol.obj
+ 0001:000037d0       _GetFileState              100047d0 f   SecMain:FwVol.obj
+ 0001:00003820       _SecFfsFindNextFile        10004820 f   SecMain:FwVol.obj
+ 0001:00003a30       _SecFfsFindPeiCore         10004a30 f   SecMain:FwVol.obj
+ 0001:00003a90       _SecFfsFindSectionData     10004a90 f   SecMain:FwVol.obj
+ 0001:00003b30       _SecSwitchStack            10004b30 f   SecMain:Stack.obj
+ 0001:00003b7c       _QueryPerformanceCounter@4 10004b7c f   Kernel32:KERNEL32.dll
+ 0001:00003b82       _GetCurrentThreadId@0      10004b82 f   Kernel32:KERNEL32.dll
+ 0001:00003b88       _IsProcessorFeaturePresent@4 10004b88 f   Kernel32:KERNEL32.dll
+ 0001:00003b8e       _GetStdHandle@4            10004b8e f   Kernel32:KERNEL32.dll
+ 0001:00003b94       _CreateFileW@28            10004b94 f   Kernel32:KERNEL32.dll
+ 0001:00003b9a       _SetFilePointer@16         10004b9a f   Kernel32:KERNEL32.dll
+ 0001:00003ba0       _WriteFile@20              10004ba0 f   Kernel32:KERNEL32.dll
+ 0001:00003ba6       _GetCurrentProcess@0       10004ba6 f   Kernel32:KERNEL32.dll
+ 0001:00003bac       _GetCurrentThread@0        10004bac f   Kernel32:KERNEL32.dll
+ 0001:00003bb2       _SetThreadPriority@8       10004bb2 f   Kernel32:KERNEL32.dll
+ 0001:00003bb8       _SetPriorityClass@8        10004bb8 f   Kernel32:KERNEL32.dll
+ 0001:00003bbe       _CreateFileMappingW@24     10004bbe f   Kernel32:KERNEL32.dll
+ 0001:00003bc4       _MapViewOfFileEx@24        10004bc4 f   Kernel32:KERNEL32.dll
+ 0001:00003bca       _GetProcAddress@8          10004bca f   Kernel32:KERNEL32.dll
+ 0001:00003bd0       _LoadLibraryExW@12         10004bd0 f   Kernel32:KERNEL32.dll
+ 0001:00003bd6       _LocalFileTimeToFileTime@8 10004bd6 f   Kernel32:KERNEL32.dll
+ 0001:00003bdc       _CreateThread@24           10004bdc f   Kernel32:KERNEL32.dll
+ 0001:00003be2       _ResumeThread@4            10004be2 f   Kernel32:KERNEL32.dll
+ 0001:00003be8       _SetFileAttributesW@8      10004be8 f   Kernel32:KERNEL32.dll
+ 0001:00003bee       _SuspendThread@4           10004bee f   Kernel32:KERNEL32.dll
+ 0001:00003bf4       _TlsFree@4                 10004bf4 f   Kernel32:KERNEL32.dll
+ 0001:00003bfa       _GetSystemTime@4           10004bfa f   Kernel32:KERNEL32.dll
+ 0001:00003c00       _GetFileInformationByHandle@8 10004c00 f   Kernel32:KERNEL32.dll
+ 0001:00003c06       _DeleteFileW@4             10004c06 f   Kernel32:KERNEL32.dll
+ 0001:00003c0c       _FileTimeToLocalFileTime@8 10004c0c f   Kernel32:KERNEL32.dll
+ 0001:00003c12       _CloseHandle@4             10004c12 f   Kernel32:KERNEL32.dll
+ 0001:00003c18       _TlsAlloc@0                10004c18 f   Kernel32:KERNEL32.dll
+ 0001:00003c1e       _ReadConsoleInputW@16      10004c1e f   Kernel32:KERNEL32.dll
+ 0001:00003c24       _GetDiskFreeSpaceExW@16    10004c24 f   Kernel32:KERNEL32.dll
+ 0001:00003c2a       _DuplicateHandle@28        10004c2a f   Kernel32:KERNEL32.dll
+ 0001:00003c30       _DeleteCriticalSection@4   10004c30 f   Kernel32:KERNEL32.dll
+ 0001:00003c36       _QueryPerformanceFrequency@4 10004c36 f   Kernel32:KERNEL32.dll
+ 0001:00003c3c       _GetConsoleCursorInfo@8    10004c3c f   Kernel32:KERNEL32.dll
+ 0001:00003c42       _PurgeComm@8               10004c42 f   Kernel32:KERNEL32.dll
+ 0001:00003c48       _FillConsoleOutputAttribute@20 10004c48 f   Kernel32:KERNEL32.dll
+ 0001:00003c4e       _FindNextFileW@8           10004c4e f   Kernel32:KERNEL32.dll
+ 0001:00003c54       _SetConsoleTitleW@4        10004c54 f   Kernel32:KERNEL32.dll
+ 0001:00003c5a       _SetConsoleCursorInfo@8    10004c5a f   Kernel32:KERNEL32.dll
+ 0001:00003c60       _SetSystemTime@4           10004c60 f   Kernel32:KERNEL32.dll
+ 0001:00003c66       _DeviceIoControl@32        10004c66 f   Kernel32:KERNEL32.dll
+ 0001:00003c6c       _RemoveDirectoryW@4        10004c6c f   Kernel32:KERNEL32.dll
+ 0001:00003c72       _CreateSemaphoreW@16       10004c72 f   Kernel32:KERNEL32.dll
+ 0001:00003c78       _GetLocalTime@4            10004c78 f   Kernel32:KERNEL32.dll
+ 0001:00003c7e       _FindClose@4               10004c7e f   Kernel32:KERNEL32.dll
+ 0001:00003c84       _GetDiskFreeSpaceW@20      10004c84 f   Kernel32:KERNEL32.dll
+ 0001:00003c8a       _EnterCriticalSection@4    10004c8a f   Kernel32:KERNEL32.dll
+ 0001:00003c90       _MoveFileW@8               10004c90 f   Kernel32:KERNEL32.dll
+ 0001:00003c96       _CreateConsoleScreenBuffer@20 10004c96 f   Kernel32:KERNEL32.dll
+ 0001:00003c9c       _PeekConsoleInputW@16      10004c9c f   Kernel32:KERNEL32.dll
+ 0001:00003ca2       _GetLastError@0            10004ca2 f   Kernel32:KERNEL32.dll
+ 0001:00003ca8       _FillConsoleOutputCharacterW@20 10004ca8 f   Kernel32:KERNEL32.dll
+ 0001:00003cae       _FlushFileBuffers@4        10004cae f   Kernel32:KERNEL32.dll
+ 0001:00003cb4       _ReleaseSemaphore@12       10004cb4 f   Kernel32:KERNEL32.dll
+ 0001:00003cba       _ExitThread@4              10004cba f   Kernel32:KERNEL32.dll
+ 0001:00003cc0       _GetTimeZoneInformation@4  10004cc0 f   Kernel32:KERNEL32.dll
+ 0001:00003cc6       _ReadFile@20               10004cc6 f   Kernel32:KERNEL32.dll
+ 0001:00003ccc       _FileTimeToSystemTime@8    10004ccc f   Kernel32:KERNEL32.dll
+ 0001:00003cd2       _SetTimeZoneInformation@4  10004cd2 f   Kernel32:KERNEL32.dll
+ 0001:00003cd8       _GetFileAttributesW@4      10004cd8 f   Kernel32:KERNEL32.dll
+ 0001:00003cde       _SetConsoleCursorPosition@8 10004cde f   Kernel32:KERNEL32.dll
+ 0001:00003ce4       _LeaveCriticalSection@4    10004ce4 f   Kernel32:KERNEL32.dll
+ 0001:00003cea       _Sleep@4                   10004cea f   Kernel32:KERNEL32.dll
+ 0001:00003cf0       _TerminateThread@8         10004cf0 f   Kernel32:KERNEL32.dll
+ 0001:00003cf6       _TlsSetValue@8             10004cf6 f   Kernel32:KERNEL32.dll
+ 0001:00003cfc       _InitializeCriticalSection@4 10004cfc f   Kernel32:KERNEL32.dll
+ 0001:00003d02       _SetCommTimeouts@8         10004d02 f   Kernel32:KERNEL32.dll
+ 0001:00003d08       _SetCommState@8            10004d08 f   Kernel32:KERNEL32.dll
+ 0001:00003d0e       _SetFileTime@16            10004d0e f   Kernel32:KERNEL32.dll
+ 0001:00003d14       _EscapeCommFunction@8      10004d14 f   Kernel32:KERNEL32.dll
+ 0001:00003d1a       _GetProcessHeap@0          10004d1a f   Kernel32:KERNEL32.dll
+ 0001:00003d20       _GetTickCount@0            10004d20 f   Kernel32:KERNEL32.dll
+ 0001:00003d26       _SetConsoleScreenBufferSize@8 10004d26 f   Kernel32:KERNEL32.dll
+ 0001:00003d2c       _WaitForSingleObject@8     10004d2c f   Kernel32:KERNEL32.dll
+ 0001:00003d32       _CreateDirectoryW@8        10004d32 f   Kernel32:KERNEL32.dll
+ 0001:00003d38       _HeapFree@12               10004d38 f   Kernel32:KERNEL32.dll
+ 0001:00003d3e       _SetConsoleActiveScreenBuffer@4 10004d3e f   Kernel32:KERNEL32.dll
+ 0001:00003d44       _ScrollConsoleScreenBufferW@20 10004d44 f   Kernel32:KERNEL32.dll
+ 0001:00003d4a       _GetCommState@8            10004d4a f   Kernel32:KERNEL32.dll
+ 0001:00003d50       _SystemTimeToFileTime@8    10004d50 f   Kernel32:KERNEL32.dll
+ 0001:00003d56       _ClearCommError@12         10004d56 f   Kernel32:KERNEL32.dll
+ 0001:00003d5c       _HeapAlloc@12              10004d5c f   Kernel32:KERNEL32.dll
+ 0001:00003d62       _WriteConsoleOutputW@20    10004d62 f   Kernel32:KERNEL32.dll
+ 0001:00003d68       _FreeLibrary@4             10004d68 f   Kernel32:KERNEL32.dll
+ 0001:00003d6e       _SetErrorMode@4            10004d6e f   Kernel32:KERNEL32.dll
+ 0001:00003d74       _GetNumberOfConsoleInputEvents@8 10004d74 f   Kernel32:KERNEL32.dll
+ 0001:00003d7a       _SetEndOfFile@4            10004d7a f   Kernel32:KERNEL32.dll
+ 0001:00003d80       _SetLocalTime@4            10004d80 f   Kernel32:KERNEL32.dll
+ 0001:00003d86       _TlsGetValue@4             10004d86 f   Kernel32:KERNEL32.dll
+ 0001:00003d8c       _WriteConsoleInputW@16     10004d8c f   Kernel32:KERNEL32.dll
+ 0001:00003d92       _FindFirstFileW@8          10004d92 f   Kernel32:KERNEL32.dll
+ 0001:00003d98       _GetCommModemStatus@8      10004d98 f   Kernel32:KERNEL32.dll
+ 0001:00003d9e       _GetEnvironmentVariableW@12 10004d9e f   Kernel32:KERNEL32.dll
+ 0001:00003da4       _ExitProcess@4             10004da4 f   Kernel32:KERNEL32.dll
+ 0001:00003daa       __vsnprintf                10004daa f   MSVCRTD:MSVCR110D.dll
+ 0001:00003db0       _strlen                    10004db0 f   MSVCRTD:MSVCR110D.dll
+ 0001:00003db6       _calloc                    10004db6 f   MSVCRTD:MSVCR110D.dll
+ 0001:00003dbc       _free                      10004dbc f   MSVCRTD:MSVCR110D.dll
+ 0001:00003dc2       _malloc                    10004dc2 f   MSVCRTD:MSVCR110D.dll
+ 0001:00003dc8       __wtoi                     10004dc8 f   MSVCRTD:MSVCR110D.dll
+ 0001:00003dce       __snwprintf                10004dce f   MSVCRTD:MSVCR110D.dll
+ 0001:00003dd4       _SetWindowOrgEx@16         10004dd4 f   Gdi32:GDI32.dll
+ 0001:00003dda       _BitBlt@36                 10004dda f   Gdi32:GDI32.dll
+ 0001:00003de0       _SetDIBitsToDevice@48      10004de0 f   Gdi32:GDI32.dll
+ 0001:00003de6       _SetViewportOrgEx@16       10004de6 f   Gdi32:GDI32.dll
+ 0001:00003dec       _GetStockObject@4          10004dec f   Gdi32:GDI32.dll
+ 0001:00003df2       _EndPaint@8                10004df2 f   User32:USER32.dll
+ 0001:00003df8       _DestroyWindow@4           10004df8 f   User32:USER32.dll
+ 0001:00003dfe       _GetWindowRect@8           10004dfe f   User32:USER32.dll
+ 0001:00003e04       _GetMessageW@16            10004e04 f   User32:USER32.dll
+ 0001:00003e0a       _PostQuitMessage@4         10004e0a f   User32:USER32.dll
+ 0001:00003e10       _GetWindowDC@4             10004e10 f   User32:USER32.dll
+ 0001:00003e16       _UnregisterClassW@8        10004e16 f   User32:USER32.dll
+ 0001:00003e1c       _LoadCursorW@8             10004e1c f   User32:USER32.dll
+ 0001:00003e22       _GetClientRect@8           10004e22 f   User32:USER32.dll
+ 0001:00003e28       _BeginPaint@8              10004e28 f   User32:USER32.dll
+ 0001:00003e2e       _GetDC@4                   10004e2e f   User32:USER32.dll
+ 0001:00003e34       _TranslateMessage@4        10004e34 f   User32:USER32.dll
+ 0001:00003e3a       _GetForegroundWindow@0     10004e3a f   User32:USER32.dll
+ 0001:00003e40       _RegisterClassExW@4        10004e40 f   User32:USER32.dll
+ 0001:00003e46       _LoadIconW@8               10004e46 f   User32:USER32.dll
+ 0001:00003e4c       _InvalidateRect@12         10004e4c f   User32:USER32.dll
+ 0001:00003e52       _ReleaseDC@8               10004e52 f   User32:USER32.dll
+ 0001:00003e58       _GetDesktopWindow@0        10004e58 f   User32:USER32.dll
+ 0001:00003e5e       _ShowWindow@8              10004e5e f   User32:USER32.dll
+ 0001:00003e64       _CreateWindowExW@48        10004e64 f   User32:USER32.dll
+ 0001:00003e6a       _SendMessageW@16           10004e6a f   User32:USER32.dll
+ 0001:00003e70       _UpdateWindow@4            10004e70 f   User32:USER32.dll
+ 0001:00003e76       _AdjustWindowRect@12       10004e76 f   User32:USER32.dll
+ 0001:00003e7c       _DefWindowProcW@16         10004e7c f   User32:USER32.dll
+ 0001:00003e82       _MoveWindow@24             10004e82 f   User32:USER32.dll
+ 0001:00003e88       _DispatchMessageW@4        10004e88 f   User32:USER32.dll
+ 0001:00003e8e       _timeKillEvent@4           10004e8e f   Winmm:WINMM.dll
+ 0001:00003e94       _timeSetEvent@20           10004e94 f   Winmm:WINMM.dll
+ 0001:00003ea0       _InternalMemCopyMem        10004ea0 f   BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:00003f10       _InternalMemZeroMem        10004f10 f   BaseMemoryLibOptDxe:ZeroMem.obj
+ 0002:00000000       __imp__LookupPrivilegeValueW@12 10005000     Advapi32:ADVAPI32.dll
+ 0002:00000004       __imp__AdjustTokenPrivileges@24 10005004     Advapi32:ADVAPI32.dll
+ 0002:00000008       __imp__OpenProcessToken@12 10005008     Advapi32:ADVAPI32.dll
+ 0002:0000000c       \177ADVAPI32_NULL_THUNK_DATA 1000500c     Advapi32:ADVAPI32.dll
+ 0002:00000010       __imp__GetStockObject@4    10005010     Gdi32:GDI32.dll
+ 0002:00000014       __imp__SetViewportOrgEx@16 10005014     Gdi32:GDI32.dll
+ 0002:00000018       __imp__SetDIBitsToDevice@48 10005018     Gdi32:GDI32.dll
+ 0002:0000001c       __imp__BitBlt@36           1000501c     Gdi32:GDI32.dll
+ 0002:00000020       __imp__SetWindowOrgEx@16   10005020     Gdi32:GDI32.dll
+ 0002:00000024       \177GDI32_NULL_THUNK_DATA  10005024     Gdi32:GDI32.dll
+ 0002:00000028       __imp__ExitProcess@4       10005028     Kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetEnvironmentVariableW@12 1000502c     Kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetCommModemStatus@8 10005030     Kernel32:KERNEL32.dll
+ 0002:00000034       __imp__FindFirstFileW@8    10005034     Kernel32:KERNEL32.dll
+ 0002:00000038       __imp__WriteConsoleInputW@16 10005038     Kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__TlsGetValue@4       1000503c     Kernel32:KERNEL32.dll
+ 0002:00000040       __imp__SetLocalTime@4      10005040     Kernel32:KERNEL32.dll
+ 0002:00000044       __imp__SetEndOfFile@4      10005044     Kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetNumberOfConsoleInputEvents@8 10005048     Kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__SetErrorMode@4      1000504c     Kernel32:KERNEL32.dll
+ 0002:00000050       __imp__FreeLibrary@4       10005050     Kernel32:KERNEL32.dll
+ 0002:00000054       __imp__WriteConsoleOutputW@20 10005054     Kernel32:KERNEL32.dll
+ 0002:00000058       __imp__HeapAlloc@12        10005058     Kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__ClearCommError@12   1000505c     Kernel32:KERNEL32.dll
+ 0002:00000060       __imp__SystemTimeToFileTime@8 10005060     Kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GetCommState@8      10005064     Kernel32:KERNEL32.dll
+ 0002:00000068       __imp__ScrollConsoleScreenBufferW@20 10005068     Kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__SetConsoleActiveScreenBuffer@4 1000506c     Kernel32:KERNEL32.dll
+ 0002:00000070       __imp__HeapFree@12         10005070     Kernel32:KERNEL32.dll
+ 0002:00000074       __imp__EncodePointer@4     10005074     Kernel32:KERNEL32.dll
+ 0002:00000078       __imp__QueryPerformanceCounter@4 10005078     Kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetCurrentProcessId@0 1000507c     Kernel32:KERNEL32.dll
+ 0002:00000080       __imp__GetCurrentThreadId@0 10005080     Kernel32:KERNEL32.dll
+ 0002:00000084       __imp__GetSystemTimeAsFileTime@4 10005084     Kernel32:KERNEL32.dll
+ 0002:00000088       __imp__DecodePointer@4     10005088     Kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__IsDebuggerPresent@0 1000508c     Kernel32:KERNEL32.dll
+ 0002:00000090       __imp__IsProcessorFeaturePresent@4 10005090     Kernel32:KERNEL32.dll
+ 0002:00000094       __imp__GetStdHandle@4      10005094     Kernel32:KERNEL32.dll
+ 0002:00000098       __imp__CreateFileW@28      10005098     Kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__SetFilePointer@16   1000509c     Kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__WriteFile@20        100050a0     Kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__GetCurrentProcess@0 100050a4     Kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__GetCurrentThread@0  100050a8     Kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__SetThreadPriority@8 100050ac     Kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__SetPriorityClass@8  100050b0     Kernel32:KERNEL32.dll
+ 0002:000000b4       __imp__VirtualAlloc@16     100050b4     Kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__CreateFileMappingW@24 100050b8     Kernel32:KERNEL32.dll
+ 0002:000000bc       __imp__MapViewOfFileEx@24  100050bc     Kernel32:KERNEL32.dll
+ 0002:000000c0       __imp__GetProcAddress@8    100050c0     Kernel32:KERNEL32.dll
+ 0002:000000c4       __imp__LoadLibraryExW@12   100050c4     Kernel32:KERNEL32.dll
+ 0002:000000c8       __imp__LocalFileTimeToFileTime@8 100050c8     Kernel32:KERNEL32.dll
+ 0002:000000cc       __imp__CreateThread@24     100050cc     Kernel32:KERNEL32.dll
+ 0002:000000d0       __imp__ResumeThread@4      100050d0     Kernel32:KERNEL32.dll
+ 0002:000000d4       __imp__SetFileAttributesW@8 100050d4     Kernel32:KERNEL32.dll
+ 0002:000000d8       __imp__SuspendThread@4     100050d8     Kernel32:KERNEL32.dll
+ 0002:000000dc       __imp__TlsFree@4           100050dc     Kernel32:KERNEL32.dll
+ 0002:000000e0       __imp__GetSystemTime@4     100050e0     Kernel32:KERNEL32.dll
+ 0002:000000e4       __imp__GetFileInformationByHandle@8 100050e4     Kernel32:KERNEL32.dll
+ 0002:000000e8       __imp__DeleteFileW@4       100050e8     Kernel32:KERNEL32.dll
+ 0002:000000ec       __imp__FileTimeToLocalFileTime@8 100050ec     Kernel32:KERNEL32.dll
+ 0002:000000f0       __imp__CloseHandle@4       100050f0     Kernel32:KERNEL32.dll
+ 0002:000000f4       __imp__TlsAlloc@0          100050f4     Kernel32:KERNEL32.dll
+ 0002:000000f8       __imp__ReadConsoleInputW@16 100050f8     Kernel32:KERNEL32.dll
+ 0002:000000fc       __imp__GetDiskFreeSpaceExW@16 100050fc     Kernel32:KERNEL32.dll
+ 0002:00000100       __imp__DuplicateHandle@28  10005100     Kernel32:KERNEL32.dll
+ 0002:00000104       __imp__DeleteCriticalSection@4 10005104     Kernel32:KERNEL32.dll
+ 0002:00000108       __imp__QueryPerformanceFrequency@4 10005108     Kernel32:KERNEL32.dll
+ 0002:0000010c       __imp__GetConsoleCursorInfo@8 1000510c     Kernel32:KERNEL32.dll
+ 0002:00000110       __imp__PurgeComm@8         10005110     Kernel32:KERNEL32.dll
+ 0002:00000114       __imp__FillConsoleOutputAttribute@20 10005114     Kernel32:KERNEL32.dll
+ 0002:00000118       __imp__FindNextFileW@8     10005118     Kernel32:KERNEL32.dll
+ 0002:0000011c       __imp__SetConsoleTitleW@4  1000511c     Kernel32:KERNEL32.dll
+ 0002:00000120       __imp__SetConsoleCursorInfo@8 10005120     Kernel32:KERNEL32.dll
+ 0002:00000124       __imp__SetSystemTime@4     10005124     Kernel32:KERNEL32.dll
+ 0002:00000128       __imp__DeviceIoControl@32  10005128     Kernel32:KERNEL32.dll
+ 0002:0000012c       __imp__RemoveDirectoryW@4  1000512c     Kernel32:KERNEL32.dll
+ 0002:00000130       __imp__CreateSemaphoreW@16 10005130     Kernel32:KERNEL32.dll
+ 0002:00000134       __imp__GetLocalTime@4      10005134     Kernel32:KERNEL32.dll
+ 0002:00000138       __imp__FindClose@4         10005138     Kernel32:KERNEL32.dll
+ 0002:0000013c       __imp__GetDiskFreeSpaceW@20 1000513c     Kernel32:KERNEL32.dll
+ 0002:00000140       __imp__EnterCriticalSection@4 10005140     Kernel32:KERNEL32.dll
+ 0002:00000144       __imp__MoveFileW@8         10005144     Kernel32:KERNEL32.dll
+ 0002:00000148       __imp__CreateConsoleScreenBuffer@20 10005148     Kernel32:KERNEL32.dll
+ 0002:0000014c       __imp__PeekConsoleInputW@16 1000514c     Kernel32:KERNEL32.dll
+ 0002:00000150       __imp__GetLastError@0      10005150     Kernel32:KERNEL32.dll
+ 0002:00000154       __imp__FillConsoleOutputCharacterW@20 10005154     Kernel32:KERNEL32.dll
+ 0002:00000158       __imp__FlushFileBuffers@4  10005158     Kernel32:KERNEL32.dll
+ 0002:0000015c       __imp__ReleaseSemaphore@12 1000515c     Kernel32:KERNEL32.dll
+ 0002:00000160       __imp__ExitThread@4        10005160     Kernel32:KERNEL32.dll
+ 0002:00000164       __imp__GetTimeZoneInformation@4 10005164     Kernel32:KERNEL32.dll
+ 0002:00000168       __imp__ReadFile@20         10005168     Kernel32:KERNEL32.dll
+ 0002:0000016c       __imp__FileTimeToSystemTime@8 1000516c     Kernel32:KERNEL32.dll
+ 0002:00000170       __imp__SetTimeZoneInformation@4 10005170     Kernel32:KERNEL32.dll
+ 0002:00000174       __imp__GetFileAttributesW@4 10005174     Kernel32:KERNEL32.dll
+ 0002:00000178       __imp__SetConsoleCursorPosition@8 10005178     Kernel32:KERNEL32.dll
+ 0002:0000017c       __imp__LeaveCriticalSection@4 1000517c     Kernel32:KERNEL32.dll
+ 0002:00000180       __imp__Sleep@4             10005180     Kernel32:KERNEL32.dll
+ 0002:00000184       __imp__TerminateThread@8   10005184     Kernel32:KERNEL32.dll
+ 0002:00000188       __imp__TlsSetValue@8       10005188     Kernel32:KERNEL32.dll
+ 0002:0000018c       __imp__InitializeCriticalSection@4 1000518c     Kernel32:KERNEL32.dll
+ 0002:00000190       __imp__SetCommTimeouts@8   10005190     Kernel32:KERNEL32.dll
+ 0002:00000194       __imp__SetCommState@8      10005194     Kernel32:KERNEL32.dll
+ 0002:00000198       __imp__SetFileTime@16      10005198     Kernel32:KERNEL32.dll
+ 0002:0000019c       __imp__EscapeCommFunction@8 1000519c     Kernel32:KERNEL32.dll
+ 0002:000001a0       __imp__GetProcessHeap@0    100051a0     Kernel32:KERNEL32.dll
+ 0002:000001a4       __imp__GetTickCount@0      100051a4     Kernel32:KERNEL32.dll
+ 0002:000001a8       __imp__SetConsoleScreenBufferSize@8 100051a8     Kernel32:KERNEL32.dll
+ 0002:000001ac       __imp__WaitForSingleObject@8 100051ac     Kernel32:KERNEL32.dll
+ 0002:000001b0       __imp__CreateDirectoryW@8  100051b0     Kernel32:KERNEL32.dll
+ 0002:000001b4       \177KERNEL32_NULL_THUNK_DATA 100051b4     Kernel32:KERNEL32.dll
+ 0002:000001b8       __imp____crtTerminateProcess 100051b8     MSVCRTD:MSVCR110D.dll
+ 0002:000001bc       __imp____crtUnhandledException 100051bc     MSVCRTD:MSVCR110D.dll
+ 0002:000001c0       __imp___crt_debugger_hook  100051c0     MSVCRTD:MSVCR110D.dll
+ 0002:000001c4       __imp___except_handler4_common 100051c4     MSVCRTD:MSVCR110D.dll
+ 0002:000001c8       __imp___controlfp_s        100051c8     MSVCRTD:MSVCR110D.dll
+ 0002:000001cc       __imp___invoke_watson      100051cc     MSVCRTD:MSVCR110D.dll
+ 0002:000001d0       __imp___onexit             100051d0     MSVCRTD:MSVCR110D.dll
+ 0002:000001d4       __imp____dllonexit         100051d4     MSVCRTD:MSVCR110D.dll
+ 0002:000001d8       __imp___calloc_dbg         100051d8     MSVCRTD:MSVCR110D.dll
+ 0002:000001dc       __imp___unlock             100051dc     MSVCRTD:MSVCR110D.dll
+ 0002:000001e0       __imp___lock               100051e0     MSVCRTD:MSVCR110D.dll
+ 0002:000001e4       __imp____crtSetUnhandledExceptionFilter 100051e4     MSVCRTD:MSVCR110D.dll
+ 0002:000001e8       __imp_?terminate@@YAXXZ    100051e8     MSVCRTD:MSVCR110D.dll
+ 0002:000001ec       __imp___commode            100051ec     MSVCRTD:MSVCR110D.dll
+ 0002:000001f0       __imp___fmode              100051f0     MSVCRTD:MSVCR110D.dll
+ 0002:000001f4       __imp____initenv           100051f4     MSVCRTD:MSVCR110D.dll
+ 0002:000001f8       __imp___initterm           100051f8     MSVCRTD:MSVCR110D.dll
+ 0002:000001fc       __imp___initterm_e         100051fc     MSVCRTD:MSVCR110D.dll
+ 0002:00000200       __imp____setusermatherr    10005200     MSVCRTD:MSVCR110D.dll
+ 0002:00000204       __imp___vsnprintf          10005204     MSVCRTD:MSVCR110D.dll
+ 0002:00000208       __imp__strlen              10005208     MSVCRTD:MSVCR110D.dll
+ 0002:0000020c       __imp__calloc              1000520c     MSVCRTD:MSVCR110D.dll
+ 0002:00000210       __imp__free                10005210     MSVCRTD:MSVCR110D.dll
+ 0002:00000214       __imp__malloc              10005214     MSVCRTD:MSVCR110D.dll
+ 0002:00000218       __imp___wtoi               10005218     MSVCRTD:MSVCR110D.dll
+ 0002:0000021c       __imp___snwprintf          1000521c     MSVCRTD:MSVCR110D.dll
+ 0002:00000220       __imp___configthreadlocale 10005220     MSVCRTD:MSVCR110D.dll
+ 0002:00000224       __imp___cexit              10005224     MSVCRTD:MSVCR110D.dll
+ 0002:00000228       __imp___exit               10005228     MSVCRTD:MSVCR110D.dll
+ 0002:0000022c       __imp__exit                1000522c     MSVCRTD:MSVCR110D.dll
+ 0002:00000230       __imp___CrtSetCheckCount   10005230     MSVCRTD:MSVCR110D.dll
+ 0002:00000234       __imp___CrtDbgReportW      10005234     MSVCRTD:MSVCR110D.dll
+ 0002:00000238       __imp___XcptFilter         10005238     MSVCRTD:MSVCR110D.dll
+ 0002:0000023c       __imp___amsg_exit          1000523c     MSVCRTD:MSVCR110D.dll
+ 0002:00000240       __imp____getmainargs       10005240     MSVCRTD:MSVCR110D.dll
+ 0002:00000244       __imp____set_app_type      10005244     MSVCRTD:MSVCR110D.dll
+ 0002:00000248       \177MSVCR110D_NULL_THUNK_DATA 10005248     MSVCRTD:MSVCR110D.dll
+ 0002:0000024c       __imp__PostQuitMessage@4   1000524c     User32:USER32.dll
+ 0002:00000250       __imp__GetWindowDC@4       10005250     User32:USER32.dll
+ 0002:00000254       __imp__UnregisterClassW@8  10005254     User32:USER32.dll
+ 0002:00000258       __imp__LoadCursorW@8       10005258     User32:USER32.dll
+ 0002:0000025c       __imp__GetClientRect@8     1000525c     User32:USER32.dll
+ 0002:00000260       __imp__BeginPaint@8        10005260     User32:USER32.dll
+ 0002:00000264       __imp__GetDC@4             10005264     User32:USER32.dll
+ 0002:00000268       __imp__TranslateMessage@4  10005268     User32:USER32.dll
+ 0002:0000026c       __imp__GetForegroundWindow@0 1000526c     User32:USER32.dll
+ 0002:00000270       __imp__RegisterClassExW@4  10005270     User32:USER32.dll
+ 0002:00000274       __imp__LoadIconW@8         10005274     User32:USER32.dll
+ 0002:00000278       __imp__InvalidateRect@12   10005278     User32:USER32.dll
+ 0002:0000027c       __imp__ReleaseDC@8         1000527c     User32:USER32.dll
+ 0002:00000280       __imp__GetDesktopWindow@0  10005280     User32:USER32.dll
+ 0002:00000284       __imp__ShowWindow@8        10005284     User32:USER32.dll
+ 0002:00000288       __imp__CreateWindowExW@48  10005288     User32:USER32.dll
+ 0002:0000028c       __imp__SendMessageW@16     1000528c     User32:USER32.dll
+ 0002:00000290       __imp__UpdateWindow@4      10005290     User32:USER32.dll
+ 0002:00000294       __imp__AdjustWindowRect@12 10005294     User32:USER32.dll
+ 0002:00000298       __imp__DefWindowProcW@16   10005298     User32:USER32.dll
+ 0002:0000029c       __imp__MoveWindow@24       1000529c     User32:USER32.dll
+ 0002:000002a0       __imp__DispatchMessageW@4  100052a0     User32:USER32.dll
+ 0002:000002a4       __imp__DestroyWindow@4     100052a4     User32:USER32.dll
+ 0002:000002a8       __imp__GetWindowRect@8     100052a8     User32:USER32.dll
+ 0002:000002ac       __imp__GetMessageW@16      100052ac     User32:USER32.dll
+ 0002:000002b0       __imp__EndPaint@8          100052b0     User32:USER32.dll
+ 0002:000002b4       \177USER32_NULL_THUNK_DATA 100052b4     User32:USER32.dll
+ 0002:000002b8       __imp__timeKillEvent@4     100052b8     Winmm:WINMM.dll
+ 0002:000002bc       __imp__timeSetEvent@20     100052bc     Winmm:WINMM.dll
+ 0002:000002c0       \177WINMM_NULL_THUNK_DATA  100052c0     Winmm:WINMM.dll
+ 0002:000002c4       ___xc_a                    100052c4     MSVCRTD:cinitexe.obj
+ 0002:000002cc       ___xc_z                    100052cc     MSVCRTD:cinitexe.obj
+ 0002:000002d0       ___xi_a                    100052d0     MSVCRTD:cinitexe.obj
+ 0002:000002e0       ___xi_z                    100052e0     MSVCRTD:cinitexe.obj
+ 0002:00000328       ??_C@_1FA@DALEHHGL@?$AA_?$AA_?$AAn?$AAa?$AAt?$AAi?$AAv?$AAe?$AA_?$AAs?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AA_?$AAs?$AAt?$AAa?$AAt?$AAe?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA_?$AA_?$AAi?$AAn?$AAi?$AAt@ 10005328     MSVCRTD:crtexe.obj
+ 0002:00000378       ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ 10005378     MSVCRTD:crtexe.obj
+ 0002:00000380       ??_C@_1GA@EHAKPACL@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@ 10005380     MSVCRTD:crtexe.obj
+ 0002:000003e0       ??_C@_1LK@BJHNKBFO@?$AA?$CI?$AA_?$AA_?$AAo?$AAn?$AAe?$AAx?$AAi?$AAt?$AAe?$AAn?$AAd?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AAN?$AAU?$AAL?$AAL?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AA_?$AA_?$AAo?$AAn?$AAe?$AAx?$AAi?$AAt@ 100053e0     MSVCRTD:atonexit.obj
+ 0002:000004a0       ??_C@_1GE@KOKOIPKN@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@ 100054a0     MSVCRTD:atonexit.obj
+ 0002:00000504       ??_C@_0DC@KIAPAJCJ@f?3?2dd?2vctools?2crt_bld?2self_x86?2c@ 10005504     MSVCRTD:atonexit.obj
+ 0002:00000538       ??_C@_1GG@PHGJJHBC@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@ 10005538     MSVCRTD:fp8.obj
+ 0002:000005a0       ??_C@_1CK@JMKHCBEI@?$AA_?$AAs?$AAe?$AAt?$AAd?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAp?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 100055a0     MSVCRTD:fp8.obj
+ 0002:000005d0       ??_C@_1GE@KOCFNGPB@?$AA_?$AAc?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAf?$AAp?$AA_?$AAs?$AA?$CI?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?0?$AA?5?$AA0?$AAx?$AA0?$AA0?$AA0?$AA1@ 100055d0     MSVCRTD:fp8.obj
+ 0002:0000063c       ??_C@_1CI@JJNMEPGC@?$AAS?$AAe?$AAT?$AAi?$AAm?$AAe?$AAZ?$AAo?$AAn?$AAe?$AAP?$AAr?$AAi?$AAv?$AAi?$AAl?$AAe?$AAg?$AAe?$AA?$AA@ 1000563c     SecMain:SecMain.obj
+ 0002:00000668       ??_C@_0EC@HCCKFPEC@?6EDK?5II?5SEC?5Main?5NT?5Emulation?5En@ 10005668     SecMain:SecMain.obj
+ 0002:000006ac       ??_C@_0DD@PBDFPIIB@ERROR?5?3?5Can?5not?5allocate?5memory?5@ 100056ac     SecMain:SecMain.obj
+ 0002:000006e0       ??_C@_0BD@CGOBPHOB@?5?5BootMode?50x?$CF02x?6?$AA@ 100056e0     SecMain:SecMain.obj
+ 0002:000006f4       ??_C@_0DE@JCIPHCIN@ERROR?5?3?5Can?5not?5allocate?5enough?5@ 100056f4     SecMain:SecMain.obj
+ 0002:00000728       ??_C@_0CO@HKOOLLEC@?5?5SEC?5passing?5in?5?$CFd?5bytes?5of?5tem@ 10005728     SecMain:SecMain.obj
+ 0002:00000758       ??_C@_0DM@DMOMKOPI@ERROR?5?3?5Can?5not?5allocate?5memory?5@ 10005758     SecMain:SecMain.obj
+ 0002:00000798       ??_C@_0EA@DEBIJPJE@ERROR?5?3?5Can?5not?5open?5Firmware?5De@ 10005798     SecMain:SecMain.obj
+ 0002:000007d8       ??_C@_0BB@HJPKJHNG@?5?5FD?5loaded?5from?$AA@ 100057d8     SecMain:SecMain.obj
+ 0002:000007ec       ??_C@_02HAOIJKIC@?$CFc?$AA@ 100057ec     SecMain:SecMain.obj
+ 0002:000007f0       ??_C@_0BD@DEPEPOKL@?5contains?5SEC?5Core?$AA@ 100057f0     SecMain:SecMain.obj
+ 0002:00000804       ??_C@_01EEMJAFIK@?6?$AA@   10005804     SecMain:SecMain.obj
+ 0002:00000808       ??_C@_0BL@IODAOIJO@ERROR?5?3?5PEI?5Core?5returned?6?$AA@ 10005808     SecMain:SecMain.obj
+ 0002:00000824       ??_C@_0BD@FHHNJFH@ASSERT?5?$CFs?$CI?$CFd?$CJ?3?5?$CFs?6?$AA@ 10005824     SecMain:SecMain.obj
+ 0002:00000838       ??_C@_0BL@OOFMKHJH@EntryPoint?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 10005838     SecMain:SecMain.obj
+ 0002:00000854       ??_C@_0CF@IHCPJJBF@d?3?2myworkspace?2Nt32Pkg?2Sec?2SecMa@ 10005854     SecMain:SecMain.obj
+ 0002:0000087c       ??_C@_0BJ@DIHHCIKP@NewStack?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 1000587c     SecMain:SecMain.obj
+ 0002:00000898       ??_C@_0CN@EHENFFPD@?$CI?$CIUINTN?$CJNewStack?5?$CG?5?$CIsizeof?$CIUINTN@ 10005898     SecMain:SecMain.obj
+ 0002:000008c8       ??_C@_0BB@BLEKMDPG@InitializeDriver?$AA@ 100058c8     SecMain:SecMain.obj
+ 0002:000008e0       ??_C@_0EG@HGCDLAGF@LoadLibraryEx?5?$CI?$CFS?0?6?5?5?5?5?5?5?5?5?5?5?5?5?5@ 100058e0     SecMain:SecMain.obj
+ 0002:00000928       ??_C@_0CF@MEGAKLPC@WARNING?3?5No?5source?5level?5debug?5?$CF@ 10005928     SecMain:SecMain.obj
+ 0002:00000950       __gPcd_FixedAtBuild_PcdWinNtBootMode 10005950     SecMain:AutoGen.obj
+ 0002:00000954       __gPcd_FixedAtBuild_PcdWinNtFirmwareFdSize 10005954     SecMain:AutoGen.obj
+ 0002:00000958       __gPcd_FixedAtBuild_PcdWinNtMemorySizeForSecMain 10005958     SecMain:AutoGen.obj
+ 0002:00000968       __gPcd_FixedAtBuild_PcdWinNtFirmwareVolume 10005968     SecMain:AutoGen.obj
+ 0002:0000098c       ??_C@_07PBILKAFL@Success?$AA@ 1000598c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000994       ??_C@_0BG@CFJMNNJK@Warning?5Unknown?5Glyph?$AA@ 10005994     BasePrintLib:PrintLibInternal.obj
+ 0002:000009ac       ??_C@_0BH@GKKCJEPJ@Warning?5Delete?5Failure?$AA@ 100059ac     BasePrintLib:PrintLibInternal.obj
+ 0002:000009c4       ??_C@_0BG@ECIJMOED@Warning?5Write?5Failure?$AA@ 100059c4     BasePrintLib:PrintLibInternal.obj
+ 0002:000009dc       ??_C@_0BJ@ODIPDGHB@Warning?5Buffer?5Too?5Small?$AA@ 100059dc     BasePrintLib:PrintLibInternal.obj
+ 0002:000009f8       ??_C@_0L@PLPBEPPC@Load?5Error?$AA@ 100059f8     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a04       ??_C@_0BC@HOFHKGJN@Invalid?5Parameter?$AA@ 10005a04     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a18       ??_C@_0M@BEECMOIL@Unsupported?$AA@ 10005a18     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a24       ??_C@_0BA@FLNMPMCF@Bad?5Buffer?5Size?$AA@ 10005a24     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a34       ??_C@_0BB@EGELJFOB@Buffer?5Too?5Small?$AA@ 10005a34     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a48       ??_C@_09NKFGCIPN@Not?5Ready?$AA@ 10005a48     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a54       ??_C@_0N@HHEABDHO@Device?5Error?$AA@ 10005a54     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a64       ??_C@_0BA@LNEDDFNB@Write?5Protected?$AA@ 10005a64     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a74       ??_C@_0BB@GOILNEAA@Out?5of?5Resources?$AA@ 10005a74     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a88       ??_C@_0P@EIOJGIF@Volume?5Corrupt?$AA@ 10005a88     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a98       ??_C@_0M@HDLEPOFA@Volume?5Full?$AA@ 10005a98     BasePrintLib:PrintLibInternal.obj
+ 0002:00000aa4       ??_C@_08KEGAJDNN@No?5Media?$AA@ 10005aa4     BasePrintLib:PrintLibInternal.obj
+ 0002:00000ab0       ??_C@_0O@JNCJKCCD@Media?5changed?$AA@ 10005ab0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000ac0       ??_C@_09CFCBFJND@Not?5Found?$AA@ 10005ac0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000acc       ??_C@_0O@NFHOBIDO@Access?5Denied?$AA@ 10005acc     BasePrintLib:PrintLibInternal.obj
+ 0002:00000adc       ??_C@_0M@ENKCBFEP@No?5Response?$AA@ 10005adc     BasePrintLib:PrintLibInternal.obj
+ 0002:00000ae8       ??_C@_0L@IFPBNFC@No?5mapping?$AA@ 10005ae8     BasePrintLib:PrintLibInternal.obj
+ 0002:00000af4       ??_C@_08PAFJCNGP@Time?5out?$AA@ 10005af4     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b00       ??_C@_0M@DCJFAFHJ@Not?5started?$AA@ 10005b00     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b0c       ??_C@_0BA@IGIBFFPH@Already?5started?$AA@ 10005b0c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b1c       ??_C@_07LCKDCBKK@Aborted?$AA@ 10005b1c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b24       ??_C@_0L@LKIFCMNO@ICMP?5Error?$AA@ 10005b24     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b30       ??_C@_0L@DJKNJKHM@TFTP?5Error?$AA@ 10005b30     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b3c       ??_C@_0P@NCJHBCLM@Protocol?5Error?$AA@ 10005b3c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b4c       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO?$AA@ 10005b4c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b5c       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO?$AA@ 10005b5c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b68       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02x@ 10005b68     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b9c       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO?$AA@ 10005b9c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000ba8       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d?$AA@ 10005ba8     BasePrintLib:PrintLibInternal.obj
+ 0002:00000bc4       ??_C@_04JIMNDDED@?$CF08X?$AA@ 10005bc4     BasePrintLib:PrintLibInternal.obj
+ 0002:00000bcc       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 10005bcc     BasePrintLib:PrintLibInternal.obj
+ 0002:00000bd0       ??_C@_01LIIJDEN@?$AN?$AA@  10005bd0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000bd4       _mHexStr                   10005bd4     BasePrintLib:PrintLibInternal.obj
+ 0002:00000be4       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ?$AA@ 10005be4     BasePeCoffLib:BasePeCoff.obj
+ 0002:00000bf8       __load_config_used         10005bf8     MSVCRTD:loadcfg.obj
+ 0002:00000ca8       ___rtc_iaa                 10005ca8     MSVCRTD:initsect.obj
+ 0002:00000cac       ___rtc_izz                 10005cac     MSVCRTD:initsect.obj
+ 0002:00000cb0       ___rtc_taa                 10005cb0     MSVCRTD:initsect.obj
+ 0002:00000cb4       ___rtc_tzz                 10005cb4     MSVCRTD:initsect.obj
+ 0002:00000d14       __IMPORT_DESCRIPTOR_MSVCR110D 10005d14     MSVCRTD:MSVCR110D.dll
+ 0002:00000d28       __IMPORT_DESCRIPTOR_KERNEL32 10005d28     Kernel32:KERNEL32.dll
+ 0002:00000d3c       __IMPORT_DESCRIPTOR_GDI32  10005d3c     Gdi32:GDI32.dll
+ 0002:00000d50       __IMPORT_DESCRIPTOR_USER32 10005d50     User32:USER32.dll
+ 0002:00000d64       __IMPORT_DESCRIPTOR_WINMM  10005d64     Winmm:WINMM.dll
+ 0002:00000d78       __IMPORT_DESCRIPTOR_ADVAPI32 10005d78     Advapi32:ADVAPI32.dll
+ 0002:00000d8c       __NULL_IMPORT_DESCRIPTOR   10005d8c     MSVCRTD:MSVCR110D.dll
+ 0003:00000000       ___defaultmatherr          10007000     MSVCRTD:merr.obj
+ 0003:00000004       ___globallocalestatus      10007004     MSVCRTD:xthdloc.obj
+ 0003:00000008       ___native_dllmain_reason   10007008     MSVCRTD:natstart.obj
+ 0003:0000000c       ___security_cookie         1000700c     MSVCRTD:gs_cookie.obj
+ 0003:00000010       ___security_cookie_complement 10007010     MSVCRTD:gs_cookie.obj
+ 0003:00000018       _mSecNtLoadFilePpi         10007018     SecMain:SecMain.obj
+ 0003:0000001c       _mSecNtAutoScanPpi         1000701c     SecMain:SecMain.obj
+ 0003:00000020       _mSecWinNtThunkPpi         10007020     SecMain:SecMain.obj
+ 0003:00000024       _mSecStatusCodePpi         10007024     SecMain:SecMain.obj
+ 0003:00000028       _mSecFwhInformationPpi     10007028     SecMain:SecMain.obj
+ 0003:0000002c       _mSecTemporaryRamSupportPpi 1000702c     SecMain:SecMain.obj
+ 0003:00000030       _gPrivateDispatchTable     10007030     SecMain:SecMain.obj
+ 0003:00000078       _gEfiStatusCodeDataTypeDebugGuid 10007078     SecMain:AutoGen.obj
+ 0003:00000088       _gNtPeiLoadFilePpiGuid     10007088     SecMain:AutoGen.obj
+ 0003:00000098       _gEfiPeiStatusCodePpiGuid  10007098     SecMain:AutoGen.obj
+ 0003:000000a8       _gNtFwhPpiGuid             100070a8     SecMain:AutoGen.obj
+ 0003:000000b8       _gPeiNtAutoScanPpiGuid     100070b8     SecMain:AutoGen.obj
+ 0003:000000c8       _gPeiNtThunkPpiGuid        100070c8     SecMain:AutoGen.obj
+ 0003:000000d8       _gEfiTemporaryRamSupportPpiGuid 100070d8     SecMain:AutoGen.obj
+ 0003:000000f0       _gWinNt                    100070f0     SecMain:WinNtThunk.obj
+ 0003:000000f8       _mWinNtThunkTable          100070f8     SecMain:WinNtThunk.obj
+ 0003:00000300       _mStatusString             10007300     BasePrintLib:PrintLibInternal.obj
+ 0003:00000398       __commode                  10007398     MSVCRTD:xncommod.obj
+ 0003:0000039c       __dowildcard               1000739c     MSVCRTD:wildcard.obj
+ 0003:000003a0       __newmode                  100073a0     MSVCRTD:_newmode.obj
+ 0003:000003a4       __fmode                    100073a4     MSVCRTD:xtxtmode.obj
+ 0003:000006c8       _gFdInfoCount              100076c8     SecMain:SecMain.obj
+ 0003:000006cc       _gSystemMemoryCount        100076cc     SecMain:SecMain.obj
+ 0003:000006d0       ___native_startup_lock     100076d0     <common>
+ 0003:000006d4       ___native_startup_state    100076d4     <common>
+ 0003:000006d8       ___onexitend               100076d8     <common>
+ 0003:000006dc       ___onexitbegin             100076dc     <common>
+ 0003:000006e0       ___dyn_tls_init_callback   100076e0     <common>
+ 0003:000006e4       _gSystemMemory             100076e4     <common>
+ 0003:000006e8       _gFdInfo                   100076e8     <common>
+ 0003:000006ec       _gNullVaList               100076ec     <common>
+
+ entry point at        0001:00002080
+
+ Static symbols
+
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     Advapi32:ADVAPI32.dll
+ 0000:ffff7000       .debug$S                   10000000     Advapi32:ADVAPI32.dll
+ 0000:ffff7000       .debug$S                   10000000     Advapi32:ADVAPI32.dll
+ 0000:ffff7000       .debug$S                   10000000     Winmm:WINMM.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     Kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     Winmm:WINMM.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     Gdi32:GDI32.dll
+ 0000:ffff7000       .debug$S                   10000000     Gdi32:GDI32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     MSVCRTD:MSVCR110D.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0000:ffff7000       .debug$S                   10000000     Gdi32:GDI32.dll
+ 0000:ffff7000       .debug$S                   10000000     Gdi32:GDI32.dll
+ 0000:ffff7000       .debug$S                   10000000     Gdi32:GDI32.dll
+ 0000:ffff7000       .debug$S                   10000000     User32:USER32.dll
+ 0001:00001cb0       _pre_c_init                10002cb0 f   MSVCRTD:crtexe.obj
+ 0001:00001d40       _pre_cpp_init              10002d40 f   MSVCRTD:crtexe.obj
+ 0001:00001db0       ___tmainCRTStartup         10002db0 f   MSVCRTD:crtexe.obj
+ 0001:00001ff0       _check_managed_app         10002ff0 f   MSVCRTD:crtexe.obj
+ 0001:000039f4       $LN21                      100049f4     SecMain:FwVol.obj
+ 0001:00003a04       $LN20                      10004a04     SecMain:FwVol.obj
+ 0001:00003b30       $$000000                   10004b30     SecMain:Stack.obj
+ 0001:00003ea0       $$000000                   10004ea0     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:00003f10       $$000000                   10004f10     BaseMemoryLibOptDxe:ZeroMem.obj
+ 0002:000002c8       _pcppinit                  100052c8     MSVCRTD:crtexe.obj
+ 0002:000002d4       _pcinit                    100052d4     MSVCRTD:crtexe.obj
+ 0002:000002d8       _pinit                     100052d8     MSVCRTD:atonexit.obj
+ 0002:000002dc       _pinit                     100052dc     MSVCRTD:crtexe.obj
+ 0002:00000634       _GS_ExceptionPointers      10005634     MSVCRTD:gs_report.obj
+ 0002:00000cb8       __sehtable$___tmainCRTStartup 10005cb8     MSVCRTD:crtexe.obj
+ 0002:00000cd8       __sehtable$__IsNonwritableInCurrentImage 10005cd8     MSVCRTD:pesect.obj
+ 0002:00000cf8       __sehtable$__onexit        10005cf8     MSVCRTD:atonexit.obj
+ 0002:00001180       .idata$6                   10006180     MSVCRTD:MSVCR110D.dll
+ 0002:000019ea       .idata$6                   100069ea     Kernel32:KERNEL32.dll
+ 0002:00001a98       .idata$6                   10006a98     Gdi32:GDI32.dll
+ 0002:00001c48       .idata$6                   10006c48     User32:USER32.dll
+ 0002:00001c74       .idata$6                   10006c74     Winmm:WINMM.dll
+ 0002:00001cc2       .idata$6                   10006cc2     Advapi32:ADVAPI32.dll
+ 0002:00001cd0       .edata                     10006cd0     SecMain.exp
+ 0002:00001cf8       rgpv                       10006cf8     SecMain.exp
+ 0002:00001cfc       rgszName                   10006cfc     SecMain.exp
+ 0002:00001d00       rgwOrd                     10006d00     SecMain.exp
+ 0002:00001d02       szName                     10006d02     SecMain.exp
+ 0002:00001d0e       $N00001                    10006d0e     SecMain.exp
+ 0003:00000378       _mainret                   10007378     MSVCRTD:crtexe.obj
+ 0003:0000037c       _has_cctor                 1000737c     MSVCRTD:crtexe.obj
+ 0003:00000380       _argc                      10007380     MSVCRTD:crtexe.obj
+ 0003:00000384       _argv                      10007384     MSVCRTD:crtexe.obj
+ 0003:00000388       _envp                      10007388     MSVCRTD:crtexe.obj
+ 0003:0000038c       _argret                    1000738c     MSVCRTD:crtexe.obj
+ 0003:00000390       _managedapp                10007390     MSVCRTD:crtexe.obj
+ 0003:00000394       _startinfo                 10007394     MSVCRTD:crtexe.obj
+ 0003:000003a8       _GS_ExceptionRecord        100073a8     MSVCRTD:gs_report.obj
+ 0003:000003f8       _GS_ContextRecord          100073f8     MSVCRTD:gs_report.obj
+ 0003:000006c4       _DebuggerWasPresent        100076c4     MSVCRTD:gs_report.obj

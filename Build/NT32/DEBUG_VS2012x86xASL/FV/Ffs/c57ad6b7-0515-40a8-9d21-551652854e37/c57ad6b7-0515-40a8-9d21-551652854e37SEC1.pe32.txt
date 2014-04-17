@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o d:\myworkspace\Build\NT32\DEBUG_VS2012x86xASL\FV\Ffs\c57ad6b7-0515-40a8-9d21-551652854e37\c57ad6b7-0515-40a8-9d21-551652854e37SEC1.pe32 d:\myworkspace\EdkShellBinPkg\FullShell\Ia32\Shell_Full.efi
