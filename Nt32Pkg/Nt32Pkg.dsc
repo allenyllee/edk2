@@ -335,6 +335,7 @@
   Nt32Pkg/WinNtGopDxe/WinNtGopDxe.inf
   Nt32Pkg/WinNtSimpleFileSystemDxe/WinNtSimpleFileSystemDxe.inf
   MdeModulePkg/Application/HelloWorld/HelloWorld.inf
+  MyPkg/Application/HelloWorld/HelloWorld.inf
 
   #
   # Network stack drivers
