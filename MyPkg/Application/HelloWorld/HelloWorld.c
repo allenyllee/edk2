@@ -46,9 +46,11 @@ UefiMain (
   EFI_STATUS Status; 
   EFI_BOOT_SERVICES	*BS = SystemTable->BootServices;
   char *Buffer = NULL;
+  
   UINTN i = 0;
   UINTN count = 0;
-  
+  EFI_INPUT_KEY key;
+  UINTN index = 0;
   
   Status = BS->GetMemoryMap(&MemoryMapSize, MemoryMap, &MapKey, &DescriptorSize, &DescriptorVersion);
   if(Status != EFI_SUCCESS)
@@ -85,6 +87,22 @@ UefiMain (
 	//MemoryMap += 1;
 	//Buffer += 1;
 	MemoryMap = (EFI_MEMORY_DESCRIPTOR *)(Buffer+DescriptorSize*i);
+	
+	if((i+1) % 10 == 0){
+		while(1){
+			Status = SystemTable->ConIn->ReadKeyStroke(SystemTable->ConIn, &key);
+			if(Status == EFI_NOT_READY){
+				Print(L"Press \'a\' to continue\n");
+				Status = BS->WaitForEvent(1, &SystemTable->ConIn->WaitForKey, &index);
+			}else{
+				if(key.UnicodeChar == L'a'){					
+					break;
+				}
+			}
+		}
+	}
+	
+	
   }
   
   
