@@ -1,0 +1,49 @@
+## @file
+#  Print DXE driver that produces Print2 Protocol.
+#
+#  This driver produces Print2 protocol layered on top of the PrintLib from the MdePkg.
+#
+#  Copyright (c) 2009 - 2010, Intel Corporation. All rights reserved.<BR>
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at
+#  http://opensource.org/licenses/bsd-license.php
+#
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = PrintHelloWorld
+  FILE_GUID                      = 74a5ec11-c853-490f-b97c-b8d42304ad0c
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = PrintHelloWorldEntryPoint
+
+#
+# The following information is for reference only and not required by the build tools.
+#
+#  VALID_ARCHITECTURES           = IA32 X64 IPF EBC
+#
+
+[Sources]
+  PrintHelloWorld.c
+  PrintHelloWorld.h
+
+[Packages]
+  #MdeModulePkg/MdeModulePkg.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  #PrintLib
+  #UefiBootServicesTableLib
+  UefiDriverEntryPoint
+  #DebugLib
+
+[Protocols]
+  #gEfiPrintHelloWorldProtocolGuid    ## PRODUCES
+
+[Depex]
+  TRUE
