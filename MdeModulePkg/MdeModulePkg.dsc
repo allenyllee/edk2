@@ -193,6 +193,7 @@
   MyPkg/Application/HelloWorld/HelloWorld.inf
   MyPkg/Application/PrintApp/PrintApp.inf
   MyPkg/Driver/PrintHelloWorld/PrintHelloWorld.inf
+  MyPkg/Application/CurrentDate/CurrentDate.inf
   
 
   MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe.inf

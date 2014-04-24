@@ -1,0 +1,22 @@
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = CurrentDate
+  FILE_GUID                      = 42dbe0ce-7d81-4961-bc51-5874f6eab899
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = CurrentDateEntryPoint
+  
+[Sources]
+CurrentDate.c
+  
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  #UefiApplicationEntryPoint
+  UefiDriverEntryPoint
+  UefiLib
+
+[Depex]
+  TRUE  
