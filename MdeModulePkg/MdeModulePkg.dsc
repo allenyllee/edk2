@@ -194,7 +194,8 @@
   MyPkg/Application/PrintApp/PrintApp.inf
   MyPkg/Driver/PrintHelloWorld/PrintHelloWorld.inf
   MyPkg/Application/CurrentDate/CurrentDate.inf
-  
+  MyPkg/Driver/AspmChanger/AspmChanger.inf
+  MyPkg/Application/ModAspmApp/ModAspmApp.inf
 
   MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe.inf
   MdeModulePkg/Bus/Pci/IncompatiblePciDeviceSupportDxe/IncompatiblePciDeviceSupportDxe.inf

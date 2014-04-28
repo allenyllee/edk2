@@ -1,0 +1,22 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = ModAspmApp
+  FILE_GUID                      = 54ad68ef-6ac0-4991-a340-045e036ac919
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ModAspmAppEntryPoint
+  
+  
+[Sources]
+ModAspmApp.c
+../../Driver/AspmChanger/AspmChanger.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  #MdeModulePkg/MdeModulePkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  #UefiLib
+  #PcdLib
+  

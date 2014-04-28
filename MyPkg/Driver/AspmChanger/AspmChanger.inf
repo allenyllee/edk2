@@ -1,0 +1,32 @@
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = AspmChanger
+  FILE_GUID                      = 119f497d-fa2b-4319-8542-0c73791943d5
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = AspmChangerEntryPoint
+  
+[Sources]
+  AspmChanger.h
+  AspmChanger.c
+
+[Packages]
+  MdeModulePkg/MdeModulePkg.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  #PrintLib
+  #UefiBootServicesTableLib
+  UefiDriverEntryPoint
+  #DebugLib
+
+
+[Protocols]
+  #gEfiPrintHelloWorldProtocolGuid    ## PRODUCES
+  #gEfiDriverBindingProtocolGuid		##CONSUMED
+  #gEfiPciRootBridgeIoProtocolGuid                 ## CONSUMED
+
+[Depex]
+  TRUE
+  
