@@ -5,8 +5,6 @@
 
 #define EFI_ASPM_CHANGER_PROTOCOL_GUID \
 		{0xd269e666, 0x0850, 0x4f2d, {0xaa,0xe6,0xdf,0x1c,0xcc,0x0d,0xd5,0xf7} }
-
-EFI_GUID gEfiAspmChangerProtocolGuid = EFI_ASPM_CHANGER_PROTOCOL_GUID;			
 		
 typedef
 EFI_STATUS
@@ -46,6 +44,12 @@ AspmChangerDriverStop(
 EFI_STATUS
 EFIAPI
 _AspmChanger(IN UINT8 AspmControl);	
+
+EFI_STATUS
+EFIAPI
+_Unload(IN EFI_HANDLE ImageHandle);
+
+extern EFI_GUID gEfiAspmChangerProtocolGuid;
 	
 #endif
 	

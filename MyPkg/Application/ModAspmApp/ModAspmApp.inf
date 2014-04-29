@@ -17,6 +17,6 @@ ModAspmApp.c
 
 [LibraryClasses]
   UefiApplicationEntryPoint
-  #UefiLib
+  UefiLib
   #PcdLib
   
