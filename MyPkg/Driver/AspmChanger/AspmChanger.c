@@ -1,22 +1,20 @@
-
+#include <Library/UefiBootServicesTableLib.h>
 #include <Protocol/LoadedImage.h>
 #include <Library/UefiLib.h>
-//#include <Library/PrintLib.h>
 #include <Protocol/PciRootBridgeIo.h>
 #include <AspmChanger.h>
 
+
 extern EFI_GUID gEfiDriverBindingProtocolGuid;
 extern EFI_GUID gEfiLoadedImageProtocolGuid;
-//EFI_GUID gEfiLoadedImageProtocolGuid = EFI_LOADED_IMAGE_PROTOCOL_GUID;
-EFI_GUID gEfiAspmChangerProtocolGuid = EFI_ASPM_CHANGER_PROTOCOL_GUID;			
-//EFI_GUID gEfiDriverBindingProtocolGuid = EFI_DRIVER_BINDING_PROTOCOL_GUID;
-EFI_GUID gEfiPciRootBridgeIoProtocolGuid = EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_GUID;
+extern EFI_GUID gEfiPciRootBridgeIoProtocolGuid;
 
-EFI_BOOT_SERVICES *gBS;
+EFI_GUID gEfiAspmChangerProtocolGuid = EFI_ASPM_CHANGER_PROTOCOL_GUID;			
+
 UINT64 Address;
 
 EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL *PciRootBridgeIo;
-EFI_ASPM_CHANGER_PROTOCOL *AspmChangerProtocol;
+
 
 EFI_DRIVER_BINDING_PROTOCOL gAspmChangerDriverBinding = {
 	AspmChangerDriverSupported,
@@ -28,7 +26,8 @@ EFI_DRIVER_BINDING_PROTOCOL gAspmChangerDriverBinding = {
 };
 
 EFI_ASPM_CHANGER_PROTOCOL gAspmChangerProtocol = {
-	_AspmChanger
+	_AspmChanger,
+	NULL
 };
 
 EFI_STATUS
@@ -42,7 +41,9 @@ AspmChangerDriverSupported(
 	EFI_STATUS Status;
 	UINT8 ReadBuffer;
 	UINTN Func;
-
+	
+	//Print(L"PciRootBridgeIo pointer: %X\n", PciRootBridgeIo);
+	//Print(L"support test\n");
 	Status = gBS->OpenProtocol(
 				ControllerHandle,
 				&gEfiPciRootBridgeIoProtocolGuid,
@@ -51,6 +52,8 @@ AspmChangerDriverSupported(
 				ControllerHandle,
 				EFI_OPEN_PROTOCOL_GET_PROTOCOL
 				);
+				
+	//Print(L"PciRootBridgeIo pointer: %X\n", PciRootBridgeIo);
 	
 	if(EFI_ERROR(Status)){
 		return EFI_UNSUPPORTED;
@@ -62,7 +65,9 @@ AspmChangerDriverSupported(
 		if(Status == EFI_SUCCESS){
 			Print(L"Support PCIe\n");
 			Print(L"PciRootBridgeIo pointer: %X\n", PciRootBridgeIo);
+			Print(L"PciRootBridgeIo pointer address: %X\n", &PciRootBridgeIo);
 			Print(L"Pcie Address: %X\n",Address);
+			Print(L"Pcie Address address: %X\n",&Address);
 			return EFI_SUCCESS;
 		}
 	}
@@ -82,38 +87,19 @@ AspmChangerDriverStart(
 
 	EFI_STATUS Status;
 	
-	Status = gBS->OpenProtocol(
-				ControllerHandle,
-				&gEfiPciRootBridgeIoProtocolGuid,
-				(VOID **)&PciRootBridgeIo,
-				This->DriverBindingHandle,
-				ControllerHandle,
-				EFI_OPEN_PROTOCOL_GET_PROTOCOL
-				);
+	Print(L"enter start()\n");
 	
-	if(Status != EFI_ALREADY_STARTED){
-		if(EFI_ERROR(Status)){
-			Print(L"failed to open pci protocol\n");
-			return Status;
-		}
-	}
+	gAspmChangerProtocol.ControllerHandle = ControllerHandle;
 
-	Print(L"PciRootBridgeIo pointer: %X\n", PciRootBridgeIo);
-	
 	Status = gBS->InstallMultipleProtocolInterfaces(
-				&ControllerHandle,
+				&(gAspmChangerProtocol.ControllerHandle),
 				&gEfiAspmChangerProtocolGuid, &gAspmChangerProtocol,
 				NULL
 				);
 	
 	if(EFI_ERROR(Status)){
 		Print(L"failed to install AspmChanger protocol\n");
-		gBS->CloseProtocol(
-			ControllerHandle,
-			&gEfiPciRootBridgeIoProtocolGuid,
-			This->DriverBindingHandle,
-			ControllerHandle
-			);
+		Print(L"Status: %X\n", Status);
 		return Status;
 	}
 	
@@ -134,46 +120,53 @@ AspmChangerDriverStop(
 
 	EFI_STATUS Status;
 	
-	Status = gBS->OpenProtocol(
-				ControllerHandle,
-				&gEfiAspmChangerProtocolGuid,
-				(VOID **)&AspmChangerProtocol,
-				This->DriverBindingHandle,
-				ControllerHandle,
-				EFI_OPEN_PROTOCOL_GET_PROTOCOL
-				);
-	
-	if(EFI_ERROR(Status)){
-		return EFI_UNSUPPORTED;
-	}
-	
-	Status = gBS->OpenProtocol(
-				ControllerHandle,
-				&gEfiPciRootBridgeIoProtocolGuid,
-				(VOID **)&PciRootBridgeIo,
-				This->DriverBindingHandle,
-				ControllerHandle,
-				EFI_OPEN_PROTOCOL_GET_PROTOCOL
+	Print(L"enter stop()\n");
+
+	Status = gBS->UninstallMultipleProtocolInterfaces(
+				gAspmChangerProtocol.ControllerHandle,
+				&gEfiAspmChangerProtocolGuid, &gAspmChangerProtocol,
+				NULL
 				);
 				
 	if(EFI_ERROR(Status)){
-		return EFI_UNSUPPORTED;
+		Print(L"failed to uninstall AspmChanger protocol\n");
+		Print(L"Status: %X\n", Status);
+		return Status;
 	}
 	
-	gBS->UninstallMultipleProtocolInterfaces(
-			&ControllerHandle,
-			&gEfiAspmChangerProtocolGuid, &gAspmChangerProtocol,
-			NULL
-			);
-	
-	gBS->CloseProtocol(
-			ControllerHandle,
-			&gEfiPciRootBridgeIoProtocolGuid,
-			This->DriverBindingHandle,
-			ControllerHandle
-			);
-	
 	Print(L"Stop driver success.\n");
+	return EFI_SUCCESS;
+	
+}
+
+EFI_STATUS
+EFIAPI
+_Unload(IN EFI_HANDLE ImageHandle){
+	
+	EFI_STATUS Status;
+	
+	Status = gAspmChangerDriverBinding.Stop(
+				&gAspmChangerDriverBinding, 
+				ImageHandle, 0, NULL
+				);
+				
+	if(EFI_ERROR(Status)){
+		Print(L"failed to call stop()\n");
+		Print(L"Status: %X\n", Status);
+		return Status;
+	}
+	
+	Status = gBS->UninstallMultipleProtocolInterfaces(
+				ImageHandle,
+				&gEfiDriverBindingProtocolGuid, &gAspmChangerDriverBinding,
+				NULL);	
+				
+	if(EFI_ERROR(Status)){
+		Print(L"failed to uninstall AspmChangerDriverBinding protocol\n");
+		Print(L"Status: %X\n", Status);
+		return Status;
+	}
+	
 	return EFI_SUCCESS;
 	
 }
@@ -187,18 +180,30 @@ _AspmChanger(IN UINT8 AspmControl){
 	UINT64 AspmOffset = 0x10;
 	
 	Print(L"enter AspmChanger()\n");
+	Print(L"PciRootBridgeIo pointer: %X\n", PciRootBridgeIo);
+	//Print(L"PciRootBridgeIo pointer: %X\n", (*gAspmChangerProtocol._PciRootBridgeIo));
+	Print(L"PciRootBridgeIo pointer address: %X\n", &PciRootBridgeIo);
+	Print(L"Pcie Address: %X\n",Address);
+	Print(L"Pcie Address address: %X\n",&Address);
 	
 	Status = gBS->LocateProtocol(
 				&gEfiPciRootBridgeIoProtocolGuid,
 				NULL,
 				&PciRootBridgeIo
-				);	
+				);
 	
 	Print(L"PciRootBridgeIo pointer: %X\n", PciRootBridgeIo);
+	//Print(L"PciRootBridgeIo pointer: %X\n", (*gAspmChangerProtocol._PciRootBridgeIo));
+	Print(L"PciRootBridgeIo pointer address: %X\n", &PciRootBridgeIo);
 	Print(L"Pcie Address: %X\n",Address);
+	Print(L"Pcie Address address: %X\n",&Address);
 	
-	
-	Status = PciRootBridgeIo->Pci.Read(PciRootBridgeIo, EfiPciWidthUint8, Address + CapabilityIdOffset , 1, (VOID *)&CapabilityId);
+	Status = PciRootBridgeIo->Pci.Read(
+				PciRootBridgeIo, EfiPciWidthUint8, 
+				Address + CapabilityIdOffset , 1, 
+				(VOID *)&CapabilityId
+				);
+	//Status = (*gAspmChangerProtocol._PciRootBridgeIo)->Pci.Read((*gAspmChangerProtocol._PciRootBridgeIo), EfiPciWidthUint8, Address + CapabilityIdOffset , 1, (VOID *)&CapabilityId);
 	if(EFI_ERROR(Status)){	
 		Print(L"read pci error\n");
 		return Status;
@@ -206,7 +211,12 @@ _AspmChanger(IN UINT8 AspmControl){
 	
 	Print(L"Capbility Id:%X\n",CapabilityId);
 	
-	Status = PciRootBridgeIo->Pci.Write(PciRootBridgeIo, EfiPciWidthUint8, Address + CapabilityId + AspmOffset, 1, (VOID *)&AspmControl);
+	Status = PciRootBridgeIo->Pci.Write(
+				PciRootBridgeIo, EfiPciWidthUint8,
+				Address + CapabilityId + AspmOffset, 1,
+				(VOID *)&AspmControl
+				);
+	//Status = (*gAspmChangerProtocol._PciRootBridgeIo)->Pci.Write((*gAspmChangerProtocol._PciRootBridgeIo), EfiPciWidthUint8, Address + CapabilityId + AspmOffset, 1, (VOID *)&AspmControl);
 	if(EFI_ERROR(Status)){		
 		Print(L"write pci error\n");
 		return Status;
@@ -219,24 +229,6 @@ _AspmChanger(IN UINT8 AspmControl){
 
 EFI_STATUS
 EFIAPI
-_Unload(IN EFI_HANDLE ImageHandle){
-	
-	EFI_STATUS Status = 0;
-	
-	Print(L"Aspm Changer Driver Binding: %X\n", &gAspmChangerDriverBinding);	
-	
-	Status = gBS->UninstallMultipleProtocolInterfaces(
-				ImageHandle,
-				&gEfiDriverBindingProtocolGuid, &gAspmChangerDriverBinding,
-				NULL);	
-	
-	return Status;
-	
-}
-
-
-EFI_STATUS
-EFIAPI
 AspmChangerEntryPoint(
 	IN EFI_HANDLE 			ImageHandle,
 	IN EFI_SYSTEM_TABLE 	*SystemTable
@@ -246,7 +238,6 @@ AspmChangerEntryPoint(
 	EFI_STATUS Status;
 	EFI_LOADED_IMAGE_PROTOCOL  *LoadedImage;
 	
-	gBS = SystemTable->BootServices;
 	gAspmChangerDriverBinding.ImageHandle = ImageHandle;
 
 	Status = gBS->InstallMultipleProtocolInterfaces(
@@ -269,8 +260,7 @@ AspmChangerEntryPoint(
 		return Status;
 	}
 
-	LoadedImage->Unload = _Unload;				
-				
+	LoadedImage->Unload = _Unload;			
 
 	return EFI_SUCCESS;
 	

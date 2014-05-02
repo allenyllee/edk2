@@ -12,24 +12,18 @@
   AspmChanger.c
 
 [Packages]
-  #MdeModulePkg/MdeModulePkg.dec
   MdePkg/MdePkg.dec
 
 [LibraryClasses]
-  #PrintLib
-  #UefiBootServicesTableLib
   UefiDriverEntryPoint
-  #DebugLib
   UefiLib
-  #BaseMemoryLib
-  #MemoryAllocationLib
-
+  
 [Protocols]
-  #gEfiPrintHelloWorldProtocolGuid    ## PRODUCES
-  #gEfiDriverBindingProtocolGuid		##CONSUMED
-  #gEfiPciRootBridgeIoProtocolGuid                 ## CONSUMED
-    #gEfiLoadedImageProtocolGuid                   ## CONSUMED
-
+  gEfiPciRootBridgeIoProtocolGuid				## CONSUMES
+  gEfiLoadedImageProtocolGuid                   ## CONSUMES
+  gEfiDriverBindingProtocolGuid					## CONSUMES
+  
+  
 [Depex]
   TRUE
   

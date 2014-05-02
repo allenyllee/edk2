@@ -189,6 +189,14 @@
 ###################################################################################################
 
 [Components]
+  MyPkg/Application/HelloWorld/HelloWorld.inf
+  MyPkg/Application/PrintApp/PrintApp.inf
+  MyPkg/Driver/PrintHelloWorld/PrintHelloWorld.inf
+  MyPkg/Application/CurrentDate/CurrentDate.inf
+  MyPkg/Driver/AspmChanger/AspmChanger.inf
+  MyPkg/Application/ModAspmApp/ModAspmApp.inf  
+  
+  
   MdeModulePkg/Application/HelloWorld/HelloWorld.inf
   MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe.inf
   MdeModulePkg/Bus/Pci/IncompatiblePciDeviceSupportDxe/IncompatiblePciDeviceSupportDxe.inf
@@ -318,12 +326,7 @@
   MdeModulePkg/Universal/Acpi/FirmwarePerformanceDataTableDxe/FirmwarePerformanceDxe.inf
   MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
 
-  MyPkg/Application/HelloWorld/HelloWorld.inf
-  MyPkg/Application/PrintApp/PrintApp.inf
-  MyPkg/Driver/PrintHelloWorld/PrintHelloWorld.inf
-  MyPkg/Application/CurrentDate/CurrentDate.inf
-  MyPkg/Driver/AspmChanger/AspmChanger.inf
-  MyPkg/Application/ModAspmApp/ModAspmApp.inf
+
   
   
 [Components.IA32, Components.X64, Components.IPF]

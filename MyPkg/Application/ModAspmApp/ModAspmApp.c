@@ -16,7 +16,7 @@ ModAspmAppEntryPoint(
 	EFI_ASPM_CHANGER_PROTOCOL *mAspmChangerProtocol = NULL;
 	UINTN index;
 	EFI_INPUT_KEY key;
-	//UINT8 AspmValue;
+
 	
 	Status = mBS->LocateProtocol(
 				&gEfiAspmChangerProtocolGuid,
@@ -28,10 +28,6 @@ ModAspmAppEntryPoint(
 		Print(L"failed to locate protocol.\n");
 		return Status;
 	}
-	
-	
-		//Print(L"Please enter a number for ASPM value in decimal\n");
-		//Status = mST->ConIn->Reset(mST->ConIn,0);
 		
 	while(1){
 		Status = mST->ConIn->ReadKeyStroke(mST->ConIn, &key);

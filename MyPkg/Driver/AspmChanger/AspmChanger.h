@@ -13,6 +13,7 @@ EFI_STATUS
 typedef
 struct _EFI_ASPM_CHANGER_PROTOCOL{
 	ASPM_CHANGER AspmChanger;
+	EFI_HANDLE ControllerHandle;
 }EFI_ASPM_CHANGER_PROTOCOL;			
 
 			
@@ -43,11 +44,11 @@ AspmChangerDriverStop(
 
 EFI_STATUS
 EFIAPI
-_AspmChanger(IN UINT8 AspmControl);	
+_Unload(IN EFI_HANDLE ImageHandle);
 
 EFI_STATUS
 EFIAPI
-_Unload(IN EFI_HANDLE ImageHandle);
+_AspmChanger(IN UINT8 AspmControl);	
 
 extern EFI_GUID gEfiAspmChangerProtocolGuid;
 	
